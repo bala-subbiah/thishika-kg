@@ -2,26 +2,30 @@
 /**
  * One-shot snapshot of the EDB Kindergarten Profile 2025/26 — Tai Po district.
  *
- *   1. Fetch the district list page and collect GoSchoolDetail('<id>') ids.
+ *   1. Fetch the district list page; collect GoSchoolDetail('<id>') ids + names
+ *      (each school appears twice on the page — dedupe by id, 36 campuses).
  *   2. Fetch each schoolinfo.php?lang=en&schid=<id> page (cached in scripts/cache/).
- *   3. Parse label/value tables into a typed record; unmapped labels land in `extras`.
- *   4. Geocode each address with the HK Address Lookup Service (www.als.gov.hk),
- *      converting HK1980 grid -> WGS84 with proj4. Also geocodes Casa Brava (home).
+ *   3. Parse the profile: scheme banner, address/tel, the Annual Fees and
+ *      Enrolment session×level tables, ratios, curriculum, curated extras.
+ *   4. Geocode each address + Casa Brava (home) with the HK Address Lookup
+ *      Service (www.als.gov.hk), converting HK1980 grid -> WGS84 with proj4.
  *   5. Write public/data/schools.json and print a parse report.
  *
  * The live site never calls EDB — this runs once, at build time, by hand.
  *
  * Flags:  --no-geocode   skip step 4 (coordinates stay null)
  *         --limit N      only scrape the first N schools (debugging)
- *
- * If the EDB markup differs from what the parser expects, every raw page is in
- * scripts/cache/*.html and the report lists exactly which fields were missed.
  */
 import { load } from "cheerio";
+import { EnvHttpProxyAgent, setGlobalDispatcher } from "undici";
 import proj4 from "proj4";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
+// honour HTTPS_PROXY etc. when present (Node fetch ignores them by default)
+if (process.env.HTTPS_PROXY || process.env.https_proxy)
+  setGlobalDispatcher(new EnvHttpProxyAgent());
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const CACHE = path.join(ROOT, "scripts", "cache");
@@ -72,95 +76,142 @@ async function fetchText(url, cacheKey) {
   return text;
 }
 
+const clean = (s) =>
+  (s ?? "")
+    .replace(/ |&nbsp;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+/* ------------------------------------------------------------ title case -- */
+
+const SMALL_WORDS = new Set(["of", "the", "and", "for", "cum"]);
+const FORCED = new Map([
+  ["twghs", "TWGHs"],
+  ["ii", "II"],
+  ["iii", "III"],
+]);
+
+function titleWord(word, isFirst) {
+  const lower = word.toLowerCase();
+  if (FORCED.has(lower)) return FORCED.get(lower);
+  if (!isFirst && SMALL_WORDS.has(lower)) return lower;
+  // capitalize each hyphenated part: ANGLO-CHINESE -> Anglo-Chinese
+  return lower
+    .split("-")
+    .map((p) => (p ? p[0].toUpperCase() + p.slice(1) : p))
+    .join("-");
+}
+
+function titleCase(name) {
+  let first = true;
+  return clean(name)
+    .split(" ")
+    .map((w) => {
+      if (!/[a-z]/i.test(w)) return w; // "&", "-", "(", numbers
+      if (/\d|\//.test(w)) return w; // unit codes: G/F, G02-G05, 1/F
+      const openParen = w.startsWith("(");
+      const bare = openParen ? w.slice(1) : w;
+      const cased = titleWord(bare, first);
+      first = false;
+      return openParen ? "(" + cased[0].toUpperCase() + cased.slice(1) : cased;
+    })
+    .join(" ");
+}
+
 /* ------------------------------------------------------------------ list -- */
 
 function parseList(html) {
-  const $ = load(html);
-  const schools = [];
-  const seen = new Set();
-  // ids appear as GoSchoolDetail('id') on rows/links; take the nearest row text as name
-  $("[onclick*='GoSchoolDetail'], a[href*='GoSchoolDetail']").each((_, el) => {
-    const attr = ($(el).attr("onclick") || $(el).attr("href") || "").toString();
-    const m = attr.match(/GoSchoolDetail\(\s*['"]([^'"]+)['"]\s*\)/);
-    if (!m) return;
+  const seen = new Map();
+  for (const m of html.matchAll(
+    /GoSchoolDetail\('(\d+)'\)"\s*>([^<]+)<\/td>/g,
+  )) {
     const id = m[1];
-    if (seen.has(id)) return;
-    seen.add(id);
-    const row = $(el).closest("tr");
-    const name = clean((row.length ? row : $(el)).text()).replace(/\s{2,}/g, " ");
-    schools.push({ id, listName: name });
-  });
-  if (schools.length === 0) {
-    // fallback: raw regex across the document
-    for (const m of html.matchAll(/GoSchoolDetail\(\s*['"]([^'"]+)['"]\s*\)/g)) {
-      if (!seen.has(m[1])) {
-        seen.add(m[1]);
-        schools.push({ id: m[1], listName: null });
-      }
+    if (seen.has(id)) continue;
+    let name = clean(m[2]);
+    let formerName = null;
+    const past = name.match(/\(Name in the past:\s*([^)]+)\)/i);
+    if (past) {
+      formerName = titleCase(past[1]);
+      name = clean(name.replace(past[0], ""));
     }
+    seen.set(id, { id, name: titleCase(name), formerName });
   }
-  return schools;
+  return [...seen.values()];
 }
 
 /* ---------------------------------------------------------------- detail -- */
 
-const clean = (s) =>
-  (s ?? "")
-    .replace(/ /g, " ")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\s*\n\s*/g, "\n")
-    .trim();
-
-/** Flatten every table on the page into ordered [label, value] pairs. */
-function extractFields($) {
-  const fields = [];
-  $("tr").each((_, tr) => {
-    const cells = $(tr)
-      .find("th, td")
-      .toArray()
-      .map((c) => clean($(c).text()));
-    if (cells.length >= 2 && cells[0]) {
-      fields.push([cells[0], cells.slice(1).filter(Boolean).join(" | ")]);
-    }
-  });
-  // some EDB pages use dl or label/value div pairs
-  $("dt").each((i, dt) => {
-    const dd = $(dt).next("dd");
-    if (dd.length) fields.push([clean($(dt).text()), clean(dd.text())]);
-  });
-  return fields.filter(([l, v]) => l && v);
-}
-
-const FEE_NA = /^(-|–|—|n\.?a\.?|nil|not applicable|no such session)$/i;
-
-function parseFeeValue(raw) {
-  if (raw == null) return { display: null, annual: null };
-  const t = clean(String(raw));
-  if (!t || FEE_NA.test(t)) return { display: null, annual: null };
-  if (/^free$/i.test(t) || /^\$?\s*0(\.0+)?$/.test(t.replace(/,/g, "")))
-    return { display: t, annual: 0 };
-  const m = t.replace(/,/g, "").match(/\$?\s*(\d+(?:\.\d+)?)/);
-  return { display: t, annual: m ? Math.round(Number(m[1])) : null };
-}
-
-function matchLabel(label, ...needles) {
-  const l = label.toLowerCase();
-  return needles.some((n) => l.includes(n));
-}
-
-function parseDetail(html, id, listName) {
+/** All leaf table cells (no nested table inside), cleaned, in document order. */
+function cellStream(html) {
   const $ = load(html);
-  const fields = extractFields($);
+  const cells = [];
+  $("td, th").each((_, el) => {
+    if ($(el).find("table").length) return;
+    const t = clean($(el).text());
+    if (t) cells.push(t);
+  });
+  return cells;
+}
 
-  const name =
-    clean($("h1").first().text()) ||
-    clean($("h2").first().text()) ||
-    listName ||
-    `School ${id}`;
+const valueAfter = (cells, re) => {
+  const i = cells.findIndex((c) => re.test(c));
+  return i > -1 && i + 1 < cells.length ? cells[i + 1] : null;
+};
+
+const FEE_RE = /^(free|-|–|—|n\.?a\.?|\$[\d,]+(\s*\(\d+\))?)$/i;
+const NUM_RE = /^\d+$/;
+
+function parseFeeCell(raw) {
+  if (raw == null) return null;
+  const t = clean(raw);
+  if (/^(-|–|—|n\.?a\.?)$/i.test(t)) return null;
+  if (/^free$/i.test(t)) return { text: "Free", annual: 0 };
+  const m = t.replace(/,/g, "").match(/^\$(\d+)(?:\s*\((\d+)\))?$/);
+  if (!m) return { text: t, annual: null };
+  return { text: t, annual: Number(m[1]), instalments: m[2] ? Number(m[2]) : null };
+}
+
+/** Read the 3 level values (K1/K2/K3) following each "X Session" row label. */
+function sessionTable(cells, anchorRe, valueRe, width) {
+  const start = cells.findIndex((c) => anchorRe.test(c));
+  if (start === -1) return null;
+  const out = {};
+  const window = cells.slice(start, start + 45);
+  for (const [key, label] of [["am", "AM Session"], ["pm", "PM Session"], ["wd", "WD Session"]]) {
+    const i = window.findIndex((c) => c === label);
+    if (i === -1) continue;
+    const vals = window.slice(i + 1, i + 1 + width);
+    if (vals.every((v) => valueRe.test(v))) out[key] = vals;
+  }
+  return out;
+}
+
+/** Collapse the per-level fee cells into one display string + K1 annual number. */
+function collapseFees(levels) {
+  if (!levels) return { display: null, annual: null };
+  const parsed = levels.map(parseFeeCell);
+  if (parsed.every((p) => p == null)) return { display: null, annual: null };
+  const texts = parsed.map((p) => (p ? p.text : "—"));
+  const uniq = [...new Set(texts)];
+  let display;
+  if (uniq.length === 1) {
+    display = uniq[0];
+    const inst = parsed.find(Boolean)?.instalments;
+    if (inst) display = display.replace(/\s*\(\d+\)$/, ` (${inst} instalments)`);
+  } else {
+    display = texts.map((t, i) => `K${i + 1} ${t}`).join(" · ");
+  }
+  const annual = parsed.find((p) => p && p.annual != null)?.annual ?? null;
+  return { display, annual };
+}
+
+function parseDetail(html, listEntry) {
+  const cells = cellStream(html);
+  const id = listEntry.id;
 
   const school = {
     id,
-    name,
+    name: listEntry.name,
     scheme: false,
     lat: null,
     lng: null,
@@ -175,61 +226,78 @@ function parseDetail(html, id, listName) {
     sourceUrl: DETAIL_URL(id),
   };
 
-  const enrolmentParts = [];
-  let schemeSeen = false;
+  const rawAddress = valueAfter(cells, /^Address:?$/i) ?? "";
+  school.address = rawAddress ? titleCase(rawAddress) : "";
+  school.tel = valueAfter(cells, /^Tel\.?:?$/i);
 
-  for (const [label, value] of fields) {
-    const v = clean(value);
-    if (matchLabel(label, "kindergarten education scheme", "joined the scheme")) {
-      school.scheme = /^yes/i.test(v);
-      schemeSeen = true;
-    } else if (matchLabel(label, "address")) {
-      if (!school.address) school.address = v.replace(/\n/g, ", ");
-    } else if (matchLabel(label, "telephone", "tel.", "phone")) {
-      if (!school.tel) school.tel = v;
-    } else if (matchLabel(label, "fee")) {
-      // fee rows usually name the session in the label or sit in a sessions table
-      const l = label.toLowerCase();
-      const target = /whole[\s-]*day|wd/.test(l)
-        ? "wd"
-        : /\bpm\b|afternoon/.test(l)
-          ? "pm"
-          : /\bam\b|morning|half[\s-]*day/.test(l)
-            ? "am"
-            : null;
-      if (target) {
-        const fee = parseFeeValue(v);
-        school.fees[target] = fee.display;
-        school.feesAnnual[target] = fee.annual;
-      } else if (/\|/.test(v)) {
-        // one row, several session columns: assume AM | PM | WD column order
-        const parts = v.split("|").map((p) => parseFeeValue(p));
-        const keys = ["am", "pm", "wd"];
-        parts.slice(0, 3).forEach((fee, i) => {
-          school.fees[keys[i]] = fee.display;
-          school.feesAnnual[keys[i]] = fee.annual;
-        });
-        school.extras.push([clean(label), v]); // keep the raw row too
-      } else {
-        school.extras.push([clean(label), v]);
-      }
-    } else if (matchLabel(label, "enrolment", "enrolled", "number of students", "no. of students")) {
-      enrolmentParts.push(`${clean(label)}: ${v}`);
-    } else if (matchLabel(label, "teacher to pupil", "teacher-pupil", "teacher : pupil", "pupil ratio")) {
-      if (!school.teacherPupilRatio) school.teacherPupilRatio = v;
-    } else if (matchLabel(label, "curriculum", "learning / teaching mode", "approach")) {
-      school.curriculum = school.curriculum ? `${school.curriculum}; ${v}` : v;
-    } else if (matchLabel(label, "school name")) {
-      if (v && v.length > 3) school.name = v;
-    } else {
-      school.extras.push([clean(label), v]);
-    }
+  // Scheme banner: a "Joining" / "Not Joining" cell right before
+  // "2025/26 KG Education Scheme"
+  const bannerIdx = cells.findIndex((c) => /^2025\/26 KG Education Scheme$/i.test(c));
+  if (bannerIdx > 0 && /joining/i.test(cells[bannerIdx - 1])) {
+    school.scheme = !/not\s+joining/i.test(cells[bannerIdx - 1]);
+  } else {
+    warn(`${id} (${school.name}): scheme banner not found`);
   }
 
-  if (enrolmentParts.length) school.enrolment = enrolmentParts.join(" · ");
-  if (!schemeSeen) warn(`${id} (${school.name}): scheme field not found`);
+  // Annual fees table: sessions × (K1, K2, K3)
+  const feeRows = sessionTable(cells, /^Annual Fees \(/i, FEE_RE, 3);
+  if (feeRows) {
+    for (const key of ["am", "pm", "wd"]) {
+      const { display, annual } = collapseFees(feeRows[key]);
+      school.fees[key] = display;
+      school.feesAnnual[key] = annual;
+    }
+  } else {
+    warn(`${id} (${school.name}): annual fees table not found`);
+  }
+
+  // Enrolment table: sessions × (K1, K2, K3, Total) — show the totals
+  const enrolRows = sessionTable(cells, /^No\. of Enrolment/i, NUM_RE, 4);
+  if (enrolRows) {
+    const parts = [];
+    for (const [key, label] of [["am", "AM"], ["pm", "PM"], ["wd", "Whole-day"]]) {
+      const total = enrolRows[key]?.[3];
+      if (total != null && Number(total) > 0) parts.push(`${label} ${total}`);
+    }
+    school.enrolment = parts.length ? parts.join(" · ") : "0 enrolled (Sept 2024)";
+  }
+
+  const ratioAm = valueAfter(cells, /^Teacher to pupil ratio in morning/i);
+  const ratioPm = valueAfter(cells, /^Teacher to pupil ratio in afternoon/i);
+  const ratios = [];
+  if (ratioAm && /\d/.test(ratioAm)) ratios.push(`${clean(ratioAm).replace(/\s/g, "")} AM`);
+  if (ratioPm && /\d/.test(ratioPm)) ratios.push(`${clean(ratioPm).replace(/\s/g, "")} PM`);
+  school.teacherPupilRatio = ratios.join(" · ") || null;
+
+  const currType = valueAfter(cells, /^Curriculum type$/i);
+  const approachIdx = cells.findIndex((c) =>
+    /^Learning \/ Teaching approach and activities$/i.test(c),
+  );
+  const approach = approachIdx > -1 ? cells[approachIdx + 1] : null;
+  school.curriculum = currType ? `${currType} curriculum` : null;
+
+  // Curated extras, in a sensible reading order
+  const extra = (label, value) => {
+    if (value && !/^-$/.test(value)) school.extras.push([label, value]);
+  };
+  extra("Teaching approach", approach && approach.length > 12 ? approach : null);
+  extra("Category", valueAfter(cells, /^School Category$/i));
+  extra("Students", valueAfter(cells, /^Student Category$/i));
+  extra("Founded", valueAfter(cells, /^School Founding Year$/i));
+  extra("Registered classrooms", valueAfter(cells, /^Number of Registered Classrooms$/i));
+  extra("Principal & teachers", valueAfter(cells, /^Total No\. of Principal & Teaching Staff/i));
+  const qr = valueAfter(cells, /^Quality Review/i);
+  extra("Quality review", qr ? clean(qr.replace(/https?:\/\/\S+/g, "")) : null);
+  const site = valueAfter(cells, /^School Website$/i);
+  extra("Website", site ? site.toLowerCase() : null);
+  if (listEntry.formerName) extra("Former name", listEntry.formerName);
+
   if (!school.address) warn(`${id} (${school.name}): address not found`);
-  if (school.feesAnnual.am == null && school.feesAnnual.wd == null && school.feesAnnual.pm == null)
+  if (
+    school.feesAnnual.am == null &&
+    school.feesAnnual.pm == null &&
+    school.feesAnnual.wd == null
+  )
     warn(`${id} (${school.name}): no fees parsed — check scripts/cache/${id}.html`);
   return school;
 }
@@ -266,7 +334,7 @@ async function geocode(query, cacheKeySafe) {
 const listHtml = await fetchText(LIST_URL, "list.html");
 let list = parseList(listHtml);
 if (list.length === 0) {
-  console.error("No GoSchoolDetail ids found on the list page — inspect scripts/cache/list.html");
+  console.error("No GoSchoolDetail ids found — inspect scripts/cache/list.html");
   process.exit(1);
 }
 console.log(`List page: ${list.length} Tai Po campuses found (expected ~36).`);
@@ -274,9 +342,9 @@ if (list.length < 30) warn(`only ${list.length} campuses found — verify the li
 list = list.slice(0, LIMIT);
 
 const schools = [];
-for (const { id, listName } of list) {
-  const html = await fetchText(DETAIL_URL(id), `${id}.html`);
-  const school = parseDetail(html, id, listName);
+for (const entry of list) {
+  const html = await fetchText(DETAIL_URL(entry.id), `${entry.id}.html`);
+  const school = parseDetail(html, entry);
   console.log(`  ✓ ${school.name}`);
   schools.push(school);
 }
@@ -291,13 +359,24 @@ if (!NO_GEOCODE) {
 
   for (const s of schools) {
     if (!s.address) continue;
-    try {
-      const geo = await geocode(s.address.toUpperCase(), s.id);
-      if (geo) Object.assign(s, geo);
-      else warn(`${s.id} (${s.name}): ALS returned no geometry`);
-    } catch (e) {
-      warn(`${s.id} (${s.name}): geocode failed — ${e.message}`);
+    const addr = s.address.toUpperCase();
+    // ALS often rejects shop/floor prefixes; fall back to street, then building
+    const queries = [addr];
+    const street = addr.match(/(\d+[A-Z]?)\s+([A-Z'. ]+?(?:ROAD|STREET|LANE|AVENUE|DRIVE|CRESCENT))/);
+    if (street) queries.push(`${street[1]} ${street[2]} TAI PO`);
+    const estate = addr.match(/([A-Z'. ]{3,}?(?:HOUSE|COURT|ESTATE|GARDENS?|CENTRE|PLAZA|VILLA))(?:,|$)/);
+    if (estate) queries.push(`${clean(estate[1])} TAI PO`);
+    let geo = null;
+    let err = null;
+    for (let i = 0; i < queries.length && !geo; i++) {
+      try {
+        geo = await geocode(queries[i], `${s.id}-${i}`);
+      } catch (e) {
+        err = e;
+      }
     }
+    if (geo) Object.assign(s, geo);
+    else warn(`${s.id} (${s.name}): geocode failed${err ? ` — ${err.message}` : " (no geometry)"}`);
   }
 }
 

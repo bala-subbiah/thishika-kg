@@ -19,19 +19,24 @@ const STUB_STYLE = JSON.stringify({
 
 const browser = await chromium.launch({
   executablePath: process.env.CHROMIUM_PATH || undefined,
+  args: ["--enable-unsafe-swiftshader", "--use-gl=angle", "--use-angle=swiftshader"],
 });
 const page = await browser.newPage({
   viewport: { width: 390, height: 844 },
   deviceScaleFactor: 2,
   hasTouch: true,
 });
-await page.route("**/tiles.openfreemap.org/**", (r) =>
-  r.fulfill({ contentType: "application/json", body: STUB_STYLE }),
-);
-await page.route("**/fonts.googleapis.com/**", (r) => r.abort());
-await page.route("**/fonts.gstatic.com/**", (r) => r.abort());
+if (process.env.OFFLINE) {
+  await page.route("**/tiles.openfreemap.org/**", (r) =>
+    r.fulfill({ contentType: "application/json", body: STUB_STYLE }),
+  );
+  await page.route("**/fonts.googleapis.com/**", (r) => r.abort());
+  await page.route("**/fonts.gstatic.com/**", (r) => r.abort());
+}
 
-await page.goto(`${base}/?demo`, { waitUntil: "networkidle" });
+await page.goto(`${base}/${process.env.DEMO ? "?demo" : ""}`, {
+  waitUntil: "networkidle",
+});
 await page.waitForSelector(".pin", { timeout: 15000 });
 await page.waitForTimeout(600);
 await page.screenshot({ path: `${out}/1-list-half.png` });

@@ -1,12 +1,2020 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-08-25T03:37:29.282Z",
   "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=taipo",
   "home": {
     "name": "Casa Brava",
     "address": "73 Ting Kok Road, Tai Po, New Territories",
-    "lat": 22.4523,
-    "lng": 114.1729,
-    "estimated": true
+    "lat": 22.462479,
+    "lng": 114.189515
   },
-  "schools": []
+  "schools": [
+    {
+      "id": "6578",
+      "name": "Christian & Missionary Alliance Church Tai Wo Kindergarten",
+      "scheme": true,
+      "lat": 22.451064,
+      "lng": 114.162914,
+      "address": "G/F, Sun Wo House, Tai Wo Estate, Tai Po, New Territories",
+      "tel": "2650 9555",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$11,900 (10 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 11900
+      },
+      "enrolment": "AM 86 · PM 32 · Whole-day 99",
+      "teacherPupilRatio": "1:10.9 AM · 1:7.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We introduce theme- and activity-based teaching approaches. We provide training and guidance tailored to children’s individual abilities by using a group learning approach. We arrange a wide range of outdoor visits which provide children with more opportunities for exploration, to develop their learning interest and drive them to learn knowledge initiatively. Children learn knowledge by doing."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1989"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "17"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.cmtwkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6578"
+    },
+    {
+      "id": "6603",
+      "name": "Anchors International Nursery",
+      "scheme": false,
+      "lat": 22.453602,
+      "lng": 114.164623,
+      "address": "Portion of G/F & 2/F, Shop G07B Fuller Gardens, 8 Chui Lok Street, Tai Po, New Territories",
+      "tel": "2666 5650",
+      "fees": {
+        "am": "$71,500 (11 instalments)",
+        "pm": "$71,500 (11 instalments)",
+        "wd": "$101,420 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 71500,
+        "pm": 71500,
+        "wd": 101420
+      },
+      "enrolment": "AM 20 · PM 14",
+      "teacherPupilRatio": "1:7.1 AM · 1:4.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our school curriculum will adopt the advantages of \" Thematic Teaching Approach\" and \"Project Approach\" for integrated teaching. Teachers will plan themed lessons and activities, so students can learn in a variety of ways both inside and outside of the school classrooms. Teachers will plan the lessons and activities based on the students' interests. Through designing activities, children can develop their curiosity to explore new knowledge, enhance children's learning interest, trigger more thinking, ask more questions and try more. Anchors International Education Group aims to inspire students and help cultivate their problem solving skills. Our school integrates \"Social Emotional Intelligence Education\" into the curriculum, so students can learn the skills of managing their own emotions. In addition, as reading is such an important skill for students to learn, Anchors has also placed an emphasis on reading in the curriculum. Childhood is the most important growth stage in life, so we have specifically hired professional fitness teachers to design appropriate physical activities that cater to each students' individual physical development. We encourage students to participate in different types of competitions and performances in order to increase their self-confidence."
+        ],
+        [
+          "Category",
+          "Private Independent"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2000"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "14"
+        ],
+        [
+          "Website",
+          "http://www.anchors.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6603"
+    },
+    {
+      "id": "6579",
+      "name": "Christian & Missionary Alliance Plover Cove Nursery School",
+      "scheme": true,
+      "lat": 22.44934,
+      "lng": 114.168529,
+      "address": "Room 106, Level 1, Plover Cove Garden, 3 Plover Cove Road, Tai Po, New Territories",
+      "tel": "2650 8223",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$17,100 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 17100
+      },
+      "enrolment": "Whole-day 101",
+      "teacherPupilRatio": "1:10.1 AM · 1:10.1 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We take project-based learning as a main approach, and provide inquiry questions considering children’s interest and experience, to arouse children’s motivation to learn. In addition, our professional teachers provide interactive corners by creating new and game environments, and children are encouraged to acquire basic knowledge and exploring skills during Doing and Playing."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1997"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "11"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.plovercove.cmasshk.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6579"
+    },
+    {
+      "id": "6604",
+      "name": "Anchors International Nursery",
+      "scheme": false,
+      "lat": 22.436183,
+      "lng": 114.184947,
+      "address": "Kindergarten Premises, Constellation Cove, 1 Hung Lam Drive, Tai Po, New Territories",
+      "tel": "2650 6660",
+      "fees": {
+        "am": "$71,500 (11 instalments)",
+        "pm": "$71,500 (11 instalments)",
+        "wd": "$102,300 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 71500,
+        "pm": 71500,
+        "wd": 102300
+      },
+      "enrolment": "AM 49 · PM 15 · Whole-day 30",
+      "teacherPupilRatio": "1:9.4 AM · 1:4.2 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "The school curriculum is designed with \"1+S\", where \"1\" represents the school-based curriculum; \"S\" stands for STEAM (Science, Technology, Engineering, Art and Mathematics) curriculum. The school-based curriculum will adopt the advantages of \"theme teaching\" and \"design activities\" for integrated teaching. Teachers will often plan themed lessons and learning activities so that students can learn in a variety of ways both inside and outside of the school classrooms. One day per week will be designated as \"STEAM Day\", where teachers will plan STEAM-themed lessons and activities based on the students' interests. They will perform small experiments, design activities, and interacting with Temi, Anchors’artificial intelligence robot. Temi will interact and answer the students’questions, and is loaded with tons of state-of-the-art technologies that will help encourage students to explore all their passions and interests. Anchors International Education Group aims to inspire students and help cultivate their problem solving skills. Hands-on engineering and visual arts projects will help prepare students for the rapid development of science and technology in the future. We incorporate \"Social Emotional Intelligence Education\" into the curriculum, so that students can learn the skills of managing their own emotions. In addition, as reading is such an important skill for students to learn, Anchors has also placed an emphasis on reading within the curriculum. Childhood is the most important growth stage in life, so we have specifically hired professional fitness teachers to design appropriate physical activities that cater to each students' individual physical development. We encourage students to participate in different types of competitions and performances in order to increase their self-confidence."
+        ],
+        [
+          "Category",
+          "Private Independent"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2008"
+        ],
+        [
+          "Registered classrooms",
+          "7"
+        ],
+        [
+          "Principal & teachers",
+          "12"
+        ],
+        [
+          "Website",
+          "http://www.anchors.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6604"
+    },
+    {
+      "id": "6596",
+      "name": "Evangelical Free Church of China - Po Nga Nursery School",
+      "scheme": true,
+      "lat": 22.450739,
+      "lng": 114.1586,
+      "address": "Unit 117-124, G/F Hing Wo House, Po Nga Court, Tai Po, New Territories",
+      "tel": "2650 9286",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$16,188 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 16188
+      },
+      "enrolment": "Whole-day 94",
+      "teacherPupilRatio": "1:9.1 AM · 1:9.1 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We implement integrative teaching and inquiry teaching to pique students' curiosity and enhance their self-learning and inquiring ability. We use the Sportsland, Music Land in our campus as well as organizing various kinds of visits to develop students' generic skills. Lessons conduct by native English teacher, Mandarin teacher and dancing teacher help improving children's ability in Bi-literacy and Tri-lingualism and the skills of music, sports and art."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1989"
+        ],
+        [
+          "Registered classrooms",
+          "4"
+        ],
+        [
+          "Principal & teachers",
+          "13"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.pnns.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6596"
+    },
+    {
+      "id": "6605",
+      "name": "Anchors Kindergarten",
+      "scheme": false,
+      "lat": 22.453602,
+      "lng": 114.164623,
+      "address": "Shop G07B, G/F - 2/F, Fuller Gardens, 8 Chui Lok Street, Tai Po, New Territories",
+      "tel": "2664 4133",
+      "fees": {
+        "am": "$68,200 (11 instalments)",
+        "pm": "$68,200 (11 instalments)",
+        "wd": "$102,300 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 68200,
+        "pm": 68200,
+        "wd": 102300
+      },
+      "enrolment": "AM 113 · PM 18 · Whole-day 34",
+      "teacherPupilRatio": "1:9.8 AM · 1:5.2 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our school curriculum will adopt the advantages of \" Thematic Teaching Approach\" and \"Project Approach\" for integrated teaching. Teachers will plan themed lessons and activities, so students can learn in a variety of ways both inside and outside of the school classrooms. Teachers will plan the lessons and activities based on the students' interests. Through designing activities, children can develop their curiosity to explore new knowledge, enhance children's learning interest, trigger more thinking, ask more questions and try more. Anchors International Education Group aims to inspire students and help cultivate their problem solving skills. Our school integrates \"Social Emotional Intelligence Education\" into the curriculum, so students can learn the skills of managing their own emotions. In addition, as reading is such an important skill for students to learn, Anchors has also placed an emphasis on reading in the curriculum. Childhood is the most important growth stage in life, so we have specifically hired professional fitness teachers to design appropriate physical activities that cater to each students' individual physical development. We encourage students to participate in different types of competitions and performances in order to increase their self-confidence."
+        ],
+        [
+          "Category",
+          "Private Independent"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2000"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "16"
+        ],
+        [
+          "Website",
+          "http://www.anchors.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6605"
+    },
+    {
+      "id": "6580",
+      "name": "Fu Heng Baptist Lui Kwok Pat Fong Kindergarten",
+      "scheme": true,
+      "lat": 22.458118,
+      "lng": 114.170501,
+      "address": "G/F, Block 1, Heng Tai House, Fu Heng Estate, Tai Po, New Territories",
+      "tel": "2660 8128",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$6,820 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 6820
+      },
+      "enrolment": "AM 63 · Whole-day 123",
+      "teacherPupilRatio": "1:11.6 AM · 1:7.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We implement group and thematic teaching approaches while organizing children for outdoor visits and other activities based on subject needs."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1991"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "16"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.fuhengkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6580"
+    },
+    {
+      "id": "6607",
+      "name": "International College Hong Kong Hong Lok Yuen (Kindergarten Section)",
+      "scheme": false,
+      "lat": 22.464248,
+      "lng": 114.15377,
+      "address": "5 Hong Lok Yuen Twentieth Street, Tai Po, New Territories",
+      "tel": "3955 3000",
+      "fees": {
+        "am": "K1 $83,500 (3) · K2 — · K3 —",
+        "pm": "K1 $25,170 (2) · K2 — · K3 —",
+        "wd": "K1 $145,110 (3) · K2 — · K3 —"
+      },
+      "feesAnnual": {
+        "am": 83500,
+        "pm": 25170,
+        "wd": 145110
+      },
+      "enrolment": "AM 15 · Whole-day 55",
+      "teacherPupilRatio": "1:7.0 AM · 1:5.5 PM",
+      "curriculum": "Non-local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We use the interests, passions and abilities of our children to set learning goals and to develop a range of thinking, social, communication, self-management and research skills. Play is our central approach to learning. It is essential for whole child development. It is how children learn, discover and manipulate the world around them."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1983"
+        ],
+        [
+          "Registered classrooms",
+          "4"
+        ],
+        [
+          "Principal & teachers",
+          "10"
+        ],
+        [
+          "Website",
+          "https://ichkhly.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6607"
+    },
+    {
+      "id": "6650",
+      "name": "Hong Kong Christian Service Pario Nursery School (Tai Po)",
+      "scheme": true,
+      "lat": 22.46341,
+      "lng": 114.175534,
+      "address": "Kindergarten 2, G/F., Fung Tip House, Fu Tip Estate, Tai Po, New Territories",
+      "tel": "2833 6600",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$16,908 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 16908
+      },
+      "enrolment": "0 enrolled (Sept 2024)",
+      "teacherPupilRatio": null,
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our curricula feature theme-based teaching and project-based learning, and focus on children’s life experience and physical quality. Every day, we reserve time for news sharing. Apart from teaching activities, we also arrange visits, expert interviews, field trips, parent-child activities, etc. We emphasize children’s development in creative arts. In addition to literary and artistic activities every afternoon, we also hold children's creative art exhibitions and creative drama performances every year. We promote programme which includes diversified teaching strategies to meet the peculiarities of children and promote their holistic development. Additionally, we also develop our school-based mathematics curriculum, and also provide a variety of Chinese and English reading and play activities, so that children can learn Chinese and English in a meaningful language context."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1997"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Quality review",
+          "Not applicable"
+        ],
+        [
+          "Website",
+          "http://hkcschild.edu.hk/tns/"
+        ],
+        [
+          "Former name",
+          "Hong Kong Christian Service Times Nursery School"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6650"
+    },
+    {
+      "id": "6608",
+      "name": "Mink International Pre-School",
+      "scheme": false,
+      "lat": 22.45298,
+      "lng": 114.173455,
+      "address": "Level 1, Sun Hing Garden, Tai Po, New Territories",
+      "tel": "2665 4333",
+      "fees": {
+        "am": "$72,960 (12 instalments)",
+        "pm": "$72,960 (12 instalments)",
+        "wd": null
+      },
+      "feesAnnual": {
+        "am": 72960,
+        "pm": 72960,
+        "wd": null
+      },
+      "enrolment": "AM 16 · Whole-day 11",
+      "teacherPupilRatio": "1:10.1 AM · 1:3.8 PM",
+      "curriculum": "Local and Non-local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our teachers work with students in whole group circle times, small group learning and personalized learning times. Through our themes, an array of science learning takes place. We aim to develop students' communication and thinking skills by using ideas such as talk partners and high order questioning."
+        ],
+        [
+          "Category",
+          "Private Independent"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1986"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "8"
+        ],
+        [
+          "Website",
+          "http://www.mink.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6608"
+    },
+    {
+      "id": "6581",
+      "name": "Hong Kong Society for the Protection of Children Lam Woo Nursery School",
+      "scheme": true,
+      "lat": 22.459861,
+      "lng": 114.171919,
+      "address": "3/F, Fu Heng Neighbourhood Community Centre, Fu Heng Estate, Tai Po, New Territories",
+      "tel": "2660 7808",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$12,420 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 12420
+      },
+      "enrolment": "Whole-day 90",
+      "teacherPupilRatio": "1:7.9 AM · 1:7.4 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "By designing comprehensive learning activities, stimulate children's curiosity through hands-on experiences, motivating them to learn through exploration. Aligned with the school-based curriculum’s unique features, these activities incorporate diverse experiential and learning elements.\" Make good use of community resources, and participate in community activities to support and broaden children’s learning experience, for example, visiting \"Hong Kong Heritage Museum\",\"Science Museum\",etc."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1991"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "16"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://ns.hkspc.org/lw/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6581"
+    },
+    {
+      "id": "6904",
+      "name": "Mulberry House International Kindergarten",
+      "scheme": false,
+      "lat": 22.430617,
+      "lng": 114.206919,
+      "address": "Kindergarten Premises, Portion of G/F and LG/F, Commercial Accommodation Mayfair By the Sea I, 23 Fo Chun Road, Tai Po, New Territories",
+      "tel": "2311 9008",
+      "fees": {
+        "am": "$108,680 (11 instalments)",
+        "pm": "$92,400 (11 instalments)",
+        "wd": null
+      },
+      "feesAnnual": {
+        "am": 108680,
+        "pm": 92400,
+        "wd": null
+      },
+      "enrolment": "AM 43 · PM 24",
+      "teacherPupilRatio": "1:10.5 AM · 1:5.6 PM",
+      "curriculum": "Non-local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Inquiry based"
+        ],
+        [
+          "Category",
+          "Private Independent"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2020"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "6"
+        ],
+        [
+          "Website",
+          "https://mulberryhousekg.com/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6904"
+    },
+    {
+      "id": "6582",
+      "name": "Hong Kong Taoist Association Yuen Yuen Kindergarten (Fu Shin Estate)",
+      "scheme": true,
+      "lat": 22.45484,
+      "lng": 114.175699,
+      "address": "G/F Shin Mei House, Fu Shin Estate, Tai Po, New Territories",
+      "tel": "2661 4583",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$5,797 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 5797
+      },
+      "enrolment": "AM 59 · Whole-day 90",
+      "teacherPupilRatio": "1:10.5 AM · 1:9.9 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "To promote the holistic and balanced development of young children, the school adopts a child-centered teaching approach. This includes thematic instruction based on real-life contexts and well-designed activities that cater to children's abilities and interests. We provide a variety of learning activities and areas that help children develop autonomy, problem-solving skills, and creativity. Additionally, the school organizes visits, outdoor learning activities, and community service based on themes and learning needs to enrich children's learning experiences and knowledge. Participation in various performances and competitions further enhances children's confidence, teamwork spirit, and potential for artistic expression and creativity."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1986"
+        ],
+        [
+          "Registered classrooms",
+          "7"
+        ],
+        [
+          "Principal & teachers",
+          "16"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://www.yuenyuenkg.edu.hk/fushin/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6582"
+    },
+    {
+      "id": "6609",
+      "name": "Norwegian International School",
+      "scheme": false,
+      "lat": 22.447498,
+      "lng": 114.169141,
+      "address": "Tai Po Bungalow, Kwong Fuk Road & 170 Kam Shan Road, Tai Po, New Territories",
+      "tel": "2638 0269",
+      "fees": {
+        "am": "K1 $80,850 (10) · K2 $80,850 (10) · K3 —",
+        "pm": "K1 $80,850 (10) · K2 $80,850 (10) · K3 —",
+        "wd": "K1 — · K2 $74,400 (10) · K3 —"
+      },
+      "feesAnnual": {
+        "am": 80850,
+        "pm": 80850,
+        "wd": 74400
+      },
+      "enrolment": "AM 21 · PM 4",
+      "teacherPupilRatio": "1:7.0 AM · 1:1.3 PM",
+      "curriculum": "Non-local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Small class sizes; Individual guidance; Wide variety of activities including field trips to Lion's Nature Education Center, local library and Sports day."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1994"
+        ],
+        [
+          "Registered classrooms",
+          "4"
+        ],
+        [
+          "Principal & teachers",
+          "3"
+        ],
+        [
+          "Website",
+          "http://www.nis.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6609"
+    },
+    {
+      "id": "6584",
+      "name": "Mink Anglo-Chinese Kindergarten",
+      "scheme": true,
+      "lat": 22.45298,
+      "lng": 114.173455,
+      "address": "Level 1, Area 17, Tptl 26, Sun Hing Garden, Tai Po, New Territories",
+      "tel": "2665 4333",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$11,664 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 11664
+      },
+      "enrolment": "AM 191 · PM 166",
+      "teacherPupilRatio": "1:10.1 AM · 1:8.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We adopt the thematic and project-based learning approach in our teaching. Through specialised teaching, organized visits and group activities and etc, to enhance children’s learning motivation."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1986"
+        ],
+        [
+          "Registered classrooms",
+          "10"
+        ],
+        [
+          "Principal & teachers",
+          "19"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.mink.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6584"
+    },
+    {
+      "id": "7037",
+      "name": "St. Paul's Catholic Day Nursery",
+      "scheme": false,
+      "lat": 22.446812,
+      "lng": 114.16781,
+      "address": "28 Wan Tau Street, Tai Po, New Territories",
+      "tel": "2656 1066",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$88,638 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 88638
+      },
+      "enrolment": "Whole-day 126",
+      "teacherPupilRatio": "1:8.0 AM · 1:8.4 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We aim to let children “learn from practice” and “learn from play” as interest is the power for children to learn, games constitute learning experience, perception activities are the media for children to learn, observation, inquiry, thinking and imagination are the learning approaches, and sense of achievement is an enhancer for children’s learning."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1975"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "21"
+        ],
+        [
+          "Website",
+          "https://www.spcn.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7037"
+    },
+    {
+      "id": "6585",
+      "name": "Pentecostal Church of Hong Kong Tai Wo Nursery School",
+      "scheme": true,
+      "lat": 22.452681,
+      "lng": 114.161447,
+      "address": "3/F, Neighbourhood Community Centre, Tai Wo Estate, Tai Po, New Territories",
+      "tel": "2650 0200",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$11,892 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 11892
+      },
+      "enrolment": "Whole-day 101",
+      "teacherPupilRatio": "1:10.0 AM · 1:10.0 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Approach: individual coaching, group teaching and collective discussion; Activity: visits, community-wide performances/competitions, English classes taught by native teachers and Mandarin classes taught by professional teachers."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1991"
+        ],
+        [
+          "Registered classrooms",
+          "5"
+        ],
+        [
+          "Principal & teachers",
+          "12"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://taiwons.pchk.org.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6585"
+    },
+    {
+      "id": "6597",
+      "name": "The Education University of Hong Kong Early Childhood Learning Centre (Kindergarten Section)",
+      "scheme": false,
+      "lat": 22.470985,
+      "lng": 114.19449,
+      "address": "Room G02-G05, G/F, Senior Staff Quarters, the Education University of Hong Kong, 10 Lo Ping Road, Tai Po, New Territories",
+      "tel": "2948 1638",
+      "fees": {
+        "am": "$54,285 (11 instalments)",
+        "pm": "$54,285 (11 instalments)",
+        "wd": "$102,252 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": 54285,
+        "pm": 54285,
+        "wd": 102252
+      },
+      "enrolment": "AM 28 · Whole-day 6",
+      "teacherPupilRatio": "1:5.9 AM · 1:2.2 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "The curriculum encourages children to learn through observation, manipulation, application, and reflection, so they are empowered to explore the world around them and construct their own knowledge and experiences."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2001"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "7"
+        ],
+        [
+          "Website",
+          "http://www.eduhk.hk/eclc"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6597"
+    },
+    {
+      "id": "6586",
+      "name": "Po Leung Kuk Lau Chun Kindergarten",
+      "scheme": true,
+      "lat": 22.448085,
+      "lng": 114.17601,
+      "address": "G/F, Kwong Lai House, Kwong Fuk Estate, Tai Po, New Territories",
+      "tel": "2653 2932",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$20,904 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 20904
+      },
+      "enrolment": "Whole-day 84",
+      "teacherPupilRatio": "1:9.7 AM · 1:9.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "With emphasis on children’s personal exploration, we organize children to go out of the classroom and participate in community activities such as visits. We adopt activity-based teaching, project-based learning, and individual and group learning approaches in class, and teach children music according to Orff Music Philosophy. Native teachers are employed to teach children English, and we also arrange other activities, such as setting up interest classes."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1984"
+        ],
+        [
+          "Registered classrooms",
+          "5"
+        ],
+        [
+          "Principal & teachers",
+          "10"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://www.poleungkuk.org.hk/child-care-services/lckgn"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6586"
+    },
+    {
+      "id": "7073",
+      "name": "Zebedee International Preschool",
+      "scheme": false,
+      "lat": 22.443524,
+      "lng": 114.167597,
+      "address": "Wing A & B, G/F Yat Wing House, Yat Nga Court, Tai Po, New Territories",
+      "tel": "2650 3339",
+      "fees": {
+        "am": "$57,365 (11 instalments)",
+        "pm": "$57,365 (11 instalments)",
+        "wd": null
+      },
+      "feesAnnual": {
+        "am": 57365,
+        "pm": 57365,
+        "wd": null
+      },
+      "enrolment": "AM 26 · PM 7",
+      "teacherPupilRatio": "1:8.2 AM · 1:4.0 PM",
+      "curriculum": "Non-local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "The school approaches learning through structured inquiry from the age of 3 year ( K1) which is underpinned by the Early Year Foundation Statutory framework from Great Britain. For children in Nursery (N) age 2 the school offers a thematic approach. All classes have daily Putonghua lessons with a native putonghua teacher."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2008"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "5"
+        ],
+        [
+          "Website",
+          "http://www.zebedee.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7073"
+    },
+    {
+      "id": "6587",
+      "name": "Po Leung Kuk Tang Bik Wan Memorial Kindergarten",
+      "scheme": true,
+      "lat": 22.448708,
+      "lng": 114.176068,
+      "address": "G/F, Unit 118-131, G/F, Kwong Yee House, Kwong Fuk Estate, Phase 1B Tai Po, New Territories",
+      "tel": "2656 2016",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$3,000 (10 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 3000
+      },
+      "enrolment": "AM 59 · PM 22 · Whole-day 46",
+      "teacherPupilRatio": "1:9.5 AM · 1:6.8 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our “Question – Explore – Experience” theory allows children build up new knowledge through experience gain from their exploration. Teachers will propose open-ended questions to guide children’s creative thinking. And through peers discussions and interactions with teachers, our children may make improvement in their problem solving skills, learn to take initiative in their learning and unleash their potentials as the final goal. Besides classroom activities, we arrange various community learning activities for our children. For example, sightseeing, visiting, and even travelling etc. Throughout these activities, children may increase their living experience and widen their views."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1983"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "11"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.plkkgs.edu.hk/plktbwmkg"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6587"
+    },
+    {
+      "id": "6612",
+      "name": "Zenith Kindergarten",
+      "scheme": false,
+      "lat": 22.452907,
+      "lng": 114.164303,
+      "address": "Entrance Lobby On G/F Shop 10 & 11 On 1/F, La Fontaine 6 Chui Lok Street, Tai Po, New Territories",
+      "tel": "2663 3311",
+      "fees": {
+        "am": "$81,600 (12 instalments)",
+        "pm": "$81,600 (12 instalments)",
+        "wd": "$110,400 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": 81600,
+        "pm": 81600,
+        "wd": 110400
+      },
+      "enrolment": "AM 76 · PM 1 · Whole-day 23",
+      "teacherPupilRatio": "1:10.9 AM · 1:4.9 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our curriculum is heavily influenced by the spiral and theme learning approaches. Our diversified activities create fun and learning motivation for students through fun activities. Utilization of current technology in classrooms keeps students up-to-date with the modern world. Children interact with both native Chinese and English speakers on a daily basis, in which accelerates their ability to interact in a multi-language environment. Our quality instruction, interactive grouping activities, engaging scientific explorations, exciting outdoor visits, aesthetic festival celebrations, and other learning activities ensure our students receive a well-rounded and enriching educational experience."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "2000"
+        ],
+        [
+          "Registered classrooms",
+          "16"
+        ],
+        [
+          "Principal & teachers",
+          "12"
+        ],
+        [
+          "Website",
+          "https://zenithkindergarten.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6612"
+    },
+    {
+      "id": "6588",
+      "name": "Sheng Kung Hui the Church of Our Saviour Kindergarten",
+      "scheme": true,
+      "lat": 22.449494,
+      "lng": 114.174854,
+      "address": "No 210-219 Kwong Yan House, Kwong Fuk Est, Tai Po, New Territories",
+      "tel": "2651 1778",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$8,000 (10 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 8000
+      },
+      "enrolment": "AM 27 · Whole-day 86",
+      "teacherPupilRatio": "1:10.3 AM · 1:9.6 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "The course is child-centered and adopts \"activity-based teaching\", \"theme-based teaching\" and \"project study\". Adopting to children’s developmental abilities, we use diversified activities to enhance children’s interest in learning, and satisfy children’s curiosity and spirit of exploration through visits and exploration activities. With different personal experiences, observations and analysis, children’s thinking ability and learning motivation is enhanced."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1986"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "11"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.saviourkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6588"
+    },
+    {
+      "id": "6589",
+      "name": "Tai Po Baptist Kindergarten",
+      "scheme": true,
+      "lat": 22.446802,
+      "lng": 114.166616,
+      "address": "32-38 Heung Sze Wui Square, Tai Po, New Territories",
+      "tel": "2651 2311",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": null
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": null
+      },
+      "enrolment": "AM 243 · PM 229",
+      "teacherPupilRatio": "1:8.4 AM · 1:7.9 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Teaching methods, theme-based learning and small group activities and story-based learning."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1958"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "29"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.tpbkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6589"
+    },
+    {
+      "id": "6590",
+      "name": "Tai Po Baptist Kindergarten Wan Tau Tong Estate Branch",
+      "scheme": true,
+      "lat": 22.441836,
+      "lng": 114.166062,
+      "address": "G/F, Wan Hang House, Wan Tau Tong Estate, Tai Po, New Territories",
+      "tel": "2638 0018",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$9,900 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 9900
+      },
+      "enrolment": "AM 109 · PM 26 · Whole-day 84",
+      "teacherPupilRatio": "1:8.8 AM · 1:5.0 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We adopt the theme-based learning approach and the play-based learning approach, engaging children in a diversified range of integrated and exploratory activities that are closely related to their daily life experiences to enhance their motivation to learn, ability of expression and problem-solving skills. We also instil in children a positive attitude towards learning through “Positive Education” and provide them with a happy school life where they can experience the love of God and learn to live a fruitful life. Our programmes include: The Boys' Brigade, Hong Kong, Heep Hong Society Shares Service Experience on On-site Pre-school Rehabilitation Services (OPRS) Pilot Scheme, Seasonal Influenza Vaccination School Outreach (Free of Charge) (the Programme), Straighten-up Excellent School Scheme, Zippy’s Friend emotion programme, good student incentive programme, green campus programme, one student one flower programme and parent-child reading programme; our activities include: community donation, parent-child tooth care activity, traffic safety lecture, visit to communities, visit to Sunny Smile Fairyland, primary school Sports Day, and interschool dancing and singing contests."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1993"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "22"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.wtt-baptistkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6590"
+    },
+    {
+      "id": "6591",
+      "name": "Tai Po Catholic Kindergarten",
+      "scheme": true,
+      "lat": 22.451498,
+      "lng": 114.159096,
+      "address": "G/F, Ka Wo House, Po Nga Court, Tai Po, New Territories",
+      "tel": "2651 1651",
+      "fees": {
+        "am": "Free",
+        "pm": null,
+        "wd": "$6,000 (10 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": null,
+        "wd": 6000
+      },
+      "enrolment": "AM 48 · Whole-day 70",
+      "teacherPupilRatio": "1:10.7 AM · 1:6.4 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We organize activities in a variety of teaching approaches, such as theme-based teaching, group teaching, project-based learning and activity approach. In order to let children get in touch with English from an early age, cultivate their interest in learning English, and guide children to master the experience of language learning from picture books, the kindergarten focuses on the implementation of Shared Reading English picture books that combine various themes, so that children can be exposed to English from an early age and cultivate their interest in English learning.With the focus on bi-literacy and tri-lingualism learning, we engage professional teachers to teach children Mandarin and English courses."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1989"
+        ],
+        [
+          "Registered classrooms",
+          "7"
+        ],
+        [
+          "Principal & teachers",
+          "11"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.taipokg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6591"
+    },
+    {
+      "id": "6592",
+      "name": "Tai Po Merchants Association Kindergarten",
+      "scheme": true,
+      "lat": 22.459861,
+      "lng": 114.171919,
+      "address": "G/F, Block 2, Fu Heng Estate, Tai Po, New Territories",
+      "tel": "2664 3280",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$5,863 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 5863
+      },
+      "enrolment": "AM 12 · Whole-day 99",
+      "teacherPupilRatio": "1:8.5 AM · 1:7.6 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We adopt diversified teaching models (e.g. teaching and learning through games and play, exploration activities, picture books, etc.)."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1991"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "13"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.tpmak.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6592"
+    },
+    {
+      "id": "6593",
+      "name": "Tai Po Methodist Kindergarten",
+      "scheme": true,
+      "lat": 22.459229,
+      "lng": 114.17121,
+      "address": "G/F, Heng Tsui House, Fu Heng Estate, Tai Po, New Territories",
+      "tel": "2660 7536",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$6,666 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 6666
+      },
+      "enrolment": "AM 108 · Whole-day 114",
+      "teacherPupilRatio": "1:11.1 AM · 1:10.4 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Based on different themes, we adopt activity teaching, group teaching , promoted positive education ,play-based / story-telling learning and teaching to encourage children to ask questions, explore and experience."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1991"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "20"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.tpmk.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6593"
+    },
+    {
+      "id": "6594",
+      "name": "Tai Po Rhenish Church Kindergarten",
+      "scheme": true,
+      "lat": 22.46341,
+      "lng": 114.175534,
+      "address": "Kindergarten 1, G/F, Fung Tip House, Fu Tip Estate, Tai Po, New Territories",
+      "tel": "2657 4168",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$8,756 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 8756
+      },
+      "enrolment": "AM 96 · PM 22 · Whole-day 34",
+      "teacherPupilRatio": "1:8.1 AM · 1:4.0 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We mix activity teaching with story-telling, supplemented with extended activities and learning projects."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1979"
+        ],
+        [
+          "Registered classrooms",
+          "5"
+        ],
+        [
+          "Principal & teachers",
+          "16"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.rcktp.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6594"
+    },
+    {
+      "id": "6595",
+      "name": "Tai Po Rhenish Church Kindergarten",
+      "scheme": true,
+      "lat": 22.451769,
+      "lng": 114.164964,
+      "address": "G/F, 1/F - 2/F, 7 Ting Kok Road, Tai Po, New Territories",
+      "tel": "2144 0708",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$8,756 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 8756
+      },
+      "enrolment": "AM 116 · PM 67 · Whole-day 53",
+      "teacherPupilRatio": "1:9.4 AM · 1:6.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We mix activity teaching with story-telling, supplemented with extended activities and learning projects."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1957"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "18"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.rcktp.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6595"
+    },
+    {
+      "id": "6598",
+      "name": "The Salvation Army Tai Yuen Nursery School",
+      "scheme": true,
+      "lat": 22.455282,
+      "lng": 114.167965,
+      "address": "G/F, Tai Ling House, Tai Yuen Estate, Tai Po, New Territories",
+      "tel": "2664 9725",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$24,096 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 24096
+      },
+      "enrolment": "Whole-day 94",
+      "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "1. Project Approach – To stimulate children to explore voluntarily and build up knowledge through the process of observation, discussion and exploration. 2. Montessori Education – Enhance sensory acuity in young children, establish self-care skills and a sense of order, cultivate independence and self-management abilities, and develop logical thinking and concentration. 3. Fun with English – Focus on stimulating interest in learning English, cultivate listening and speaking skills, and help children master phonics techniques for English words. 4. Concerning individual child’s needs and development, we foster positive and optimistic values through manifesting the Love of Jesus Christ. 5. Inheriting Chinese Culture-By understanding Chinese festival customs, appreciating and experiencing various forms of traditional art and together with participating in related project-based learning activities, we aim to cultivate young children’s interest in Chinese culture and foster their sense of national identity."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1983"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "13"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.salvationarmy.org.hk/esd/tyns/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6598"
+    },
+    {
+      "id": "6599",
+      "name": "Tsung Tsin Mission of Hong Kong On Yan Nursery School",
+      "scheme": true,
+      "lat": 22.454036,
+      "lng": 114.174815,
+      "address": "Fu Shin Estate, Tai Po, New Territories",
+      "tel": "2661 2866",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$19,644 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 19644
+      },
+      "enrolment": "Whole-day 121",
+      "teacherPupilRatio": "1:8.7 AM · 1:8.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "With the child-centered principle, teachers apply diverse pedagogies integrating with culture, art, technology as well as the social resources , so that the children are inspired into a spirit of exploration and creativity."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1976"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "17"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://oy.ttmssd.org/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6599"
+    },
+    {
+      "id": "6600",
+      "name": "Tung Wah Group of Hospitals Hung Wong Kar Gee Kindergarten",
+      "scheme": true,
+      "lat": 22.454469,
+      "lng": 114.166761,
+      "address": "Unit 309-316, 3/F Tai Tak House, Tai Yuen Estate, Tai Po, New Territories",
+      "tel": "2665 5111",
+      "fees": {
+        "am": "Free",
+        "pm": "Free",
+        "wd": "$11,120 (10 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": 0,
+        "wd": 11120
+      },
+      "enrolment": "AM 54 · PM 11 · Whole-day 52",
+      "teacherPupilRatio": "1:9.6 AM · 1:6.3 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We provide diversified activities, including drama, exploratory and interactive games, learning projects, experience-based learning, multi-sense learning activities, multi-media teaching and other interesting activities to inspire children. We also provide different types of training programs to help children reach their full potential and develop their interest in art."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1983"
+        ],
+        [
+          "Registered classrooms",
+          "6"
+        ],
+        [
+          "Principal & teachers",
+          "11"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "http://www.twghhwkgkg.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6600"
+    },
+    {
+      "id": "6601",
+      "name": "TWGHs Fong Lai Ming Nursery School",
+      "scheme": true,
+      "lat": 22.446279,
+      "lng": 114.166392,
+      "address": "5/F And Roof Playground, Tai Po Community Centre, Heung Sze Wui Street, Tai Po Market, New Territories",
+      "tel": "2653 2393",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$20,160 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 20160
+      },
+      "enrolment": "Whole-day 71",
+      "teacherPupilRatio": "1:7.7 AM · 1:7.7 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "The curriculum emphasize child-centredness. Teaching and learning are conducted through activities, project learning and whole-language approach with the use of diversified, systematic and stimulating play and activities (such as story-based approach and Free Play). Moreover, national education and emotion curriculum are used to enhance children’s morality development and help them cultivate good civic consciousness."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1984"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "13"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://flmns.tungwahcsd.org/tc/home"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6601"
+    },
+    {
+      "id": "7049",
+      "name": "Women's Welfare Club Western District Hong Kong David Woo Memorial Anglo-Chinese Kindergarten",
+      "scheme": true,
+      "lat": 22.442829,
+      "lng": 114.167354,
+      "address": "G/F, Yat Yan House, Yat Nga Court, Tai Po, New Territories",
+      "tel": "2656 6855",
+      "fees": {
+        "am": "Free",
+        "pm": null,
+        "wd": "$13,200 (11 instalments)"
+      },
+      "feesAnnual": {
+        "am": 0,
+        "pm": null,
+        "wd": 13200
+      },
+      "enrolment": "AM 40 · Whole-day 116",
+      "teacherPupilRatio": "1:8.7 AM · 1:7.3 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "We pursue activity-based, project-based, high scope, project approaches and Eduplay Day. While organizing visits, travel, group learning, scientific exploration and outdoor activities etc."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1995"
+        ],
+        [
+          "Registered classrooms",
+          "8"
+        ],
+        [
+          "Principal & teachers",
+          "18"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://www.dwmackg.edu.hk/"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7049"
+    },
+    {
+      "id": "6602",
+      "name": "Yan Oi Tong Mrs Augusta Cheung Kindergarten",
+      "scheme": true,
+      "lat": 22.442179,
+      "lng": 114.166072,
+      "address": "3/F, Neighbourhood Community Centre, Wan Tau Tong Estate, Tai Po, New Territories",
+      "tel": "2638 3082",
+      "fees": {
+        "am": null,
+        "pm": null,
+        "wd": "$30,000 (12 instalments)"
+      },
+      "feesAnnual": {
+        "am": null,
+        "pm": null,
+        "wd": 30000
+      },
+      "enrolment": "Whole-day 65",
+      "teacherPupilRatio": "1:6.6 AM · 1:7.2 PM",
+      "curriculum": "Local curriculum",
+      "extras": [
+        [
+          "Teaching approach",
+          "Our school adopts “Project Approach” and “Thematic Teaching Approach”, attaches importance to children’s firsthand experience and let children have in-depth and meaningful discussions on different themes through visiting, observation, questioning, comparison, discussion, reporting, etc., so as to develop children’s ability to actively explore and collect knowledge. Recently, we also implement “Creative Children Science Curriculum” and “Dramatic and Stories Approach integrated Curriculum”. Through these systematic and interesting curricula, we hope to facilitate creativity and nurture curiosity in children. We are willing to let our children have courage to try, dare to explore and be good at expression. We engage professional English teacher and foreign English teacher for our English program. We teach children English through different activities, such as “Shared-book Reading Approach” to let children read interesting English stories to enhance children’s language development. Furthermore, we provide “Mandarin Learning Program” for children in order to foster children’s abilities of listening and speaking in Mandarin."
+        ],
+        [
+          "Category",
+          "Non-profit-making"
+        ],
+        [
+          "Students",
+          "Co-educational"
+        ],
+        [
+          "Founded",
+          "1993"
+        ],
+        [
+          "Registered classrooms",
+          "Not applicable"
+        ],
+        [
+          "Principal & teachers",
+          "14"
+        ],
+        [
+          "Quality review",
+          "Meeting the standards"
+        ],
+        [
+          "Website",
+          "https://yotmac.edu.hk"
+        ]
+      ],
+      "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6602"
+    }
+  ]
 }
