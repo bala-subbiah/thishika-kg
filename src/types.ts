@@ -14,6 +14,8 @@ export interface School {
   lat: number | null;
   lng: number | null;
   address: string;
+  /** Neighbourhood within Tai Po (estate/court/street), for list grouping */
+  area?: string;
   tel: string | null;
   fees: Fees;
   /** Annual fee in HK$ parsed from the display string (0 = free), null = unknown/not offered */

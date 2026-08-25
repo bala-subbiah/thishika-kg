@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:37:29.282Z",
+  "generatedAt": "2026-08-25T05:58:53.534Z",
   "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=taipo",
   "home": {
     "name": "Casa Brava",
@@ -15,6 +15,7 @@
       "lat": 22.451064,
       "lng": 114.162914,
       "address": "G/F, Sun Wo House, Tai Wo Estate, Tai Po, New Territories",
+      "area": "Tai Wo Estate",
       "tel": "2650 9555",
       "fees": {
         "am": "Free",
@@ -72,6 +73,7 @@
       "lat": 22.453602,
       "lng": 114.164623,
       "address": "Portion of G/F & 2/F, Shop G07B Fuller Gardens, 8 Chui Lok Street, Tai Po, New Territories",
+      "area": "Town Centre · Chui Lok Street",
       "tel": "2666 5650",
       "fees": {
         "am": "$71,500 (11 instalments)",
@@ -125,6 +127,7 @@
       "lat": 22.44934,
       "lng": 114.168529,
       "address": "Room 106, Level 1, Plover Cove Garden, 3 Plover Cove Road, Tai Po, New Territories",
+      "area": "Plover Cove Road",
       "tel": "2650 8223",
       "fees": {
         "am": null,
@@ -182,6 +185,7 @@
       "lat": 22.436183,
       "lng": 114.184947,
       "address": "Kindergarten Premises, Constellation Cove, 1 Hung Lam Drive, Tai Po, New Territories",
+      "area": "Constellation Cove",
       "tel": "2650 6660",
       "fees": {
         "am": "$71,500 (11 instalments)",
@@ -235,6 +239,7 @@
       "lat": 22.450739,
       "lng": 114.1586,
       "address": "Unit 117-124, G/F Hing Wo House, Po Nga Court, Tai Po, New Territories",
+      "area": "Po Nga Court",
       "tel": "2650 9286",
       "fees": {
         "am": null,
@@ -292,6 +297,7 @@
       "lat": 22.453602,
       "lng": 114.164623,
       "address": "Shop G07B, G/F - 2/F, Fuller Gardens, 8 Chui Lok Street, Tai Po, New Territories",
+      "area": "Town Centre · Chui Lok Street",
       "tel": "2664 4133",
       "fees": {
         "am": "$68,200 (11 instalments)",
@@ -345,6 +351,7 @@
       "lat": 22.458118,
       "lng": 114.170501,
       "address": "G/F, Block 1, Heng Tai House, Fu Heng Estate, Tai Po, New Territories",
+      "area": "Fu Heng Estate",
       "tel": "2660 8128",
       "fees": {
         "am": "Free",
@@ -402,6 +409,7 @@
       "lat": 22.464248,
       "lng": 114.15377,
       "address": "5 Hong Lok Yuen Twentieth Street, Tai Po, New Territories",
+      "area": "Hong Lok Yuen",
       "tel": "3955 3000",
       "fees": {
         "am": "K1 $83,500 (3) · K2 — · K3 —",
@@ -455,6 +463,7 @@
       "lat": 22.46341,
       "lng": 114.175534,
       "address": "Kindergarten 2, G/F., Fung Tip House, Fu Tip Estate, Tai Po, New Territories",
+      "area": "Fu Tip Estate",
       "tel": "2833 6600",
       "fees": {
         "am": null,
@@ -512,6 +521,7 @@
       "lat": 22.45298,
       "lng": 114.173455,
       "address": "Level 1, Sun Hing Garden, Tai Po, New Territories",
+      "area": "Sun Hing Garden",
       "tel": "2665 4333",
       "fees": {
         "am": "$72,960 (12 instalments)",
@@ -565,6 +575,7 @@
       "lat": 22.459861,
       "lng": 114.171919,
       "address": "3/F, Fu Heng Neighbourhood Community Centre, Fu Heng Estate, Tai Po, New Territories",
+      "area": "Fu Heng Estate",
       "tel": "2660 7808",
       "fees": {
         "am": null,
@@ -622,6 +633,7 @@
       "lat": 22.430617,
       "lng": 114.206919,
       "address": "Kindergarten Premises, Portion of G/F and LG/F, Commercial Accommodation Mayfair By the Sea I, 23 Fo Chun Road, Tai Po, New Territories",
+      "area": "Pak Shek Kok",
       "tel": "2311 9008",
       "fees": {
         "am": "$108,680 (11 instalments)",
@@ -675,6 +687,7 @@
       "lat": 22.45484,
       "lng": 114.175699,
       "address": "G/F Shin Mei House, Fu Shin Estate, Tai Po, New Territories",
+      "area": "Fu Shin Estate",
       "tel": "2661 4583",
       "fees": {
         "am": "Free",
@@ -732,6 +745,7 @@
       "lat": 22.447498,
       "lng": 114.169141,
       "address": "Tai Po Bungalow, Kwong Fuk Road & 170 Kam Shan Road, Tai Po, New Territories",
+      "area": "Kwong Fuk Road",
       "tel": "2638 0269",
       "fees": {
         "am": "K1 $80,850 (10) · K2 $80,850 (10) · K3 —",
@@ -785,6 +799,7 @@
       "lat": 22.45298,
       "lng": 114.173455,
       "address": "Level 1, Area 17, Tptl 26, Sun Hing Garden, Tai Po, New Territories",
+      "area": "Sun Hing Garden",
       "tel": "2665 4333",
       "fees": {
         "am": "Free",
@@ -842,6 +857,7 @@
       "lat": 22.446812,
       "lng": 114.16781,
       "address": "28 Wan Tau Street, Tai Po, New Territories",
+      "area": "Tai Po Market",
       "tel": "2656 1066",
       "fees": {
         "am": null,
@@ -895,6 +911,7 @@
       "lat": 22.452681,
       "lng": 114.161447,
       "address": "3/F, Neighbourhood Community Centre, Tai Wo Estate, Tai Po, New Territories",
+      "area": "Tai Wo Estate",
       "tel": "2650 0200",
       "fees": {
         "am": null,
@@ -952,6 +969,7 @@
       "lat": 22.470985,
       "lng": 114.19449,
       "address": "Room G02-G05, G/F, Senior Staff Quarters, the Education University of Hong Kong, 10 Lo Ping Road, Tai Po, New Territories",
+      "area": "EdUHK · Lo Ping Road",
       "tel": "2948 1638",
       "fees": {
         "am": "$54,285 (11 instalments)",
@@ -1005,6 +1023,7 @@
       "lat": 22.448085,
       "lng": 114.17601,
       "address": "G/F, Kwong Lai House, Kwong Fuk Estate, Tai Po, New Territories",
+      "area": "Kwong Fuk Estate",
       "tel": "2653 2932",
       "fees": {
         "am": "Free",
@@ -1062,6 +1081,7 @@
       "lat": 22.443524,
       "lng": 114.167597,
       "address": "Wing A & B, G/F Yat Wing House, Yat Nga Court, Tai Po, New Territories",
+      "area": "Yat Nga Court",
       "tel": "2650 3339",
       "fees": {
         "am": "$57,365 (11 instalments)",
@@ -1115,6 +1135,7 @@
       "lat": 22.448708,
       "lng": 114.176068,
       "address": "G/F, Unit 118-131, G/F, Kwong Yee House, Kwong Fuk Estate, Phase 1B Tai Po, New Territories",
+      "area": "Kwong Fuk Estate",
       "tel": "2656 2016",
       "fees": {
         "am": "Free",
@@ -1172,6 +1193,7 @@
       "lat": 22.452907,
       "lng": 114.164303,
       "address": "Entrance Lobby On G/F Shop 10 & 11 On 1/F, La Fontaine 6 Chui Lok Street, Tai Po, New Territories",
+      "area": "Town Centre · Chui Lok Street",
       "tel": "2663 3311",
       "fees": {
         "am": "$81,600 (12 instalments)",
@@ -1225,6 +1247,7 @@
       "lat": 22.449494,
       "lng": 114.174854,
       "address": "No 210-219 Kwong Yan House, Kwong Fuk Est, Tai Po, New Territories",
+      "area": "Kwong Fuk Estate",
       "tel": "2651 1778",
       "fees": {
         "am": "Free",
@@ -1282,6 +1305,7 @@
       "lat": 22.446802,
       "lng": 114.166616,
       "address": "32-38 Heung Sze Wui Square, Tai Po, New Territories",
+      "area": "Tai Po Market",
       "tel": "2651 2311",
       "fees": {
         "am": "Free",
@@ -1339,6 +1363,7 @@
       "lat": 22.441836,
       "lng": 114.166062,
       "address": "G/F, Wan Hang House, Wan Tau Tong Estate, Tai Po, New Territories",
+      "area": "Wan Tau Tong Estate",
       "tel": "2638 0018",
       "fees": {
         "am": "Free",
@@ -1396,6 +1421,7 @@
       "lat": 22.451498,
       "lng": 114.159096,
       "address": "G/F, Ka Wo House, Po Nga Court, Tai Po, New Territories",
+      "area": "Po Nga Court",
       "tel": "2651 1651",
       "fees": {
         "am": "Free",
@@ -1453,6 +1479,7 @@
       "lat": 22.459861,
       "lng": 114.171919,
       "address": "G/F, Block 2, Fu Heng Estate, Tai Po, New Territories",
+      "area": "Fu Heng Estate",
       "tel": "2664 3280",
       "fees": {
         "am": "Free",
@@ -1510,6 +1537,7 @@
       "lat": 22.459229,
       "lng": 114.17121,
       "address": "G/F, Heng Tsui House, Fu Heng Estate, Tai Po, New Territories",
+      "area": "Fu Heng Estate",
       "tel": "2660 7536",
       "fees": {
         "am": "Free",
@@ -1567,6 +1595,7 @@
       "lat": 22.46341,
       "lng": 114.175534,
       "address": "Kindergarten 1, G/F, Fung Tip House, Fu Tip Estate, Tai Po, New Territories",
+      "area": "Fu Tip Estate",
       "tel": "2657 4168",
       "fees": {
         "am": "Free",
@@ -1624,6 +1653,7 @@
       "lat": 22.451769,
       "lng": 114.164964,
       "address": "G/F, 1/F - 2/F, 7 Ting Kok Road, Tai Po, New Territories",
+      "area": "Ting Kok Road",
       "tel": "2144 0708",
       "fees": {
         "am": "Free",
@@ -1681,6 +1711,7 @@
       "lat": 22.455282,
       "lng": 114.167965,
       "address": "G/F, Tai Ling House, Tai Yuen Estate, Tai Po, New Territories",
+      "area": "Tai Yuen Estate",
       "tel": "2664 9725",
       "fees": {
         "am": null,
@@ -1738,6 +1769,7 @@
       "lat": 22.454036,
       "lng": 114.174815,
       "address": "Fu Shin Estate, Tai Po, New Territories",
+      "area": "Fu Shin Estate",
       "tel": "2661 2866",
       "fees": {
         "am": null,
@@ -1795,6 +1827,7 @@
       "lat": 22.454469,
       "lng": 114.166761,
       "address": "Unit 309-316, 3/F Tai Tak House, Tai Yuen Estate, Tai Po, New Territories",
+      "area": "Tai Yuen Estate",
       "tel": "2665 5111",
       "fees": {
         "am": "Free",
@@ -1852,6 +1885,7 @@
       "lat": 22.446279,
       "lng": 114.166392,
       "address": "5/F And Roof Playground, Tai Po Community Centre, Heung Sze Wui Street, Tai Po Market, New Territories",
+      "area": "Tai Po Market",
       "tel": "2653 2393",
       "fees": {
         "am": null,
@@ -1909,6 +1943,7 @@
       "lat": 22.442829,
       "lng": 114.167354,
       "address": "G/F, Yat Yan House, Yat Nga Court, Tai Po, New Territories",
+      "area": "Yat Nga Court",
       "tel": "2656 6855",
       "fees": {
         "am": "Free",
@@ -1966,6 +2001,7 @@
       "lat": 22.442179,
       "lng": 114.166072,
       "address": "3/F, Neighbourhood Community Centre, Wan Tau Tong Estate, Tai Po, New Territories",
+      "area": "Wan Tau Tong Estate",
       "tel": "2638 3082",
       "fees": {
         "am": null,

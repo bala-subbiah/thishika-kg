@@ -139,6 +139,36 @@ function parseList(html) {
   return [...seen.values()];
 }
 
+/* ------------------------------------------------------------------ area -- */
+
+// Neighbourhood grouping for the list view, derived from the address.
+const AREA_RULES = [
+  [/Fu Heng Est/i, "Fu Heng Estate"],
+  [/Fu Shin Est/i, "Fu Shin Estate"],
+  [/Tai Wo Est/i, "Tai Wo Estate"],
+  [/Kwong Fuk Est/i, "Kwong Fuk Estate"],
+  [/Tai Yuen Est/i, "Tai Yuen Estate"],
+  [/Wan Tau Tong Est/i, "Wan Tau Tong Estate"],
+  [/Fu Tip Est/i, "Fu Tip Estate"],
+  [/Po Nga Court/i, "Po Nga Court"],
+  [/Yat Nga Court/i, "Yat Nga Court"],
+  [/Sun Hing Garden/i, "Sun Hing Garden"],
+  [/Chui Lok Street/i, "Town Centre · Chui Lok Street"],
+  [/Hong Lok Yuen/i, "Hong Lok Yuen"],
+  [/Constellation Cove|Hung Lam Drive/i, "Constellation Cove"],
+  [/Mayfair By the Sea|Fo Chun Road/i, "Pak Shek Kok"],
+  [/Education University|Lo Ping Road/i, "EdUHK · Lo Ping Road"],
+  [/Ting Kok Road/i, "Ting Kok Road"],
+  [/Plover Cove/i, "Plover Cove Road"],
+  [/Wan Tau Street|Heung Sze Wui/i, "Tai Po Market"],
+  [/Kam Shan Road|Kwong Fuk Road/i, "Kwong Fuk Road"],
+];
+
+function deriveArea(address) {
+  for (const [re, label] of AREA_RULES) if (re.test(address)) return label;
+  return "Tai Po";
+}
+
 /* ---------------------------------------------------------------- detail -- */
 
 /** All leaf table cells (no nested table inside), cleaned, in document order. */
@@ -216,6 +246,7 @@ function parseDetail(html, listEntry) {
     lat: null,
     lng: null,
     address: "",
+    area: "Tai Po",
     tel: null,
     fees: { am: null, pm: null, wd: null },
     feesAnnual: { am: null, pm: null, wd: null },
@@ -228,6 +259,9 @@ function parseDetail(html, listEntry) {
 
   const rawAddress = valueAfter(cells, /^Address:?$/i) ?? "";
   school.address = rawAddress ? titleCase(rawAddress) : "";
+  school.area = deriveArea(school.address);
+  if (school.area === "Tai Po")
+    warn(`${id} (${school.name}): no area rule matched "${school.address}"`);
   school.tel = valueAfter(cells, /^Tel\.?:?$/i);
 
   // Scheme banner: a "Joining" / "Not Joining" cell right before
