@@ -1,0 +1,12 @@
+{
+  "generatedAt": null,
+  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=taipo",
+  "home": {
+    "name": "Casa Brava",
+    "address": "73 Ting Kok Road, Tai Po, New Territories",
+    "lat": 22.4523,
+    "lng": 114.1729,
+    "estimated": true
+  },
+  "schools": []
+}
