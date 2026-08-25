@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { Home, SchemeFilter } from "./types";
+import type { Home, SchemeFilter, SessionFilter } from "./types";
 import type { RankedSchool } from "./App";
 import SchoolList from "./SchoolList";
 import SchoolDetail from "./SchoolDetail";
@@ -18,15 +18,24 @@ interface Props {
   selected: RankedSchool | null;
   home: Home | null;
   filter: SchemeFilter;
+  session: SessionFilter;
   onSelect: (id: string) => void;
   onBack: () => void;
 }
+
+const SESSION_LABEL: Record<SessionFilter, string> = {
+  any: "",
+  am: " · AM",
+  pm: " · PM",
+  wd: " · whole-day",
+};
 
 export default function Sheet({
   schools,
   selected,
   home,
   filter,
+  session,
   onSelect,
   onBack,
 }: Props) {
@@ -107,11 +116,11 @@ export default function Sheet({
             {schools.length} kindergarten{schools.length === 1 ? "" : "s"}
           </h2>
           <span>
-            {filter === "all"
+            {(filter === "all"
               ? "nearest first"
               : filter === "joining"
                 ? "joining scheme"
-                : "not joining"}
+                : "not joining") + SESSION_LABEL[session]}
           </span>
         </div>
       )}

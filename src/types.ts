@@ -43,3 +43,4 @@ export interface Snapshot {
 }
 
 export type SchemeFilter = "all" | "joining" | "not";
+export type SessionFilter = "any" | "am" | "pm" | "wd";

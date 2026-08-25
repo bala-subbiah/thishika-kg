@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { School, SchemeFilter, Snapshot } from "./types";
+import type { School, SchemeFilter, SessionFilter, Snapshot } from "./types";
 import { haversineKm } from "./geo";
 import MapView from "./MapView";
 import Sheet from "./Sheet";
@@ -16,6 +16,7 @@ export default function App() {
   const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<SchemeFilter>("all");
+  const [session, setSession] = useState<SessionFilter>("any");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -48,8 +49,9 @@ export default function App() {
       .filter((s) =>
         filter === "all" ? true : filter === "joining" ? s.scheme : !s.scheme,
       )
+      .filter((s) => session === "any" || offersSession(s, session))
       .map((s, i) => ({ ...s, rank: i + 1 }));
-  }, [snapshot, home, filter]);
+  }, [snapshot, home, filter, session]);
 
   const counts = useMemo(() => {
     const all = snapshot?.schools ?? [];
@@ -57,6 +59,9 @@ export default function App() {
       all: all.length,
       joining: all.filter((s) => s.scheme).length,
       not: all.filter((s) => !s.scheme).length,
+      am: all.filter((s) => offersSession(s, "am")).length,
+      pm: all.filter((s) => offersSession(s, "pm")).length,
+      wd: all.filter((s) => offersSession(s, "wd")).length,
     };
   }, [snapshot]);
 
@@ -98,6 +103,32 @@ export default function App() {
             onClick={() => setFilter("not")}
           />
         </div>
+        <div className="filters" role="tablist" aria-label="Session filter">
+          <FilterChip
+            label="Any session"
+            count={counts.all}
+            on={session === "any"}
+            onClick={() => setSession("any")}
+          />
+          <FilterChip
+            label="AM"
+            count={counts.am}
+            on={session === "am"}
+            onClick={() => setSession("am")}
+          />
+          <FilterChip
+            label="PM"
+            count={counts.pm}
+            on={session === "pm"}
+            onClick={() => setSession("pm")}
+          />
+          <FilterChip
+            label="Whole-day"
+            count={counts.wd}
+            on={session === "wd"}
+            onClick={() => setSession("wd")}
+          />
+        </div>
         {DEMO && <div className="demo-flag">Demo data — not real schools</div>}
       </header>
 
@@ -106,6 +137,7 @@ export default function App() {
         selected={selected}
         home={home}
         filter={filter}
+        session={session}
         onSelect={setSelectedId}
         onBack={() => setSelectedId(null)}
       />
@@ -138,6 +170,11 @@ export default function App() {
       )}
     </div>
   );
+}
+
+/** A session is offered when the profile publishes a fee for it (incl. Free). */
+function offersSession(s: School, key: "am" | "pm" | "wd"): boolean {
+  return s.fees[key] != null;
 }
 
 function FilterChip(props: {

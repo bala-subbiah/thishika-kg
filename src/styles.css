@@ -172,6 +172,18 @@ body {
   pointer-events: auto;
   display: flex;
   gap: 7px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-right: -14px;
+  padding-right: 14px;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  flex: none;
 }
 
 .chip {
