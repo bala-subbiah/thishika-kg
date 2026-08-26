@@ -91,10 +91,37 @@ export default function Sheet({
 
   const height = dragY ?? visibleHeight(snap);
 
+  // Scrolling the content upward while the sheet is not fully open expands it
+  // first (maps-style), so every detail is reachable without hunting for the
+  // grabber. Native listeners because React wheel/touch handlers are passive.
+  useEffect(() => {
+    const body = bodyRef.current;
+    if (!body) return;
+    let touchY = 0;
+    const promote = () => setSnap((s) => (s === "full" ? s : "full"));
+    const onWheel = (e: WheelEvent) => {
+      if (e.deltaY > 0 && body.scrollTop <= 0) promote();
+    };
+    const onTouchStart = (e: TouchEvent) => {
+      touchY = e.touches[0].clientY;
+    };
+    const onTouchMove = (e: TouchEvent) => {
+      if (e.touches[0].clientY < touchY - 6 && body.scrollTop <= 0) promote();
+    };
+    body.addEventListener("wheel", onWheel, { passive: true });
+    body.addEventListener("touchstart", onTouchStart, { passive: true });
+    body.addEventListener("touchmove", onTouchMove, { passive: true });
+    return () => {
+      body.removeEventListener("wheel", onWheel);
+      body.removeEventListener("touchstart", onTouchStart);
+      body.removeEventListener("touchmove", onTouchMove);
+    };
+  }, []);
+
   return (
     <section
       className={"sheet" + (dragY == null ? " sheet--anim" : "")}
-      style={{ transform: `translateY(calc(100dvh - ${height}px))` }}
+      style={{ height: `${height}px` }}
       aria-label="Kindergarten list"
     >
       <div
