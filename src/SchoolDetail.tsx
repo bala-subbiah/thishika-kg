@@ -47,7 +47,7 @@ export default function SchoolDetail({ school: s, home, onBack }: Props) {
         {s.tel}
       </a>,
     ]);
-  for (const [label, value] of s.extras) facts.push([label, value]);
+  for (const [label, value] of s.extras) facts.push([label, linkify(label, value)]);
 
   return (
     <article className="detail">
@@ -121,6 +121,18 @@ export default function SchoolDetail({ school: s, home, onBack }: Props) {
         Road — use the direction buttons for real routes.
       </p>
     </article>
+  );
+}
+
+/** Render URL-ish extra values (school websites) as tappable links. */
+function linkify(label: string, value: string): React.ReactNode {
+  if (!/^(https?:\/\/|www\.)\S+$/i.test(value.trim())) return value;
+  const url = value.trim();
+  const href = /^https?:\/\//i.test(url) ? url : `https://${url}`;
+  return (
+    <a key={label} href={href} target="_blank" rel="noopener noreferrer">
+      {url.replace(/^https?:\/\//i, "")}
+    </a>
   );
 }
 
