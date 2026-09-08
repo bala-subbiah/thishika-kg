@@ -109,6 +109,8 @@ export default function MapView({
       el.className = `pin ${s.scheme ? "pin--scheme" : "pin--open"}`;
       el.textContent = String(s.rank);
       el.setAttribute("aria-label", s.name);
+      // pins duplicate the list; keep them clickable but out of the tab order
+      el.tabIndex = -1;
       el.addEventListener("click", (e) => {
         e.stopPropagation();
         onSelect(s.id);

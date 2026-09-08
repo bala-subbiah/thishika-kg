@@ -72,6 +72,28 @@ export default function App() {
 
   const selected = ranked.find((s) => s.id === selectedId) ?? null;
 
+  // Keyboard: Escape closes the detail view; "/" jumps to search (desktop)
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const inField =
+        e.target instanceof HTMLElement &&
+        /^(input|textarea|select)$/i.test(e.target.tagName);
+      if (e.key === "Escape" && selectedId) {
+        setSelectedId(null);
+      } else if (e.key === "/" && !inField) {
+        const search = document.querySelector<HTMLInputElement>(
+          ".sidebar-search input",
+        );
+        if (search) {
+          e.preventDefault();
+          search.focus();
+        }
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [selectedId]);
+
   return (
     <div className={"app" + (desktop ? " app--desktop" : "")}>
       <MapView

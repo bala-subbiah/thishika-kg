@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { Home, SchemeFilter, SessionFilter } from "./types";
 import type { RankedSchool } from "./App";
 import FilterChips, { type Counts } from "./FilterChips";
@@ -30,6 +30,8 @@ export default function Sidebar({
   onSelect,
 }: Props) {
   const [query, setQuery] = useState("");
+  const lastSelectedRef = useRef<string | null>(null);
+  if (selected) lastSelectedRef.current = selected.id;
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -116,7 +118,11 @@ export default function Sidebar({
             </div>
             <div className="sidebar-scroll">
               {visible.length > 0 ? (
-                <SchoolList schools={visible} onSelect={onSelect} />
+                <SchoolList
+                  schools={visible}
+                  onSelect={onSelect}
+                  returnFocusId={lastSelectedRef.current}
+                />
               ) : (
                 <p className="no-results">No kindergartens match “{query}”.</p>
               )}

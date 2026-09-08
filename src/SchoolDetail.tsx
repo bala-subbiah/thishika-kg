@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import type { Home } from "./types";
 import type { RankedSchool } from "./App";
 import { directionsUrl, formatKm } from "./geo";
@@ -28,6 +29,13 @@ interface Props {
 }
 
 export default function SchoolDetail({ school: s, home, onBack }: Props) {
+  // Hand keyboard focus to the detail so Tab continues from here; the list
+  // restores focus to the row on the way back.
+  const backRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    backRef.current?.focus({ preventScroll: true });
+  }, [s.id]);
+
   const homeQuery = home
     ? `${home.name}, ${home.address}`
     : "Casa Brava, 73 Ting Kok Road, Tai Po";
@@ -51,7 +59,7 @@ export default function SchoolDetail({ school: s, home, onBack }: Props) {
 
   return (
     <article className="detail">
-      <button type="button" className="back" onClick={onBack}>
+      <button type="button" className="back" ref={backRef} onClick={onBack}>
         ← All kindergartens
       </button>
       <h2>{s.name}</h2>

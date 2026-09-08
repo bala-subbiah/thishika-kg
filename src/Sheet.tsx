@@ -43,6 +43,8 @@ export default function Sheet({
   const [dragY, setDragY] = useState<number | null>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
   const drag = useRef<{ startY: number; startH: number } | null>(null);
+  const lastSelectedRef = useRef<string | null>(null);
+  if (selected) lastSelectedRef.current = selected.id;
 
   // Opening a school from the peek state lifts the sheet so the detail shows
   useEffect(() => {
@@ -155,7 +157,11 @@ export default function Sheet({
         {selected ? (
           <SchoolDetail school={selected} home={home} onBack={onBack} />
         ) : (
-          <SchoolList schools={schools} onSelect={onSelect} />
+          <SchoolList
+            schools={schools}
+            onSelect={onSelect}
+            returnFocusId={lastSelectedRef.current}
+          />
         )}
       </div>
     </section>
