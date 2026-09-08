@@ -148,7 +148,9 @@ export default function MapView({
     const map = mapRef.current;
     if (!map) return;
     for (const [id, marker] of markersRef.current) {
-      marker.getElement().classList.toggle("pin--active", id === selectedId);
+      const el = marker.getElement();
+      el.classList.toggle("pin--active", id === selectedId);
+      el.classList.toggle("pin--dim", selectedId != null && id !== selectedId);
     }
     const s = schools.find((x) => x.id === selectedId);
     if (s && s.lat != null && s.lng != null) {

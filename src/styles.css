@@ -130,10 +130,31 @@ input:focus-visible {
   border-color: var(--slate);
 }
 
+/* Selection must read at a glance: invert to ink, halo ring, scale up,
+   and dim every other pin while something is selected. */
 .pin--active {
   transform: scale(1.35);
-  box-shadow: 0 8px 24px rgba(33, 27, 20, 0.4);
+  background: var(--ink) !important;
+  color: #fff !important;
+  border-color: #fff;
+  box-shadow:
+    0 0 0 5px var(--accent-wash),
+    0 0 0 1.5px var(--accent),
+    0 8px 24px rgba(0, 0, 0, 0.35);
   z-index: 5;
+}
+
+/* filter, not opacity — MapLibre writes inline opacity on marker elements */
+.pin--dim {
+  filter: saturate(0.25) opacity(0.5);
+}
+
+.pin {
+  transition:
+    transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1),
+    filter 0.18s ease,
+    background 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .pin-home {
