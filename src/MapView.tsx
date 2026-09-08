@@ -80,6 +80,28 @@ export default function MapView({
     for (const m of markersRef.current.values()) m.remove();
     markersRef.current.clear();
 
+    // Campuses sharing one rooftop (same building, or a shared geocode) get
+    // fanned out with a screen-space pixel offset so both pins stay visible
+    // and tappable at every zoom. Distances and directions use the true point.
+    const byCoord = new Map<string, RankedSchool[]>();
+    for (const s of schools) {
+      if (s.lat == null || s.lng == null) continue;
+      const key = `${s.lat.toFixed(5)},${s.lng.toFixed(5)}`;
+      byCoord.set(key, [...(byCoord.get(key) ?? []), s]);
+    }
+    const pxOffset = new Map<string, [number, number]>();
+    for (const group of byCoord.values()) {
+      if (group.length === 1) continue;
+      const r = 15; // px from the shared point
+      group.forEach((s, i) => {
+        const a = (2 * Math.PI * i) / group.length - Math.PI / 2;
+        pxOffset.set(s.id, [
+          Math.round(r * Math.cos(a)),
+          Math.round(r * Math.sin(a)),
+        ]);
+      });
+    }
+
     for (const s of schools) {
       if (s.lat == null || s.lng == null) continue;
       const el = document.createElement("button");
@@ -91,7 +113,10 @@ export default function MapView({
         e.stopPropagation();
         onSelect(s.id);
       });
-      const marker = new maplibregl.Marker({ element: el })
+      const marker = new maplibregl.Marker({
+        element: el,
+        offset: pxOffset.get(s.id) ?? [0, 0],
+      })
         .setLngLat([s.lng, s.lat])
         .addTo(map);
       markersRef.current.set(s.id, marker);
