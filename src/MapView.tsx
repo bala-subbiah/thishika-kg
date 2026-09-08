@@ -14,9 +14,16 @@ interface Props {
   schools: RankedSchool[];
   selectedId: string | null;
   onSelect: (id: string | null) => void;
+  desktop: boolean;
 }
 
-export default function MapView({ home, schools, selectedId, onSelect }: Props) {
+export default function MapView({
+  home,
+  schools,
+  selectedId,
+  onSelect,
+  desktop,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<Map<string, maplibregl.Marker>>(new Map());
@@ -33,6 +40,12 @@ export default function MapView({ home, schools, selectedId, onSelect }: Props) 
       attributionControl: { compact: true },
     });
     map.touchPitch.disable();
+    if (window.matchMedia("(min-width: 900px)").matches) {
+      map.addControl(
+        new maplibregl.NavigationControl({ showCompass: false }),
+        "bottom-right",
+      );
+    }
     mapRef.current = map;
     return () => {
       map.remove();
@@ -91,14 +104,17 @@ export default function MapView({ home, schools, selectedId, onSelect }: Props) 
         if (s.lat != null && s.lng != null) bounds.extend([s.lng, s.lat]);
       if (!bounds.isEmpty()) {
         map.fitBounds(bounds, {
-          padding: { top: 160, bottom: 180, left: 42, right: 42 },
+          // desktop: keep pins clear of the floating 388px sidebar
+          padding: desktop
+            ? { top: 60, bottom: 80, left: 450, right: 60 }
+            : { top: 160, bottom: 180, left: 42, right: 42 },
           maxZoom: 15,
           duration: 0,
         });
         didFitRef.current = true;
       }
     }
-  }, [schools, home, onSelect]);
+  }, [schools, home, onSelect, desktop]);
 
   // Selection highlight + fly
   useEffect(() => {
@@ -111,14 +127,15 @@ export default function MapView({ home, schools, selectedId, onSelect }: Props) 
     if (s && s.lat != null && s.lng != null) {
       map.flyTo({
         center: [s.lng, s.lat],
-        zoom: Math.max(map.getZoom(), 14.6),
-        // keep the pin visible above the half-open sheet
-        offset: [0, -window.innerHeight * 0.14],
+        zoom: Math.max(map.getZoom(), desktop ? 15 : 14.6),
+        // desktop: center in the area right of the sidebar; mobile: keep the
+        // pin visible above the half-open sheet
+        offset: desktop ? [208, 0] : [0, -window.innerHeight * 0.14],
         duration: 650,
         essential: true,
       });
     }
-  }, [selectedId, schools]);
+  }, [selectedId, schools, desktop]);
 
   return <div ref={containerRef} className="map" />;
 }

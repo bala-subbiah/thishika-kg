@@ -1,8 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import type { School, SchemeFilter, SessionFilter, Snapshot } from "./types";
 import { haversineKm } from "./geo";
+import { useMediaQuery } from "./useMediaQuery";
 import MapView from "./MapView";
 import Sheet from "./Sheet";
+import Sidebar from "./Sidebar";
+import Legend from "./Legend";
+import FilterChips from "./FilterChips";
 
 export interface RankedSchool extends School {
   rank: number;
@@ -18,6 +22,7 @@ export default function App() {
   const [filter, setFilter] = useState<SchemeFilter>("all");
   const [session, setSession] = useState<SessionFilter>("any");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const desktop = useMediaQuery("(min-width: 900px)");
 
   useEffect(() => {
     fetch(DATA_URL)
@@ -68,79 +73,62 @@ export default function App() {
   const selected = ranked.find((s) => s.id === selectedId) ?? null;
 
   return (
-    <div className="app">
+    <div className={"app" + (desktop ? " app--desktop" : "")}>
       <MapView
         home={home}
         schools={ranked}
         selectedId={selectedId}
         onSelect={setSelectedId}
+        desktop={desktop}
       />
 
-      <header className="topbar">
-        <div className="masthead">
-          <h1>Tai Po Kindergartens</h1>
-          <p>
-            EDB 2025/26 profile · nearest-first from <strong>Casa Brava</strong>
-          </p>
-        </div>
-        <div className="filters" role="tablist" aria-label="Scheme filter">
-          <FilterChip
-            label="All"
-            count={counts.all}
-            on={filter === "all"}
-            onClick={() => setFilter("all")}
+      {desktop ? (
+        <>
+          <Sidebar
+            schools={ranked}
+            selected={selected}
+            home={home}
+            filter={filter}
+            session={session}
+            counts={counts}
+            onFilter={setFilter}
+            onSession={setSession}
+            onSelect={setSelectedId}
           />
-          <FilterChip
-            label="Joining scheme"
-            count={counts.joining}
-            on={filter === "joining"}
-            onClick={() => setFilter("joining")}
-          />
-          <FilterChip
-            label="Not joining"
-            count={counts.not}
-            on={filter === "not"}
-            onClick={() => setFilter("not")}
-          />
-        </div>
-        <div className="filters" role="tablist" aria-label="Session filter">
-          <FilterChip
-            label="Any session"
-            count={counts.all}
-            on={session === "any"}
-            onClick={() => setSession("any")}
-          />
-          <FilterChip
-            label="AM"
-            count={counts.am}
-            on={session === "am"}
-            onClick={() => setSession("am")}
-          />
-          <FilterChip
-            label="PM"
-            count={counts.pm}
-            on={session === "pm"}
-            onClick={() => setSession("pm")}
-          />
-          <FilterChip
-            label="Whole-day"
-            count={counts.wd}
-            on={session === "wd"}
-            onClick={() => setSession("wd")}
-          />
-        </div>
-        {DEMO && <div className="demo-flag">Demo data — not real schools</div>}
-      </header>
+          <Legend />
+          {DEMO && <div className="demo-flag demo-flag--desktop">Demo data — not real schools</div>}
+        </>
+      ) : (
+        <>
+          <header className="topbar">
+            <div className="masthead">
+              <h1>Tai Po Kindergartens</h1>
+              <p>
+                EDB 2025/26 profile · nearest-first from{" "}
+                <strong>Casa Brava</strong>
+              </p>
+            </div>
+            <FilterChips
+              filter={filter}
+              session={session}
+              counts={counts}
+              onFilter={setFilter}
+              onSession={setSession}
+            />
+            {DEMO && <div className="demo-flag">Demo data — not real schools</div>}
+          </header>
 
-      <Sheet
-        schools={ranked}
-        selected={selected}
-        home={home}
-        filter={filter}
-        session={session}
-        onSelect={setSelectedId}
-        onBack={() => setSelectedId(null)}
-      />
+          <Sheet
+            schools={ranked}
+            selected={selected}
+            home={home}
+            filter={filter}
+            session={session}
+            onSelect={setSelectedId}
+            onBack={() => setSelectedId(null)}
+          />
+        </>
+      )}
 
       {snapshot && snapshot.schools.length === 0 && (
         <div className="empty">
@@ -175,24 +163,4 @@ export default function App() {
 /** A session is offered when the profile publishes a fee for it (incl. Free). */
 function offersSession(s: School, key: "am" | "pm" | "wd"): boolean {
   return s.fees[key] != null;
-}
-
-function FilterChip(props: {
-  label: string;
-  count: number;
-  on: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      role="tab"
-      aria-selected={props.on}
-      className={"chip" + (props.on ? " chip--on" : "")}
-      onClick={props.onClick}
-    >
-      {props.label}
-      <span className="count">{props.count}</span>
-    </button>
-  );
 }
