@@ -1,0 +1,13 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "School page · mobile", "x": 0, "y": 0, "w": 390, "h": 1760 },
+    { "file": "Desktop.dc.html", "title": "School page · desktop", "x": 500, "y": 0, "w": 1180, "h": 1080 },
+    { "file": "District.dc.html", "title": "District page · desktop", "x": 500, "y": 1220, "w": 1180, "h": 940 }
+  ],
+  "annotations": [
+    { "id": "journey", "x": 0, "y": -240, "w": 420, "text": "The journey these pages serve:\nGoogle search (\"Tai Po Rhenish Church Kindergarten fees\") → school page answers instantly → \"View on the map\" deep-links into the existing map app with that school selected.\n\nThe map app is untouched — these are ~1,000 static entry doors generated at build time from the same snapshot." },
+    { "id": "seo-invisible", "x": 460, "y": -240, "w": 380, "text": "Invisible on the wireframe but part of every page:\n• unique <title> + meta description (name, fees, district, year)\n• JSON-LD schema.org Preschool (address, geo, phone)\n• breadcrumb structured data\n• OpenGraph share card\n• entry in sitemap.xml" },
+    { "id": "no-map-engine", "x": 880, "y": -240, "w": 360, "text": "Deliberate: school pages load NO map engine (the 350KB MapLibre stays in the app only). The locator is a static image — pages stay fast, which is itself a ranking factor." }
+  ],
+  "launch": { "view": "canvas" }
+}

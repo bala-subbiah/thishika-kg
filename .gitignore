@@ -3,3 +3,4 @@ dist/
 scripts/cache/
 *.tsbuildinfo
 .DS_Store
+wireframes/school-page-wireframes.html
