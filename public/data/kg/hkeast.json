@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=hkeast",
  "district": {
@@ -67,7 +67,7 @@
   },
   {
    "id": "6927",
-   "name": "Abc Pathways International Kindergarten",
+   "name": "ABC Pathways International Kindergarten",
    "scheme": false,
    "lat": 22.285115,
    "lng": 114.216921,
@@ -789,7 +789,7 @@
   },
   {
    "id": "5915",
-   "name": "Elchk Hing Wah Nursery School",
+   "name": "ELCHK Hing Wah Nursery School",
    "scheme": true,
    "lat": 22.262478,
    "lng": 114.23561,
@@ -963,13 +963,13 @@
    "area": "Ching Wah Street",
    "tel": "2570 4173",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "K1 $50,800 (10) · K2 $50,800 – $85,400 · K3 $50,800 – $85,400",
+    "pm": "K1 $50,800 (10) · K2 $50,800 – $85,400 · K3 $50,800 – $85,400",
     "wd": "K1 — · K2 $66,500 (10) · K3 $66,500 (10)"
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 50800,
+    "pm": 50800,
     "wd": 66500
    },
    "enrolment": "AM 434 · PM 262 · Whole-day 20",
@@ -1077,12 +1077,12 @@
    "fees": {
     "am": null,
     "pm": null,
-    "wd": null
+    "wd": "K1 — · K2 $56,000 – $71,000 · K3 $97,100 (10)"
    },
    "feesAnnual": {
     "am": null,
     "pm": null,
-    "wd": null
+    "wd": 56000
    },
    "enrolment": "Whole-day 29",
    "teacherPupilRatio": "1:4.1 AM · 1:4.1 PM",
@@ -1299,13 +1299,13 @@
    "area": "King's Road",
    "tel": "2501 5108",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "$86,400 – $90,000 (12 instalments)",
+    "pm": "$86,400 – $90,000 (12 instalments)",
     "wd": null
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 86400,
+    "pm": 86400,
     "wd": null
    },
    "enrolment": "AM 168 · PM 168",
@@ -1413,12 +1413,12 @@
    "fees": {
     "am": null,
     "pm": null,
-    "wd": null
+    "wd": "K1 — · K2 $146,093 – $151,984 · K3 $146,093 – $151,984"
    },
    "feesAnnual": {
     "am": null,
     "pm": null,
-    "wd": null
+    "wd": 146093
    },
    "enrolment": "Whole-day 132",
    "teacherPupilRatio": "1:7.8 AM · 1:8.3 PM",
@@ -1797,7 +1797,7 @@
    "scheme": true,
    "lat": 22.448843,
    "lng": 114.054699,
-   "address": "1/F, Kornhill Plaza (North), Phase II I.l. 8566 Quarry Bay, Hong Kong",
+   "address": "1/F, Kornhill Plaza (North), Phase II I.L. 8566 Quarry Bay, Hong Kong",
    "area": "Kornhill Plaza",
    "tel": "2885 5836",
    "fees": {
@@ -1910,7 +1910,7 @@
    "lat": 22.263032,
    "lng": 114.250057,
    "address": "1/F Kindergarten Building of Cheerful Garden, 23 Siu Sai Wan Road, Hong Kong",
-   "area": "F Kindergarten Building of Cheerful Garden",
+   "area": "23 Siu Sai Wan Road",
    "tel": "2893 2686",
    "fees": {
     "am": "Free",
@@ -2022,7 +2022,7 @@
    "lat": 22.263032,
    "lng": 114.250057,
    "address": "Classroom 104-105, G/F, Kindergarten Building of Cheerful Garden, 23 Siu Sai Wan Road, Hong Kong",
-   "area": "Kindergarten Building of Cheerful Garden",
+   "area": "Cheerful Garden",
    "tel": "2893 2322",
    "fees": {
     "am": "Free",

@@ -1,61 +1,63 @@
-# Kindergartens near Casa Brava · Tai Po
+# HK Kindergarten Map
 
-A phone-first static map of **every Tai Po kindergarten on the EDB Kindergarten
-Profile 2025/26**, sorted nearest-first from **Casa Brava, Block 23, 73 Ting Kok
-Road** (hardcoded home — no address typing).
+A map of all **953 kindergartens across the 18 Hong Kong districts** from the **EDB
+Kindergarten Profile 2025/26**, with per-district data and a movable home pin
+(default **Casa Brava, Tai Po**).
 
-- Full-screen map (MapLibre GL + OpenFreeMap tiles) with rank-numbered pins:
-  **persimmon** = joining the Kindergarten Education Scheme, **outlined slate** =
-  not joining. Black house = home.
-- Draggable bottom sheet with the nearest-first list; tap a pin or row for
-  scheme status, straight-line distance, AM / PM / whole-day annual fees,
-  address, then the extra EDB facts (enrolment, teacher–pupil ratio,
-  curriculum, telephone, everything else the profile lists).
-- **Walk** / **Drive** buttons open real directions in Google Maps from home.
-- Filter: All / Joining scheme / Not joining (pins and ranks follow the filter).
-- English only. Duplicate school names are kept as separate campuses.
+- Full-screen map (MapLibre GL + OpenFreeMap tiles): **blue** pins = joining
+  the Kindergarten Education Scheme, **outlined grey** = not joining. Movable
+  house pin marks home.
+- First-visit welcome: geolocate position or browse by district. District bubbles
+  appear when zoomed out.
+- Desktop: master–detail layout with map and side panel. Mobile: bottom sheet
+  with the nearest-first list.
+- Tap a pin or row for scheme status, straight-line distance, AM / PM / whole-day
+  annual fees, address, enrolment, teacher–pupil ratio, curriculum, and
+  telephone.
+- **Walk** / **Drive** buttons open directions in Google Maps from home. Shortlist
+  with shareable links. Filter: All / Joining scheme / Not joining.
+- Keyboard accessible. English only. Duplicate school names are kept as separate
+  campuses.
 
-## Data: scrape once, ship a snapshot
+## Data: snapshots by district
 
-The live page never calls EDB — it reads a committed snapshot at
-`public/data/schools.json`. The snapshot is produced by a one-shot pipeline:
+The live page reads committed snapshots at `public/data/kg/{district}.json` (18
+files) and metadata at `public/data/districts.json`. Each district file holds
+`{district, schools:[{name, address, area, fees, enrolment, ...}]}` for all
+kindergartens in that district, ready to display.
+
+To refresh for an annual profile update or scrape new districts:
 
 ```
 npm install
-npm run scrape     # fetch list + ~36 school pages, parse, geocode, write snapshot
+npm run scrape --district taipo     # fetch and parse one district; --limit 5 for testing
+npm run scrape --district all       # scrape all 18 districts (sets KGP_YEAR=2025)
+KGP_YEAR=2026 npm run scrape        # override profile year for future updates
 npm run build
 ```
 
 `scripts/scrape.mjs`:
 
-1. fetches `https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=taipo`
+1. fetches `https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=<id>`
    and collects the `GoSchoolDetail('<id>')` ids;
 2. fetches each `schoolinfo.php?lang=en&schid=<id>` page (raw HTML cached in
    `scripts/cache/`, so re-runs don't re-hit the host);
 3. parses the profile tables — scheme membership, fees per session, address,
    telephone, enrolment, ratios, curriculum; anything unrecognised is kept
    verbatim in `extras` and listed as a warning;
-4. geocodes each address (and Casa Brava itself) with the Hong Kong **Address
-   Lookup Service** (`www.als.gov.hk`), converting HK1980 grid → WGS84;
-5. writes the snapshot and prints a parse report (non-zero exit on warnings).
+4. geocodes each address with the Hong Kong **Address Lookup Service**
+   (`www.als.gov.hk`), converting HK1980 grid → WGS84;
+5. writes per-district snapshots to `public/data/kg/` and prints a parse
+   report (non-zero exit on warnings).
 
-> **Status:** the snapshot in this repo has not been generated yet. The
-> environment this project was built in has an egress allowlist that blocks
-> `kgp2025.azurewebsites.net` (and `www.als.gov.hk`), so `npm run scrape` must
-> be run once from a normal machine — or from a Claude Code environment whose
-> network policy allows those two hosts. Until then the page shows a
-> "snapshot not generated" notice; append **`?demo`** to the URL to preview the
-> design with clearly-labelled fake data.
->
-> The parser was written against the expected EDB profile markup without being
-> able to fetch it; if the first run reports warnings, the raw pages are in
-> `scripts/cache/*.html` and the label-matching lives in `parseDetail()` in
-> `scripts/scrape.mjs`.
+> All 18 districts have been scraped into `public/data/kg/*.json`. When the EDB
+> Kindergarten Profile year changes, re-run `npm run scrape --district all` and
+> set `KGP_YEAR` to update all files and the home coordinate for Casa Brava.
 
 ## Develop
 
 ```
-npm run dev                 # local dev server (use ?demo for sample data)
+npm run dev                 # local dev server
 npm run build               # typecheck + static build into dist/
 node scripts/screenshot.mjs # phone-viewport design check (offline-safe)
 ```
@@ -67,8 +69,8 @@ node scripts/screenshot.mjs # phone-viewport design check (offline-safe)
 fetched by the visitor's browser from OpenFreeMap (no API key); directions open
 in Google Maps.
 
-## Home coordinates
+## Home pin
 
-`public/data/schools.json → home` currently carries an **estimated** point for
-Casa Brava (flagged `"estimated": true`); the scrape pipeline replaces it with
-the ALS rooftop coordinate. Distances shown are straight-line (haversine).
+The home pin defaults to **Casa Brava, Tai Po** (coordinates geocoded by the
+scrape pipeline via the Hong Kong Address Lookup Service). Users can drag the
+pin to any address on the map. Distances shown are straight-line (haversine).

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=islands",
  "district": {
@@ -627,7 +627,7 @@
   },
   {
    "id": "6926",
-   "name": "Esf International Kindergarten (Tung Chung)",
+   "name": "ESF International Kindergarten (Tung Chung)",
    "scheme": false,
    "lat": 22.296189,
    "lng": 113.951569,
@@ -635,13 +635,13 @@
    "area": "Ying Hong Street",
    "tel": "3742 3500",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "K1 $101,600 – $117,900 · K2 $101,600 – $117,900 · K3 —",
+    "pm": "K1 $101,600 – $117,900 · K2 $101,600 – $117,900 · K3 —",
     "wd": null
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 101600,
+    "pm": 101600,
     "wd": null
    },
    "enrolment": "AM 145 · PM 143",
@@ -1022,7 +1022,7 @@
    "lat": 22.204214,
    "lng": 114.023752,
    "address": "G/F, Commercial House of Greenery Crest, 33 Cheung Shek Road, Cheung Chau, Hong Kong",
-   "area": "Commercial House",
+   "area": "Cheung Chau",
    "tel": "2981 0066",
    "fees": {
     "am": "Free",

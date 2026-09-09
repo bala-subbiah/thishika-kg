@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=kwaichung",
  "district": {
@@ -67,7 +67,7 @@
   },
   {
    "id": "6245",
-   "name": "Esf International Kindergarten (Tsing Yi)",
+   "name": "ESF International Kindergarten (Tsing Yi)",
    "scheme": false,
    "lat": 22.359273,
    "lng": 114.107709,
@@ -520,7 +520,7 @@
    "lat": 22.353792,
    "lng": 114.135439,
    "address": "Shops No. 21, G/F & No. 1, 1/F, Commercial Complex of Wonderland Villas, 9 Wah King Hill Road, Kwai Chung, New Territories",
-   "area": "Commercial Complex of Wonderland Villas",
+   "area": "Wonderland Villas",
    "tel": "2891 9897",
    "fees": {
     "am": "$56,100 (11 instalments)",
@@ -627,7 +627,7 @@
   },
   {
    "id": "6190",
-   "name": "Elchk Grace Nursery School",
+   "name": "ELCHK Grace Nursery School",
    "scheme": true,
    "lat": 22.364032,
    "lng": 114.130368,
@@ -685,7 +685,7 @@
   },
   {
    "id": "6191",
-   "name": "Elchk Ling Kung Nursery School",
+   "name": "ELCHK Ling Kung Nursery School",
    "scheme": true,
    "lat": 22.35351,
    "lng": 114.10312,
@@ -922,7 +922,7 @@
    "lat": 22.366615,
    "lng": 114.132969,
    "address": "G/F, Commercial Centre, Shek Yam Estate, Phase 2, Kwai Chung, New Territories",
-   "area": "Commercial Centre",
+   "area": "Kwai Chung",
    "tel": "2276 5028",
    "fees": {
     "am": null,
@@ -1502,7 +1502,7 @@
    "lat": 22.363118,
    "lng": 114.103057,
    "address": "5/F, Cheung Fat Estate Community Centre, Cheung Fat Estate, Tsing Yi, New Territories",
-   "area": "Cheung Fat Estate Community Centre",
+   "area": "Tsing Yi",
    "tel": "2433 8184",
    "fees": {
     "am": null,
@@ -2077,7 +2077,7 @@
   },
   {
    "id": "6215",
-   "name": "S.k.h. Crown of Thorns Church Kwai Chung Kindergarten",
+   "name": "S.K.H. Crown of Thorns Church Kwai Chung Kindergarten",
    "scheme": true,
    "lat": 22.366361,
    "lng": 114.130649,
@@ -2135,7 +2135,7 @@
   },
   {
    "id": "6216",
-   "name": "S.k.h. Crown of Thorns Church Sadick Kindergarten",
+   "name": "S.K.H. Crown of Thorns Church Sadick Kindergarten",
    "scheme": true,
    "lat": 22.360748,
    "lng": 114.115398,
@@ -3121,7 +3121,7 @@
   },
   {
    "id": "6239",
-   "name": "W.f.b. Manjusri Nursery School",
+   "name": "W.F.B. Manjusri Nursery School",
    "scheme": true,
    "lat": 22.350214,
    "lng": 114.103588,

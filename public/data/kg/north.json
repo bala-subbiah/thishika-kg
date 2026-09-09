@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=north",
  "district": {
@@ -519,7 +519,7 @@
   },
   {
    "id": "6259",
-   "name": "Chinese Y.m.c.a. Sheung Shui Kindergarten",
+   "name": "Chinese Y.M.C.A. Sheung Shui Kindergarten",
    "scheme": true,
    "lat": 22.493609,
    "lng": 114.126321,
@@ -872,7 +872,7 @@
    "lat": 22.507616,
    "lng": 114.129115,
    "address": "Unit 23 & 24, G/F, Commercial Complex Tsui Lai Garden, 9 Fung Nam Road, Sheung Shui, New Territories",
-   "area": "Commercial Complex Tsui Lai Garden",
+   "area": "Tsui Lai Garden",
    "tel": "2669 7009",
    "fees": {
     "am": "$5,500 (10 instalments)",
@@ -1563,7 +1563,7 @@
   },
   {
    "id": "6274",
-   "name": "Po Leung Kuk Mrs. Vicwood K.t. Chong Kindergarten",
+   "name": "Po Leung Kuk Mrs. Vicwood K.T. Chong Kindergarten",
    "scheme": true,
    "lat": 22.483237,
    "lng": 114.141571,

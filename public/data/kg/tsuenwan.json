@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=tsuenwan",
  "district": {
@@ -184,7 +184,7 @@
    "lat": 22.371081,
    "lng": 114.099149,
    "address": "Shop 101-118, 1/F & Portion of G/F Belvedere Square Belvedere Garden, Phase 2, 620 Castle Peak Road, Tsuen Wan, New Territories",
-   "area": "F Belvedere Square Belvedere Garden",
+   "area": "Tsuen Wan",
    "tel": "2806 0199",
    "fees": {
     "am": "$71,280 (11 instalments)",
@@ -408,7 +408,7 @@
    "lat": 22.362861,
    "lng": 114.114329,
    "address": "Portion B, 4/F, Podium E Riviera Gardens Tsuen Wan, New Territories",
-   "area": "Podium E Riviera Gardens Tsuen",
+   "area": "E Riviera Gardens Tsuen",
    "tel": "2408 2861",
    "fees": {
     "am": "$92,400 (12 instalments)",
@@ -1150,7 +1150,7 @@
    "lat": 22.371522,
    "lng": 114.114762,
    "address": "4/F, Princess Alexandra Community Centre, Tai Ho Road, Tsuen Wan, New Territories",
-   "area": "Princess Alexandra Community Centre",
+   "area": "Tsuen Wan",
    "tel": "2490 9060",
    "fees": {
     "am": null,

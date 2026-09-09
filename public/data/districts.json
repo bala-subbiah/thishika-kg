@@ -1,1 +1,150 @@
-{"generatedAt": "2026-09-09T16:06:07.485Z", "profileYear": "2025/26", "districts": [{"id": "taipo", "name": "Tai Po", "count": 36, "scheme": 25, "lat": 22.45172, "lng": 114.17061}, {"id": "shatin", "name": "Sha Tin", "count": 0, "scheme": 0, "lat": 22.38, "lng": 114.19}]}
+{
+ "generatedAt": "2026-09-09T16:37:48.703Z",
+ "profileYear": "2025/26",
+ "districts": [
+  {
+   "id": "central",
+   "name": "Central & Western",
+   "count": 43,
+   "scheme": 23,
+   "lat": 22.28305,
+   "lng": 114.14403
+  },
+  {
+   "id": "hkeast",
+   "name": "HK East",
+   "count": 68,
+   "scheme": 43,
+   "lat": 22.28553,
+   "lng": 114.21685
+  },
+  {
+   "id": "islands",
+   "name": "Islands",
+   "count": 34,
+   "scheme": 25,
+   "lat": 22.28271,
+   "lng": 113.97782
+  },
+  {
+   "id": "southern",
+   "name": "Southern",
+   "count": 31,
+   "scheme": 18,
+   "lat": 22.24731,
+   "lng": 114.16238
+  },
+  {
+   "id": "wanchai",
+   "name": "Wan Chai",
+   "count": 29,
+   "scheme": 14,
+   "lat": 22.27571,
+   "lng": 114.18496
+  },
+  {
+   "id": "kwaichung",
+   "name": "Kwai Chung & Tsing Yi",
+   "count": 59,
+   "scheme": 54,
+   "lat": 22.36131,
+   "lng": 114.12173
+  },
+  {
+   "id": "tsuenwan",
+   "name": "Tsuen Wan",
+   "count": 37,
+   "scheme": 31,
+   "lat": 22.36976,
+   "lng": 114.11084
+  },
+  {
+   "id": "tuenmun",
+   "name": "Tuen Mun",
+   "count": 63,
+   "scheme": 56,
+   "lat": 22.39502,
+   "lng": 113.9756
+  },
+  {
+   "id": "yuenlong",
+   "name": "Yuen Long",
+   "count": 75,
+   "scheme": 66,
+   "lat": 22.45158,
+   "lng": 114.01855
+  },
+  {
+   "id": "north",
+   "name": "North",
+   "count": 44,
+   "scheme": 41,
+   "lat": 22.49658,
+   "lng": 114.13765
+  },
+  {
+   "id": "shatin",
+   "name": "Sha Tin",
+   "count": 73,
+   "scheme": 55,
+   "lat": 22.39259,
+   "lng": 114.20395
+  },
+  {
+   "id": "taipo",
+   "name": "Tai Po",
+   "count": 36,
+   "scheme": 25,
+   "lat": 22.45172,
+   "lng": 114.17061
+  },
+  {
+   "id": "kowlooncity",
+   "name": "Kowloon City",
+   "count": 87,
+   "scheme": 44,
+   "lat": 22.32072,
+   "lng": 114.18402
+  },
+  {
+   "id": "kwuntong",
+   "name": "Kwun Tong",
+   "count": 77,
+   "scheme": 71,
+   "lat": 22.31522,
+   "lng": 114.22641
+  },
+  {
+   "id": "saikung",
+   "name": "Sai Kung",
+   "count": 69,
+   "scheme": 42,
+   "lat": 22.31916,
+   "lng": 114.26209
+  },
+  {
+   "id": "shamshuipo",
+   "name": "Sham Shui Po",
+   "count": 51,
+   "scheme": 44,
+   "lat": 22.33217,
+   "lng": 114.16022
+  },
+  {
+   "id": "wongtaisin",
+   "name": "Wong Tai Sin",
+   "count": 41,
+   "scheme": 40,
+   "lat": 22.34006,
+   "lng": 114.19294
+  },
+  {
+   "id": "yautsimmongkok",
+   "name": "Yau Tsim & Mong Kok",
+   "count": 36,
+   "scheme": 26,
+   "lat": 22.31539,
+   "lng": 114.16585
+  }
+ ]
+}

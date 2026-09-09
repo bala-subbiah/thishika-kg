@@ -121,6 +121,11 @@ const clean = (s) =>
 const SMALL_WORDS = new Set(["of", "the", "and", "for", "cum"]);
 const FORCED = new Map([
   ["twghs", "TWGHs"],
+  ["elchk", "ELCHK"],
+  ["esf", "ESF"],
+  ["abc", "ABC"],
+  ["hkskh", "HKSKH"],
+  ["hkvns", "HKVNS"],
   ["ii", "II"],
   ["iii", "III"],
 ]);
@@ -143,6 +148,8 @@ function titleCase(name) {
     .map((w) => {
       if (!/[a-z]/i.test(w)) return w; // "&", "-", "(", numbers
       if (/\d|\//.test(w)) return w; // unit codes: G/F, G02-G05, 1/F
+      if (/^\(?[A-Za-z]{1,2}(\.[A-Za-z]{1,2}){1,}\.?\)?,?$/.test(w))
+        return w.toUpperCase(); // S.K.H., T.W.G.HS., Y.W.C.A, N.T., K.T.
       const openParen = w.startsWith("(");
       const bare = openParen ? w.slice(1) : w;
       const cased = titleWord(bare, first);
@@ -210,16 +217,34 @@ function lastLocality(address) {
   const tail = parts.filter(
     (p) => !/^(new territories|kowloon|hong kong|hk|h\.k\.)$/i.test(p),
   );
+  // walk back past building-description fragments to a short place name
+  for (let i = tail.length - 1; i >= 0; i--) {
+    if (tail[i].length <= 28) return tail[i];
+  }
   return tail.length ? tail[tail.length - 1] : null;
+}
+
+// building-description words that sometimes lead an extracted place name
+const LABEL_NOISE =
+  /^(Ancillary|Facilities|Blocks?|Podium|Levels?|Commercial|Complex|Club|Board|Directors?|Social|Services?|Kindergarten|Building|Portion|Ground|Floor|Wing|Annex|The|of|Accommodation)\s+/i;
+
+function tidyLabel(label, address, districtName) {
+  let l = label;
+  for (let i = 0; i < 6 && LABEL_NOISE.test(l); i++) l = l.replace(LABEL_NOISE, "");
+  // a label too long to scan is worse than the address's own locality
+  if (l.length > 32 || l.split(" ").length < 2)
+    return lastLocality(address) ?? districtName;
+  return l;
 }
 
 function deriveArea(address, districtName) {
   for (const [re, label] of AREA_RULES) if (re.test(address)) return label;
   const place = address.match(PLACE_RE);
-  if (place) return `${place[1]} ${place[2]}`;
+  if (place) return tidyLabel(`${place[1]} ${place[2]}`, address, districtName);
   const street = address.match(STREET_RE);
   if (street) return street[1];
-  return lastLocality(address) ?? districtName;
+  const loc = lastLocality(address);
+  return loc && loc.length <= 32 ? loc : districtName;
 }
 
 /* ---------------------------------------------------------------- detail -- */
@@ -241,7 +266,8 @@ const valueAfter = (cells, re) => {
   return i > -1 && i + 1 < cells.length ? cells[i + 1] : null;
 };
 
-const FEE_RE = /^(free|-|–|—|n\.?a\.?|\$[\d,]+(\s*\(\d+\))?)$/i;
+const FEE_RE =
+  /^(free|-|–|—|n\.?a\.?|\$[\d,]+(\s*\(\d+\))?(\s*[-–]\s*\$[\d,]+(\s*\(\d+\))?)?)$/i;
 const NUM_RE = /^\d+$/;
 
 function parseFeeCell(raw) {
@@ -249,7 +275,20 @@ function parseFeeCell(raw) {
   const t = clean(raw);
   if (/^(-|–|—|n\.?a\.?)$/i.test(t)) return null;
   if (/^free$/i.test(t)) return { text: "Free", annual: 0 };
-  const m = t.replace(/,/g, "").match(/^\$(\d+)(?:\s*\((\d+)\))?$/);
+  const bare = t.replace(/,/g, "");
+  // some campuses publish a per-level range: "$57,600 (12) - $63,600 (12)"
+  const range = bare.match(
+    /^\$(\d+)(?:\s*\((\d+)\))?\s*[-–]\s*\$(\d+)(?:\s*\((\d+)\))?$/,
+  );
+  if (range) {
+    const [lo, hi] = [Number(range[1]), Number(range[3])];
+    return {
+      text: `$${lo.toLocaleString("en-US")} – $${hi.toLocaleString("en-US")}`,
+      annual: lo,
+      instalments: range[2] ? Number(range[2]) : null,
+    };
+  }
+  const m = bare.match(/^\$(\d+)(?:\s*\((\d+)\))?$/);
   if (!m) return { text: t, annual: null };
   return { text: t, annual: Number(m[1]), instalments: m[2] ? Number(m[2]) : null };
 }
@@ -280,7 +319,8 @@ function collapseFees(levels) {
   if (uniq.length === 1) {
     display = uniq[0];
     const inst = parsed.find(Boolean)?.instalments;
-    if (inst) display = display.replace(/\s*\(\d+\)$/, ` (${inst} instalments)`);
+    if (inst && display !== "Free")
+      display = display.replace(/\s*\(\d+\)$/, "") + ` (${inst} instalments)`;
   } else {
     display = texts.map((t, i) => `K${i + 1} ${t}`).join(" · ");
   }

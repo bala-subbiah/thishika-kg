@@ -1,0 +1,2385 @@
+{
+ "generatedAt": "2026-09-09T16:37:48.703Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=wongtaisin",
+ "district": {
+  "id": "wongtaisin",
+  "name": "Wong Tai Sin"
+ },
+ "schools": [
+  {
+   "id": "6679",
+   "name": "A-One Kindergarten",
+   "scheme": true,
+   "lat": 22.336565,
+   "lng": 114.205549,
+   "address": "G/F, Kam Hon House, Choi Hung Estate, Choi Hung, Kowloon",
+   "area": "Kam Hon House",
+   "tel": "2320 4880",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6000
+   },
+   "enrolment": "AM 8 · Whole-day 68",
+   "teacherPupilRatio": "1:7.6 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To meet the needs for children’s development, we rely on the HighScope teaching approach and designed activities, supplemented with various visits and group activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://a-onekg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6679"
+  },
+  {
+   "id": "6725",
+   "name": "Good Hope Primary School cum Kindergarten",
+   "scheme": false,
+   "lat": 22.334196,
+   "lng": 114.218731,
+   "address": "381-383 Jat's Incline, Ngau Chi Wan, Kowloon",
+   "area": "Ngau Chi Wan",
+   "tel": "2320 2269",
+   "fees": {
+    "am": "$47,000 (10 instalments)",
+    "pm": "$47,000 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 47000,
+    "pm": 47000,
+    "wd": null
+   },
+   "enrolment": "AM 269 · PM 266",
+   "teacherPupilRatio": "1:11.7 AM · 1:11.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Girls"
+    ],
+    [
+     "Founded",
+     "1954"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "23"
+    ],
+    [
+     "Website",
+     "http://www3.ghs.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6725"
+  },
+  {
+   "id": "6680",
+   "name": "Buddhist Foo Hong Kindergarten",
+   "scheme": true,
+   "lat": 22.338968,
+   "lng": 114.195522,
+   "address": "G/F, Lung Yat House, Lower Wong Tai Sin Estate, Wong Tai Sin, Kowloon",
+   "area": "Lung Yat House",
+   "tel": "2326 1456",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6200
+   },
+   "enrolment": "AM 24 · Whole-day 111",
+   "teacherPupilRatio": "1:11.3 AM · 1:9.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Games and multilingualism elements, combined with life experiences, are incorporated into different learning areas, stimulating children's motivation and interest in learning and establishing new knowledge. By exploring creative and interesting environments, children can develop problem-solving skills and build diversified abilities with a growth mindset. Other activities, such as group activities, outdoor visits, storytelling, life education and mindfulness practices, help nurture a positive and confident learning attitude."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.bfhkwts.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6680"
+  },
+  {
+   "id": "6681",
+   "name": "Caritas Kai Yau Nursery School",
+   "scheme": true,
+   "lat": 22.336286,
+   "lng": 114.193551,
+   "address": "G/F, Unit 1-8, Fu Tung House, Tung Tau Estate, Kowloon",
+   "area": "Fu Tung House",
+   "tel": "2382 2660",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,648 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15648
+   },
+   "enrolment": "Whole-day 41",
+   "teacherPupilRatio": "1:6.6 AM · 1:6.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Whole Language Natural Learning Approach is adopted and children are encouraged to re-write stories and to create rhymes. Children also express their feelings and opinions through drawing to lay down a good foundation of language. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened children's English listening and speaking ability. The implementation of Project Learning Approach has nurtured children to learn spontaneously, to communicate with others in a friendlier attitude and to enhance their problem-solving skills and creative thinking. Situational learning activities are arranged to enrich children's daily life experience. Moreover, Orff music learning is applied and children are free to express their emotions."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://kyns.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6681"
+  },
+  {
+   "id": "6683",
+   "name": "Christian & Missionary Alliance Fu Shan Nursery School",
+   "scheme": true,
+   "lat": 22.265056,
+   "lng": 113.999567,
+   "address": "Unit 1-6, Lower Ground 1, Fu Shun House, Fu Shan Estate, Po Kong Village Road, Kowloon",
+   "area": "Fu Shun House",
+   "tel": "2351 2833",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$8,400 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 8400
+   },
+   "enrolment": "Whole-day 63",
+   "teacherPupilRatio": "1:8.5 AM · 1:8.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Project-based Learning with the concept of play as our main learning approach, we come up with topics according to children's interests and experience so as to make them more willing to learn. Our professional teachers are good at using creative games and interactive study corners to encourage children input to free play,have the spirit of autonomous exploration, adventure,cooperation, reflection and unlimited creativity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.fushan.cmasshk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6683"
+  },
+  {
+   "id": "6684",
+   "name": "Christian Evangelical Centre Lok Fu Kindergarten",
+   "scheme": true,
+   "lat": 22.336161,
+   "lng": 114.187057,
+   "address": "G/F, Lok Him House, Lok Fu Estate, 198 Junction Road, Lok Fu, Kowloon",
+   "area": "Lok Him House",
+   "tel": "2338 8236",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "K1 $5,148 (11) · K2 $5,148 (11) · K3 $6,369 (11)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5148
+   },
+   "enrolment": "AM 11 · Whole-day 49",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Diversified learning strategies. 2. Putonghua and NAT teacher Classes. 3. Implement school-based character and life education as well as emotional regulation education. 4. Free play activities are arranged every day to cultivate children's curiosity and exploration skills and promote independent learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1971"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lokfukg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6684"
+  },
+  {
+   "id": "6724",
+   "name": "Diamond Hill Ling Liang Kindergarten",
+   "scheme": true,
+   "lat": 22.34081,
+   "lng": 114.201784,
+   "address": "Podium Level 2, Galaxia, 3 Lung Poon Street, Diamond Hill, Kowloon",
+   "area": "Lung Poon Street",
+   "tel": "2955 9797",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 165 · PM 114",
+   "teacherPupilRatio": "1:8.7 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school adopts the “plan-do-review” learning process of \"High Scope Approach\". Children are encouraged to experience, explore, create and learn by undergoing a multi-process journey. 2. It derives motivation from themes, thus leading to activities of project-based learning programs to create a learning atmosphere of “entering the classroom with a question, and leaving with a number of questions.” 3. Creative activities rich in language learning and inspire children’s interest in learning words. The “Please Listen to Me” Reading Scheme trains up children to recognize and read a lot of English and Chinese vocabulary; The “Free Writing Scheme” increases children’s positive attitude towards writing, so as to enhance their ability to use words and write short essays. 4. Native-speaking English teachers prepare school-based teaching materials from daily life scenarios to help children easily master the ability to listen, speak, read and spell. 5. The school adopts Orff Schulwerk in the music activities and makes use of various musical elements to effectively achieve balanced development of children’s imaginative capacity, ability of abstraction, spatial intelligence and emotional intelligence, so as to build a foundation for learning instruments in the future. 6. Children become the master of the “Free Play”, they have the rights to making choices, planning, creating and discovering. 7. The school infuses an artistic sense into everyday teaching and popularizes art education in daily activities. Children are guided innovatively to participate in learning activities with various artistic elements."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "19"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lingliang.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6724"
+  },
+  {
+   "id": "6685",
+   "name": "Evangelize China Fellowship Blessings Creativity Kindergarten",
+   "scheme": true,
+   "lat": 22.34928,
+   "lng": 114.203368,
+   "address": "Tsz Hong Estate, Tsz Wan Shan, Kowloon",
+   "area": "Tsz Hong Estate",
+   "tel": "2997 5299",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,890 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10890
+   },
+   "enrolment": "AM 7 · Whole-day 60",
+   "teacherPupilRatio": "1:7.4 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We design learning programmes in compliance with children’s development and adopt spiral teaching methods. We work out daily schedules and adopt a variety of teaching modes (such as project-based learning, group activities, games, artistic creation, physical activities, routine training, story-based activities and visiting) to let children experience and learn in a relaxing and pleasant environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ecfbck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6685"
+  },
+  {
+   "id": "6686",
+   "name": "Five Districts Business Welfare Association Cheung Chuk Shan Kindergarten",
+   "scheme": true,
+   "lat": 22.341713,
+   "lng": 114.20026,
+   "address": "Room 109, Level 5, Commercial Complex, Lung Poon Court, Diamond Hill, Kowloon",
+   "area": "Lung Poon Court",
+   "tel": "2327 3317",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,472 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14472
+   },
+   "enrolment": "Whole-day 74",
+   "teacherPupilRatio": "1:7.4 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "According to children's interests, abilities and experience, our school curriculum formulates appropriate comprehensive courses, including: \"design activities\", \"thematic learning\" and \"picture book teaching\", allowing children to observe, discuss, construct, share and apply in their learning. Promote children's learning motivation and spirit, enhance creativity and problem-solving ability, and develop inner potential."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.ccsnkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6686"
+  },
+  {
+   "id": "6689",
+   "name": "Grace Methodist Church Kindergarten",
+   "scheme": true,
+   "lat": 22.344225,
+   "lng": 114.186349,
+   "address": "2/F, Car Park Building, Tin Wang Court, Ma Chai Hang, Kowloon",
+   "area": "Tin Wang Court",
+   "tel": "2320 4188",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$11,682 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 11682
+   },
+   "enrolment": "AM 11 · Whole-day 51",
+   "teacherPupilRatio": "1:8.2 AM · 1:8.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum is integrated the teaching modes of “theme-based learning”, “Project approach” and “picture-book instruction”. Since our curriculum contents are configured according to children’s interests and ability, we render a stimulative and diversified learning environment to nurture and strengthen their self-learning skills, which is important for their life-long learning. Our curriculum also aims at enriching the daily life experiences of the children via visiting activities and self-initiative exploration."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1993"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.grace.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6689"
+  },
+  {
+   "id": "6690",
+   "name": "Gracefield East Kowloon Christian Kindergarten",
+   "scheme": true,
+   "lat": 22.342527,
+   "lng": 114.191455,
+   "address": "G/F, Cheong Sin House, Upper Wong Tai Sin Estate, Kowloon",
+   "area": "Cheong Sin House",
+   "tel": "2216 4106",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$8,600 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 8600
+   },
+   "enrolment": "AM 11 · Whole-day 21",
+   "teacherPupilRatio": "1:5.5 AM · 1:4.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Sensory teaching Our school advocates a natural and harmonious atmosphere for students to learn under a joyful environment. Through manipulating different learning aids (including Montessori), to concertize abstract concepts through play. Reading aloud Children develop key understanding through the reading process and the relationship between printed word and meaning. It is the foundation of children’s literacy development, which also gives children the idea that the print tells a story or the message which is conveyed. Good characters building Teachers will aim a good character, which is from the fruit of Spirit in Bible, to teach children in each theme. Children practice and learn the good character at school or home through different activities. To enhance their good behaviors to care about the people and events around them. High Scope Approach Our school promotes the pedagogy of High Scope Approach for children during play time. Children can plan and arrange their activities based on their wishes. It can build up children responsibility."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.gracefield.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6690"
+  },
+  {
+   "id": "6691",
+   "name": "Ho Lap Kindergarten (Sponsored By Sik Sik Yuen)",
+   "scheme": true,
+   "lat": 22.347186,
+   "lng": 114.199028,
+   "address": "Wings B & C,G/F, Lok Shun House, Tsz Lok Estate, Tsz Wan Shan Wong Tai Sin, Kowloon",
+   "area": "Lok Shun House",
+   "tel": "2324 8201",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$4,290 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 4290
+   },
+   "enrolment": "AM 39 · Whole-day 76",
+   "teacherPupilRatio": "1:9.6 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We design children-centred curriculum with a view to inspiring and guiding children. Moreover, we cultivate and develop children’s ability to learn independently via spiral teaching methods such as theme-based and group-based teaching, whole-language teaching and designed activities, and music, games, stories and diversified activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.holapkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6691"
+  },
+  {
+   "id": "6692",
+   "name": "Ho Tak Kindergarten (Sponsored By Sik Sik Yuen)",
+   "scheme": true,
+   "lat": 22.345751,
+   "lng": 114.191669,
+   "address": "G/F, Block 8, Chung Yuen House, Chuk Yuen North Estate Phase V, Kowloon",
+   "area": "Chung Yuen House",
+   "tel": "2350 0721",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$8,360 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 8360
+   },
+   "enrolment": "AM 6 · Whole-day 42",
+   "teacherPupilRatio": "1:7.9 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To develop children’s multiple intelligences, we provide computer and online multimedia teaching and toy books, create a pleasant learning environment and leverage diversified activities and learning and teaching modes to motivate children to learn actively, explore and develop thinking potentials, so as to help them gain balanced development in morality, intelligence, physical ability, sociability and art, establish a correct outlook on life and develop a personality of “truth, kindness and beauty”."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.hotakkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6692"
+  },
+  {
+   "id": "6693",
+   "name": "Hong Kong and Macau Lutheran Church Shek On Memorial Kindergarten",
+   "scheme": true,
+   "lat": 22.340359,
+   "lng": 114.198046,
+   "address": "2/F - 3/F, Shek On Building, 11 Po Kong Village Road, Wong Tai Sin, Kowloon",
+   "area": "Po Kong Village",
+   "tel": "2328 3681",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,746 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9746
+   },
+   "enrolment": "AM 14 · Whole-day 73",
+   "teacherPupilRatio": "1:9.7 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Biliterate and trilingual competence: The foreign and professional teachers teaching English and Mandarin and add stories in class, so as to help children master the foreign languages in real situation and lay a good foundation for learning in the future. All-dimensional learning: We often provide children with opportunities to learn outdoor and explore in personal so as to acquire firsthand experience and broaden views."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.hkmlcsok.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6693"
+  },
+  {
+   "id": "6695",
+   "name": "Hong Kong Kindergarten Association Pre-School",
+   "scheme": true,
+   "lat": 22.333249,
+   "lng": 114.213256,
+   "address": "G/F, Chi Siu House, Choi Wan Estate, Kowloon",
+   "area": "Chi Siu House",
+   "tel": "2758 2008",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,270 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11270
+   },
+   "enrolment": "AM 19 · Whole-day 39",
+   "teacherPupilRatio": "1:8.3 AM · 1:5.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Provides creative thinking teaching, multiple intelligence learning, Chinese culture courses, project studies and reading plans, and often participates in community activities. Conduct scientific exploration and experiments, provide Mandarin teaching and foreign English teachers, teach students in accordance with their aptitude, and allow children to learn actively"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.hkkaps.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6695"
+  },
+  {
+   "id": "6696",
+   "name": "Hong Kong Taoist Association Yuen Yuen Kindergarten (Tung Tau Estate)",
+   "scheme": true,
+   "lat": 22.333785,
+   "lng": 114.191872,
+   "address": "G/F, 9-14 Yan Tung House, Tung Tau Estate, Kowloon",
+   "area": "Yan Tung House",
+   "tel": "2718 3637",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,687 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5687
+   },
+   "enrolment": "AM 21 · Whole-day 97",
+   "teacherPupilRatio": "1:9.5 AM · 1:9.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt child-centredness teaching methods,with theme-based and group-based teaching methods to promote children’s active learning attitude, interpersonal communication and development in art, physical ability and cognition. We also teach students information technology by equipping each classroom with a computer, touch TV and Internet system. We provide a variety of activities such as visiting, community services, uniform teams and learning activities, to enable children to learn from practical experience."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.yuenyuenkg.edu.hk/tungtau/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6696"
+  },
+  {
+   "id": "6697",
+   "name": "Hong Kong Young Women's Christian Association Choi Wan Nursery School",
+   "scheme": true,
+   "lat": 22.332969,
+   "lng": 114.214042,
+   "address": "Unit 109-114, G/F, Ngan Ho House, Choi Wan Estate, Kowloon",
+   "area": "Ngan Ho House",
+   "tel": "2755 1546",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$18,000 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 18000
+   },
+   "enrolment": "Whole-day 65",
+   "teacherPupilRatio": "1:8.4 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt theme-based teaching method and inquiry-based learning method to help children master basic knowledge and skills and form a good attitude. Moreover, we regularly arrange visiting activities to help children acquire new knowledge and develop interests and abilities in active learning. We adopt “Shared Book Approach” for English classes so that children can learn english from stories. In addition, we design the course of \"Get Set Go! Phonics” to introduce relevant phonics to children in a simple way so as to help them lay a good foundation. Moreover, children can participate in the english activities designed by the foreign teachers to improve their ability to learn English."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://nscw.ywca.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6697"
+  },
+  {
+   "id": "6698",
+   "name": "Hong Kong Young Women's Christian Association Faith Hope Nursery School",
+   "scheme": true,
+   "lat": 22.338282,
+   "lng": 114.193969,
+   "address": "G/F, Lung Hong House, Lower Wong Tai Sin Estate, Kowloon",
+   "area": "Lung Hong House",
+   "tel": "2322 5308",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,484 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17484
+   },
+   "enrolment": "Whole-day 33",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The religion and morality education, the “Pair reading” Program, vertical Interaction, corner activities and games are adopted to enhance children’s autonmous learning ability and language ability."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1954"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nsfh.ywca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6698"
+  },
+  {
+   "id": "6840",
+   "name": "Jonathan Innovative English Kindergarten",
+   "scheme": true,
+   "lat": 22.341713,
+   "lng": 114.20026,
+   "address": "Shop Ot / KG01, Lung Poon Court Commercial Centre, Diamond Hill, Kowloon",
+   "area": "Diamond Hill",
+   "tel": "2799 6300",
+   "fees": {
+    "am": "$390 (10 instalments)",
+    "pm": "$390 (10 instalments)",
+    "wd": "$11,690 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 390,
+    "pm": 390,
+    "wd": 11690
+   },
+   "enrolment": "AM 21 · Whole-day 72",
+   "teacherPupilRatio": "1:9.3 AM · 1:7.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our classes adopt thematic comprehensive teaching mode, combined with \"Yongle International children’s tablet computer interactive course\", using multiple-sensory simulation strategy, supplemented by adopting electronic teaching, to promote children’s interest in learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2014"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://joninnoschool.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6840"
+  },
+  {
+   "id": "6699",
+   "name": "Kam Lam Catholic Kindergarten",
+   "scheme": true,
+   "lat": 22.343023,
+   "lng": 114.191979,
+   "address": "G/F, Kam Lam House, Choi Wan Estate, Wong Tai Sin, Kowloon",
+   "area": "Kam Lam House",
+   "tel": "2756 7181",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,800 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11800
+   },
+   "enrolment": "AM 36 · Whole-day 86",
+   "teacherPupilRatio": "1:11.1 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We provide interesting activities (such as religious education, English, Mandarin) to help children develop an active learning attitude,develop creativity and thinking ability and practice in life"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kamlamkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6699"
+  },
+  {
+   "id": "6701",
+   "name": "Lok Fu Rhenish Church Kindergarten",
+   "scheme": true,
+   "lat": 22.34092,
+   "lng": 114.186029,
+   "address": "Flat 1-9, G/F, Wang Wai House, Wang Tau Hom Estate, Wang Tau Hom, Kowloon",
+   "area": "Wang Wai House",
+   "tel": "2336 4705",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,012 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12012
+   },
+   "enrolment": "AM 16 · Whole-day 61",
+   "teacherPupilRatio": "1:9.6 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1) Religious education based on the Word and values of Christ; 2) Activity Approach; 3) Set up learning corners; 4) Group teaching ; 5) Project learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1993"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://lfkg.ppe.rhenish.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6701"
+  },
+  {
+   "id": "6702",
+   "name": "Lok Fu Rhenish Nursery",
+   "scheme": true,
+   "lat": 22.341398,
+   "lng": 114.186038,
+   "address": "G/F, Wang Cho House, Wang Tau Hom Estate, Hong Kong",
+   "area": "Wang Cho House",
+   "tel": "2338 0538",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,688 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11688
+   },
+   "enrolment": "Whole-day 91",
+   "teacherPupilRatio": "1:8.9 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "By exploring in themes of living experience, together with group learning, children learn to cooperate with others from an early age. Besides, various diversified learning corners are set up for children to choose by themselves and carry out personal learning individually, so as to arouse their initiative to learn and develop personal learning potential, as well as to foster their initiative to explore and strengthen their thinking skills, in order to promote balanced development in knowledge, skills and attitudes. The school attaches importance to practice in daily life, so it often brings children out to the community to learn in a real situation. As a result, students can broaden their horizons and knowledge. Due to emphasis on language development, it developed its own curriculum, including: \"pre-training in writing\", \"writing program\" and \"oral cognition training\", to help children develop their language skills."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1994"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://lfc.ppe.rhenish.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6702"
+  },
+  {
+   "id": "6703",
+   "name": "Lok Sin Tong Ku Lee Kwok Sin Kindergarten",
+   "scheme": true,
+   "lat": 22.344703,
+   "lng": 114.194669,
+   "address": "G/F, Nga Yuen House, Chuk Yuen South Estate, Wong Tai Sin, Kowloon",
+   "area": "Nga Yuen House",
+   "tel": "2328 9875",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,950 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7950
+   },
+   "enrolment": "AM 4 · Whole-day 58",
+   "teacherPupilRatio": "1:7.8 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We use a High-Scope approach to deepen their learning experience through activities such as thematic study, group activities, storytelling, project approach, art creation, and scientific inquiry. We value children’s creative thinking and the development of human relationships. The curriculum allows children to learn from the game and construct knowledge in problem discovery, thought exploration, and experience feedback to improve children's ability to explore and solve problems. We use Cambridge English teaching, children through interaction with foreign teachers, that can improve their English."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.loksintongkg.edu.hk/lst_kuleekwoksin/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6703"
+  },
+  {
+   "id": "6705",
+   "name": "New Kowloon Women Association Tsz Wan Shan Nursery",
+   "scheme": true,
+   "lat": 22.349678,
+   "lng": 114.202542,
+   "address": "G/F, Ching Yuk House, Tsz Ching Estate, Tsz Wan Shan, Kowloon",
+   "area": "Ching Yuk House",
+   "tel": "2320 0444",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "Free"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 0
+   },
+   "enrolment": "Whole-day 65",
+   "teacherPupilRatio": "1:8.3 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic instruction and project-based learning is adopted in which children can personally experience and acquire knowledge in the process through games, storytelling, experiments and visits."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1975"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.newklnwa.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6705"
+  },
+  {
+   "id": "6706",
+   "name": "Our Lady's Kindergarten",
+   "scheme": true,
+   "lat": 22.344694,
+   "lng": 114.195426,
+   "address": "Whole of G/F - 4/F & Conference Room At 5/F Annex Building, 113-115 Shatin Pass Road, and 113 Shatin Pass Road, Wong Tai Sin, Kowloon",
+   "area": "Shatin Pass Road",
+   "tel": "2320 7544",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11500
+   },
+   "enrolment": "AM 125 · PM 27 · Whole-day 30",
+   "teacherPupilRatio": "1:7.4 AM · 1:4.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated teaching, visits, exploration activities, lectures, observational learning , festival performance and intra-school & inter-school competitions, parent-child recognition and experience of Chinese culture. and small experiments,"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1953"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.olk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6706"
+  },
+  {
+   "id": "6707",
+   "name": "Po Leung Kuk Fong Tam Yuen Leung (Tsz Wan Shan) Kindergarten",
+   "scheme": true,
+   "lat": 22.348142,
+   "lng": 114.203299,
+   "address": "Unit 1-2 & 5-12, Man Tai House, Tsz Man Estate, Tsz Wan Shan, Kowloon",
+   "area": "Man Tai House",
+   "tel": "2327 7561",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$24,636 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 24636
+   },
+   "enrolment": "Whole-day 94",
+   "teacherPupilRatio": "1:8.2 AM · 1:8.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning focuses on personal exploration and creativity in which out-of-classroom learning is arranged for children, as well as participation in community activities like field trips and visits etc. Classroom learning encompasses a wide array of diversified activities, individual and group learning, with English classes taught by native speakers"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1980"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/twskgn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6707"
+  },
+  {
+   "id": "6708",
+   "name": "Po Leung Kuk Kam Hing Kindergarten",
+   "scheme": true,
+   "lat": 22.342923,
+   "lng": 114.201668,
+   "address": "G/F, Fung Chuen Court, Fung Tak Estate, Diamond Hill, Kowloon",
+   "area": "Fung Chuen Court",
+   "tel": "2322 0133",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11000
+   },
+   "enrolment": "AM 209 · PM 61",
+   "teacherPupilRatio": "1:13.1 AM · 1:4.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through environmental stimulation, we provide different learning areas within our classrooms to engage children in independent procedures that allow for them to make a choice, carry out their ideas, and reflect on their activities with adults and peers. Children use their senses of sight, hearing, taste, smell and touch to explore, and understand new things in their environment. They develop self-confidence, initiative, creativity and problem-solving skills in the learning progress, and build up positive attitudes to self, others and to future learning. We observe the development of children's language and strengthen their listening, speaking, reading and writing skills by creating meaningful context to their contributions, which nurtures their interest in language and good learning attitudes. English and Putonghua are widely integrated in our school where children get to immerse in a relaxing and joyful surrounding, allowing them to conform to the diversified language environment in Hong Kong."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plkkhkg/hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6708"
+  },
+  {
+   "id": "6709",
+   "name": "Po Leung Kuk Tse Wong Pui Kuen Kindergarten",
+   "scheme": true,
+   "lat": 22.348034,
+   "lng": 114.200018,
+   "address": "G/F, Lok On House, Tsz Lok Estate, Tsz Wan Shan, Kowloon",
+   "area": "Lok On House",
+   "tel": "2352 2843",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,876 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15876
+   },
+   "enrolment": "Whole-day 109",
+   "teacherPupilRatio": "1:10.8 AM · 1:10.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning focuses on personal exploration and creativity in which out-of-classroom learning is arranged for children, as well as participation in community activities such as field trips and visits etc. Classroom learning consists of activity-based learning, project-based learning, individual and group learning, with the use of Orff musical ideas for musical activities, and English classes taught by native teachers."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/twpkkgn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6709"
+  },
+  {
+   "id": "6710",
+   "name": "Po Leung Kuk Wong Siu Ching Kindergarten",
+   "scheme": true,
+   "lat": 22.335055,
+   "lng": 114.213878,
+   "address": "5/F, Choi Wan Estate Community Centre, Choi Wan Estate, Wong Tai Sin, Kowloon",
+   "area": "Choi Wan Estate Community Centre",
+   "tel": "2755 3438",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,612 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15612
+   },
+   "enrolment": "Whole-day 78",
+   "teacherPupilRatio": "1:8.1 AM · 1:8.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school is divided into different zones where teaching materials and aids of varying ability levels are stocked. Children are free to choose the right ones to enhance their self-learning ability. Learning focus is on personal exploration and creativity, with out-of-classroom activities and participation in community activities such as field trips and visits etc. Instruction methods include thematic instruction, project-based learning, individual and group learning, with musical activities using a variety of musical elements, English classes are taught by native speakers etc. Other extra-curricular involve Grasshopper Scouts, interests groups etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/wsckgn/school-info"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6710"
+  },
+  {
+   "id": "6711",
+   "name": "Redemption Lutheran Kindergarten",
+   "scheme": true,
+   "lat": 22.341108,
+   "lng": 114.196988,
+   "address": "G/F - 1/F, 13 Muk Lun Street, Wong Tai Sin, Kowloon",
+   "area": "Muk Lun Street",
+   "tel": "2326 1546",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,911 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9911
+   },
+   "enrolment": "AM 128 · PM 27 · Whole-day 74",
+   "teacherPupilRatio": "1:12.6 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic Instruction Model is implemented at nursery , K1 and K3 in conjunction with integrated development activities to create actual activities that inspire children to think. Throughout the learning process, combining knowledge with real life experiences to achieve the pedagogical philosophy of “Hands-on Learning ” . Montessori teaching aids are deployed to enhance children's abilities in all aspects. Furthermore, theme- oriented field trips, Putonghua and classes by specialist English teachers to spur holistic development in children from a wide range of activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1971"
+    ],
+    [
+     "Registered classrooms",
+     "13"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.rlk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6711"
+  },
+  {
+   "id": "6712",
+   "name": "S.K.H. Kindly Light Church Or Pui Cheung Kindergarten",
+   "scheme": true,
+   "lat": 22.345823,
+   "lng": 114.194562,
+   "address": "Unit 101-108 & 117-124, G/F, Tung Yuen House, Chuk Yuen North Estate, Wong Tai Sin, Kowloon",
+   "area": "Tung Yuen House",
+   "tel": "2325 4254",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,010 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13010
+   },
+   "enrolment": "AM 13 · Whole-day 83",
+   "teacherPupilRatio": "1:11.1 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning through the project approach and small group approach that focus on billiteracy and trilingualism for multi-intelligence cultivation in developing children’s mental and verbal skills, while acquiring new knowledge in the course of interests discovery and exploration. English is taught by native speakers while Putonghua is taught by teachers from Beijing. Participation in uniformed groups such as the Boys' Brigade, Hong Kong is arranged, and we also encourage our students to take part in community events and competitions to nurture sense of confidence and cooperation. Various interests activities are held after school to explore students’ other potential, at the same time orchestrating a variety of extra-curricular visits to instill sense of civil awareness and social development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.skhklcopc.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6712"
+  },
+  {
+   "id": "6713",
+   "name": "San Po Kong Rhenish Nursery",
+   "scheme": true,
+   "lat": 22.335049,
+   "lng": 114.195871,
+   "address": "G/F, A23-A26, A36-42, A48-52, A53A-A56, San Po Kong Plaza, 33 Shung Ling Street, San Po Kong, Kowloon",
+   "area": "San Po Kong Plaza",
+   "tel": "2326 1336",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$9,528 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 9528
+   },
+   "enrolment": "Whole-day 95",
+   "teacherPupilRatio": "1:8.9 AM · 1:8.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated activity-based teaching approach in conjunction with children daily experiences for enjoyed learning. Community and small group learning activities for children to learn cooperating with others from an early age; multiple learning areas is established to develop individual potential, active exploration and thinking skills in order to promote balanced development in knowledge, skills and attitudes. Strong focus on early childhood language development enabled by proprietary school-based curriculum which includes Pre-writing skills training course, Writing Learning Course and Phonological Awareness Training Course in order to achieve holistic development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://spk.ppe.rhenish.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6713"
+  },
+  {
+   "id": "6714",
+   "name": "Sharon Lutheran Church Kindergarten (Tsz Oi Branch)",
+   "scheme": true,
+   "lat": 22.349534,
+   "lng": 114.199659,
+   "address": "Rooftop of Carport Building, Tsz Oi Court, Tsz Wan Shan, Wong Tai Sin, Kowloon",
+   "area": "Tsz Oi Court",
+   "tel": "2326 0280",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,800 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6800
+   },
+   "enrolment": "AM 26 · Whole-day 69",
+   "teacherPupilRatio": "1:9.2 AM · 1:6.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The learning approach emphasizes diversity, comprehensiveness,and balance.In addition to adopting an integrated teaching model, we align the concept of free play with the curriculum design. Durning physical activities and self-selected play sessions, abundant materials are provided for young children to engage in creative construction. Based on theit preferences, abilities, and life experiences,children can design their own play methods, thereby gaining ample opportunities to freely express their feelings and explore through learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.sharonlutheran.edu.hk/kindness/zh/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6714"
+  },
+  {
+   "id": "6715",
+   "name": "Shun Sang Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.348251,
+   "lng": 114.201853,
+   "address": "G/F, On Yan House, Tse On Court, Tse Wan Shan, Kowloon",
+   "area": "On Yan House",
+   "tel": "2323 1074",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13200
+   },
+   "enrolment": "AM 85 · PM 22 · Whole-day 29",
+   "teacherPupilRatio": "1:8.8 AM · 1:3.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school raises children with biblical truth as its values. Through free play and designing enlightening learning activities, children can \"learning by doing\" thereby developing children's potential, creative thinking, problem-solving ability, exploration spirit and independent learning ability. It will also stimulate children's learning through thematic teaching and project-based learning. At the same time, it will cooperate with diversified activities such as site visits, school picnic, game days, birthday parties, parent-child reading programs and community activities, etc., allow children to gain personal experience from different activities and strengthen learning and development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1970"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssack.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6715"
+  },
+  {
+   "id": "6716",
+   "name": "Sisters of the Immaculate Heart of Mary Wong Tai Sin Kindergarten",
+   "scheme": true,
+   "lat": 22.341036,
+   "lng": 114.194328,
+   "address": "4/F, Wong Tai Sin Community Centre, 104 Ching Tak Street, Wong Tai Sin, Kowloon",
+   "area": "Wong Tai Sin Community Centre",
+   "tel": "2321 1574",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$5,520 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 5520
+   },
+   "enrolment": "Whole-day 180",
+   "teacherPupilRatio": "1:9.2 AM · 1:9.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To develop children's multiple intelligence development,learning different knowledge, skills and attitude by optional activities, children can be individual ability and interest to self-learning. In order to strengthen the community awareness and enrich the daily life experience, often participate in various groups, groups organized by the activities and visits. Through traditional festival activities, let children enjoy Chinese culture, and cultivate children with positive morals and patriotic from an early age."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1960"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "24"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://wts.sihm.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6716"
+  },
+  {
+   "id": "6717",
+   "name": "The Boys' and Girls' Clubs Association of Hong Kong Cheerland Kindergarten (Wong Tai Sin)",
+   "scheme": true,
+   "lat": 22.343312,
+   "lng": 114.192737,
+   "address": "G/F, Tat Sin House, Upper Wong Tai Sin Estate, Kowloon",
+   "area": "Tat Sin House",
+   "tel": "2216 4216",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$13,140 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 13140
+   },
+   "enrolment": "Whole-day 68",
+   "teacherPupilRatio": "1:8.8 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Using a thematic and activity-based approach, children learn through fun and games with the assistance of interesting realia, textbooks and learning media. Small group learning in the classroom with training and guidance tailored to individual ability. Rich array of thematic field visits is arranged as opportunities for exploration, and to develop interest in learning, in order to groom children in taking the initiative in pursuing knowledge. And using the planned Free Play period to arise children's learning ability. Besides we also have different moral"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nursery.bgca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6717"
+  },
+  {
+   "id": "6718",
+   "name": "Tsung Tsin Mission of Hong Kong On Keung Nursery School",
+   "scheme": true,
+   "lat": 22.342923,
+   "lng": 114.201668,
+   "address": "5/F, Fung Tak Estate Community Centre, Fung Tak Estate, Diamond Hill, Kowloon",
+   "area": "Fung Tak Estate Community Centre",
+   "tel": "2321 0580",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,324 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15324
+   },
+   "enrolment": "Whole-day 94",
+   "teacherPupilRatio": "1:9.6 AM · 1:9.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With the child-centered principle, teachers apply diverse pedagogies integrating with culture, art, technology as well as the social resources , so that the children are inspired into a spirit of exploration and creativity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1963"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ok.ttmssd.org/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6718"
+  },
+  {
+   "id": "6719",
+   "name": "Tsz Ching Estate Bodhi Siksa Kindergarten",
+   "scheme": true,
+   "lat": 22.348964,
+   "lng": 114.203115,
+   "address": "G/F, Ching Ming House, Tsz Ching Estate, Tsz Wan Shan, Kowloon",
+   "area": "Ching Ming House",
+   "tel": "2274 5761",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,700 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3700
+   },
+   "enrolment": "AM 16 · Whole-day 50",
+   "teacherPupilRatio": "1:7.3 AM · 1:5.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To enhance children’s learning interest through \"Theme-based approach\",\"Picture-book approach\" and \"games\". We enhance children’s problem-solving skills, creative thinking abilities, social and communication skills through various learning activities. We offer opportunities for children and parent-child activities, which enhance children’s self-confidence and improve parent-child relationship. Qualified professional Native English teacher and Mandarin teachers to teach English and Mandarin."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tcebsk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6719"
+  },
+  {
+   "id": "6721",
+   "name": "TWGHs Fong Shiu Yee Nursery School",
+   "scheme": true,
+   "lat": 22.34194,
+   "lng": 114.192814,
+   "address": "Room F12 1/F, Commercial Centre, Tin Ma Court, Lung Cheung Road, Wong Tai Sin, Kowloon",
+   "area": "Wong Tai Sin",
+   "tel": "2320 0336",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$20,880 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 20880
+   },
+   "enrolment": "Whole-day 29",
+   "teacherPupilRatio": "1:5.3 AM · 1:5.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our child-centred curriculum adopts the activity approach, the project approach, the whole language approach, incorporating diversified, systematic and inspiring games and activities. We implement a balanced, integrated curriculum according to children’s varied levels of maturity and personalities. We emphasize children’s self-learning initiative. We continuously develop our school-based curriculum to respond to children’s different needs more systemically and comprehensively, such as to strengthening children’s gross muscles. Beside, the quality English curriculum is implemented to raise children’s interest in English and improve their reading skills through different strategies and activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://fsyns.tungwahcsd.org/tc"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6721"
+  },
+  {
+   "id": "6722",
+   "name": "TWGHs Kwan Fong Nursery School",
+   "scheme": true,
+   "lat": 22.344098,
+   "lng": 114.189902,
+   "address": "G/F, Unit 120-129, Fu Yuen House, Chuk Yuen (South) Estate, Wong Tai Sin, Kowloon",
+   "area": "Fu Yuen House",
+   "tel": "2351 6718",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$25,056 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 25056
+   },
+   "enrolment": "Whole-day 28",
+   "teacherPupilRatio": "1:7.6 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We value the development of cognitive and perceptual-motor skills to stimulate the potential of young children's perceptual brains, which establish a foundation for learning. In teaching and learning, we emphasize \"learning through play\" and adopt a holistic language-based approach. We utilize a variety of project-based activities to enhance children's active learning and develop their listening, speaking, reading, and writing abilities. We also cultivate their interest in reading and the reading habit at an early age. In our daily routines, we incorporate life skills training which includes self-care, environmental care, and caring for others. This enables children to learn independence, fostering their sense of responsibility and confidence."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://kfns.tungwahcsd.org/tc/page/home"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6722"
+  },
+  {
+   "id": "6720",
+   "name": "TWGHs Wai Cheung Chi Memorial Kindergarten",
+   "scheme": true,
+   "lat": 22.342952,
+   "lng": 114.185961,
+   "address": "G/F, Commercial Centre, Tin Ma Court Wong Tai Sin, Kowloon",
+   "area": "Tin Ma Court Wong Tai Sin",
+   "tel": "2327 4738",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$14,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14000
+   },
+   "enrolment": "AM 20 · PM 6 · Whole-day 86",
+   "teacherPupilRatio": "1:9.6 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our teachers adopt the Picture book Teaching Method that combines story themes with teaching methods in exploring various learning domains so children can learn proactively and happily in this thought-stimulating environment, inspiring children integrated artistic and creative thinking , as well as making the best use of IT to enhance their own learning effectiveness."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://wcc-kindergarten.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6720"
+  }
+ ]
+}

@@ -1,0 +1,2937 @@
+{
+ "generatedAt": "2026-09-09T16:37:48.703Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=shamshuipo",
+ "district": {
+  "id": "shamshuipo",
+  "name": "Sham Shui Po"
+ },
+ "schools": [
+  {
+   "id": "6396",
+   "name": "Baptist Oi Kwan Social Service Pui Yan Pre-Primary School",
+   "scheme": true,
+   "lat": 22.326687,
+   "lng": 114.167207,
+   "address": "G/F, 1 Fortune Street, Cheung Sha Wan, Kowloon",
+   "area": "Fortune Street",
+   "tel": "2360 0999",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,900 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15900
+   },
+   "enrolment": "Whole-day 120",
+   "teacherPupilRatio": "1:7.9 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With the child-centered principle, teachers apply diverse pedagogies integrating with culture, art, technology as well as the social resources, so that the children are inspired into a spirit of exploration and creativity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "18"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://pypps.bokss.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6396"
+  },
+  {
+   "id": "6930",
+   "name": "Aristle International Kindergarten",
+   "scheme": false,
+   "lat": null,
+   "lng": null,
+   "address": "Shop 1, G/F & Shop 2, G/F & 1/F Emerald 28 22 & 26 Tai Po Road, Kowloon",
+   "area": "Tai Po Road",
+   "tel": "2323 2982",
+   "fees": {
+    "am": "K1 $79,200 (11) · K2 $81,400 (11) · K3 $83,600 (11)",
+    "pm": "K1 $79,200 (11) · K2 $81,400 (11) · K3 $83,600 (11)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 79200,
+    "pm": 79200,
+    "wd": null
+   },
+   "enrolment": "AM 99 · PM 44",
+   "teacherPupilRatio": "1:8.3 AM · 1:4.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "2025-2026 School Year Pre-nursery fee: HK$6,180 (11 installments) K1 school fee: HK$6,600 (11 installments) K2 school fee: HK$6,700 (11 installments) K3 school fee: HK$6,800 (11 installments)"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2016"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Website",
+     "http://www.aik.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6930"
+  },
+  {
+   "id": "6397",
+   "name": "Buddhist Tsang Kor Sing Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.332195,
+   "lng": 114.156674,
+   "address": "301-313, 3/F, Lai Huen House, Lai Kok Estate, Sham Shui Po, Kowloon",
+   "area": "Lai Huen House",
+   "tel": "2361 1267, 2361 1268",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,870 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5870
+   },
+   "enrolment": "AM 8 · PM 2 · Whole-day 69",
+   "teacherPupilRatio": "1:11.0 AM · 1:10.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based learning and project approach are placed as the curriculum core of our school. Children are provided with various learning opportunities which they learn in real-life context, explore through applying sensory motor and practice how to think. They are motivated to learn and experience the freedom of exploration and discovery. Besides, We promote reading culture and encourage parent-child reading at home. Children can enjoy reading and enhance their language skills. Reading can help children to gain knowledge, develop appreciative emotions, nurture appropriate learning attitudes and practice positive thinking. Ultimately, it promotes balanced development of children. Learning is not bounded by four walls and can happen at any time in any place. We provide ample outdoor experience which allows children to learn through play and life, enrich their learning experience, nurture their good character, get along with peers, practice self-discipline and respect others. Attach importance to the inheritance of Chinese culture, establish national identity, and achieve whole-person development. Therefore, our educational approach helps the child to grow emotionally, mentally and physically strong."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1981"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tsangkorsing.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6397"
+  },
+  {
+   "id": "7080",
+   "name": "Chan's Creative Kindergarten",
+   "scheme": false,
+   "lat": 22.326968,
+   "lng": 114.172623,
+   "address": "Old Wing, 71 Boundary Street, Kowloon",
+   "area": "Boundary Street",
+   "tel": "2381 6228",
+   "fees": {
+    "am": "$39,600 (11 instalments)",
+    "pm": "$39,600 (11 instalments)",
+    "wd": "$63,250 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 39600,
+    "pm": 39600,
+    "wd": 63250
+   },
+   "enrolment": "0 enrolled (Sept 2024)",
+   "teacherPupilRatio": null,
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school adopts a project-based teaching model complemented by outdoor learning activities, emphasizing autonomy, inspiration, engagement, and interactivity. Through diverse games and activities, it helps students construct knowledge and enables them to learn joyfully."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2025"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Website",
+     "https://www.ccs.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7080"
+  },
+  {
+   "id": "6398",
+   "name": "Che Lok Kindergarten",
+   "scheme": true,
+   "lat": 22.327735,
+   "lng": 114.162266,
+   "address": "Shop A B & C, 1/F Siu Cheong Building, 72 Nam Cheong Street, Shamshuipo, Kowloon",
+   "area": "Nam Cheong Street",
+   "tel": "2191 5488",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,405 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9405
+   },
+   "enrolment": "AM 47 · PM 29 · Whole-day 56",
+   "teacherPupilRatio": "1:12.9 AM · 1:10.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning through games, theme-based learning, group teaching and various visits and performances are used to help children gain different types of knowledge."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.chelok.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6398"
+  },
+  {
+   "id": "6962",
+   "name": "Kendall International Preschool",
+   "scheme": false,
+   "lat": 22.335176,
+   "lng": 114.158897,
+   "address": "G/F, Residence 228, 228 Fuk Wing Street, Cheung Sha Wan, Kowloon",
+   "area": "Fuk Wing Street",
+   "tel": "2328 8223",
+   "fees": {
+    "am": "$70,950 (11 instalments)",
+    "pm": "$66,550 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 70950,
+    "pm": 66550,
+    "wd": null
+   },
+   "enrolment": "AM 28 · PM 9",
+   "teacherPupilRatio": "1:6.3 AM · 1:1.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Young children come in all different shapes, sizes and readiness levels to learn. No one exactly the same, they are individuals who come to life’s stage with a variety of talents, gifts and poise. Each one occupying a different developmental stage than any other – they are unique. Kendall International Preschool embraces their uniqueness and combines it with the power of purposeful and constructive play. While many of us think of play as leisure activities, the research on its impact on young children’s cognitive development and learning is undisputed. Purposeful play has a critical role in the development of logical and diverse thinking, problem solving and a child’s acquisition of social skills. An excellent vehicle for children to learn to observe, solve, compare, sort and sequence, the child’s knowledge grows as they experiment, make discoveries and shift their own thinking as they incorporate new insights. Play is a crucial vehicle for exploring and learning, developing new skills, building relationships and connecting with others."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2017"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Website",
+     "http://www.kendall.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6962"
+  },
+  {
+   "id": "6948",
+   "name": "Che Lok Kindergarten",
+   "scheme": true,
+   "lat": 22.327662,
+   "lng": 114.162412,
+   "address": "G/F, 221 Tai Nan Street, Sham Shui Po, Kowloon",
+   "area": "Tai Nan Street",
+   "tel": "2191 5488",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,405 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9405
+   },
+   "enrolment": "AM 18 · PM 18",
+   "teacherPupilRatio": "1:6.0 AM · 1:6.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning through games, theme-based learning, group teaching and various visits and performances are used to help children gain different types of knowledge."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "1"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.chelok.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6948"
+  },
+  {
+   "id": "6436",
+   "name": "Kowloon Rhenish School",
+   "scheme": false,
+   "lat": 22.329668,
+   "lng": 114.175535,
+   "address": "2A Dianthus Road, Yau Yat Chuen, Kowloon",
+   "area": "Yau Yat Chuen",
+   "tel": "2380 6011",
+   "fees": {
+    "am": "$41,900 (10 instalments)",
+    "pm": "$41,900 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 41900,
+    "pm": 41900,
+    "wd": null
+   },
+   "enrolment": "AM 151 · PM 69",
+   "teacherPupilRatio": "1:7.6 AM · 1:3.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Various teaching approaches including ‘thematic approach’, ‘topic studies’, ‘picture book teaching’, ‘group teaching’ and ‘corners’ are adopted to arouse children’s learning interest, curiosity and their creativity and stimulate them to think. Various media and activities learning through games are used to enhance children’s self-confidence, fostering voluntary exploration and promoting interpersonal relationship. Attention is paid to children’s development in various aspects. Holistic development in moral, intellectual, physical, communal, artistic and spiritual aspects is promoted through various types of activities and learning arrangements."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1959"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Website",
+     "http://www.krs.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6436"
+  },
+  {
+   "id": "7068",
+   "name": "Cheung Sha Wan Kai Fong Welfare Association Lam Tam Yin Wah Kindergarten (Lai Tsui Court)",
+   "scheme": true,
+   "lat": 22.333053,
+   "lng": 114.155548,
+   "address": "1/F Lai Tsui Shopping Centre, Lai Tsui Court, 608 Lai Chi Kok Road, Cheung Sha Wan, Kowloon",
+   "area": "F Lai Tsui Shopping Centre",
+   "tel": "2386 2826",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$7,440 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 7440
+   },
+   "enrolment": "Whole-day 67",
+   "teacherPupilRatio": "1:5.5 AM · 1:5.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Various learning modes including ‘activity-based approach’, ‘specially designed activities’ and ‘all-round approach’ are adopted to stimulate children’s interest in learning and the spirit of voluntary exploration. Visits and experience-based activities are arranged to help learning so as to enrich children’s life experiences. Extended activities are designed to consolidate what is learnt."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Not applicable"
+    ],
+    [
+     "Website",
+     "http://www.lamtyw.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7068"
+  },
+  {
+   "id": "7021",
+   "name": "Learning Habitat Kindergarten (The Sparkle)",
+   "scheme": false,
+   "lat": 22.333025,
+   "lng": 114.152345,
+   "address": "1/F, Commercial Development the Sparkle, 500 Tung Chau Street, Cheung Sha Wan, Kowloon",
+   "area": "Tung Chau Street",
+   "tel": "2501 0136",
+   "fees": {
+    "am": "$86,400 – $90,000 (12 instalments)",
+    "pm": "$86,400 – $90,000 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 86400,
+    "pm": 86400,
+    "wd": null
+   },
+   "enrolment": "AM 196 · PM 196",
+   "teacherPupilRatio": "1:8.1 AM · 1:8.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic approach is adopted and supported with design-based activities to stimulate children’s thinking and curiosity. Field trips are arranged to broaden children’s horizons."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "31"
+    ],
+    [
+     "Website",
+     "http://www.learninghabitat.org/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7021"
+  },
+  {
+   "id": "6400",
+   "name": "Christian Alliance Louey Choy Kwan Lok Kindergarten",
+   "scheme": true,
+   "lat": 22.337252,
+   "lng": 114.154897,
+   "address": "G/F, Un Shing House, Un Chau Estate, Shamshuipo, Kowloon",
+   "area": "Un Shing House",
+   "tel": "2720 4718",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,400 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10400
+   },
+   "enrolment": "AM 61 · Whole-day 85",
+   "teacherPupilRatio": "1:13.3 AM · 1:7.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through diverse exploratory and experiential activities, we aim to promote the principles of \"Learning by doing\" and \"Learning through play\" for children. We facilitate this through outdoor visits, thematic learning, group activities, and project approach. These activities provide a comprehensive and life-oriented learning experience that aligns with children's creativity. We create an inspiring learning environment that encourages exploration, play, and hands-on experiences. Both teachers and students actively participate in fostering a friendly, respectful, inclusive, appreciative, and harmonious learning atmosphere. This cultivates a solid foundation for the holistic development of children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.calcklkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6400"
+  },
+  {
+   "id": "7016",
+   "name": "Think International Kindergarten (Nam Cheong)",
+   "scheme": false,
+   "lat": 22.326894,
+   "lng": 114.153812,
+   "address": "Shop G26, G/F, V Walk, 28 Sham Mong Road, Shamshuipo, Kowloon",
+   "area": "Sham Mong Road",
+   "tel": "2157 2111",
+   "fees": {
+    "am": "$82,280 – $90,420 (11 instalments)",
+    "pm": "K1 $82,280 – $90,420 · K2 $62,700 – $82,280 · K3 $62,700 – $82,280",
+    "wd": "$145,200 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 82280,
+    "pm": 82280,
+    "wd": 145200
+   },
+   "enrolment": "AM 56 · PM 29 · Whole-day 4",
+   "teacherPupilRatio": "1:6.5 AM · 1:2.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Website",
+     "https://www.think.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7016"
+  },
+  {
+   "id": "6401",
+   "name": "Delia English Primary School & Kindergarten",
+   "scheme": true,
+   "lat": 22.335209,
+   "lng": 114.140861,
+   "address": "1/F 84-86 Broadway Street and Shop 138 Stage 8, Mei Foo Sun Chuen, Kowloon",
+   "area": "Mei Foo Sun Chuen",
+   "tel": "2742 2610",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "K1 — · K2 $16,995 (11) · K3 $16,995 (11)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 16995
+   },
+   "enrolment": "AM 91 · PM 53 · Whole-day 43",
+   "teacherPupilRatio": "1:9.6 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our child-centred curriculum emphasises on cultural awareness and weaves together different learning areas using storybooks and themes rooted in the children’s diverse cultures and shared experiences. This ensures their learning is both meaningful and engaging. The children learn through a wide array of activities, such as educational outings, games, project-based learning, science exploration, and imaginative English tasks. Furthermore, we have developed our own school-based Chinese curriculum, specifically tailored to meet the needs of both CS and NCS children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1965"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.deliakg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6401"
+  },
+  {
+   "id": "6878",
+   "name": "Tsung Tsin Primary School and Kindergarten (Non-Local Stream)",
+   "scheme": false,
+   "lat": 22.328819,
+   "lng": 114.167876,
+   "address": "East Wing Academic Building, 58 Tai Po Road, Sham Shui Po, Kowloon",
+   "area": "Tai Po Road",
+   "tel": "2777 3679",
+   "fees": {
+    "am": "$52,280 (10 instalments)",
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 52280,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 443 · PM 268",
+   "teacherPupilRatio": "1:7.4 AM · 1:5.5 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. In the current year, we have 30 NETs and 30 NPTs to create a language-rich environment to enhance our children's ability and confidence in reading, writing, listening, and speaking English and Putonghua. 2. Letterland Phonics and Putonghua Pinyin are taught as part of the language curriculum. 3. To enhance children's oral skills through Show and Tell, 5W1H, and the 4W sentence model. 4. Awards are set up to encourage children to listen and speak English and Putonghua often. 5. The Oxford Reading Tree has been selected as the reading series, encouraging parents to cultivate a healthy parent-child reading habit at home. 6. To enhance children’s abilities in reading and writing through extended learning activities such as ‘My Book’, ‘識字樂趣多’ and ‘My Literacy Mastery’. 7. To provide children with hands-on learning experiences, stimulate their learning motivation, and cultivate their ability for independent learning. 8. To promote mathematics and STEM education to children at early age, helping them to develop problem-solving skills and enhance self-fulfillment. 9. To organise activities such as Book Day, Camp Day, Water Fun Day, and Family Appreciation Day to enrich children's learning experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1897"
+    ],
+    [
+     "Registered classrooms",
+     "16"
+    ],
+    [
+     "Principal & teachers",
+     "63"
+    ],
+    [
+     "Website",
+     "http://www.ttpskg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6878"
+  },
+  {
+   "id": "6402",
+   "name": "Evangelical Lutheran Church of Hong Kong Nam Cheong Kindergarten",
+   "scheme": true,
+   "lat": 22.325847,
+   "lng": 114.158452,
+   "address": "Outdoor Play Area, KG01 G/F & Cheong Chung House, (Block 1) Nam Cheong Estate, Shamshuipo, Kowloon",
+   "area": "F & Cheong Chung House",
+   "tel": "2725 8913",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3000
+   },
+   "enrolment": "AM 4 · PM 12 · Whole-day 63",
+   "teacherPupilRatio": "1:7.4 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based, activities-based, dramatic approaches and free-play are mainly adopted. Activities and visits supporting the theme learned are arranged to meet the needs of children in development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.elchkkg.edu.hk/nam-cheong/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6402"
+  },
+  {
+   "id": "6404",
+   "name": "Guideposts Kindergarten",
+   "scheme": true,
+   "lat": 22.337665,
+   "lng": 114.139055,
+   "address": "5B, Mount Sterling Mall, Mei Foo Sun Chuen, Lower Podium Floor, Sham Shui Po, Kowloon",
+   "area": "Mei Foo Sun Chuen",
+   "tel": "2743 2800",
+   "fees": {
+    "am": "K1 — · K2 — · K3 $990 (11)",
+    "pm": "K1 — · K2 — · K3 $990 (11)",
+    "wd": "K1 — · K2 — · K3 $27,379 (11)"
+   },
+   "feesAnnual": {
+    "am": 990,
+    "pm": 990,
+    "wd": 27379
+   },
+   "enrolment": "AM 42 · Whole-day 45",
+   "teacherPupilRatio": "1:12.4 AM · 1:6.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Themed-based group activities, active and passive activities including game-based courses, role-playing, observation of physical objects, physical training and outdoor visits. Learning interest is aroused with various stimulating teaching tools and teaching materials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1976"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.guideposts.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6404"
+  },
+  {
+   "id": "7040",
+   "name": "Guideposts Kindergarten (Nam Cheong Branch)",
+   "scheme": true,
+   "lat": 22.329846,
+   "lng": 114.149599,
+   "address": "G/F, Hoi Wing House, Hoi Tat Estate, 38 Sham Mong Road, Sham Shui Po, Kowloon",
+   "area": "Hoi Wing House",
+   "tel": "2681 1208",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$17,160 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 17160
+   },
+   "enrolment": "AM 50 · PM 23 · Whole-day 74",
+   "teacherPupilRatio": "1:9.5 AM · 1:8.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Themed-based group activities, active and passive activities including game-based courses, role-playing, observation of physical objects, physical training and outdoor visits. Learning interest is aroused with various stimulating teaching tools and teaching materials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2021"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.guideposts.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7040"
+  },
+  {
+   "id": "6406",
+   "name": "Hong Kong Christian Service Lei Cheng Uk Nursery School",
+   "scheme": true,
+   "lat": 22.338147,
+   "lng": 114.158955,
+   "address": "No. 316, Podium Level, Shun Yee House, Lei Cheng Uk Estate, Shamshuipo, Kowloon",
+   "area": "Shun Yee House",
+   "tel": "2361 2355",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,196 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17196
+   },
+   "enrolment": "Whole-day 113",
+   "teacherPupilRatio": "1:6.1 AM · 1:6.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is implemented through thematic studies and topic-based teaching, emphasizing children's life experiences and the cultivation of civic qualities. There is a daily news sharing time, along with visits, expert interviews, field trips, and parent-child activities that complement the teaching arrangements. Our school also has a Montessori classroom that meets international standards, providing a comprehensive development for young children in areas such as self-care, culture, and mathematics."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1977"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://hkcschild.edu.hk/lcuns/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6406"
+  },
+  {
+   "id": "6407",
+   "name": "Hong Kong Christian Service Shek Kip Mei Nursery School",
+   "scheme": true,
+   "lat": 22.333686,
+   "lng": 114.165148,
+   "address": "Unit 201-218, 1/F, Block 23 Shek Kip Mei Estate, Woh Chai Street, Shamshuipo, Kowloon",
+   "area": "Shek Kip Mei Estate",
+   "tel": "2779 1891",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,244 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14244
+   },
+   "enrolment": "Whole-day 99",
+   "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Learning modes such as thematic approach, project approach, and socio-cultural education are adopted emphasizing the life experiences of children and fostering quality life. We arrange news sharing,theme-based explorations, national awareness, cultural and art activities, spiritual and moral educational activities, whole language learning, site visits, talks from experts, and parent-child activities to enrich their learning. Joint School Creative Art Exhibition and graduation drama performance are organized annually. We also focus on 'Life Education' which is an essential element in childhood development. To enhance our children by paying close attention to our environment, communities, and society, we set up a series of picture books for life education and providing a spiral curriculum. In this curriculum, children would establish a positive value at the start of their life and learn from real-life experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1981"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://skmns.hkcschild.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6407"
+  },
+  {
+   "id": "6408",
+   "name": "Hong Kong Christian Service Tai Hang Tung Nursery School",
+   "scheme": true,
+   "lat": 22.330499,
+   "lng": 114.170264,
+   "address": "4/F & Roof Playground, Tai Hang Tung Community Centre, 17 Tong Yam Street, Tai Hang Tung, Kowloon",
+   "area": "Tai Hang Tung Community Centre",
+   "tel": "2777 8020",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$16,944 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 16944
+   },
+   "enrolment": "Whole-day 140",
+   "teacherPupilRatio": "1:7.9 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is taught through topic studies and thematic approach. Children’s life experiences and the fostering of civic awareness are emphasized. News sharing is arranged every day. Site visits, visits from experts, field trips, parent-child activities are arranged to support learning. Children’s development of creative art is emphasized. Art activities are organized every afternoon. Drawing exhibitions, creative drama performance and joint school children’s choir are also organized annually. Individual development, interests and abilities of the children is also emphasized. We provide Four Montessori Classrooms that meet international standards, including practical life, sensorial, mathematics, language and cultural area,also outdoor Montessori Classroom,provides carpentry workshops and nature exploration activities, to support children’s comprehensive development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1967"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://hkcschild.edu.hk/thtns/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6408"
+  },
+  {
+   "id": "6885",
+   "name": "Hong Kong Ling Liang Church Sau Tak Kindergarten",
+   "scheme": true,
+   "lat": 22.333864,
+   "lng": 114.146812,
+   "address": "Shop 6-8, 1/F, West Kowloon Place, One West Kowloon, 873 Lai Chi Kok Road, Kowloon",
+   "area": "Lai Chi Kok Road",
+   "tel": "3520 2238",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 54 · PM 19",
+   "teacherPupilRatio": "1:10.1 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. The school adopts the “plan-do-review” learning process of \"High Scope Approach\". Children are encouraged to experience, explore, create and learn by undergoing a multi-process journey. 2. It derives motivation from themes, thus leading to activities of project-based learning programs to create a learning atmosphere of “entering the classroom with a question, and leaving with a number of questions.” 3. Creative activities rich in language learning and inspire children’s interest in learning words. The “Please Listen to Me” Reading Scheme trains up children to recognize and read a lot of English and Chinese vocabulary; The “Free Writing Scheme” increases children’s positive attitude towards writing, so as to enhance their ability to use words and write short essays. 4. Native-speaking English teachers prepare school-based teaching materials from daily life scenarios to help children easily master the ability to listen, speak, read and spell. 5. The school adopts Orff Schulwerk in the music activities and makes use of various musical elements to effectively achieve balanced development of children’s imaginative capacity, ability of abstraction, spatial intelligence and emotional intelligence, so as to build a foundation for learning instruments in the future. 6. Children become the master of the “Free Play”, they have the rights to making choices, planning, creating and discovering. 7. The school infuses an artistic sense into everyday teaching and popularizes art education in daily activities. Children are guided innovatively to participate in learning activities with various artistic elements."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2015"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lingliang.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6885"
+  },
+  {
+   "id": "6899",
+   "name": "Hong Kong Ling Liang Church Sau Tak Kindergarten(campus 2)",
+   "scheme": true,
+   "lat": 22.334207,
+   "lng": 114.146783,
+   "address": "Shop 2-3, 11-13 & 15-18, 1/F, West Kowloon Place, One West Kowloon, 873 Lai Chi Kok Road, Kowloon",
+   "area": "Lai Chi Kok Road",
+   "tel": "3520 2238",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 220 · PM 163",
+   "teacherPupilRatio": "1:10.0 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. The school adopts the “plan-do-review” learning process of \"High Scope Approach\". Children are encouraged to experience, explore, create and learn by undergoing a multi-process journey. 2. It derives motivation from themes, thus leading to activities of project-based learning programs to create a learning atmosphere of “entering the classroom with a question, and leaving with a number of questions.” 3. Creative activities rich in language learning and inspire children’s interest in learning words. The “Please Listen to Me” Reading Scheme trains up children to recognize and read a lot of English and Chinese vocabulary; The “Free Writing Scheme” increases children’s positive attitude towards writing, so as to enhance their ability to use words and write short essays. 4. Native-speaking English teachers prepare school-based teaching materials from daily life scenarios to help children easily master the ability to listen, speak, read and spell. 5. The school adopts Orff Schulwerk in the music activities and makes use of various musical elements to effectively achieve balanced development of children’s imaginative capacity, ability of abstraction, spatial intelligence and emotional intelligence, so as to build a foundation for learning instruments in the future. 6. Children become the master of the “Free Play”, they have the rights to making choices, planning, creating and discovering. 7. The school infuses an artistic sense into everyday teaching and popularizes art education in daily activities. Children are guided innovatively to participate in learning activities with various artistic elements."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2015"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lingliang.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6899"
+  },
+  {
+   "id": "6409",
+   "name": "Hong Kong Sheng Kung Hui Kei Oi Nursery School",
+   "scheme": true,
+   "lat": 22.331473,
+   "lng": 114.15782,
+   "address": "Room 103-116 &118, G/F, Lai Kuk House, Lai Kok Estate, Sham Shui Po, Kowloon",
+   "area": "Lai Kuk House",
+   "tel": "2729 7991",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,844 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11844
+   },
+   "enrolment": "Whole-day 74",
+   "teacherPupilRatio": "1:10.2 AM · 1:10.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated story-based approach is adopted. Story-based themes are used to promote affection exchanges of children and stimulate learning with affection. Children are guided to explore. Life experiences of children are integrated for joint exploration and develop meaningful learning scenarios and activities. Children’s creativity and imagination are ignited, and the theory of ‘learning in action and learning in daily life’ is put into practice."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kons.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6409"
+  },
+  {
+   "id": "6410",
+   "name": "Hong Kong Society for the Protection of Children Cheung Sha Wan Nursery School",
+   "scheme": true,
+   "lat": 22.340079,
+   "lng": 114.158566,
+   "address": "5/F & Roof Playground, Cheung Sha Wan Community Centre, 55 Fat Tseung Street, Cheung Sha Wan, Kowloon",
+   "area": "Cheung Sha Wan Community Centre",
+   "tel": "2361 5516",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,688 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11688
+   },
+   "enrolment": "Whole-day 65",
+   "teacherPupilRatio": "1:8.8 AM · 1:8.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Design integrated curriculum, make the elements of language and music permeate all the learning activities, provide comprehensive and interesting learning experience for chidren. Make good use of community resources, and participate in community activities to support and broaden children’s learning experience, for example, visiting the police station and fire bureau."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ns.hkspc.org/csw/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6410"
+  },
+  {
+   "id": "6411",
+   "name": "Hong Kong Y.W.C.A Athena Kindergarten",
+   "scheme": true,
+   "lat": 22.332168,
+   "lng": 114.159043,
+   "address": "Unit 1-8, G/F, Han Ching House, Yee Ching Court Shamshuipo, Kowloon",
+   "area": "Han Ching House",
+   "tel": "2728 1122",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,800 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7800
+   },
+   "enrolment": "AM 48 · Whole-day 71",
+   "teacherPupilRatio": "1:9.9 AM · 1:5.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum emphasizes children’s life experience. Children develop positive learning attitude through class teaching, doing, visits, exploration, and drama activities etc. We strengthen their language ability through the home reading scheme 'Paired Reading'. Through the programme ‘Family Wellness Vitamins’, we help children to cultivate a sense of responsibility and resilience; to develop communication skills and the ability to appreciate the surroundings; to boost their self-esteem; and to treasure the time with family and friends."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1993"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://kga.ywca.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6411"
+  },
+  {
+   "id": "6412",
+   "name": "Hong Kong Young Women's Christian Association Chiu Oi Wah Nursery School",
+   "scheme": true,
+   "lat": 22.337613,
+   "lng": 114.155227,
+   "address": "G/F, Wing B & C, Un Fung House, Un Chau Estate, Shamshuipo, Kowloon",
+   "area": "Un Fung House",
+   "tel": "2386 6339",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$16,200 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 16200
+   },
+   "enrolment": "Whole-day 79",
+   "teacherPupilRatio": "1:9.0 AM · 1:9.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt the thematic approach which is supported by explorative learning. Children are trained to develop an active learning attitude, well-organized and confident expression skills, discussions with peers and time management for individual learning through site visits, exploration, verification, friendly visits, uniformed teams, fellowship ,physical and art activities held every Wednesday. A rich language environment is created through Putonghua and English teachers for children to practice their bi-literate and trilingual abilities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nscow.ywca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6412"
+  },
+  {
+   "id": "6413",
+   "name": "Hong Kong Young Women's Christian Association Shiu Pong Nursery School",
+   "scheme": true,
+   "lat": 22.331519,
+   "lng": 114.171827,
+   "address": "G/F, 66 Begonia Road, Yau Yat Chuen, Kowloon",
+   "area": "Yau Yat Chuen",
+   "tel": "3443 1678",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$21,756 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 21756
+   },
+   "enrolment": "Whole-day 34",
+   "teacherPupilRatio": "1:8.4 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is arranged in the daily life setting. Through daily practice, children gain knowledge, learn life skills and develop morality. Thematic approach and learning through exploration are adopted. The English language course is taught in the Shared Book Approach to help students learn English through stories. We emphasize the training of bi-literate and tri-lingual abilities. The Love + Reading scheme is launched in K2 and K3. Under the scheme, Parents are trained to be a reading partner. This aims to foster the interest and habit of reading since childhood. Native-speaking teachers and specialists are employed to teach the English language and Putonghua respectively to lay sound foundation for primary one education."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2003"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nssp.ywca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6413"
+  },
+  {
+   "id": "7070",
+   "name": "Lok Sin Tong Tung Ching Bor Kindergarten",
+   "scheme": true,
+   "lat": 22.33579,
+   "lng": 114.168623,
+   "address": "1/F, Long Tin House, Pak Tin Estate, Sham Shui Po, Kowloon",
+   "area": "Long Tin House",
+   "tel": "2518 7608",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,300 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11300
+   },
+   "enrolment": "AM 3 · Whole-day 20",
+   "teacherPupilRatio": "1:3.3 AM · 1:2.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     " Bilingual teaching - each class has foreign teachers and local teachers as class teachers  Picture book Approach  Each class has a Mandarin class  Experiential learning  Life-wide Learning"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Not applicable"
+    ],
+    [
+     "Website",
+     "https://lsttcb.loksintongkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7070"
+  },
+  {
+   "id": "6415",
+   "name": "N-M-S' Lutheran Kindergarten",
+   "scheme": true,
+   "lat": 22.316718,
+   "lng": 114.188424,
+   "address": "36 Grandeur Road, Yau Yat Tsuen, Kowloon",
+   "area": "Yau Yat Tsuen",
+   "tel": "2778 0734",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$11,690 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 11690
+   },
+   "enrolment": "AM 9 · Whole-day 65",
+   "teacherPupilRatio": "1:7.4 AM · 1:6.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Spiral approach is the base of the curriculum, which includes elements from concrete to abstract, simple to complex. We take into consideration of children’s abilities so as to bridge their previous experiences with new ones. They are also helped to improve the confidence in solving problems and enhance perception skills."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1971"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.nmslkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6415"
+  },
+  {
+   "id": "6416",
+   "name": "Pentecostal Church of Hong Kong Nam Cheong Nursery School",
+   "scheme": true,
+   "lat": 22.327219,
+   "lng": 114.157374,
+   "address": "5/F, Nam Cheong Community Centre, Nam Cheong Estate Shamshuipo, Kowloon",
+   "area": "Nam Cheong Community Centre",
+   "tel": "2725 9292",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,688 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11688
+   },
+   "enrolment": "Whole-day 88",
+   "teacherPupilRatio": "1:9.2 AM · 1:9.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Child-centred approach is adopted along with diversified learning activities and games. We aim to stimulate children’s curiosity through life-oriented learning and guide to discover the answer in a natural setting. Through implementation, students learn and build up knowledge. All-round learning strategy is adopted to make good use of social resources to provide children with a rich learning environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://namcheongns.pchk.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6416"
+  },
+  {
+   "id": "6417",
+   "name": "Po Leung Kuk Angela Leong On Kei Kindergarten",
+   "scheme": true,
+   "lat": 22.333253,
+   "lng": 114.166566,
+   "address": "1/F, Mei Shing House, Shek Kip Mei Estate, Sham Shui Po, Kowloon",
+   "area": "Mei Shing House",
+   "tel": "2778 7182",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$21,144 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 21144
+   },
+   "enrolment": "Whole-day 89",
+   "teacherPupilRatio": "1:7.7 AM · 1:7.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Personal exploration and creativity are emphasized in learning. Children are arranged to leave the classroom and participate in community activities, such as site visits and friendly visits. Classroom learning includes activity-based approach, topic studies, individual and group learning. The Orff music theories are applied in music activities. Native-speaking teachers are employed to teach the English language. Other activities are also organized, such as interest classes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2014"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/alokkgn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6417"
+  },
+  {
+   "id": "6418",
+   "name": "Po Leung Kuk Lau Chan Siu Po Kindergarten",
+   "scheme": true,
+   "lat": 22.327246,
+   "lng": 114.155161,
+   "address": "Podium Level, Fu Yun House, (Block 16) Fu Cheong Estate, Cheung Sha Wan, Kowloon",
+   "area": "Fu Yun House",
+   "tel": "2267 4531",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,990 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5990
+   },
+   "enrolment": "AM 45 · PM 8 · Whole-day 73",
+   "teacherPupilRatio": "1:10.7 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "In order to enrich children's learning experience, teachers lead children out of the classroom according to themes, broadening their learning horizons for a comprehensive education. This allows children to gain life experiences and knowledge from various aspects. We offer a variety of extracurricular activities, including: fencing, taekwondo, phonics, English Cambridge class, drawing, flag-raising team, dance team, recitation team, choir team, children's traffic safety team and Grasshopper Scouts, etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plklcspkg"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6418"
+  },
+  {
+   "id": "6419",
+   "name": "Precious Blood Kindergarten (Sham Shui Po)",
+   "scheme": true,
+   "lat": 22.333189,
+   "lng": 114.161829,
+   "address": "123 Un Chau Street, Shamshuipo, Kowloon",
+   "area": "Un Chau Street",
+   "tel": "2386 2586",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$18,392 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 18392
+   },
+   "enrolment": "Whole-day 165",
+   "teacherPupilRatio": "1:10.1 AM · 1:9.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our topics are all tailor-made based on a child’s daily life experience, thus enhance social skills for coping with the real world. Through a rich and authentic learning environment, students are able to play freely in different scenarios. This learning environment also nurtures the learning attitude of children, they will be able to actively explore, think, question, and create. The ethos of the school also encourages children to explore and learn with their senses: sight, hearing, taste, smell and touch. The school realizes the importance of children’s language development, thus emphasis on the strengthening of muscles of mouth through games. Such games facilitate children’s pronunciation to improve clarity and confidence. Reading is a core part of learning; each child is introduced to the foundations of written communication to read in English and Chinese. Reading games, which enhance children’s speaking and listening skills simultaneously, are key. Learning should never be limited to the classroom; outings are an essential part of our learning. Through religious learning, the children's mental and spiritual health is developed positively and completely. We would like our children to respect and cherish life."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.pbn.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6419"
+  },
+  {
+   "id": "6420",
+   "name": "Sham Shui Po Baptist Church Kindergarten",
+   "scheme": true,
+   "lat": 22.34035,
+   "lng": 114.158945,
+   "address": "1/F, 4 Kwong Lee Road, Sham Shui Po, Kowloon",
+   "area": "Kwong Lee Road",
+   "tel": "2720 1173",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$12,045 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 12045
+   },
+   "enrolment": "AM 25 · Whole-day 104",
+   "teacherPupilRatio": "1:10.8 AM · 1:9.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school has adopted a set of school-based integrated curriculum in a thematic approach, to enable every person to attain all - around development in the domains of ethics, intellect, physique,social skills and aesthetics.In the aspect of moral education, to implement moral learning which can help children to build good moral character and a positive life attitude."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1966"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sspbck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6420"
+  },
+  {
+   "id": "6421",
+   "name": "Sham Shui Po Tak Shin Kindergarten",
+   "scheme": true,
+   "lat": 22.32657,
+   "lng": 114.160364,
+   "address": "1/F, 200 Tung Chau Street, Sham Shui Po, Kowloon",
+   "area": "Tung Chau Street",
+   "tel": "2728 3997",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,892 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11892
+   },
+   "enrolment": "AM 7 · Whole-day 23",
+   "teacherPupilRatio": "1:6.0 AM · 1:7.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based approach, visits, experiments, creative activities, group exploration and role-playing, etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1992"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssptakshin.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6421"
+  },
+  {
+   "id": "6422",
+   "name": "Sheng Kung Hui Sham Shui Po Kei Oi Church Kindergarten",
+   "scheme": true,
+   "lat": 22.338725,
+   "lng": 114.159624,
+   "address": "Block 1, Chung Hou House, Li Cheng Uk Estate, Shamshuipo, Kowloon",
+   "area": "Chung Hou House",
+   "tel": "2361 2184",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,330 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11330
+   },
+   "enrolment": "AM 35 · PM 2 · Whole-day 44",
+   "teacherPupilRatio": "1:7.2 AM · 1:4.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The thematic approach and group learning are adopted. Through dynamic ways of teaching, students’ learning interest is aroused. They can thus learn effectively the enjoyable way and bring into play their potentials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.skhkock.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6422"
+  },
+  {
+   "id": "6423",
+   "name": "St. Thomas' Church Kindergarten",
+   "scheme": true,
+   "lat": 22.333189,
+   "lng": 114.16544,
+   "address": "Rm. 101-116, Block 24, Lower Shek Kip Mei Estate, Sham Shui Po, Kowloon",
+   "area": "Lower Shek Kip Mei Estate",
+   "tel": "2779 4201",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,700 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8700
+   },
+   "enrolment": "AM 55 · Whole-day 60",
+   "teacherPupilRatio": "1:9.6 AM · 1:5.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We attach great importance to establishing an environment conducive to children's learning, strive to create a happy and lively atmosphere, and encourage children to come into contact with things around them for holistic development. Develop children's potential through diverse campus life and lay a good foundation for future learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1966"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.stckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6423"
+  },
+  {
+   "id": "6424",
+   "name": "Suen Mei Kindergarten",
+   "scheme": true,
+   "lat": 22.336139,
+   "lng": 114.141628,
+   "address": "Portion of 2/F Mei Foo Sun Chuen 79 Broadway Street, Kowloon",
+   "area": "F Mei Foo Sun Chuen",
+   "tel": "2742 4925",
+   "fees": {
+    "am": "Free",
+    "pm": "K1 — · K2 — · K3 Free",
+    "wd": "$25,300 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 25300
+   },
+   "enrolment": "AM 60 · Whole-day 40",
+   "teacherPupilRatio": "1:10.9 AM · 1:5.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic approach and various specially-designed activities. 1. To teach through games as a way to train children to observe, think, create besides fostering morality. 2. To design appropriate activities according to children’s ability and characteristics. 3. To arrange site visits regularly for children to learn through first-hand experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1974"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.smkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6424"
+  },
+  {
+   "id": "6425",
+   "name": "Tack Ching Kindergarten",
+   "scheme": true,
+   "lat": 22.333252,
+   "lng": 114.161324,
+   "address": "168 Fuk Wing Street, Sham Shui Po, Kowloon",
+   "area": "Fuk Wing Street",
+   "tel": "2729 3212",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$23,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 23000
+   },
+   "enrolment": "AM 211 · PM 109",
+   "teacherPupilRatio": "1:10.0 AM · 1:5.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The quintessence of high scope, whole language and thematic approaches, specially-designed activities and Orff music is combined. Children are guided to realize the fun of self-directed learning through interactive group learning, making use of community resources, site visits and inviting professionals to give talks at the school."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1938"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6425"
+  },
+  {
+   "id": "6405",
+   "name": "The Church of Christ In China Heep Woh Kindergarten",
+   "scheme": true,
+   "lat": 22.328105,
+   "lng": 114.167595,
+   "address": "231 Sai Yeung Choi Street, Shamshuipo, Kowloon",
+   "area": "Sai Yeung Choi Street",
+   "tel": "2777 9618",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 92 · PM 32",
+   "teacherPupilRatio": "1:10.2 AM · 1:5.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Thematic Approach: The theme of life as the core of the curriculum, through the various areas of learning content, children learn through stories, visit activities, school lectures, family activities and interest activities.2. Project Approach: The Project Approach involves children in studies of things nearby that interact them and are worth knowing more about. It can provide children with enriched learning experiences. Teachers can enhance the spirit of children to learn.3. Story teaching programme : Through story telling, children will be able to enhance their learning ability, thinking ability and skills of communication.4.Free play learning : During free play, children are able to explore their creative side as well as enhancing their ability to solve problems. 5. Holistic Innovative Education : Children through multiple senses and small group discussion to learn, We emphasis on children's high degree of participation in order to strengthen children’s learning motivation. 6. Orff Music Teaching Method: The Orff Teaching Method is the teaching of various arts such as music, dance, drama and literature. Children involve in a musical atmosphere so as to stimulate their creativity. 7. Bilingual Language learning: The School has Foreign English teacher and Putonghua teacher. We provide a bilingual and multicultural learning language environment. The Integrative and Effective Approach can enhance the children’s ability to learn Chinese Language.8.Life Education Curriculum: Topics include self-discipline, thanksgiving, positive thinking, perseverance, love others . We want to build up children's good character."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1948"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://heepwohkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6405"
+  },
+  {
+   "id": "6426",
+   "name": "The Church of Christ In China Kei Chun Kindergarten",
+   "scheme": true,
+   "lat": 22.331807,
+   "lng": 114.156956,
+   "address": "Unit 114-127, G/F Lai Lo House, Lai Kok Estate, Sham Shui Po, Kowloon",
+   "area": "F Lai Lo House",
+   "tel": "2361 8246",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$7,150 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 7150
+   },
+   "enrolment": "AM 21 · Whole-day 76",
+   "teacherPupilRatio": "1:10.8 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "According to the development of children, we design diversified learning experience activities , use the strategy of \"games\" to empower children to explore freely in the environment, and stimulate children's intrinsic learning motivation. In terms of learning Mandarin and English, specialist teachers create a rich language environment and use interesting teaching methods to improve the effectiveness of learning and teaching."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1981"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://kck.ccc.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6426"
+  },
+  {
+   "id": "6427",
+   "name": "The Church of Christ In China Shum Oi Church Kindergarten",
+   "scheme": true,
+   "lat": 22.332034,
+   "lng": 114.16808,
+   "address": "G/F, 80 Woh Chai Street, Shek Kip Mei, Kowloon",
+   "area": "Woh Chai Street",
+   "tel": "2777 0986",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13000
+   },
+   "enrolment": "AM 24 · Whole-day 41",
+   "teacherPupilRatio": "1:10.8 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "High Scope and topic studies are adopted, emphasizing voluntary exploration and discussion of children besides mastering the learning skills. Visits in line with the themes learnt are arranged to expand children’s life experiences. Parents are prompted to participate for enriching the children’s learning areas."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1967"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sockg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6427"
+  },
+  {
+   "id": "6428",
+   "name": "The Salvation Army Pak Tin Nursery School",
+   "scheme": true,
+   "lat": 22.337028,
+   "lng": 114.168866,
+   "address": "G/F, Wing C, Fu Tin House, Pak Tin Estate, Pak Wan Street, Sham Shui Po, Kowloon",
+   "area": "Fu Tin House",
+   "tel": "2778 3588",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$29,424 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 29424
+   },
+   "enrolment": "Whole-day 70",
+   "teacherPupilRatio": "1:6.9 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1.Project Approach–To stimulate children to explore voluntarily and build up knowledge through the process of observation,discussion and exploration2.Montessori Education–Enhance sensory acuity in young children,establish self-care skills and a sense of order, cultivate independence and self-management abilities, and develop logical thinking and concentration3.Fun with English–Focus on stimulating interest in learning English,cultivate listening and speaking skills, and help children master phonics techniques for English words4.Life education–To manifest the love of Jesus Christ,foster good character and values.At the same time,children are taught according to abilities,special needs and development of children are also catered for.5.Inheriting Chinese Culture-By understanding Chinese festival customs, appreciating and experiencing various forms of traditional art and together with participating in related project-based learning activities, we aim to cultivate young children’s interest in Chinese culture and foster their sense of national identity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.salvationarmy.org.hk/esd/ptnsc/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6428"
+  },
+  {
+   "id": "7020",
+   "name": "The Salvation Army So Uk Kindergarten",
+   "scheme": true,
+   "lat": 22.340377,
+   "lng": 114.157023,
+   "address": "G/F, Larkspur House, So Uk Estate, Sham Shui Po, Kowloon",
+   "area": "Larkspur House",
+   "tel": "2343 6233",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,650 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12650
+   },
+   "enrolment": "AM 34 · Whole-day 139",
+   "teacherPupilRatio": "1:9.6 AM · 1:8.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school takes \"Going off campus‧Living learning\" as the main line. The learning content combines with students’ life experience. Through physical coordination, visual touch, life skills and spiritual care, the school stimulates the logical thinking and all-round development. The course includes different practical studies such as: Native English and Putonghua teachers, using games as a strategy to enrich the language context, barbecue activities, snack tasting, scientific exploration, visits, etc. The school also creates an autonomous environment for students in the Free Play sessions. They can choose different corners to learn from their first experience, develop in a balanced manner, enhance their ability to learn independently through different learning elements and build a good foundation for their growth."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "18"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.salvationarmy.org.hk/esd/sukg/?langcode=zh-hant"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7020"
+  },
+  {
+   "id": "7029",
+   "name": "Tsung Tsin Mission of Hong Kong On Hong Nursery School (Shun Ning Road)",
+   "scheme": true,
+   "lat": 22.337316,
+   "lng": 114.158479,
+   "address": "1/F, Sunlight Building, 273 Shun Ning Road, Sham Shui Po, Kowloon",
+   "area": "Shun Ning Road",
+   "tel": "2779 6861",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$20,088 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 20088
+   },
+   "enrolment": "Whole-day 87",
+   "teacherPupilRatio": "1:9.3 AM · 1:9.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With the child-centered principal , teacher apply diverse pedagogies integrating with culture, art, technology as well as the social resources , so that the children are inspired into a spirit of exploration and creativity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1968"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://oh.ttmssd.org/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7029"
+  },
+  {
+   "id": "6430",
+   "name": "Tsung Tsin Mission Pak Tin Graceful Kindergarten",
+   "scheme": true,
+   "lat": 22.334011,
+   "lng": 114.164343,
+   "address": "G/F, Shing Tin House, Pak Tin Estate, Shek Kip Mei, Kowloon",
+   "area": "Shing Tin House",
+   "tel": "3152 2533",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,682 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11682
+   },
+   "enrolment": "AM 37 · Whole-day 70",
+   "teacherPupilRatio": "1:10.7 AM · 1:8.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. We enrich children’s life experiences with various ways of learning such as story-based approach, specially-designed activities, group teaching, high scope approach ,visits and game learning. 2. To guide children to explore, experience personally and operate objects around them through various forms of activities so they learn the more enjoyable way."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ptgraceful.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6430"
+  },
+  {
+   "id": "6431",
+   "name": "Tsung Tsin Primary School and Kindergarten (Local Stream)",
+   "scheme": true,
+   "lat": 22.328819,
+   "lng": 114.167876,
+   "address": "East Wing Academic Building, 58 Tai Po Road, Sham Shui Po, Kowloon",
+   "area": "Tai Po Road",
+   "tel": "2777 3679",
+   "fees": {
+    "am": "$4,230 (10 instalments)",
+    "pm": "$4,230 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 4230,
+    "pm": 4230,
+    "wd": null
+   },
+   "enrolment": "AM 443 · PM 268",
+   "teacherPupilRatio": "1:7.4 AM · 1:5.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. In the current year, we have 30 NETs and 30 NPTs to create a language-rich environment to enhance our children's ability and confidence in reading, writing, listening, and speaking English and Putonghua. 2. Awards are set up to encourage children to listen and speak English and Putonghua often. 3. To promote and cultivate reading habit both at school and at home. 4. Thinking tools such as the questions words (5W1H) are used, encouraging children to ask questions, stimulate their thinking, arouse their curiosity, and establish their interest and confidence in learning. 5. To provide children with hands-on learning experiences, stimulate their learning motivation, and cultivate their ability for independent learning through theme-based curriculum. 6. To promote mathematics and STEM education to children at early age, helping them to develop problem-solving skills and enhance self-fulfillment. 7. To organise special school-based activities such as Chinese Cultural Day, International Cultural Day, and Sports Day to help children learn through firsthand experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1897"
+    ],
+    [
+     "Registered classrooms",
+     "16"
+    ],
+    [
+     "Principal & teachers",
+     "63"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ttpskg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6431"
+  },
+  {
+   "id": "7018",
+   "name": "TWGHs Mr. & Mrs. Tam Kam Kau Kindergarten",
+   "scheme": true,
+   "lat": 22.333487,
+   "lng": 114.158014,
+   "address": "G/F, Hoi Pik House (Block A), Hoi Lok Court, Cheung Sha Wan, Kowloon",
+   "area": "Hoi Pik House",
+   "tel": "2677 7266",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12000
+   },
+   "enrolment": "AM 65 · PM 30 · Whole-day 78",
+   "teacherPupilRatio": "1:10.2 AM · 1:9.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school offers bilingual classes to learn English and Cantonese. We aim to encourage students to be confident and sociable. We believe it is important for students to learn both inside and outside the classroom. We provides outing regularly for students. There are distinctive learning areas in our school, such as, Rock Climbing Area and Music Room. Learning continues to develop through our remarkable Amazing Block Wall and Reading Corner. We believe our students learn comfortably and happily by ‘observing, exploring, thinking and imagining’"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.tkk-kindergarten.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7018"
+  },
+  {
+   "id": "6824",
+   "name": "Western Pacific Kindergarten",
+   "scheme": true,
+   "lat": 22.326461,
+   "lng": 114.1605,
+   "address": "Stairs & Lift On G/F & Shop 2, 1/F Flat Roof On First & Second Floor Park One, 1 Nam Cheong Street, Sham Shui Po, Kowloon",
+   "area": "Nam Cheong Street",
+   "tel": "2367 6144",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 101 · PM 51",
+   "teacherPupilRatio": "1:9.2 AM · 1:6.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic, project learning & whole language teaching approaches are adopted. Each class is conducted by non-Chinese & Chinese teachers. Students learn through various theme activities, play, storytelling and role playing, etc.. Working with others via group plan activities and playing cooperative games help students experience and understand the importance of team work and thoughtfulness, thus, resulting in a sense of joy and success. Activities include field trips & visits."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1977"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.wpk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6824"
+  },
+  {
+   "id": "6432",
+   "name": "Yan Oi Tong Pong Lo Shuk Yin Kindergarten",
+   "scheme": true,
+   "lat": 22.3326,
+   "lng": 114.146802,
+   "address": "Unit 114, 1/F Hoi Lai Shopping Centre, Hoi Lai Estate, Shamshuipo, Kowloon",
+   "area": "F Hoi Lai Shopping Centre",
+   "tel": "3514 6333",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,300 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7300
+   },
+   "enrolment": "AM 97 · PM 49 · Whole-day 92",
+   "teacherPupilRatio": "1:11.1 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Using questions from storybooks, we employ the \"Activity Approach\" to guide students through discussion, thinking, problem-solving, analysis, and reporting. Through life-like games, we spark students' interest in learning, making the transition to primary school easier and more enjoyable. We also integrate nature and technology into education, fostering observation skills, exploration, and scientific literacy. This approach helps students learn to use technological tools while connecting with nature."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2005"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://yotplsy.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6432"
+  },
+  {
+   "id": "6433",
+   "name": "Yau Yat Chuen School",
+   "scheme": true,
+   "lat": 22.327898,
+   "lng": 114.172671,
+   "address": "2 Marigold Road and New Block, Yau Yat Chuen, Kowloon",
+   "area": "Yau Yat Chuen",
+   "tel": "2381 2949",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8000
+   },
+   "enrolment": "AM 346 · PM 131 · Whole-day 395",
+   "teacherPupilRatio": "1:10.0 AM · 1:7.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school adheres to the \"child-centered\" educational philosophy and uses whole-class, small group and individual learning methods to allow children to practice what they have learned through real-life experiences, interests, sensory exploration and visits, and gradually develop and enhance children's self-care, observation, thinking and problem-solving abilities. Moreover, during this learning journey, our school has also implemented opportunities for parent-child activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1956"
+    ],
+    [
+     "Registered classrooms",
+     "32"
+    ],
+    [
+     "Principal & teachers",
+     "74"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.yycskg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6433"
+  }
+ ]
+}

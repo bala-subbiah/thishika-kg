@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=wanchai",
  "district": {
@@ -403,7 +403,7 @@
   },
   {
    "id": "6668",
-   "name": "Esf International Kindergarten (Hillside)",
+   "name": "ESF International Kindergarten (Hillside)",
    "scheme": false,
    "lat": 22.265966,
    "lng": 114.179969,
@@ -523,12 +523,12 @@
    "area": "Happy Valley",
    "tel": "2575 0042",
    "fees": {
-    "am": null,
+    "am": "$126,600 – $159,840 (12 instalments)",
     "pm": "$117,720 (12 instalments)",
     "wd": null
    },
    "feesAnnual": {
-    "am": null,
+    "am": 126600,
     "pm": 117720,
     "wd": null
    },
@@ -1134,7 +1134,7 @@
    "lat": 22.265288,
    "lng": 114.18678,
    "address": "3/F - 4/F, St Margaret Church Catholic Centre, 2A Broadwood Road, Happy Valley, Hong Kong",
-   "area": "St Margaret Church Catholic Centre",
+   "area": "Happy Valley",
    "tel": "2576 9824",
    "fees": {
     "am": "Free",

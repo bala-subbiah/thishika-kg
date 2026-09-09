@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:06:07.485Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=taipo",
  "district": {
@@ -525,12 +525,12 @@
    "fees": {
     "am": "$72,960 (12 instalments)",
     "pm": "$72,960 (12 instalments)",
-    "wd": null
+    "wd": "$96,000 – $98,880 (12 instalments)"
    },
    "feesAnnual": {
     "am": 72960,
     "pm": 72960,
-    "wd": null
+    "wd": 96000
    },
    "enrolment": "AM 16 · Whole-day 11",
    "teacherPupilRatio": "1:10.1 AM · 1:3.8 PM",

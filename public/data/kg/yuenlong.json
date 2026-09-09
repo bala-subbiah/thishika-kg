@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=yuenlong",
  "district": {
@@ -238,7 +238,7 @@
    "lat": 22.46858,
    "lng": 114.001942,
    "address": "Kindergarten of Grandeur Terrace, Tin Shui Wai, Yuen Long, New Territories",
-   "area": "Kindergarten of Grandeur Terrace",
+   "area": "Grandeur Terrace",
    "tel": "3401 8128",
    "fees": {
     "am": "Free",
@@ -411,13 +411,13 @@
    "area": "Sai Ching Street",
    "tel": "2476 0091",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "$69,600 – $81,600 (12 instalments)",
+    "pm": "$69,600 – $81,600 (12 instalments)",
     "wd": "K1 — · K2 $73,800 (12) · K3 $73,800 (12)"
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 69600,
+    "pm": 69600,
     "wd": 73800
    },
    "enrolment": "AM 142 · PM 141",
@@ -747,14 +747,14 @@
    "area": "Wetland Seasons Bay",
    "tel": "3485 9268",
    "fees": {
-    "am": null,
-    "pm": null,
-    "wd": null
+    "am": "$57,600 – $63,600 (12 instalments)",
+    "pm": "$57,600 – $63,600 (12 instalments)",
+    "wd": "$87,600 – $102,000 (12 instalments)"
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
-    "wd": null
+    "am": 57600,
+    "pm": 57600,
+    "wd": 87600
    },
    "enrolment": "AM 23",
    "teacherPupilRatio": "1:10.2 AM",
@@ -793,7 +793,7 @@
   },
   {
    "id": "6732",
-   "name": "Chinese Y.m.c.a. Kindergarten",
+   "name": "Chinese Y.M.C.A. Kindergarten",
    "scheme": true,
    "lat": 22.462501,
    "lng": 114.000677,
@@ -859,13 +859,13 @@
    "area": "Castle Peak Road",
    "tel": "2368 9738",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "K1 $60,000 – $87,600 · K2 $84,000 – $87,600 · K3 $84,000 – $87,600",
+    "pm": "K1 $60,000 – $87,600 · K2 $84,000 – $87,600 · K3 $84,000 – $87,600",
     "wd": null
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 60000,
+    "pm": 60000,
     "wd": null
    },
    "enrolment": "AM 79 · PM 60",
@@ -2003,7 +2003,7 @@
   },
   {
    "id": "6749",
-   "name": "N.t. Assemblies of God Church Wai Yan Kindergarten",
+   "name": "N.T. Assemblies of God Church Wai Yan Kindergarten",
    "scheme": true,
    "lat": 22.441902,
    "lng": 114.026922,
@@ -2583,7 +2583,7 @@
   },
   {
    "id": "6758",
-   "name": "S.k.h. St. Joseph's Church Kindergarten",
+   "name": "S.K.H. St. Joseph's Church Kindergarten",
    "scheme": true,
    "lat": 22.433944,
    "lng": 114.069351,
@@ -3284,7 +3284,7 @@
    "lat": 22.462501,
    "lng": 114.000677,
    "address": "Kindergarten 3, 3/F, Ancillary Facilities Block Tin Yuet Estate, Tin Shui Wai, New Territories",
-   "area": "Ancillary Facilities Block Tin Yuet Estate",
+   "area": "Tin Yuet Estate",
    "tel": "2149 9333",
    "fees": {
     "am": "Free",
@@ -3516,7 +3516,7 @@
    "lat": 22.450445,
    "lng": 114.000945,
    "address": "G/F, Yan Chai Hospital 24TH Term Board of Directors Social Services Centre, 6 Tin Ho Road, Tin Shui Wai, Yuen Long, New Territories",
-   "area": "Board of Directors Social Services Centre",
+   "area": "Yuen Long",
    "tel": "2445 2110",
    "fees": {
     "am": null,

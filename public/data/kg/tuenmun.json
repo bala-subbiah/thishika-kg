@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T16:17:33.887Z",
+ "generatedAt": "2026-09-09T16:37:48.703Z",
  "profileYear": "2025/26",
  "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=tuenmun",
  "district": {
@@ -635,13 +635,13 @@
    "area": "So Kwun Wat Road",
    "tel": "2638 0363",
    "fees": {
-    "am": null,
-    "pm": null,
+    "am": "K1 $62,400 – $79,200 · K2 $74,400 – $79,200 · K3 $74,400 – $79,200",
+    "pm": "K1 $62,400 – $79,200 · K2 $74,400 – $79,200 · K3 $74,400 – $79,200",
     "wd": "$139,200 (12 instalments)"
    },
    "feesAnnual": {
-    "am": null,
-    "pm": null,
+    "am": 62400,
+    "pm": 62400,
     "wd": 139200
    },
    "enrolment": "AM 64 · PM 15 · Whole-day 39",
@@ -851,7 +851,7 @@
   },
   {
    "id": "6521",
-   "name": "Hkskh St Peter's Church Castle Peak Tsing Wun Road Kindergarten",
+   "name": "HKSKH St Peter's Church Castle Peak Tsing Wun Road Kindergarten",
    "scheme": true,
    "lat": 22.391852,
    "lng": 113.967185,
@@ -1436,7 +1436,7 @@
    "lat": 22.407525,
    "lng": 113.964015,
    "address": "5/F, Leung King Estate Community Centre, Leung King Estate, Tuen Mun, New Territories",
-   "area": "Leung King Estate Community Centre",
+   "area": "Tuen Mun",
    "tel": "2465 6008",
    "fees": {
     "am": "Free",
@@ -2016,7 +2016,7 @@
    "lat": 22.374129,
    "lng": 113.963658,
    "address": "5/F, Butterfly Estate Community Centre, Tuen Mun, New Territories",
-   "area": "Butterfly Estate Community Centre",
+   "area": "Tuen Mun",
    "tel": "2467 3121",
    "fees": {
     "am": null,
@@ -2190,7 +2190,7 @@
    "lat": 22.412546,
    "lng": 113.978314,
    "address": "Level 3 Commercial Centre, Siu Hong Court, Tuen Mun, New Territories",
-   "area": "Commercial Centre",
+   "area": "Tuen Mun",
    "tel": "2466 8131",
    "fees": {
     "am": "Free",
@@ -2301,12 +2301,12 @@
   },
   {
    "id": "6548",
-   "name": "S.k.h. St. Peter's Church Castle Peak Siu Lun Court Kindergarten",
+   "name": "S.K.H. St. Peter's Church Castle Peak Siu Lun Court Kindergarten",
    "scheme": true,
    "lat": 22.384396,
    "lng": 113.976684,
    "address": "G/F, Commercial Centre, Siu Lun Court, Tuen Mun, New Territories",
-   "area": "Commercial Centre",
+   "area": "Tuen Mun",
    "tel": "2618 1166",
    "fees": {
     "am": "Free",
@@ -2359,7 +2359,7 @@
   },
   {
    "id": "6549",
-   "name": "S.k.h. St. Peter's Church Kindergarten (Castle Peak)",
+   "name": "S.K.H. St. Peter's Church Kindergarten (Castle Peak)",
    "scheme": true,
    "lat": 22.392013,
    "lng": 113.959193,
@@ -2417,7 +2417,7 @@
   },
   {
    "id": "6550",
-   "name": "S.k.h. St. Peter's Church Shan King Estate Kindergarten",
+   "name": "S.K.H. St. Peter's Church Shan King Estate Kindergarten",
    "scheme": true,
    "lat": 22.397086,
    "lng": 113.964419,
@@ -2533,7 +2533,7 @@
   },
   {
    "id": "6553",
-   "name": "T.w.g.hs. Ko Teck Kin Memorial Kindergarten",
+   "name": "T.W.G.HS. Ko Teck Kin Memorial Kindergarten",
    "scheme": true,
    "lat": 22.389078,
    "lng": 113.973045,
@@ -3113,7 +3113,7 @@
   },
   {
    "id": "6563",
-   "name": "W.f.b. Avalokitesvara Nursery School",
+   "name": "W.F.B. Avalokitesvara Nursery School",
    "scheme": true,
    "lat": 22.384463,
    "lng": 113.966051,
@@ -3171,7 +3171,7 @@
   },
   {
    "id": "6564",
-   "name": "W.f.b. Mantra Institute Nursery School",
+   "name": "W.F.B. Mantra Institute Nursery School",
    "scheme": true,
    "lat": 22.37369,
    "lng": 113.966038,
@@ -3466,7 +3466,7 @@
    "lat": 22.396577,
    "lng": 113.975821,
    "address": "3/F, Yan Oi Tong Jockey Club Community and Indoor Sports Centre, 18 Kai Man Path, Tuen Mun, New Territories",
-   "area": "Club Community and Indoor Sports Centre",
+   "area": "Tuen Mun",
    "tel": "2655 7771",
    "fees": {
     "am": null,
