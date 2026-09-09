@@ -34,9 +34,9 @@ if (process.env.OFFLINE) {
   await page.route("**/fonts.gstatic.com/**", (r) => r.abort());
 }
 
-await page.goto(`${base}/${process.env.DEMO ? "?demo" : ""}`, {
-  waitUntil: "networkidle",
-});
+// skip the first-visit welcome overlay in design checks
+await page.addInitScript(() => localStorage.setItem("kg-welcomed", "1"));
+await page.goto(`${base}/`, { waitUntil: "networkidle" });
 await page.waitForSelector(".pin", { timeout: 15000 });
 await page.waitForTimeout(600);
 await page.screenshot({ path: `${out}/1-list-half.png` });

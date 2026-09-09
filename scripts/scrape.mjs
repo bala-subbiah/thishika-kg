@@ -29,21 +29,36 @@ if (process.env.HTTPS_PROXY || process.env.https_proxy)
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const CACHE = path.join(ROOT, "scripts", "cache");
-const OUT = path.join(ROOT, "public", "data", "schools.json");
 
 // Annual refresh: when the next edition appears (kgp2026 for 2026/27),
 // run KGP_YEAR=2026 npm run scrape and review the parse report.
 const YEAR = process.env.KGP_YEAR ?? "2025";
 const BASE = `https://kgp${YEAR}.azurewebsites.net/edb`;
-const LIST_URL = `${BASE}/school.php?lang=en&district=taipo`;
+const LIST_URL = (district) => `${BASE}/school.php?lang=en&district=${district}`;
 const DETAIL_URL = (id) => `${BASE}/schoolinfo.php?lang=en&schid=${encodeURIComponent(id)}`;
 const ALS_URL = (q) => `https://www.als.gov.hk/lookup?q=${encodeURIComponent(q)}&n=1`;
 
-const HOME = {
-  name: "Casa Brava",
-  address: "73 Ting Kok Road, Tai Po, New Territories",
-  geocodeQuery: "CASA BRAVA 73 TING KOK ROAD TAI PO",
-};
+// district ids exactly as the EDB list form spells them
+const DISTRICTS = [
+  ["central", "Central & Western"],
+  ["hkeast", "HK East"],
+  ["islands", "Islands"],
+  ["southern", "Southern"],
+  ["wanchai", "Wan Chai"],
+  ["kwaichung", "Kwai Chung & Tsing Yi"],
+  ["tsuenwan", "Tsuen Wan"],
+  ["tuenmun", "Tuen Mun"],
+  ["yuenlong", "Yuen Long"],
+  ["north", "North"],
+  ["shatin", "Sha Tin"],
+  ["taipo", "Tai Po"],
+  ["kowlooncity", "Kowloon City"],
+  ["kwuntong", "Kwun Tong"],
+  ["saikung", "Sai Kung"],
+  ["shamshuipo", "Sham Shui Po"],
+  ["wongtaisin", "Wong Tai Sin"],
+  ["yautsimmongkok", "Yau Tsim & Mong Kok"],
+];
 
 // EPSG:2326 — Hong Kong 1980 Grid System
 proj4.defs(
@@ -57,6 +72,8 @@ proj4.defs(
 const NO_GEOCODE = process.argv.includes("--no-geocode");
 const limitArg = process.argv.indexOf("--limit");
 const LIMIT = limitArg > -1 ? Number(process.argv[limitArg + 1]) : Infinity;
+const onlyArg = process.argv.indexOf("--district");
+const ONLY = onlyArg > -1 ? process.argv[onlyArg + 1] : null;
 
 const warnings = [];
 const warn = (msg) => {
@@ -167,9 +184,28 @@ const AREA_RULES = [
   [/Kam Shan Road|Kwong Fuk Road/i, "Kwong Fuk Road"],
 ];
 
-function deriveArea(address) {
+// Generic extraction for districts without curated rules: named estate/court/
+// development first, then "N Street" pattern, then the address's own locality.
+const PLACE_RE =
+  /([A-Za-z'&.À-ɏ-]+(?: [A-Za-z'&.À-ɏ-]+){0,4}) (Estate|Court|Gardens?|Villas?|Village|Terrace|Centre|Center|Plaza|Square|Bay|Chuen|Tsuen|Toi|House)(?=,|$| )/;
+const STREET_RE =
+  /\d+[A-Za-z]?[,-]? ([A-Za-z'. À-ɏ-]+? (?:Road|Street|Avenue|Drive|Lane|Path|Crescent|Circuit|Praya|Terrace))(?=,|$| )/;
+
+function lastLocality(address) {
+  const parts = address.split(",").map((p) => p.trim()).filter(Boolean);
+  const tail = parts.filter(
+    (p) => !/^(new territories|kowloon|hong kong|hk|h\.k\.)$/i.test(p),
+  );
+  return tail.length ? tail[tail.length - 1] : null;
+}
+
+function deriveArea(address, districtName) {
   for (const [re, label] of AREA_RULES) if (re.test(address)) return label;
-  return "Tai Po";
+  const place = address.match(PLACE_RE);
+  if (place) return `${place[1]} ${place[2]}`;
+  const street = address.match(STREET_RE);
+  if (street) return street[1];
+  return lastLocality(address) ?? districtName;
 }
 
 /* ---------------------------------------------------------------- detail -- */
@@ -238,7 +274,7 @@ function collapseFees(levels) {
   return { display, annual };
 }
 
-function parseDetail(html, listEntry) {
+function parseDetail(html, listEntry, districtName) {
   const cells = cellStream(html);
   const id = listEntry.id;
 
@@ -249,7 +285,7 @@ function parseDetail(html, listEntry) {
     lat: null,
     lng: null,
     address: "",
-    area: "Tai Po",
+    area: districtName,
     tel: null,
     fees: { am: null, pm: null, wd: null },
     feesAnnual: { am: null, pm: null, wd: null },
@@ -262,9 +298,9 @@ function parseDetail(html, listEntry) {
 
   const rawAddress = valueAfter(cells, /^Address:?$/i) ?? "";
   school.address = rawAddress ? titleCase(rawAddress) : "";
-  school.area = deriveArea(school.address);
-  if (school.area === "Tai Po")
-    warn(`${id} (${school.name}): no area rule matched "${school.address}"`);
+  school.area = deriveArea(school.address, districtName);
+  if (school.area === districtName && school.address)
+    warn(`${id} (${school.name}): no area extracted from "${school.address}"`);
   school.tel = valueAfter(cells, /^Tel\.?:?$/i);
 
   // Scheme banner: a "Joining" / "Not Joining" cell right before
@@ -368,67 +404,103 @@ async function geocode(query, cacheKeySafe) {
 
 /* ------------------------------------------------------------------ main -- */
 
-const listHtml = await fetchText(LIST_URL, `${YEAR}-list.html`);
-let list = parseList(listHtml);
-if (list.length === 0) {
-  console.error("No GoSchoolDetail ids found — inspect scripts/cache/list.html");
-  process.exit(1);
-}
-console.log(`List page: ${list.length} Tai Po campuses found (expected ~36).`);
-if (list.length < 30) warn(`only ${list.length} campuses found — verify the list page markup`);
-list = list.slice(0, LIMIT);
+const DATA_DIR = path.join(ROOT, "public", "data", "kg");
+fs.mkdirSync(DATA_DIR, { recursive: true });
+const generatedAt = new Date().toISOString();
+const districtIndex = [];
 
-const schools = [];
-for (const entry of list) {
-  const html = await fetchText(DETAIL_URL(entry.id), `${YEAR}-${entry.id}.html`);
-  const school = parseDetail(html, entry);
-  console.log(`  ✓ ${school.name}`);
-  schools.push(school);
-}
-
-let home = { name: HOME.name, address: HOME.address, lat: 22.4523, lng: 114.1729, estimated: true };
-if (!NO_GEOCODE) {
-  const homeGeo =
-    (await geocode(HOME.geocodeQuery, "home").catch(() => null)) ??
-    (await geocode("73 TING KOK ROAD TAI PO", "home-fallback").catch(() => null));
-  if (homeGeo) home = { name: HOME.name, address: HOME.address, ...homeGeo };
-  else warn("home (Casa Brava) geocode failed — keeping estimated coordinates");
-
-  for (const s of schools) {
-    if (!s.address) continue;
-    const addr = s.address.toUpperCase();
-    // ALS often rejects shop/floor prefixes; fall back to street, then building
-    const queries = [addr];
-    const street = addr.match(/(\d+[A-Z]?)\s+([A-Z'. ]+?(?:ROAD|STREET|LANE|AVENUE|DRIVE|CRESCENT))/);
-    if (street) queries.push(`${street[1]} ${street[2]} TAI PO`);
-    const estate = addr.match(/([A-Z'. ]{3,}?(?:HOUSE|COURT|ESTATE|GARDENS?|CENTRE|PLAZA|VILLA))(?:,|$)/);
-    if (estate) queries.push(`${clean(estate[1])} TAI PO`);
-    let geo = null;
-    let err = null;
-    for (let i = 0; i < queries.length && !geo; i++) {
-      try {
-        geo = await geocode(queries[i], `${s.id}-${i}`);
-      } catch (e) {
-        err = e;
-      }
-    }
-    if (geo) Object.assign(s, geo);
-    else warn(`${s.id} (${s.name}): geocode failed${err ? ` — ${err.message}` : " (no geometry)"}`);
+for (const [districtId, districtName] of DISTRICTS.filter(
+  ([id]) => !ONLY || id === ONLY,
+)) {
+  console.log(`\n═══ ${districtName} (${districtId}) ═══`);
+  const listHtml = await fetchText(LIST_URL(districtId), `${YEAR}-${districtId}-list.html`);
+  let list = parseList(listHtml);
+  if (list.length === 0) {
+    warn(`${districtName}: no GoSchoolDetail ids found — inspect the cached list page`);
+    continue;
   }
+  console.log(`  list: ${list.length} campuses`);
+  list = list.slice(0, LIMIT);
+
+  const schools = [];
+  for (const entry of list) {
+    const html = await fetchText(DETAIL_URL(entry.id), `${YEAR}-${entry.id}.html`);
+    schools.push(parseDetail(html, entry, districtName));
+  }
+
+  if (!NO_GEOCODE) {
+    for (const s of schools) {
+      if (!s.address) continue;
+      const addr = s.address.toUpperCase();
+      const locality = (lastLocality(s.address) ?? districtName).toUpperCase();
+      // ALS often rejects shop/floor prefixes; fall back to street, then building
+      const queries = [addr];
+      const street = addr.match(/(\d+[A-Z]?)\s+([A-Z'. ]+?(?:ROAD|STREET|LANE|AVENUE|DRIVE|CRESCENT|PRAYA|TERRACE))/);
+      if (street) queries.push(`${street[1]} ${street[2]} ${locality}`);
+      const estate = addr.match(/([A-Z'. ]{3,}?(?:HOUSE|COURT|ESTATE|GARDENS?|CENTRE|PLAZA|VILLA|VILLAGE|TSUEN|CHUEN))(?:,|$)/);
+      if (estate) queries.push(`${clean(estate[1])} ${locality}`);
+      let geo = null;
+      let err = null;
+      for (let i = 0; i < queries.length && !geo; i++) {
+        try {
+          geo = await geocode(queries[i], `${s.id}-${i}`);
+        } catch (e) {
+          err = e;
+        }
+      }
+      if (geo) Object.assign(s, geo);
+      else warn(`${s.id} (${s.name}): geocode failed${err ? ` — ${err.message}` : " (no geometry)"}`);
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, `${districtId}.json`),
+    JSON.stringify(
+      {
+        generatedAt,
+        profileYear: `${YEAR}/${Number(YEAR.slice(2)) + 1}`,
+        source: LIST_URL(districtId),
+        district: { id: districtId, name: districtName },
+        schools,
+      },
+      null,
+      1,
+    ) + "\n",
+  );
+
+  const located = schools.filter((s) => s.lat != null);
+  districtIndex.push({
+    id: districtId,
+    name: districtName,
+    count: schools.length,
+    scheme: schools.filter((s) => s.scheme).length,
+    lat: located.length
+      ? +(located.reduce((a, s) => a + s.lat, 0) / located.length).toFixed(5)
+      : null,
+    lng: located.length
+      ? +(located.reduce((a, s) => a + s.lng, 0) / located.length).toFixed(5)
+      : null,
+  });
+  console.log(
+    `  ✓ ${schools.length} schools (${schools.filter((s) => s.scheme).length} scheme, ${located.length} geocoded)`,
+  );
 }
 
-const snapshot = {
-  generatedAt: new Date().toISOString(),
-  source: LIST_URL,
-  home,
-  schools,
-};
-
-fs.writeFileSync(OUT, JSON.stringify(snapshot, null, 2) + "\n");
-console.log(`\nWrote ${OUT} — ${schools.length} schools.`);
-console.log(
-  `Scheme: ${schools.filter((s) => s.scheme).length} joining, ${schools.filter((s) => !s.scheme).length} not.`,
+fs.writeFileSync(
+  path.join(ROOT, "public", "data", "districts.json"),
+  JSON.stringify(
+    {
+      generatedAt,
+      profileYear: `${YEAR}/${Number(YEAR.slice(2)) + 1}`,
+      districts: districtIndex,
+    },
+    null,
+    1,
+  ) + "\n",
 );
+
+const total = districtIndex.reduce((a, d) => a + d.count, 0);
+console.log(`\nWrote ${districtIndex.length} district files — ${total} schools total.`);
 if (warnings.length) {
   console.log(`\n${warnings.length} warning(s):`);
   for (const w of warnings) console.log(`  ⚠ ${w}`);

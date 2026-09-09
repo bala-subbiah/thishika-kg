@@ -1,0 +1,1951 @@
+{
+ "generatedAt": "2026-09-09T16:02:28.697Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=islands",
+ "district": {
+  "id": "islands",
+  "name": "Islands"
+ },
+ "schools": [
+  {
+   "id": "5986",
+   "name": "Buddhist Cheung Mui Kwai Kindergarten",
+   "scheme": true,
+   "lat": 22.252817,
+   "lng": 113.865248,
+   "address": "Room No KG01, Kindergarten Block, Lung Tin Estate, Phase Ii, Tai O, Lantau Island, Hong Kong",
+   "area": "Lung Tin Estate",
+   "tel": "2985 6544",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$9,350 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 9350
+   },
+   "enrolment": "AM 14 · Whole-day 16",
+   "teacherPupilRatio": "1:7.5 AM · 1:4.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The kindergarten implements “Thematic Teaching Approach”. The activities are designed according to children’s life experiences, learning needs and integrated with multiple learning areas. The kindergarten adopts “Learning Through Play” as the strategy under the selected themes. Children have the opportunities to take their initiations and exploration in learning through play. Meanwhile, the kindergarten promotes children’s language development through “Biliteracy and Trilingualism” teaching activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.bcmk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5986"
+  },
+  {
+   "id": "6008",
+   "name": "Discovery Bay International School",
+   "scheme": false,
+   "lat": 22.304298,
+   "lng": 114.011959,
+   "address": "Discovery Bay, Lantau Island, Hong Kong",
+   "area": "Discovery Bay",
+   "tel": "2987 7331",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "K1 — · K2 $132,500 (10) · K3 $132,500 (10)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 132500
+   },
+   "enrolment": "Whole-day 130",
+   "teacherPupilRatio": "1:11.8 AM · 1:11.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "High expectations and the pursuit of excellence are fundamental to our approach to leaning at DBIS."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "http://www.dbis.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6008"
+  },
+  {
+   "id": "5987",
+   "name": "Buddhist Chun Yue Lee Kam Zi Memorial Kindergarten",
+   "scheme": true,
+   "lat": 22.28075,
+   "lng": 113.935331,
+   "address": "Kindergarten 5, 2/F, Yat Tung Shopping Centre, Tung Chung, Hong Kong",
+   "area": "Yat Tung Shopping Centre",
+   "tel": "2432 2088",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7200
+   },
+   "enrolment": "AM 93 · Whole-day 98",
+   "teacherPupilRatio": "1:9.1 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school enables:Diversified activities;Free play/learning through play;Learning through independent and leadership activities;Incorporating the teaching of arts(arts-based teaching approach)"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2003"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.bcykgtc.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5987"
+  },
+  {
+   "id": "6009",
+   "name": "Discovery Mind Kindergarten",
+   "scheme": false,
+   "lat": 22.303948,
+   "lng": 114.014017,
+   "address": "Shop Unit NO.102, First Floor, 92 Siena Avenue, Discovery Bay City, Lantau Island, New Territories",
+   "area": "Discovery Bay",
+   "tel": "2987 8088",
+   "fees": {
+    "am": "$94,820 (11 instalments)",
+    "pm": "$94,820 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 94820,
+    "pm": 94820,
+    "wd": null
+   },
+   "enrolment": "AM 47 · PM 8",
+   "teacherPupilRatio": "1:9.9 AM · 1:1.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Website",
+     "http://www.discoverymind.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6009"
+  },
+  {
+   "id": "5988",
+   "name": "Chan En Mei Lutheran Day Nursery",
+   "scheme": true,
+   "lat": 22.205403,
+   "lng": 114.030268,
+   "address": "G/F, 150A Tai Choi Yuen Road, Cheung Chau, Hong Kong",
+   "area": "Tai Choi Yuen Road",
+   "tel": "2981 0243",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$8,580 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 8580
+   },
+   "enrolment": "AM 1 · Whole-day 30",
+   "teacherPupilRatio": "1:6.7 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt story-based teaching, activity approach, visits, large group and small group learning activities. Every month ,we have the theme and exploration for learning ."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1970"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://chanenmei-nursery.hklss.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5988"
+  },
+  {
+   "id": "6011",
+   "name": "Discovery Mind Kindergarten (Tung Chung)",
+   "scheme": false,
+   "lat": 22.29269,
+   "lng": 113.942666,
+   "address": "G/F, Seaview Crescent, 8 Tung Chung Waterfront Road, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Tung Chung Waterfront Road",
+   "tel": "2987 8070",
+   "fees": {
+    "am": "K1 $86,350 (11) · K2 — · K3 —",
+    "pm": "K1 $86,350 (11) · K2 $86,350 (11) · K3 $94,600 (11)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 86350,
+    "pm": 86350,
+    "wd": null
+   },
+   "enrolment": "AM 49 · PM 62",
+   "teacherPupilRatio": "1:7.7 AM · 1:11.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With teachers' guidance, children learn self-directed learning, independent thinking, self-discipline, coordinating with others, a considerate and moving heart, etc."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2009"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "http://www.discoverymind.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6011"
+  },
+  {
+   "id": "5989",
+   "name": "Cheung Chau Sacred Heart Kindergarten",
+   "scheme": true,
+   "lat": 22.20879,
+   "lng": 114.030653,
+   "address": "Tung Wan, Cheung Chau, Hong Kong",
+   "area": "Cheung Chau",
+   "tel": "2981 0506",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10200
+   },
+   "enrolment": "AM 9 · Whole-day 50",
+   "teacherPupilRatio": "1:8.4 AM · 1:7.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through different forms of learning activities, including: drama, science experiments, free games, outdoor visits, stories, art creation, etc., children can learn from experience. Develop listening, speaking, reading and writing abilities through activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1953"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.ccshkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5989"
+  },
+  {
+   "id": "6918",
+   "name": "Discovery Montessori Academy",
+   "scheme": false,
+   "lat": 22.304298,
+   "lng": 114.011959,
+   "address": "Block 1, Discovery Bay North, Discovery Bay City, Lantau Island, Hong Kong",
+   "area": "Discovery Bay",
+   "tel": "2812 9668",
+   "fees": {
+    "am": "$106,480 (11 instalments)",
+    "pm": "$106,480 (11 instalments)",
+    "wd": "$155,980 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 106480,
+    "pm": 106480,
+    "wd": 155980
+   },
+   "enrolment": "AM 17 · Whole-day 12",
+   "teacherPupilRatio": "1:7.3 AM · 1:3.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Website",
+     "http://www.dms.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6918"
+  },
+  {
+   "id": "5911",
+   "name": "Ching Chung Yu Nga Kindergarten",
+   "scheme": true,
+   "lat": 22.296211,
+   "lng": 113.948318,
+   "address": "G/F, Nga Shing House, Yu Nga Court, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Nga Shing House",
+   "tel": "2885 9168",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,550 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9550
+   },
+   "enrolment": "AM 21 · Whole-day 90",
+   "teacherPupilRatio": "1:11.1 AM · 1:9.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum adapts various themes, life-oriented activities and child-centered exploration in nurturing children's multiple intelligences, language, music, and physical arts abilities. It provides a natural language learning environment to strengthen biliteracy and trilingualism. Free play and self-selected activities encourage independent learning, while out-of-school visits enrich children’s personal experiences and learning effectiveness."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ccynkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5911"
+  },
+  {
+   "id": "6012",
+   "name": "Discovery Montessori School",
+   "scheme": false,
+   "lat": 22.308123,
+   "lng": 114.017011,
+   "address": "Outdoor Playground & Shop 101, 1/F, 92 Siena Avenue, Discovery Bay, Lantau Island, Hong Kong",
+   "area": "Discovery Bay",
+   "tel": "2987 1201",
+   "fees": {
+    "am": "$102,300 (11 instalments)",
+    "pm": "$102,300 (11 instalments)",
+    "wd": "$150,480 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 102300,
+    "pm": 102300,
+    "wd": 150480
+   },
+   "enrolment": "AM 29 · PM 1 · Whole-day 9",
+   "teacherPupilRatio": "1:8.0 AM · 1:1.4 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Website",
+     "http://www.dms.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6012"
+  },
+  {
+   "id": "5990",
+   "name": "Christian & Missionary Alliance Tai O Kindergarten",
+   "scheme": true,
+   "lat": 22.253473,
+   "lng": 113.863617,
+   "address": "81, 83A & 83B Wing On Street, Tai O, Lantau Island, Hong Kong",
+   "area": "Wing On Street",
+   "tel": "2985 6202",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$8,030 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 8030
+   },
+   "enrolment": "AM 5 · Whole-day 13",
+   "teacherPupilRatio": "1:6.0 AM · 1:4.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To stimulate active learning in young children, activities such as visits, experiments, simulation games, free play and picture book teaching are encouraged. Children are encouraged to explore different areas in learning, and parents are invited to explore new things both inside and outside the community with their children. Cooperation activities with community groups, middle schools and elementary schools are also carried out to enhance children's interest in learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1961"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.cmataiokg.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5990"
+  },
+  {
+   "id": "6926",
+   "name": "Esf International Kindergarten (Tung Chung)",
+   "scheme": false,
+   "lat": 22.296189,
+   "lng": 113.951569,
+   "address": "1/F, Commercial Accommodation, the Visionary, 1 Ying Hong Street, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Ying Hong Street",
+   "tel": "3742 3500",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 145 · PM 143",
+   "teacherPupilRatio": "1:8.5 AM · 1:8.4 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The kindergarten caters for Pre K, K1 and K2 children aged 2 to 5 years who attend for three hours a day, for either a morning or an afternoon session. The kindergarten/ child care centre offers safe and spacious learning environments which are designed especially to meet the needs of young learners. They are all well-resourced with age-appropriate equipment and materials, and modern teaching and learning technology."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2016"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Website",
+     "http://www.tck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6926"
+  },
+  {
+   "id": "5991",
+   "name": "Cumberland Presbyterian Church Green Pasture Kindergarten",
+   "scheme": true,
+   "lat": 22.288861,
+   "lng": 113.942449,
+   "address": "2/F, Fu Tung Plaza, Fu Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Fu Tung Plaza",
+   "tel": "2109 0188",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,387 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13387
+   },
+   "enrolment": "AM 171 · PM 78 · Whole-day 40",
+   "teacherPupilRatio": "1:8.4 AM · 1:4.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To cater the developmental needs and learning interests of children, we encourage learning through play and exploration in various learning activities, including Putonghua and English lessons. Children are given opportunities to explore and discover through discussions, role-play, games, outings, art and character education activities. We establish children’s moral behaviours and build up their positive emotions through home-school collaboration."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "25"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.gpkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5991"
+  },
+  {
+   "id": "6996",
+   "name": "Guidepost Montessori International Kindergarten (Discovery Bay)",
+   "scheme": false,
+   "lat": 22.308123,
+   "lng": 114.017011,
+   "address": "Shop 106 1/F, 92 Siena Avenue, Discovery Bay City, Lantau Island, Hong Kong",
+   "area": "Discovery Bay",
+   "tel": "2185 6134",
+   "fees": {
+    "am": "$77,000 (10 instalments)",
+    "pm": "$68,000 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 77000,
+    "pm": 68000,
+    "wd": null
+   },
+   "enrolment": "AM 27 · PM 1",
+   "teacherPupilRatio": "1:9.0 AM · 1:0.3 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2022"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/discovery-bay"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6996"
+  },
+  {
+   "id": "5992",
+   "name": "Hong Kong Sheng Kung Hui Tung Chung Nursery School",
+   "scheme": true,
+   "lat": 22.288861,
+   "lng": 113.942449,
+   "address": "Shop 301, 3/F, Fu Tung Plaza, Fu Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Fu Tung Plaza",
+   "tel": "2109 0118",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,424 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14424
+   },
+   "enrolment": "Whole-day 81",
+   "teacherPupilRatio": "1:8.5 AM · 1:8.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Project-based learning, visits, small group activities, etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tcns.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5992"
+  },
+  {
+   "id": "6014",
+   "name": "La Petite Enfance Kindergarten",
+   "scheme": false,
+   "lat": 22.308891,
+   "lng": 114.016728,
+   "address": "Unit 5, 6 & 8, LG/F Office Block One, 92 Siena Avenue, Discovery Bay, Lantau Island, Hong Kong",
+   "area": "Discovery Bay",
+   "tel": "6071 3136",
+   "fees": {
+    "am": "$52,500 (10 instalments)",
+    "pm": "$52,500 (10 instalments)",
+    "wd": "K1 — · K2 — · K3 $76,450 (10)"
+   },
+   "feesAnnual": {
+    "am": 52500,
+    "pm": 52500,
+    "wd": 76450
+   },
+   "enrolment": "AM 6 · PM 7 · Whole-day 4",
+   "teacherPupilRatio": "1:5.0 AM · 1:11.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "2"
+    ],
+    [
+     "Website",
+     "http://www.ecole-discovery.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6014"
+  },
+  {
+   "id": "7019",
+   "name": "Hong Kong Young Women's Christian Association Helen Lee Kindergarten",
+   "scheme": true,
+   "lat": 22.277135,
+   "lng": 113.933348,
+   "address": "1/F, Joysmark, Mun Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Mun Tung Estate",
+   "tel": "2310 0950",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$11,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 11500
+   },
+   "enrolment": "AM 27 · Whole-day 71",
+   "teacherPupilRatio": "1:9.8 AM · 1:7.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school utilizes different teaching methods such as \"theme-based teaching,\" \"project approach,\" \"small group teaching,\" and \"corner learning\" to inspire children's learning interests, needs, and thirst for knowledge. Through programs such as \"Family Health Vitamin\" and \"Love+Reading,\" we also cultivate children's moral education and language development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://kghl.ywca.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7019"
+  },
+  {
+   "id": "6007",
+   "name": "Wai Peng Kindergarten School",
+   "scheme": false,
+   "lat": 22.285026,
+   "lng": 114.039666,
+   "address": "G/F, East Portion 8C Chi Yan Lane, Peng Chau, Hong Kong",
+   "area": "Chi Yan Lane",
+   "tel": "2983 0643",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 2 · Whole-day 16",
+   "teacherPupilRatio": "1:9.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1960"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "2"
+    ],
+    [
+     "Website",
+     "http://www.waipeng.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6007"
+  },
+  {
+   "id": "6004",
+   "name": "Kwok Man School Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.204214,
+   "lng": 114.023752,
+   "address": "G/F, Commercial House of Greenery Crest, 33 Cheung Shek Road, Cheung Chau, Hong Kong",
+   "area": "Commercial House",
+   "tel": "2981 0066",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$20,268 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 20268
+   },
+   "enrolment": "Whole-day 37",
+   "teacherPupilRatio": "1:8.6 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt small-class activity approach for teaching and utilize community resources for activities and visits. Children learn with their own initiative and acquire knowledge happily through their own life experiences and while playing."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2013"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://kmvn.edu.hk"
+    ],
+    [
+     "Former name",
+     "Kwok Man Vernacular Normal Anglo-Chinese Kindergarten"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6004"
+  },
+  {
+   "id": "6935",
+   "name": "Lick Hang Kindergarten",
+   "scheme": true,
+   "lat": 22.266776,
+   "lng": 113.99481,
+   "address": "G/F, Flat C & D, 72-74 Rural Committee Road, Mui Wo, Hong Kong",
+   "area": "Rural Committee Road",
+   "tel": "2984 2300",
+   "fees": {
+    "am": "K1 $3,400 (10) · K2 $3,400 (10) · K3 —",
+    "pm": "K1 $3,400 (10) · K2 — · K3 $3,400 (10)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 3400,
+    "pm": 3400,
+    "wd": null
+   },
+   "enrolment": "AM 15 · PM 15",
+   "teacherPupilRatio": "1:5.0 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "~ Children gain knowledge and confidence through play, exploration, and discussion with peers. ~ Outdoor experiential courses to enhance children's observational ability and care for the community. ~ Nature's Classroom provides ample opportunities for children to get in touch with nature and protect nature. ~ Small group teaching: picture books, Putonghua, music & movement and English phonics. We provide a comprehensive learning experience for children. ~ We emphasize children's health and physical development. There are daily physical activities and outdoor free play, which include running and stretching. ~ Weekly reading program to cultivate children's interest in reading. ~ Home-school interaction and collaboration to help children's learning in different areas. ~ Weekly learning performance rating scale to record children's learning performance in school and for parents to better understand what their children are learning and how they are doing in the week. ~Experience Chinese Culture: Experience Chinese culture through various activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "2"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lickhang.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6935"
+  },
+  {
+   "id": "5993",
+   "name": "Lick Hang Kindergarten",
+   "scheme": true,
+   "lat": 22.267361,
+   "lng": 113.992772,
+   "address": "3 Nam Pin Wai, Mui Wo, Lantau Island, Hong Kong",
+   "area": "Lantau Island",
+   "tel": "2984 8239",
+   "fees": {
+    "am": "K1 $3,400 (10) · K2 $3,400 (10) · K3 —",
+    "pm": "K1 $3,400 (10) · K2 — · K3 $3,400 (10)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 3400,
+    "pm": 3400,
+    "wd": null
+   },
+   "enrolment": "AM 29 · PM 33",
+   "teacherPupilRatio": "1:14.5 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "~ Children gain knowledge and confidence through play, exploration, and discussion with peers. ~ Outdoor experiential courses to enhance children's observational skills and foster a sense of community care. Nature's Classroom offers numerous opportunities for children to connect with nature and contribute to its protection. ~ Small group teaching: picture books, Putonghua, music & movement and English phonics. We provide a comprehensive learning experience for children. ~ We emphasize children's health and physical development. There are daily physical activities and outdoor free play, which include running and stretching. ~ Weekly reading program to cultivate children's interest in reading. ~ Home-school interaction and collaboration to help children's learning in different areas. ~ Weekly learning performance rating scale to record children's learning performance in school and for parents to better understand what their children are learning and how they are doing in the week. ~Experience Chinese Culture: Experience Chinese culture through various activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "1"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lickhang.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5993"
+  },
+  {
+   "id": "5994",
+   "name": "Lui Kwan Pok Lutheran Day Nursery",
+   "scheme": true,
+   "lat": 22.209666,
+   "lng": 114.029944,
+   "address": "G/F & 1/F, 7 Church Road, Cheung Chau, Hong Kong",
+   "area": "Church Road",
+   "tel": "2981 0545",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$11,148 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 11148
+   },
+   "enrolment": "Whole-day 25",
+   "teacherPupilRatio": "1:7.0 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The activitiy approach, small group activities, field trips, visits."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1967"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://luikwanpok-nursery.hklss.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5994"
+  },
+  {
+   "id": "5995",
+   "name": "Nam Ying Kindergarten",
+   "scheme": true,
+   "lat": 22.284429,
+   "lng": 114.038841,
+   "address": "G/F, 67 Wing Hing Street, Peng Chau, Hong Kong",
+   "area": "Wing Hing Street",
+   "tel": "2983 8811",
+   "fees": {
+    "am": "K1 $1,265 (11) · K2 — · K3 —",
+    "pm": "K1 — · K2 $1,265 (11) · K3 $1,265 (11)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 1265,
+    "pm": 1265,
+    "wd": null
+   },
+   "enrolment": "AM 18 · PM 15",
+   "teacherPupilRatio": "1:6.0 AM · 1:5.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity approach, visits, small group activities,free play Providing real-life, sensory and interesting learning experiences"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1979"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://namying.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5995"
+  },
+  {
+   "id": "5996",
+   "name": "Our Lady of Lourdes Catholic Kindergarten",
+   "scheme": true,
+   "lat": 22.538269,
+   "lng": 114.145582,
+   "address": "Dd 3 Lot No 1709, Lamma Island, Hong Kong",
+   "area": "Lamma Island",
+   "tel": "2982 0359",
+   "fees": {
+    "am": "K1 — · K2 $1,170 (10) · K3 $1,170 (10)",
+    "pm": "K1 $1,170 (10) · K2 — · K3 —",
+    "wd": "K1 — · K2 $14,800 (10) · K3 $14,800 (10)"
+   },
+   "feesAnnual": {
+    "am": 1170,
+    "pm": 1170,
+    "wd": 14800
+   },
+   "enrolment": "AM 34 · PM 24 · Whole-day 20",
+   "teacherPupilRatio": "1:5.4 AM · 1:4.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school is led by specialist teachers to lead English and mandarin interest activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1961"
+    ],
+    [
+     "Registered classrooms",
+     "2"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ololckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5996"
+  },
+  {
+   "id": "5997",
+   "name": "Po Leung Kuk Cheung Poon Mei Yee Kindergarten",
+   "scheme": true,
+   "lat": 22.288861,
+   "lng": 113.942449,
+   "address": "1/F, Fu Tung Plaza, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Fu Tung Plaza",
+   "tel": "2109 0033",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,030 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12030
+   },
+   "enrolment": "AM 179 · PM 140 · Whole-day 54",
+   "teacherPupilRatio": "1:10.6 AM · 1:8.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school arranges story-based teaching activities in small groups. Learning activities such as simulation games, exploratory activities, visits, creative activities and gardening activities are designed in accordance with children’s developmental characteristics, interests and abilities. This further allows children to learn through interacting with the environment as well as with their teachers and peers. All classrooms are equipped with audio-visual equipment in order to facilitate interactive multimedia learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.plkkgs.edu.hk/plkcpmykg"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5997"
+  },
+  {
+   "id": "5998",
+   "name": "Shin Yat Tong Yat Tung Kindergarten",
+   "scheme": true,
+   "lat": 22.28075,
+   "lng": 113.935331,
+   "address": "1/F, Yat Tung Shopping Centre, 2 Yat Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Yat Tung Shopping Centre",
+   "tel": "2697 3232, 3165 1733",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,566 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5566
+   },
+   "enrolment": "AM 104 · PM 25 · Whole-day 98",
+   "teacherPupilRatio": "1:9.2 AM · 1:5.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt the integrated activity approach, small group discussion, project-based learning for children to learn from play and to build up knowledge through their own participation, exploration and practice. We also utilize community resources to arrange field trips and visits, so as to enhance children's learning and basic knowledge."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2004"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.syt.edu.hk/sytytk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5998"
+  },
+  {
+   "id": "5999",
+   "name": "Sun Island Kindergarten (Tung Chung Branch)",
+   "scheme": true,
+   "lat": 22.291729,
+   "lng": 113.946471,
+   "address": "Shop K01, G/F, Coastal Skyline, Tung Chung Waterfront Road, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Lantau Island",
+   "tel": "2420 1068",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 108 · PM 93",
+   "teacherPupilRatio": "1:7.7 AM · 1:6.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based approach; group activities; activities led by English-speaking teachers; project-based activities, off-campus visits; reading programmes; parent-child activities, participation in activities and competitions organized by external organizations."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2003"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sunisland.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5999"
+  },
+  {
+   "id": "6000",
+   "name": "The Christian the Faith Hope Love Church Yat Tung Kindergarten",
+   "scheme": true,
+   "lat": 22.28075,
+   "lng": 113.935331,
+   "address": "Kindergarten 6, 3/F, Yat Tung Shopping Centre, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Yat Tung Shopping Centre",
+   "tel": "2109 0198",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$4,180 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 4180
+   },
+   "enrolment": "AM 28 · PM 2 · Whole-day 62",
+   "teacherPupilRatio": "1:8.2 AM · 1:5.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our child-center teaching framework integrates interesting and meaningful learning. Through observation, inquiry, practice, discussion, experiential learning and other type of activity-oriented environment settings, children can get more involved and learn better."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2003"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.yatungkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6000"
+  },
+  {
+   "id": "6001",
+   "name": "The Church of Christ In China Cheung Chau Church Kam Kong Kindergarten",
+   "scheme": true,
+   "lat": 22.205538,
+   "lng": 114.029201,
+   "address": "14 School Road, Cheung Chau, Hong Kong",
+   "area": "School Road",
+   "tel": "2981 2223",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,506 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11506
+   },
+   "enrolment": "AM 31 · Whole-day 48",
+   "teacherPupilRatio": "1:8.5 AM · 1:6.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We let children learn biliteracy and trilingual through play. The school offers various learning models, such as project-based learning, community visits and small-group activities. Community-collaboration plan - enriching child’s life experience by bonding closely with our community. Learning through nature - child acquire healthy values and concrete knowledge by interacting with the flora and fauna around us, building genuine respect and appreciation for our mother nature."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1960"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kamkongkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6001"
+  },
+  {
+   "id": "6002",
+   "name": "The Neighbourhood Advice-Action Council Tung Chung Day Nursery",
+   "scheme": true,
+   "lat": 22.280935,
+   "lng": 113.938387,
+   "address": "1/F, Carpark 2, Yat Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Yat Tung Estate",
+   "tel": "3152 2202",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$10,980 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 10980
+   },
+   "enrolment": "Whole-day 59",
+   "teacherPupilRatio": "1:11.4 AM · 1:11.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Using storybooks teaching approach & diverse gaming strategies, encompassing 6 major learning areas. Simultaneously, various interesting objects, teaching materials, tools & field trips are utilized to facilitate children's learning through play. Cultivating children’s curiosity & exploratory spirit through life experience."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.naac.edu.hk/tcdn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6002"
+  },
+  {
+   "id": "6003",
+   "name": "The Neighbourhood Advice-Action Council Tung Yan Day Nursery",
+   "scheme": true,
+   "lat": 22.291443,
+   "lng": 113.948131,
+   "address": "1/F, Tower 15, Caribbean Coast, 1 Kin Tung Road, Lantau Island, Tung Chung, Hong Kong",
+   "area": "Kin Tung Road",
+   "tel": "3194 5120",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$10,044 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 10044
+   },
+   "enrolment": "Whole-day 89",
+   "teacherPupilRatio": "1:11.4 AM · 1:11.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Using the Picture Book Teaching Method, together with the Lifelike Themes, children are encouraged to observe, discover, think, and ask questions through hands-on manipulation and learning through play, which promotes their motivation and ability to learn independently."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2008"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.naac.edu.hk/tydn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6003"
+  },
+  {
+   "id": "6987",
+   "name": "The Salvation Army Rosita Yuen Kindergarten",
+   "scheme": true,
+   "lat": 22.295776,
+   "lng": 113.953947,
+   "address": "G/F, Ying Yuet House, Ying Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Ying Yuet House",
+   "tel": "2361 0128",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11200
+   },
+   "enrolment": "AM 70 · PM 29 · Whole-day 78",
+   "teacherPupilRatio": "1:9.3 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school takes \"Going off campus‧Living learning\" as the main line. The learning content combines with students’ life experience. Through physical coordination, visual and touch, life skills and spiritual care, the school stimulates the logical thinking and all-round development. The course includes different practical studies such as: Native English and Putonghua teachers, using games as a strategy to enrich the language context, snack tasting, scientific exploration, visits, etc., so that students can learn from their first experience, develop in a balanced manner, enhance their ability to learn independently through different learning elements and build a good foundation for their growth."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2019"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.salvationarmy.org.hk/esd/rykg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6987"
+  },
+  {
+   "id": "6005",
+   "name": "Tung Chung Baptist Kindergarten",
+   "scheme": true,
+   "lat": 22.280935,
+   "lng": 113.938387,
+   "address": "4/F, Carpark No. 2, Yat Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Yat Tung Estate",
+   "tel": "3141 7101",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,978 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10978
+   },
+   "enrolment": "AM 21 · Whole-day 68",
+   "teacherPupilRatio": "1:8.1 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt different teaching approaches including the thematic approach and the child-oriented approach,which are complemented with diversified activities and interactive learning. We discuss with children according to their interest. We strive to foster children's abilities to concentrate, to think independently, to remember, to create and to discern."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tcbaptkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6005"
+  },
+  {
+   "id": "6006",
+   "name": "Tung Chung Catholic Kindergarten",
+   "scheme": true,
+   "lat": 22.280935,
+   "lng": 113.938387,
+   "address": "2/F, Carpark, 2 Yat Tung Estate, Tung Chung, Lantau Island, Hong Kong",
+   "area": "Yat Tung Estate",
+   "tel": "3141 7355",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$6,900 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 6900
+   },
+   "enrolment": "AM 28 · Whole-day 60",
+   "teacherPupilRatio": "1:8.8 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our child-centred teaching allows children to learn through play and helps them develop social skills and team spirit.Native speakers will teach English and Mandarin to help the students learn these languages. We also have various teams like Seedlings of Christ and Happy Bee to foster children's ethics and team spirit."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.tungchungckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6006"
+  }
+ ]
+}

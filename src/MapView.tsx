@@ -1,7 +1,10 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
-import type { Home } from "./types";
+import type { DistrictInfo, Home } from "./types";
 import type { RankedSchool } from "./App";
+
+// below this zoom the map shows district bubbles instead of campus pins
+const BUBBLE_ZOOM = 10.8;
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -17,6 +20,9 @@ interface Props {
   desktop: boolean;
   favIds: string[];
   onHomeMove: (lat: number, lng: number) => boolean;
+  districts: DistrictInfo[];
+  districtId: string;
+  onDistrict: (id: string) => void;
 }
 
 export default function MapView({
@@ -27,6 +33,9 @@ export default function MapView({
   desktop,
   favIds,
   onHomeMove,
+  districts,
+  districtId,
+  onDistrict,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -50,6 +59,17 @@ export default function MapView({
         "bottom-right",
       );
     }
+    // zoom regime: district bubbles far out, campus pins in close
+    const applyRegime = () => {
+      containerRef.current?.classList.toggle(
+        "map--far",
+        map.getZoom() < BUBBLE_ZOOM,
+      );
+    };
+    map.on("zoom", applyRegime);
+    applyRegime();
+    // exposed for debugging and scripted verification
+    (window as unknown as { __kgMap?: maplibregl.Map }).__kgMap = map;
     mapRef.current = map;
     return () => {
       map.remove();
@@ -141,7 +161,7 @@ export default function MapView({
       markersRef.current.set(s.id, marker);
     }
 
-    if (!didFitRef.current && (schools.length > 0 || home)) {
+    if (!didFitRef.current && schools.length > 0) {
       const bounds = new maplibregl.LngLatBounds();
       if (home) bounds.extend([home.lng, home.lat]);
       for (const s of schools)
@@ -159,6 +179,53 @@ export default function MapView({
       }
     }
   }, [schools, home, onSelect, desktop]);
+
+  // District bubbles (zoomed-out regime) — one marker per district
+  const bubblesRef = useRef<Map<string, maplibregl.Marker>>(new Map());
+  const onDistrictRef = useRef(onDistrict);
+  onDistrictRef.current = onDistrict;
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || districts.length === 0) return;
+    for (const m of bubblesRef.current.values()) m.remove();
+    bubblesRef.current.clear();
+    for (const d of districts) {
+      if (d.lat == null || d.lng == null) continue;
+      const el = document.createElement("button");
+      el.type = "button";
+      el.className = "bubble";
+      el.tabIndex = -1;
+      el.innerHTML = `<b>${d.count}</b><span>${d.name}</span>`;
+      el.setAttribute("aria-label", `${d.name}: ${d.count} kindergartens`);
+      el.addEventListener("click", (e) => {
+        e.stopPropagation();
+        onDistrictRef.current(d.id);
+      });
+      const marker = new maplibregl.Marker({ element: el })
+        .setLngLat([d.lng, d.lat])
+        .addTo(map);
+      bubblesRef.current.set(d.id, marker);
+    }
+    return () => {
+      for (const m of bubblesRef.current.values()) m.remove();
+      bubblesRef.current.clear();
+    };
+  }, [districts]);
+
+  useEffect(() => {
+    for (const [id, m] of bubblesRef.current) {
+      m.getElement().classList.toggle("bubble--current", id === districtId);
+    }
+  }, [districtId, districts]);
+
+  // Changing district refits the map to the new set of pins
+  const prevDistrictRef = useRef(districtId);
+  useEffect(() => {
+    if (prevDistrictRef.current !== districtId) {
+      prevDistrictRef.current = districtId;
+      didFitRef.current = false;
+    }
+  }, [districtId]);
 
   // Shortlist badge (markers effect runs first, so this reapplies on rebuild)
   useEffect(() => {

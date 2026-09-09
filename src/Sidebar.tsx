@@ -4,7 +4,9 @@ import type { RankedSchool } from "./App";
 import FilterChips, { type Counts } from "./FilterChips";
 import SchoolList from "./SchoolList";
 import ShareButton from "./ShareButton";
+import DistrictSelect from "./DistrictSelect";
 import { formatKm } from "./geo";
+import type { DistrictInfo } from "./types";
 
 interface Props {
   schools: RankedSchool[];
@@ -16,6 +18,10 @@ interface Props {
   favCount: number;
   favIds: string[];
   shortlistOnly: boolean;
+  districts: DistrictInfo[];
+  districtId: string;
+  profileYear: string;
+  onDistrict: (id: string) => void;
   onShortlist: () => void;
   onToggleFav: (id: string) => void;
   onFilter: (f: SchemeFilter) => void;
@@ -33,6 +39,10 @@ export default function Sidebar({
   favCount,
   favIds,
   shortlistOnly,
+  districts,
+  districtId,
+  profileYear,
+  onDistrict,
   onShortlist,
   onToggleFav,
   onFilter,
@@ -61,17 +71,16 @@ export default function Sidebar({
   return (
     <aside className="sidebar" aria-label="Kindergarten explorer">
           <header className="sidebar-head">
-            <h1>Tai Po Kindergartens</h1>
+            <h1>HK Kindergarten Map</h1>
             <p>
-              EDB 2025/26 profile · nearest-first from{" "}
-              {home?.custom ? (
-                <strong>your home</strong>
-              ) : (
-                <>
-                  <strong>Casa Brava</strong>, 73 Ting Kok Road
-                </>
-              )}{" "}
-              · drag the <strong>⌂</strong> pin to move home
+              <DistrictSelect
+                districts={districts}
+                value={districtId}
+                onChange={onDistrict}
+              />{" "}
+              · EDB {profileYear} profile · nearest-first from{" "}
+              <strong>{home?.custom ? "your home" : "Casa Brava"}</strong> ·
+              drag the <strong>⌂</strong> pin to move home
             </p>
           </header>
 

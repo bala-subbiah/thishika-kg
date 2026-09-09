@@ -1,0 +1,1633 @@
+{
+ "generatedAt": "2026-09-09T16:02:28.697Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=wanchai",
+ "district": {
+  "id": "wanchai",
+  "name": "Wan Chai"
+ },
+ "schools": [
+  {
+   "id": "6669",
+   "name": "Hong Kong Ling Liang Church Kindergarten",
+   "scheme": true,
+   "lat": 22.277299,
+   "lng": 114.183696,
+   "address": "6 Leighton Lane, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2576 5881",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 304 · PM 241",
+   "teacherPupilRatio": "1:8.4 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school adopts the “plan-do-review” learning process of \"High Scope Approach\". Children are encouraged to experience, explore, create and learn by undergoing a multi-process journey. 2. It derives motivation from themes, thus leading to activities of project-based learning programs to create a learning atmosphere of “entering the classroom with a question, and leaving with a number of questions.” 3. Creative activities rich in language learning and inspire children’s interest in learning words. The “Please Listen to Me” Reading Scheme trains up children to recognize and read a lot of English and Chinese vocabulary; The “Free Writing Scheme” increases children’s positive attitude towards writing, so as to enhance their ability to use words and write short essays. 4. Native-speaking English teachers prepare school-based teaching materials from daily life scenarios to help children easily master the ability to listen, speak, read and spell. 5. The school adopts Orff Schulwerk in the music activities and makes use of various musical elements to effectively achieve balanced development of children’s imaginative capacity, ability of abstraction, spatial intelligence and emotional intelligence, so as to build a foundation for learning instruments in the future. 6. Children become the master of the “Free Play”, they have the rights to making choices, planning, creating and discovering. 7. The school infuses an artistic sense into everyday teaching and popularizes art education in daily activities. Children are guided innovatively to participate in learning activities with various artistic elements."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1972"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "36"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lingliang.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6669"
+  },
+  {
+   "id": "6667",
+   "name": "Braemar Hill Nursery School",
+   "scheme": false,
+   "lat": 22.272684,
+   "lng": 114.193291,
+   "address": "1/F & Roof Floor Chun Fai Centre, 9 Chun Fai Road, Jardine's Lookout, Hong Kong",
+   "area": "& Roof Floor Chun Fai Centre",
+   "tel": "2578 7922",
+   "fees": {
+    "am": "$135,000 (12 instalments)",
+    "pm": "$135,000 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 135000,
+    "pm": 135000,
+    "wd": null
+   },
+   "enrolment": "AM 208 · PM 208",
+   "teacherPupilRatio": "1:7.1 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "37"
+    ],
+    [
+     "Website",
+     "http://www.braemarhillnurseryschool.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6667"
+  },
+  {
+   "id": "6970",
+   "name": "Khalsa Diwan Kindergarten",
+   "scheme": true,
+   "lat": 22.285209,
+   "lng": 114.19241,
+   "address": "Flat B, 3/F, Timmar Court, 10-12 Wing Hing Street, Tin Hau, Hong Kong",
+   "area": "Timmar Court",
+   "tel": "2702 0366",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 14",
+   "teacherPupilRatio": "1:3.5 AM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "All the children in the school are non-Chinese, and Chinese is not their first language. Approved by non-Chinese speaking students, the school has built a rich language environment in the environmental layout, creating a full-language learning, providing rich Chinese text stimulation, so that children can learn from the real text environment and integrate Chinese into life."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1974"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.kdkkindergarten.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6970"
+  },
+  {
+   "id": "5963",
+   "name": "Causeway Bay Victoria International Kindergarten",
+   "scheme": false,
+   "lat": 22.283385,
+   "lng": 114.191274,
+   "address": "2/F & Roof, 32-36 Hing Fat Street, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2578 9998",
+   "fees": {
+    "am": "K1 $96,480 (10) · K2 $88,360 (10) · K3 $90,710 (10)",
+    "pm": "K1 $96,480 (10) · K2 $88,360 (10) · K3 $90,710 (10)",
+    "wd": "K1 — · K2 — · K3 $171,930 (10)"
+   },
+   "feesAnnual": {
+    "am": 96480,
+    "pm": 96480,
+    "wd": 171930
+   },
+   "enrolment": "AM 210 · PM 197",
+   "teacherPupilRatio": "1:7.8 AM · 1:6.6 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Quality Learning: We provide the children with an interactive learning environment that gives them different scenarios in which to actively explore, think, question, create and problem-solve, as well as learn to communicate with their peers, appreciate and care for others and enjoy their achievements together. Discovering new things: We respect the learning interests of the children. We believe in the ability of the children and in a child-directed curriculum, the objective being to stimulate their thinking and creativity and develop their potential. During a typical activity, the teacher would, through this kind of educational model, encourage the children to explore, observe and create to express their inner feelings and thoughts. This helps the children to develop their multiple intelligences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1965"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "30"
+    ],
+    [
+     "Website",
+     "http://www.cbvictoria.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5963"
+  },
+  {
+   "id": "6651",
+   "name": "Muslim Community Kindergarten",
+   "scheme": true,
+   "lat": 22.277326,
+   "lng": 114.178805,
+   "address": "G/F, 40 Oi Kwan Road, Wan Chai, Hong Kong",
+   "area": "Oi Kwan Road",
+   "tel": "2891 0552",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 48 · PM 21",
+   "teacherPupilRatio": "1:6.0 AM · 1:2.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Small group teaching is our major way to create more opportunities and interact between children and teachers. Through field visit, it is to consolidate their life knowledge and use different methods to understand what they known."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.mck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6651"
+  },
+  {
+   "id": "5964",
+   "name": "Causeway Bay Victoria Kindergarten",
+   "scheme": false,
+   "lat": 22.283385,
+   "lng": 114.191274,
+   "address": "Gf - 2/F, 32-36 Hing Fat Street, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2578 9998",
+   "fees": {
+    "am": "K1 $91,564 (10) · K2 $83,860 (10) · K3 $86,090 (10)",
+    "pm": "K1 $91,564 (10) · K2 $83,860 (10) · K3 $86,090 (10)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 91564,
+    "pm": 91564,
+    "wd": null
+   },
+   "enrolment": "AM 99 · PM 124",
+   "teacherPupilRatio": "1:6.2 AM · 1:6.5 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Quality Learning: We provide the children with an interactive learning environment that gives them different scenarios in which to actively explore, think, question, create and problem-solve, as well as learn to communicate with their peers, appreciate and care for others and enjoy their achievements together. Discovering new things: We respect the learning interests of the children. We believe in the ability of the children and in a child-directed curriculum, the objective being to stimulate their thinking and creativity and develop their potential. During a typical activity, the teacher would, through this kind of educational model, encourage the children to explore, observe and create to express their inner feelings and thoughts. This helps the children to develop their multiple intelligences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1965"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "33"
+    ],
+    [
+     "Website",
+     "http://www.cbvictoria.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5964"
+  },
+  {
+   "id": "6652",
+   "name": "Oi Kwan Road Baptist Church Lui Kwok Pat Fong Kindergarten",
+   "scheme": true,
+   "lat": 22.277417,
+   "lng": 114.179281,
+   "address": "G/F, 3/F, 4/F & 5/F Activity Room, 36 Oi Kwan Road, Wanchai, Hong Kong",
+   "area": "Oi Kwan Road",
+   "tel": "2893 2715",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$23,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 23500
+   },
+   "enrolment": "AM 98 · PM 25 · Whole-day 74",
+   "teacherPupilRatio": "1:10.1 AM · 1:7.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We mainly adopt theme-based activity and group-based teaching and provide whole-language and project teaching as a supplement; offer diversified learning activities and integrate the curriculum contents; and endeavour to promote moral education, optional activities, free play, Orff Music, emotion education, art, PE and sex education for preschool children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lkpfkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6652"
+  },
+  {
+   "id": "6668",
+   "name": "Esf International Kindergarten (Hillside)",
+   "scheme": false,
+   "lat": 22.265966,
+   "lng": 114.179969,
+   "address": "43B Stubbs Road, Hong Kong",
+   "area": "Stubbs Road",
+   "tel": "2540 0066",
+   "fees": {
+    "am": "K1 $101,300 (10) · K2 $101,300 (10) · K3 —",
+    "pm": "K1 $101,300 (10) · K2 $101,300 (10) · K3 —",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 101300,
+    "pm": 101300,
+    "wd": null
+   },
+   "enrolment": "AM 192 · PM 185",
+   "teacherPupilRatio": "1:12.0 AM · 1:11.6 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Website",
+     "https://www.hillside.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6668"
+  },
+  {
+   "id": "6653",
+   "name": "Po Leung Kuk Chu Lee Yuet Wah Kindergarten",
+   "scheme": true,
+   "lat": 22.277073,
+   "lng": 114.184617,
+   "address": "66 Leighton Road, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2277 8383",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$25,116 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 25116
+   },
+   "enrolment": "Whole-day 57",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We design an open environment, divide different learning spaces and broaden activity space to develop children’s active learning ability. According to children’s development and abilities, we place teaching aids of different degrees in various learning areas to improve children’s learning interest. We adopt mixed age learning mode to promote children’s sociability development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/clywkgn/school-info"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6653"
+  },
+  {
+   "id": "6678",
+   "name": "Guidepost Montessori International Pre-School (Happy Valley Hawthorn Road)",
+   "scheme": false,
+   "lat": 22.265379,
+   "lng": 114.187411,
+   "address": "No 2, G/F, Hawthorn Road, Happy Valley, Hong Kong",
+   "area": "Happy Valley",
+   "tel": "2575 0042",
+   "fees": {
+    "am": null,
+    "pm": "$117,720 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": 117720,
+    "wd": null
+   },
+   "enrolment": "AM 22 · PM 5",
+   "teacherPupilRatio": "1:4.3 AM · 1:0.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2023"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/happyvalley-hawthornroad"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6678"
+  },
+  {
+   "id": "6654",
+   "name": "Po Leung Kuk Vicwood Chong Kee Ting Kindergarten",
+   "scheme": true,
+   "lat": 22.277073,
+   "lng": 114.184617,
+   "address": "66 Leighton Road, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2894 9921",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,900 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11900
+   },
+   "enrolment": "AM 52 · Whole-day 57",
+   "teacherPupilRatio": "1:8.9 AM · 1:4.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Practice life education as the core of the curriculum design.Actively promote child-oriented thematic teaching.Designing diversified exhibition activities, using drama and art teaching to enhance students' interest.Using \"Montessori\" operational teaching aids.Enhance parent education and home-school cooperation.Enhance teachers' teaching ability to cater to students with diverse learning needs."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1975"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plkvcktkg/hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6654"
+  },
+  {
+   "id": "7005",
+   "name": "Hkca Po Leung Kuk School",
+   "scheme": false,
+   "lat": 22.28455,
+   "lng": 114.193584,
+   "address": "62 Tin Hau Temple Road, Hong Kong",
+   "area": "Tin Hau Temple Road",
+   "tel": "3465 8404",
+   "fees": {
+    "am": "$93,200 (10 instalments)",
+    "pm": "$93,200 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 93200,
+    "pm": 93200,
+    "wd": null
+   },
+   "enrolment": "AM 35 · PM 21",
+   "teacherPupilRatio": "1:4.4 AM · 1:2.6 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school is authorised to implement the PYP, which is an international, transdisciplinary curriculum framework for young children. English is the medium of instruction at school. In our Early Years program, children explore their environment and learn about their world through play and through the relationships with peers, teachers, family and community members. Learning in the PYP is a holistic experience that integrates socio-emotional, physical and cognitive development. We offer Chinese lessons to students on a daily basis, teaching Mandarin with a focus on receptive and verbal language, gradually introducing traditional characters."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "https://www.plkis.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7005"
+  },
+  {
+   "id": "6655",
+   "name": "Precious Blood Kindergarten",
+   "scheme": true,
+   "lat": 22.26555,
+   "lng": 114.187634,
+   "address": "9 Holly Road, Happy Valley, Hong Kong",
+   "area": "Holly Road",
+   "tel": "2572 3773",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 304 · PM 79",
+   "teacherPupilRatio": "1:13.8 AM · 1:4.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1.We implement open and process-focused activity and provide whole-class and group classes. We also design discussion sessions, sharing-time and exploration activities to let children explore and discover independently. 2. We apply High-scope teaching and set up interesting learning areas in the environment; through a process of “plan, do and review”, Provide children with methods to learn how to make choices and solve problems,and help them construct knowledge. 3.Through positive education, help children establish positive values and attitudes. Through drama activities, story creation and reading etc., enhance children's biliterate and trilingual abilities; to broaden children’s learning horizons, we organize different visiting and learning activities based on their learning interests."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1945"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.pbk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6655"
+  },
+  {
+   "id": "5968",
+   "name": "Island Children's Montessori Kindergarten",
+   "scheme": false,
+   "lat": 22.283132,
+   "lng": 114.193293,
+   "address": "Unit C, Lower G/F and Unit B, Upper G/F, Dragon View Garden, 16 Tin Hau Temple Road, Hong Kong",
+   "area": "Dragon View Garden",
+   "tel": "3427 9100",
+   "fees": {
+    "am": "$93,500 (11 instalments)",
+    "pm": "$93,500 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 93500,
+    "pm": 93500,
+    "wd": null
+   },
+   "enrolment": "AM 21 · PM 8",
+   "teacherPupilRatio": "1:10.0 AM · 1:3.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2008"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Website",
+     "https://icms.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5968"
+  },
+  {
+   "id": "6657",
+   "name": "S K H St Christopher's Nursery (Wan Chai)",
+   "scheme": true,
+   "lat": 22.275493,
+   "lng": 114.174177,
+   "address": "3/F, 3 Wan Chai Road, Wan Chai, Hong Kong",
+   "area": "Wan Chai Road",
+   "tel": "2832 7101",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$6,504 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 6504
+   },
+   "enrolment": "Whole-day 72",
+   "teacherPupilRatio": "1:9.0 AM · 1:9.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Teaching Approaches: We adopt \"Story Approach\" to integrate child's learning and let them to learn from “practice” and “play”. In addition, we use Montessori teaching tools and systematic teaching procedures to promote children’s development in “Mathematics”, “Sensory” and “Life skills and self-care”. Moreover, we have different learning corners such as \"Challenging zone\", \"Arts and creativity zone\", \"Free play zone\", \"Nature exploring zone\" and \"Language zone\", which our children in different classes can play to learn together, in order to scaffold their learning. Language Learning: A native English teacher and a Mandarin teacher are engaged to provide fun and professional teaching by designing different activities like games, stories, phonics teaching and songs, in order to facilitate children's interest and lay a good foundation in language learning. Curriculum for non-Chinese Speaking Students： We provide Chinese language learning group to support the learning of Non-Chinese Speaking students. We also organize multicultural activities so that the Chinese and Non-Chinese Speaking children and parents could communicate with each other and lead to social integration."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2006"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.skhwcn.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6657"
+  },
+  {
+   "id": "7071",
+   "name": "Little Dalton Kindergarten",
+   "scheme": false,
+   "lat": 22.263925,
+   "lng": 114.182686,
+   "address": "Part of G/F and Part of 1/F, 41B Stubbs Road, Wan Chai, Hong Kong",
+   "area": "Stubbs Road",
+   "tel": "3612 5760",
+   "fees": {
+    "am": "$115,500 (11 instalments)",
+    "pm": "$115,500 (11 instalments)",
+    "wd": "$173,800 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 115500,
+    "pm": 115500,
+    "wd": 173800
+   },
+   "enrolment": "AM 59 · PM 24 · Whole-day 39",
+   "teacherPupilRatio": "1:7.1 AM · 1:3.7 PM",
+   "curriculum": "Local and Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Guided by our Dalton Plan and our promotion of Chinese values, our students are positioned to see their similarities and differences as opportunities to learn and connect, and the process of inquiry in classrooms provides opportunities for students to learn and grow through play and exploration. Ensure your child is afforded the opportunity to explore their interests, take ownership of their learning and develop a multitude of skill sets in our nurturing and progressive learning community."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2013"
+    ],
+    [
+     "Registered classrooms",
+     "13"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Website",
+     "https://littledalton.com/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7071"
+  },
+  {
+   "id": "6658",
+   "name": "St James' Settlement Causeway Bay Kindergarten",
+   "scheme": true,
+   "lat": 22.278834,
+   "lng": 114.186626,
+   "address": "Shop 3 & 8-10, G/F & 1/F, Progress Commercial Building, 7-17 Irving Street, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2808 1391",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,760 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17760
+   },
+   "enrolment": "Whole-day 95",
+   "teacherPupilRatio": "1:10.2 AM · 1:10.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school which is child-oriented implement theme or project learning in a comprehensive way. A learning session or a series of learning and teaching activities cover learning areas, which are “Language”, “Early Mathematics”, “Physical Fitness and Health”, “Self and Society” and “Arts”. Knowledge, skills and attitude are also taught. Each learning session covers at least 3 learning areas.We provide diversified and optional learning activities to let children learn independently from games. In addition, we arrange field trips and parent-child reading programmes as well as extended activities such as English, Mandarin, Science, visual arts, creative music and drama."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://cbccc.sjs.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6658"
+  },
+  {
+   "id": "6890",
+   "name": "Mass International Preschool",
+   "scheme": false,
+   "lat": 22.277732,
+   "lng": 114.194592,
+   "address": "Shop 2, G/F and LG/F Block 8, Lai Tak Plaza, 2 Lai Tak Tsuen Road, Tai Hang, Hong Kong",
+   "area": "Lai Tak Plaza",
+   "tel": "3955 1588",
+   "fees": {
+    "am": "$72,600 (12 instalments)",
+    "pm": "$72,600 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 72600,
+    "pm": 72600,
+    "wd": null
+   },
+   "enrolment": "AM 34 · PM 27",
+   "teacherPupilRatio": "1:7.5 AM · 1:4.5 PM",
+   "curriculum": "Local and Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Website",
+     "http://www.masspreschool.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6890"
+  },
+  {
+   "id": "6659",
+   "name": "St James' Settlement Kathleen Mcdouall Kindergarten",
+   "scheme": true,
+   "lat": 22.272305,
+   "lng": 114.173381,
+   "address": "3/F - 6/F(PORTION), 100 Kennedy Road, Wan Chai, Hong Kong",
+   "area": "Kennedy Road",
+   "tel": "2596 2523",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$30,384 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 30384
+   },
+   "enrolment": "Whole-day 90",
+   "teacherPupilRatio": "1:6.6 AM · 1:6.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We value the importance of child-centred education & the individual differences of children. By paying attention to individual needs, experiences, abilities and interests development and taking care of their physical, mental and spiritual well-beings. we use innovative and integrative approaches to bring out the special features of our school. Moreover, we provide field trips, workshops and extended learning activities (such as English, Mandarin, Physical Education, Visual Arts, Creative Music and Drama) to broaden their horizon and learn to be more confident, creative and active."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1963"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://kmccc.sjs.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6659"
+  },
+  {
+   "id": "7050",
+   "name": "Pods Kindergarten",
+   "scheme": false,
+   "lat": 22.282004,
+   "lng": 114.192254,
+   "address": "1/F, Magnolia Mansion, 4 Tin Hau Temple Road, North Point, Hong Kong",
+   "area": "Tin Hau Temple Road",
+   "tel": "3460 3560",
+   "fees": {
+    "am": "$86,350 (11 instalments)",
+    "pm": "$86,350 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 86350,
+    "pm": 86350,
+    "wd": null
+   },
+   "enrolment": "AM 35 · PM 13",
+   "teacherPupilRatio": "1:4.8 AM · 1:3.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our teaching plan is completed and enriched with interest areas in drama, art, music, discovery-based science and athletics opportunities."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2013"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "http://www.pods.com.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7050"
+  },
+  {
+   "id": "6660",
+   "name": "St. Margaret Mary's Catholic Kindergarten",
+   "scheme": true,
+   "lat": 22.265288,
+   "lng": 114.18678,
+   "address": "3/F - 4/F, St Margaret Church Catholic Centre, 2A Broadwood Road, Happy Valley, Hong Kong",
+   "area": "St Margaret Church Catholic Centre",
+   "tel": "2576 9824",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 239 · PM 238",
+   "teacherPupilRatio": "1:10.0 AM · 1:9.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity teaching, group-based learning activities, project-based learning,Mixed-Age activity, visits"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "11"
+    ],
+    [
+     "Principal & teachers",
+     "24"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.stmkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6660"
+  },
+  {
+   "id": "6672",
+   "name": "Sheng Kung Hui Kindergarten",
+   "scheme": false,
+   "lat": 22.277019,
+   "lng": 114.189197,
+   "address": "7 Eastern Hospital Road, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2523 4905",
+   "fees": {
+    "am": "$71,830 (10 instalments)",
+    "pm": "$71,830 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 71830,
+    "pm": 71830,
+    "wd": null
+   },
+   "enrolment": "AM 270 · PM 257",
+   "teacherPupilRatio": "1:7.3 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. The learning environment is thoughtfully designed to inspire learning. 2. We adopt “child-centeredness” as our core value, and promote whole child development through thematic teaching conducted in small groups. 3. The learning activities offer opportunities for exploration and nurture the love of learning in children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1945"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "37"
+    ],
+    [
+     "Website",
+     "http://www.skhkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6672"
+  },
+  {
+   "id": "6661",
+   "name": "The Boys' and Girls' Clubs Association of Hong Kong Cheerland Kindergarten (Wanchai)",
+   "scheme": true,
+   "lat": 22.278455,
+   "lng": 114.169073,
+   "address": "2/F & 4/F Roof Playground, 3 Lockhart Road, Wanchai, Hong Kong",
+   "area": "Lockhart Road",
+   "tel": "2529 8484",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$28,176 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 28176
+   },
+   "enrolment": "Whole-day 34",
+   "teacherPupilRatio": "1:6.4 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Children’s learning is based on theme-based activities and project approach. Through intriguing and tangible materials the children will enhance their learning. They will also utilize the means of media learning. We arrange a variety of outdoor activities so that the children will have the opportunity to explore and experience real life learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nursery.bgca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6661"
+  },
+  {
+   "id": "6674",
+   "name": "St Paul's Day Nursery",
+   "scheme": false,
+   "lat": 22.27701,
+   "lng": 114.182677,
+   "address": "Part of G/F, 3/F, 4/F & 6/F 140A Leighton Road, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2577 0406",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$97,350 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 97350
+   },
+   "enrolment": "Whole-day 208",
+   "teacherPupilRatio": "1:6.9 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "According to the children’s characteristics, abilities and development, artistic approach, theme-based and whole-language learning using different combinations or activities (big - small group/class/grade, in and outside school, parent-child interaction, etc.) which let children experience in person and comprehend new knowledge and master skills, are provided."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1965"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "38"
+    ],
+    [
+     "Website",
+     "http://www.spn.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6674"
+  },
+  {
+   "id": "6662",
+   "name": "The Church of Christ In China Wanchai Church Kindergarten",
+   "scheme": true,
+   "lat": 22.274075,
+   "lng": 114.171897,
+   "address": "Chuk Kui Terrace, Spring Garden Lane, Hong Kong",
+   "area": "Chuk Kui Terrace",
+   "tel": "2527 9615",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$17,314 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 17314
+   },
+   "enrolment": "AM 69 · PM 40 · Whole-day 109",
+   "teacherPupilRatio": "1:8.6 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt comprehensive teaching approach such as theme-based teaching and designed activities, focus on children-centred interactive learning, and provide perception activities and learning approaches based on observation, inquiry, thinking and imagination to satisfy children’s curiosity for knowledge and creation and help them develop a sense of achievement."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1954"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "23"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://wck.ccc.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6662"
+  },
+  {
+   "id": "6675",
+   "name": "St. Paul's Kindergarten",
+   "scheme": false,
+   "lat": 22.27701,
+   "lng": 114.182677,
+   "address": "G/F - 2/F, Il 1018 Leighton Road, Causeway Bay, Hong Kong",
+   "area": "Causeway Bay",
+   "tel": "2576 3793",
+   "fees": {
+    "am": "$34,050 (10 instalments)",
+    "pm": "$34,050 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 34050,
+    "pm": 34050,
+    "wd": null
+   },
+   "enrolment": "AM 270 · PM 270",
+   "teacherPupilRatio": "1:9.3 AM · 1:10.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum is thematically designed with intergrated learning activities and project-based learning which will enhance children's creativity, cognitivity, critical thinking and problem-solving capability."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1950"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "44"
+    ],
+    [
+     "Website",
+     "http://www.spk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6675"
+  },
+  {
+   "id": "7017",
+   "name": "Tung Wah Group of Hospitals Mr. & Mrs. Lee Yin Yee Nursery School",
+   "scheme": true,
+   "lat": 22.278699,
+   "lng": 114.174303,
+   "address": "Shops A-C, G/F & 1/F, Tung Kai Building, 158-172 Jaffe Road, & 20 Fleming Road, Wan Chai, Hong Kong",
+   "area": "Jaffe Road",
+   "tel": "2507 3997",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,684 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15684
+   },
+   "enrolment": "Whole-day 62",
+   "teacherPupilRatio": "1:7.3 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated approaches are adopted to meet diverse needs while achieving learning objectives.We use story books to stimulate children’s curiosity and motivation to learn.Coupled with the whole language approach and project-based learning,a series of multifaceted explorative activities and play are implemented to facilitate children’s learning and reinforce their knowledge,skills,and attitudes. We emphasize children’s self initiatives and design inspiring games or activities for teaching.According to the developmental needs of children at different ages, perception-oriented parent-child activities are introduced to parents to help children understand various concepts and develop skills through games in everyday life.Through musical rhythm,body movement and exploration,children are guided to develop physical flexibility and creativity while learning to respect and establish interpersonal relationship."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1968"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://mmlyyns.tungwahcsd.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7017"
+  },
+  {
+   "id": "6677",
+   "name": "Teikyo Hong Kong Kindergarten",
+   "scheme": false,
+   "lat": 22.266552,
+   "lng": 114.188129,
+   "address": "81 Sing Woo Road, Happy Valley, Hong Kong",
+   "area": "Sing Woo Road",
+   "tel": "2833 9963",
+   "fees": {
+    "am": "$71,500 (11 instalments)",
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 71500,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 33",
+   "teacherPupilRatio": "1:11.0 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Website",
+     "http://www.teikyo.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6677"
+  },
+  {
+   "id": "6663",
+   "name": "The True Light School of Hong Kong, Primary and Kindergarten Section",
+   "scheme": false,
+   "lat": 22.275845,
+   "lng": 114.194126,
+   "address": "50 Tai Hang Road, Hong Kong",
+   "area": "Tai Hang Road",
+   "tel": "2577 3569",
+   "fees": {
+    "am": "$48,880 (10 instalments)",
+    "pm": "$48,880 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 48880,
+    "pm": 48880,
+    "wd": null
+   },
+   "enrolment": "AM 201 · PM 180",
+   "teacherPupilRatio": "1:8.4 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We implement comprehensive teaching and provide whole-class, brain-base teaching, group and individual discussion, sharing, observation and exploration activities to help children acquire learning experience."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1935"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "24"
+    ],
+    [
+     "Website",
+     "http://www.tlmshkps.edu.hk/kindergarten"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6663"
+  }
+ ]
+}

@@ -1,48 +1,60 @@
 import { useEffect, useMemo, useState } from "react";
-import type { School, SchemeFilter, SessionFilter, Snapshot } from "./types";
+import type { Home, School, SchemeFilter, SessionFilter } from "./types";
 import { haversineKm } from "./geo";
 import { useMediaQuery } from "./useMediaQuery";
+import { useDistricts } from "./useDistricts";
+import { useShortlist } from "./useShortlist";
+import { useHome } from "./useHome";
 import MapView from "./MapView";
 import Sheet from "./Sheet";
 import Sidebar from "./Sidebar";
 import SchoolDetail from "./SchoolDetail";
 import Legend from "./Legend";
 import FilterChips from "./FilterChips";
-import { useShortlist } from "./useShortlist";
-import { useHome } from "./useHome";
+import DistrictSelect from "./DistrictSelect";
 
 export interface RankedSchool extends School {
   rank: number;
   distanceKm: number | null;
 }
 
-const DEMO = new URLSearchParams(window.location.search).has("demo");
-const DATA_URL = DEMO ? "data/demo-schools.json" : "data/schools.json";
+// The app's origin story and default home: Casa Brava, Tai Po (ALS rooftop).
+const DEFAULT_HOME: Home = {
+  name: "Casa Brava",
+  address: "73 Ting Kok Road, Tai Po, New Territories",
+  lat: 22.462479,
+  lng: 114.189515,
+};
+
+const WELCOME_KEY = "kg-welcomed";
 
 export default function App() {
-  const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const { index, districtId, setDistrictId, snapshot, error, nearestDistrict } =
+    useDistricts();
   const [filter, setFilter] = useState<SchemeFilter>("all");
   const [session, setSession] = useState<SessionFilter>("any");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [shortlistOnly, setShortlistOnly] = useState(false);
+  const [locating, setLocating] = useState(false);
+  const [welcomed, setWelcomed] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem(WELCOME_KEY) === "1";
+    } catch {
+      return true;
+    }
+  });
   const desktop = useMediaQuery("(min-width: 900px)");
   const shortlist = useShortlist();
-  const [locating, setLocating] = useState(false);
+  const { home, isCustom, setHome, reset: resetHome } = useHome(DEFAULT_HOME);
 
-  useEffect(() => {
-    fetch(DATA_URL)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
-      .then(setSnapshot)
-      .catch((e) => setError(String(e)));
-  }, []);
-
-  const { home, isCustom, setHome, reset: resetHome } = useHome(
-    snapshot?.home ?? null,
-  );
+  const dismissWelcome = () => {
+    setWelcomed(true);
+    try {
+      localStorage.setItem(WELCOME_KEY, "1");
+    } catch {
+      /* fine */
+    }
+  };
 
   const locate = () => {
     if (!navigator.geolocation) return;
@@ -50,13 +62,26 @@ export default function App() {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setLocating(false);
-        if (!setHome(pos.coords.latitude, pos.coords.longitude))
+        dismissWelcome();
+        const { latitude: lat, longitude: lng } = pos.coords;
+        if (setHome(lat, lng)) {
+          setDistrictId(nearestDistrict(lat, lng));
+          setSelectedId(null);
+        } else {
           alert("Your location looks outside Hong Kong — home not moved.");
+        }
       },
       () => setLocating(false),
       { enableHighAccuracy: true, timeout: 10000 },
     );
   };
+
+  const switchDistrict = (id: string) => {
+    setDistrictId(id);
+    setSelectedId(null);
+  };
+
+  const districtName = snapshot?.district.name ?? "";
 
   const ranked: RankedSchool[] = useMemo(() => {
     if (!snapshot || !home) return [];
@@ -142,6 +167,9 @@ export default function App() {
         desktop={desktop}
         favIds={shortlist.ids}
         onHomeMove={setHome}
+        districts={index?.districts ?? []}
+        districtId={districtId}
+        onDistrict={switchDistrict}
       />
 
       <div className="home-controls">
@@ -186,6 +214,10 @@ export default function App() {
             favCount={favCount}
             favIds={shortlist.ids}
             shortlistOnly={shortlistOnly}
+            districts={index?.districts ?? []}
+            districtId={districtId}
+            profileYear={snapshot?.profileYear ?? "2025/26"}
+            onDistrict={switchDistrict}
             onShortlist={() => setShortlistOnly((v) => !v)}
             onToggleFav={shortlist.toggle}
             onFilter={setFilter}
@@ -207,15 +239,19 @@ export default function App() {
             </aside>
           )}
           <Legend customHome={isCustom} />
-          {DEMO && <div className="demo-flag demo-flag--desktop">Demo data — not real schools</div>}
         </>
       ) : (
         <>
           <header className="topbar">
             <div className="masthead">
-              <h1>Tai Po Kindergartens</h1>
+              <h1>HK Kindergarten Map</h1>
               <p>
-                EDB 2025/26 profile · nearest-first from{" "}
+                <DistrictSelect
+                  districts={index?.districts ?? []}
+                  value={districtId}
+                  onChange={switchDistrict}
+                />{" "}
+                · nearest-first from{" "}
                 <strong>{isCustom ? "your home" : "Casa Brava"}</strong>
               </p>
             </div>
@@ -229,7 +265,6 @@ export default function App() {
               onFilter={setFilter}
               onSession={setSession}
             />
-            {DEMO && <div className="demo-flag">Demo data — not real schools</div>}
           </header>
 
           <Sheet
@@ -247,25 +282,41 @@ export default function App() {
         </>
       )}
 
+      {!welcomed && index && (
+        <div className="welcome" role="dialog" aria-label="Welcome">
+          <div className="welcome-card">
+            <h2>HK Kindergarten Map</h2>
+            <p>
+              Every EDB-profiled kindergarten in Hong Kong — fees, scheme
+              status and straight-line distances, <b>nearest-first from your
+              home</b>.
+            </p>
+            <button type="button" className="welcome-locate" onClick={locate}>
+              {locating ? "Locating…" : "◎ Use my location"}
+            </button>
+            <button type="button" className="welcome-skip" onClick={dismissWelcome}>
+              Browse without my location
+            </button>
+            <small>
+              Distances measure from the ⌂ home pin — drag it to your building
+              anytime.
+            </small>
+          </div>
+        </div>
+      )}
+
       {snapshot && snapshot.schools.length === 0 && (
         <div className="empty">
           <div className="empty-card">
-            <h2>Snapshot not generated yet</h2>
+            <h2>No data for {districtName}</h2>
             <p>
-              This page ships with a one-time snapshot of the EDB 2025/26
-              Kindergarten Profile for Tai Po. The snapshot file{" "}
-              <code>data/schools.json</code> is empty.
-            </p>
-            <p>
-              Run <code>npm run scrape</code> on a machine that can reach{" "}
-              <code>kgp2025.azurewebsites.net</code>, then rebuild. Append{" "}
-              <code>?demo</code> to the URL to preview the design with sample
-              data.
+              The snapshot for this district is empty — run{" "}
+              <code>npm run scrape</code> and rebuild.
             </p>
           </div>
         </div>
       )}
-      {error && (
+      {error && !snapshot && (
         <div className="empty">
           <div className="empty-card">
             <h2>Could not load data</h2>

@@ -39,10 +39,26 @@ export interface Home {
   custom?: boolean;
 }
 
-export interface Snapshot {
+export interface DistrictInfo {
+  id: string;
+  name: string;
+  count: number;
+  scheme: number;
+  lat: number | null;
+  lng: number | null;
+}
+
+export interface DistrictsIndex {
+  generatedAt: string;
+  profileYear: string;
+  districts: DistrictInfo[];
+}
+
+export interface DistrictSnapshot {
   generatedAt: string | null;
+  profileYear: string;
   source: string;
-  home: Home;
+  district: { id: string; name: string };
   schools: School[];
 }
 

@@ -1,0 +1,2429 @@
+{
+ "generatedAt": "2026-09-09T16:02:28.697Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=central",
+ "district": {
+  "id": "central",
+  "name": "Central & Western"
+ },
+ "schools": [
+  {
+   "id": "7064",
+   "name": "Cannan Kindergarten (Central Caine Road)",
+   "scheme": true,
+   "lat": 22.282363,
+   "lng": 114.151024,
+   "address": "1/F Front, Albron Court, 99 Caine Road, Central, Hong Kong",
+   "area": "Albron Court",
+   "tel": "2559 9944",
+   "fees": {
+    "am": "$6,490 (10 instalments)",
+    "pm": "$6,490 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 6490,
+    "pm": 6490,
+    "wd": null
+   },
+   "enrolment": "AM 20 · PM 56",
+   "teacherPupilRatio": "1:4.0 AM · 1:9.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The focus is on daily-life oriented topics and interesting stories that stimulate children's problem-solving, exploration, and creative thinking. The learning content is enriched with picture books and diverse integrated activities designed to enhance the learning experience. Bilingual development is emphasized to improve language abilities through interactive methods. An online parent-child reading program has been established to provide guidance on recommended Chinese and English books for parents, cultivating a love for reading in children. The classrooms feature interest corners equipped with abundant teaching materials, where children engage in exploratory activities using their five senses, encourages children to be more proactive and self-motivated in learning through play, and combined with self-selected grouping method, cultivates children to become active learners."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2023"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Not applicable"
+    ],
+    [
+     "Website",
+     "http://www.cannan.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7064"
+  },
+  {
+   "id": "5888",
+   "name": "Carmel School",
+   "scheme": false,
+   "lat": 22.281677,
+   "lng": 114.149336,
+   "address": "3/F & 4/F, 70 Robinson Road, Mid-Level, Hong Kong",
+   "area": "Robinson Road",
+   "tel": "2249 7600",
+   "fees": {
+    "am": "K1 $114,000 (10) · K2 $114,000 (10) · K3 —",
+    "pm": "K1 $114,000 (10) · K2 $114,000 (10) · K3 —",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 114000,
+    "pm": 114000,
+    "wd": null
+   },
+   "enrolment": "AM 45",
+   "teacherPupilRatio": "1:4.6 AM · 1:0.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through Play and Inquiry"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Website",
+     "http://www.carmel.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5888"
+  },
+  {
+   "id": "5864",
+   "name": "Caritas Ling Yuet Sin Kindergarten",
+   "scheme": true,
+   "lat": 22.285061,
+   "lng": 114.13968,
+   "address": "G/F - 2/F, 54 Pokfulam Road, Hong Kong",
+   "area": "Pokfulam Road",
+   "tel": "2517 8785",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "K1 — · K2 $22,924 (11) · K3 $22,924 (11)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 22924
+   },
+   "enrolment": "AM 62 · Whole-day 74",
+   "teacherPupilRatio": "1:12.4 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Integrated Curriculum and Whole Language Learning Approach are adopted. Children are encouraged to re-write stories and to create children rhymes which has laid down their good foundation of language. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened the children’s English ability. The implementation of Project Learning Approach and Situational `Learning has nurtured the spontaneous learning and problem solving skills of children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://lyskg.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5864"
+  },
+  {
+   "id": "5893",
+   "name": "City Kids Preschool and Playgroup",
+   "scheme": false,
+   "lat": 22.274265,
+   "lng": 114.163358,
+   "address": "2/F, East Wing, 12 Borrett Road, Mid-Levels, Hong Kong",
+   "area": "Borrett Road",
+   "tel": "2522 4446",
+   "fees": {
+    "am": "$54,890 (11 instalments)",
+    "pm": "$54,890 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 54890,
+    "pm": 54890,
+    "wd": null
+   },
+   "enrolment": "AM 45 · PM 42",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1979"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Website",
+     "http://www.citykidshk.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5893"
+  },
+  {
+   "id": "5865",
+   "name": "Caritas Nursery School - Kennedy Town",
+   "scheme": true,
+   "lat": 22.280255,
+   "lng": 114.129784,
+   "address": "2/F Block A, 1/F(PORTION), M1/F(PORTION) & 2/F of Block B, Caritas Social Centre - Kennedy Town, 27 Pokfield Road, Kennedy Town, Hong Kong",
+   "area": "Caritas Social Centre",
+   "tel": "2816 8008",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,568 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17568
+   },
+   "enrolment": "Whole-day 30",
+   "teacherPupilRatio": "1:7.0 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Integrated Curriculum and Whole Language Learning Approach are adopted. Children are encouraged to re-write stories and to create children rhymes which has laid down their good foundation of language. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened the children’s English ability, including listening, speaking, reading and writing. In addition, the implementation of Project Learning Approach and Situational Learning has nurtured the spontaneous learning and problem solving skills of children. Their creative thinking are also fostered."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1964"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://ktns.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5865"
+  },
+  {
+   "id": "5890",
+   "name": "Discovery Montessori School (Central)",
+   "scheme": false,
+   "lat": 22.285533,
+   "lng": 114.15246,
+   "address": "3/F, Mandarin Building, 35-43 Bonham Strand, Sheung Wan, Hong Kong",
+   "area": "Sheung Wan",
+   "tel": "2850 8006",
+   "fees": {
+    "am": "$116,380 (11 instalments)",
+    "pm": "$116,380 (11 instalments)",
+    "wd": "$164,780 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 116380,
+    "pm": 116380,
+    "wd": 164780
+   },
+   "enrolment": "AM 25 · PM 1 · Whole-day 1",
+   "teacherPupilRatio": "1:5.9 AM · 1:0.9 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Website",
+     "http://www.dms.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5890"
+  },
+  {
+   "id": "5868",
+   "name": "Chiu Yang Kindergarten",
+   "scheme": true,
+   "lat": 22.287158,
+   "lng": 114.14754,
+   "address": "Room A, 2/F, 38 Des Voeux Road West, Sheung Wan, Hong Kong",
+   "area": "Des Voeux Road",
+   "tel": "2543 6796",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,340 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14340
+   },
+   "enrolment": "Whole-day 21",
+   "teacherPupilRatio": "1:4.4 AM · 1:4.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The “theme-based approach” and “project-based approach are adopted to allow children to explore, observe, analyze and criticize things depending on their life experience to construct knowledge of different learning fields. The flexible, interesting object, teaching material and visiting activities are carried out to enlighten children’s potentials and promote them to learning something through games."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1978"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.cyk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5868"
+  },
+  {
+   "id": "6943",
+   "name": "Fairchild Kindergarten",
+   "scheme": false,
+   "lat": 22.287156,
+   "lng": 114.136497,
+   "address": "All the Shop 8, G/F and Whole 1/F, Kong Chian Tower, 185-185B Connaught Road West, 351-351C Des Voeux Road West and 3-7 Whitty Street, Hong Kong",
+   "area": "Connaught Road",
+   "tel": "2803 2638",
+   "fees": {
+    "am": "$104,544 (11 instalments)",
+    "pm": "$104,544 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 104544,
+    "pm": 104544,
+    "wd": null
+   },
+   "enrolment": "AM 40 · PM 2",
+   "teacherPupilRatio": "1:4.5 AM · 1:0.3 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Reggio Emilia, play based, child centred learning - the child is seen as a capable and competent learner, full of curiosity about the world around them. Teachers work alongside the children to facilitate their inquiry and support their development in the different developmental areas. A strong emphasis on encouraging children to be independent, curious, creative and self-confident. The environment is the third teacher and supports the children's learning in an authentic way and meaningful way."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2017"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "http://www.fairchild.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6943"
+  },
+  {
+   "id": "5869",
+   "name": "Elchk Amazing Grace Nursery School",
+   "scheme": true,
+   "lat": 22.284828,
+   "lng": 114.144076,
+   "address": "3/F, Sai Ying Pun Community Complex, 2 High Street, Hong Kong",
+   "area": "High Street",
+   "tel": "2540 7583",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$16,200 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 16200
+   },
+   "enrolment": "Whole-day 76",
+   "teacherPupilRatio": "1:7.8 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through integrated learning based on real-life tasks, free play, comprehensive activity and project approach, the school encourages children to observe, explore and participate ,and Inspire them to active thinking and learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://agns.elchk.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5869"
+  },
+  {
+   "id": "6995",
+   "name": "Guidepost Montessori International Kindergarten (Kennedy Town)",
+   "scheme": false,
+   "lat": 22.286279,
+   "lng": 114.133936,
+   "address": "Portion of Shop C On G/F, 1/F & 2/F, Pak Hoo Mansion, 554-560 Queen's Road West, Sai Wan, Hong Kong",
+   "area": "Queen's Road",
+   "tel": "3619 1136",
+   "fees": {
+    "am": "$104,500 (11 instalments)",
+    "pm": "$91,300 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 104500,
+    "pm": 91300,
+    "wd": null
+   },
+   "enrolment": "AM 48 · PM 7",
+   "teacherPupilRatio": "1:6.9 AM · 1:1.3 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/kennedy-town"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6995"
+  },
+  {
+   "id": "5870",
+   "name": "Hong Kong Society for the Protection of Children Thomas Tam Nursery School",
+   "scheme": true,
+   "lat": 22.285478,
+   "lng": 114.145842,
+   "address": "King George V Memorial Park, Hospital Road, Sai Ying Pun, Hong Kong",
+   "area": "Sai Ying Pun",
+   "tel": "2549 5107",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$12,636 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 12636
+   },
+   "enrolment": "Whole-day 40",
+   "teacherPupilRatio": "1:7.6 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The courses are designed to penetrate the language, music, gymnastics and art elements into each learning activity for providing comprehensive and interesting learning experience to children. The school makes good use of community resources to increase children’s learning experience。"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1963"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ns.hkspc.org/tt/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5870"
+  },
+  {
+   "id": "5899",
+   "name": "Guidepost Montessori International Pre-School (Mid-Levels)",
+   "scheme": false,
+   "lat": 22.282707,
+   "lng": 114.150112,
+   "address": "1/F - 2/F, On Fung Building, 110-118 Caine Road, Hong Kong",
+   "area": "Caine Road",
+   "tel": "2549 1211",
+   "fees": {
+    "am": "$142,200 (12 instalments)",
+    "pm": "$134,400 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 142200,
+    "pm": 134400,
+    "wd": null
+   },
+   "enrolment": "AM 75 · PM 4",
+   "teacherPupilRatio": "1:11.4 AM · 1:0.9 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "15"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/mid-levels"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5899"
+  },
+  {
+   "id": "5871",
+   "name": "Hong Kong True Light Kindergarten (Caine Road)",
+   "scheme": true,
+   "lat": 22.281632,
+   "lng": 114.151888,
+   "address": "G/F - 2/F, 75 Caine Road, Hong Kong",
+   "area": "Caine Road",
+   "tel": "2525 9388",
+   "fees": {
+    "am": "$3,000 (10 instalments)",
+    "pm": "$3,000 (10 instalments)",
+    "wd": "$25,790 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 3000,
+    "pm": 3000,
+    "wd": 25790
+   },
+   "enrolment": "AM 106 · PM 22 · Whole-day 48",
+   "teacherPupilRatio": "1:9.1 AM · 1:5.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Use story books for teaching and learning through role-play games, scientific experiments, theme-based learning, visits, group activities, etc., so that children can learn diversified knowledge in a relaxed and happy environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.truelightk-c.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5871"
+  },
+  {
+   "id": "5891",
+   "name": "Highgate House School - the Peak",
+   "scheme": false,
+   "lat": 22.268601,
+   "lng": 114.151522,
+   "address": "Shop 6, 2/F, Block B, Dairy Farm Shopping Centre, 100-104 Peak Road, Hong Kong",
+   "area": "Dairy Farm Shopping Centre",
+   "tel": "2849 6336",
+   "fees": {
+    "am": "$140,000 (10 instalments)",
+    "pm": "$140,000 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 140000,
+    "pm": 140000,
+    "wd": null
+   },
+   "enrolment": "AM 23",
+   "teacherPupilRatio": "1:6.8 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1992"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Website",
+     "http://www.highgatehouse.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5891"
+  },
+  {
+   "id": "5872",
+   "name": "Hong Kong Young Women's Christian Association Tai Hon Fan Nursery School",
+   "scheme": true,
+   "lat": 22.284865,
+   "lng": 114.154391,
+   "address": "G/F, The Centre, 99 Queen's Road Central, Central, Hong Kong",
+   "area": "The Centre",
+   "tel": "2545 1177",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$12,360 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 12360
+   },
+   "enrolment": "Whole-day 63",
+   "teacherPupilRatio": "1:7.7 AM · 1:7.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The religion and morality education, the “Pair reading” Program, Life-wide learning, corner activities and games are adopted to enhance children’s autonmous learning ability and language ability."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nsthf.ywca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5872"
+  },
+  {
+   "id": "6917",
+   "name": "Hong Kong Man Sang Kindergarten (Western District)",
+   "scheme": false,
+   "lat": 22.28674,
+   "lng": 114.133285,
+   "address": "Shop A, G/F, & 1/F, Nice Garden, 513-519 Queen's Road West, Hong Kong",
+   "area": "Nice Garden",
+   "tel": "2336 3232, 2348 8366",
+   "fees": {
+    "am": "$69,900 (12 instalments)",
+    "pm": "$68,100 (12 instalments)",
+    "wd": "$97,080 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 69900,
+    "pm": 68100,
+    "wd": 97080
+   },
+   "enrolment": "AM 18 · Whole-day 28",
+   "teacherPupilRatio": "1:8.1 AM · 1:4.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We employ thematic learning and project-based approach to encourage children to learn through play.We offer opportunities for children to participate in community activities, outdoor learning, and field visits to broaden their horizons and stimulate learning initiative and motivation to explore. Uniform team and diversified activities, such as Taekwondo and English drama.To cater to individual differences, we use \"Toy Library CPM\" learning tools which enhances children's aptitude development."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2016"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Website",
+     "http://www.mansangkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6917"
+  },
+  {
+   "id": "5873",
+   "name": "Kau Yan School",
+   "scheme": true,
+   "lat": 22.284828,
+   "lng": 114.144076,
+   "address": "97A & 97B High Street, Sai Ying Pun, Hong Kong",
+   "area": "High Street",
+   "tel": "2803 0304",
+   "fees": {
+    "am": "$9,950 (10 instalments)",
+    "pm": "$9,950 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 9950,
+    "pm": 9950,
+    "wd": null
+   },
+   "enrolment": "AM 221 · PM 177",
+   "teacherPupilRatio": "1:7.9 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Combining the Project Approach with diversified activities, we encourage children to learn from exploration, self-plan learning and draw support from life experience to construct the ability to solve problems. Meanwhile, children can master the capacities of thinking, judgement and organization through the optional learning time in the class."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1946"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "28"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kauyan.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5873"
+  },
+  {
+   "id": "7035",
+   "name": "Island Waldorf School",
+   "scheme": false,
+   "lat": null,
+   "lng": null,
+   "address": "Main Entrance of Lower G/F & Shop 1 G/F, Smithfield Terrace, 71-77 Smithfield, Hong Kong",
+   "area": "Smithfield Terrace",
+   "tel": "5114 1451",
+   "fees": {
+    "am": "$105,600 (11 instalments)",
+    "pm": "$105,600 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 105600,
+    "pm": 105600,
+    "wd": null
+   },
+   "enrolment": "AM 30",
+   "teacherPupilRatio": "1:10.0 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2017"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Website",
+     "https://iws.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7035"
+  },
+  {
+   "id": "5875",
+   "name": "Rhenish Mission School",
+   "scheme": true,
+   "lat": 22.283987,
+   "lng": 114.140612,
+   "address": "G/F - 4/F, Emmanuel House, 86A Bonham Road, Hong Kong",
+   "area": "Emmanuel House",
+   "tel": "2547 0608",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$16,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 16000
+   },
+   "enrolment": "AM 106 · PM 15 · Whole-day 57",
+   "teacherPupilRatio": "1:12.5 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To utilize the synthetic courses, project-based learning and all language teaching and carry out the activities such as visiting, outdoor experiencing, community activity, interview, simulation games and small group discussion for children. Meanwhile, we also provide the exploration learning and experiment learning for enlightening children’s diversified intelligence and mastering the ability to learn independently. Emphasis on Bi-literacy and Tri-lingualism."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1936"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.rhenish.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5875"
+  },
+  {
+   "id": "7013",
+   "name": "Les Petits Lascars French International Preschool",
+   "scheme": false,
+   "lat": 22.281967,
+   "lng": 114.155255,
+   "address": "Room 301 & 302, 3/F, Wellington Plaza, 56-58 Wellington Street, Central, Hong Kong",
+   "area": "Wellington Plaza",
+   "tel": "2526 8666",
+   "fees": {
+    "am": "$87,500 (10 instalments)",
+    "pm": "$76,920 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 87500,
+    "pm": 76920,
+    "wd": null
+   },
+   "enrolment": "AM 34",
+   "teacherPupilRatio": "1:8.5 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Website",
+     "https://hkkidsacademy.edu.hk/les-petits-lascars"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7013"
+  },
+  {
+   "id": "5876",
+   "name": "Sacred Heart Canossian Kindergarten",
+   "scheme": true,
+   "lat": 22.279664,
+   "lng": 114.152704,
+   "address": "2/F - 5/F, 10 Robinson Road, Central, Hong Kong",
+   "area": "Robinson Road",
+   "tel": "2521 0813",
+   "fees": {
+    "am": "$1,590 (10 instalments)",
+    "pm": "$1,590 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 1590,
+    "pm": 1590,
+    "wd": null
+   },
+   "enrolment": "AM 300 · PM 297",
+   "teacherPupilRatio": "1:10.7 AM · 1:10.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt the “activity approach” to develop children’s confidence and ability to innovate through activities, such as: games, first-hand experiences, exploration, discussion, observation, visits and reports, thus inspiring/awakening the children's potentials and motivation for active learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1860"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "28"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.shck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5876"
+  },
+  {
+   "id": "7008",
+   "name": "Malvern College Pre-School Hong Kong (Island West)",
+   "scheme": false,
+   "lat": 22.287924,
+   "lng": 114.139117,
+   "address": "Shop C On G/F and 1/F Viking Court, 165-166 Connaught Road West, Hong Kong",
+   "area": "F Viking Court",
+   "tel": "3898 4670",
+   "fees": {
+    "am": "K1 $122,001 (11) · K2 $122,001 (11) · K3 —",
+    "pm": "K1 $122,001 (11) · K2 $122,001 (11) · K3 —",
+    "wd": "$209,429 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 122001,
+    "pm": 122001,
+    "wd": 209429
+   },
+   "enrolment": "AM 35 · Whole-day 31",
+   "teacherPupilRatio": "1:8.2 AM · 1:4.3 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "https://www.malvernpreschool.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7008"
+  },
+  {
+   "id": "6883",
+   "name": "St Anthony's Anglo-Chinese Primary School & Kindergarten",
+   "scheme": true,
+   "lat": 22.28571,
+   "lng": 114.133868,
+   "address": "1/F, Fu Ga Building, 7-13 Yat Fu Lane, Western District, Hong Kong",
+   "area": "Yat Fu Lane",
+   "tel": "2494 8848",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "K1 — · K2 $13,000 (10) · K3 $13,000 (10)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13000
+   },
+   "enrolment": "AM 76 · PM 60 · Whole-day 14",
+   "teacherPupilRatio": "1:8.1 AM · 1:5.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We arrange diversified corner activities to let the children carry out autonomous learning through play. Arrange visits to broaden their learning experience through moral education, and culture their learning attitudes, exploration, expression, empowering, experiment, problem-solving, confidence, higher order thinking, individual and social abilities. Specialized learning fields to meet the students’ different learning needs. Also offers diverse learning experiences including performances and competitions in the community to build confidence and broaden their horizons."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1965"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://stanthonyskg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6883"
+  },
+  {
+   "id": "6944",
+   "name": "Mighty Oaks International Kindergarten",
+   "scheme": false,
+   "lat": 22.282711,
+   "lng": 114.129366,
+   "address": "1/F & Flat Roof On 1/F, Lungga Mansion, 46A Belcher's Street, Kennedy Town, Hong Kong",
+   "area": "Belcher's Street",
+   "tel": "2806 8383",
+   "fees": {
+    "am": "K1 $78,870 (11) · K2 $71,700 (10) · K3 $71,700 (10)",
+    "pm": "K1 $78,870 (11) · K2 $71,700 (10) · K3 $71,700 (10)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 78870,
+    "pm": 78870,
+    "wd": null
+   },
+   "enrolment": "AM 18",
+   "teacherPupilRatio": "1:2.1 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based approach, moral education, social and emotional learning"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2016"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Website",
+     "https://www.mightyoaks.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6944"
+  },
+  {
+   "id": "5877",
+   "name": "St James' Settlement Belcher Kindergarten",
+   "scheme": true,
+   "lat": 22.285042,
+   "lng": 114.133315,
+   "address": "Podium Level 2, the Westwood 8 Belcher's Street, Western District, Hong Kong",
+   "area": "Belcher's Street",
+   "tel": "2542 7608, 2542 7678",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$30,384 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 30384
+   },
+   "enrolment": "Whole-day 122",
+   "teacherPupilRatio": "1:6.7 AM · 1:6.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our kindergarten implements a school-based curriculum: “Project-Approach Learning,” where the learning themes relate to daily life. There is no specific teaching kit for the courses; we use picture books to spark the children’s interest in each topic. Through exploration, observation, experience, sharing, and data collection, our students construct knowledge, develop skills, and establish good habits and positive moral values. Field trips are organised for every project theme, and at the end of each project, the children’s learning outcomes are showcased. The school records each child’s learning progress and work in a booklet to support their ongoing development. Language education is of great importance to us. We promote biliteracy and trilingualism by providing an immersive trilingual environment. Each class has bilingual and trilingual teachers who organise activities relevant to everyday life, allowing children to naturally develop their language skills through various experiences. Our school’s mission is to nurture children with the spirit of Christ’s care, emphasising the development of their spiritual and moral education. Through religious activities and children’s worship, children learn about the truth of our heavenly Father and bear the fruits of the Spirit."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sjsbelcher.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5877"
+  },
+  {
+   "id": "5894",
+   "name": "Small World Christian Kindergarten",
+   "scheme": false,
+   "lat": 22.275131,
+   "lng": 114.162766,
+   "address": "G/F - 1/F, 10 Borrett Road, Central, Hong Kong",
+   "area": "Borrett Road",
+   "tel": "2525 0922",
+   "fees": {
+    "am": "$74,500 (10 instalments)",
+    "pm": "$74,500 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 74500,
+    "pm": 74500,
+    "wd": null
+   },
+   "enrolment": "AM 84 · PM 12",
+   "teacherPupilRatio": "1:10.5 AM · 1:2.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "http://www.smallworld.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5894"
+  },
+  {
+   "id": "5878",
+   "name": "St. Clare's Primary School",
+   "scheme": true,
+   "lat": 22.283906,
+   "lng": 114.140214,
+   "address": "3-6 Prospect Place, Bonham Road, Hong Kong",
+   "area": "Bonham Road",
+   "tel": "2547 2751",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 159 · PM 99",
+   "teacherPupilRatio": "1:12.2 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Students are provided active explorations, interactive learning, critical thinking, and social development via theme and activity teaching, field visits, project study, and activity design. Enhancing children's interest in language, ethics, emotion, social skills, physique, music, aesthetics and other various domains, enriches children's life experience and self-confidence.Promote\"Free Play\" to foster children's Learning Autonomy and creative development . Promote\"Moral Education\" to cultivate children a good character with Catholic doctrine through different activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Girls"
+    ],
+    [
+     "Founded",
+     "1927"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://kg.scps.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5878"
+  },
+  {
+   "id": "6892",
+   "name": "The Independent Schools Foundation Pre-School",
+   "scheme": false,
+   "lat": 22.283198,
+   "lng": 114.128561,
+   "address": "Shop G01 On G/F, Shop 101 On 1/F, 97 Belcher's Street, Kennedy Town, Hong Kong",
+   "area": "Belcher's Street",
+   "tel": "2559 8518",
+   "fees": {
+    "am": "$152,790 (11 instalments)",
+    "pm": "$152,790 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 152790,
+    "pm": 152790,
+    "wd": null
+   },
+   "enrolment": "AM 165 · PM 164",
+   "teacherPupilRatio": "1:6.6 AM · 1:6.6 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The program is designed to be sufficiently flexible to accommodate for individual children’s patterns of learning and development. The program provides opportunities for new learning to be fostered and enables children to reflect on different ways of doing things, makes connections across time and place, establishes different kinds of relationships and encounter different points of view."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2015"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "25"
+    ],
+    [
+     "Website",
+     "http://www.isf.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6892"
+  },
+  {
+   "id": "5879",
+   "name": "St. Matthew's Church Kindergarten",
+   "scheme": true,
+   "lat": 22.282129,
+   "lng": 114.153761,
+   "address": "232-234 Hollywood Road and G/F, 1/F & 4/F, 29-31 New Street, Hong Kong",
+   "area": "Hollywood Road",
+   "tel": "2548 4777",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,940 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5940
+   },
+   "enrolment": "AM 28 · Whole-day 44",
+   "teacherPupilRatio": "1:9.0 AM · 1:5.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through theme-based learning, project-based learning methods , teaching with picture book and different learning activities, we induce children's learning interests and strengthen exploration ability. Arrange outdoor activities according to the learning theme, such as visits, so that children can gain life experience and knowledge through personal exploration."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1967"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://stmattkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5879"
+  },
+  {
+   "id": "5897",
+   "name": "The International Montessori School - An Imef School",
+   "scheme": false,
+   "lat": 22.284864,
+   "lng": 114.147278,
+   "address": "M/F & Office 1 of 1/F, Tung Fai Gardens, 17 Po Yan Street, Sheung Wan, Hong Kong",
+   "area": "Tung Fai Gardens",
+   "tel": "2857 7007",
+   "fees": {
+    "am": "K1 $143,000 (10) · K2 $143,000 (10) · K3 —",
+    "pm": null,
+    "wd": "K1 — · K2 $206,500 (10) · K3 $206,500 (10)"
+   },
+   "feesAnnual": {
+    "am": 143000,
+    "pm": null,
+    "wd": 206500
+   },
+   "enrolment": "AM 63 · Whole-day 12",
+   "teacherPupilRatio": null,
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Each IMS classroom is led by a team of two, an English-speaking and a Putonghua-speaking teacher, and is carefully designed to give children opportunities to engage in meaningful learning with the proper balance of autonomy and guidance. Activities in the bilingual Foundations Groups (ages 2-3) encourage toddlers to explore creatively, in a cosy, language-rich and highly interactive environment – the best preparation for learning. The Casa dei Bambini programme (ages 3-6) supports children in moving towards a mastery of self and the environment. The IMS elementary programme (ages 6-12) encourages children to learn all subjects from many directions through all disciplines by taking full advantage of their developing capacity to reason. IMS Middle School is Hong Kong’s only Montessori programme for adolescents aged 12–14. Its bilingual, multi-age environment combines inquiry and project-based learning, tailored to support this transformative stage of development. IMS graduates successfully stream into top international secondary schools in Hong Kong and around the world, with enhanced academic and social skills, and a very strong foundation in both Chinese and English. Mid-Levels Campus (ages 2-6) has 3 bright Casa dei Bambini classrooms, a large play area, a children’s kitchen, a library and a vertical garden where our youngest children enjoy their first years in our school! We also have a lovely environment for toddlers to experience their first taste of Montessori in our Foundation Groups (ages 2-3)."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Website",
+     "https://www.ims.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5897"
+  },
+  {
+   "id": "6886",
+   "name": "St. Paul's Church Kindergarten",
+   "scheme": true,
+   "lat": 22.279528,
+   "lng": 114.155304,
+   "address": "Wu Ting Fong & Social Room, St. Paul's Church Glenealy, Hong Kong",
+   "area": "St. Paul's Church Glenealy",
+   "tel": "2453 3766",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 245 · PM 122",
+   "teacherPupilRatio": "1:11.1 AM · 1:5.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our kindergarten carries out an integrated curriculum, adopts an activity based approach, provides diversified activities as well as field trips, so children acquire first hand learning experiences and apply them to daily life."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1950"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "22"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.stpaulchurchkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6886"
+  },
+  {
+   "id": "5900",
+   "name": "Tutor Time International Kindergarten (Mid Levels)",
+   "scheme": false,
+   "lat": 22.279402,
+   "lng": 114.154382,
+   "address": "Shop B, G/F, Botancial Court, 5 Caine Road, Mid-Levels, Hong Kong",
+   "area": "Botancial Court",
+   "tel": "2529 2288",
+   "fees": {
+    "am": "K1 $151,030 (11) · K2 — · K3 —",
+    "pm": "K1 $151,030 (11) · K2 — · K3 —",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 151030,
+    "pm": 151030,
+    "wd": null
+   },
+   "enrolment": "PM 1",
+   "teacherPupilRatio": "1:1.3 AM · 1:0.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Website",
+     "http://www.tutortime.com.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5900"
+  },
+  {
+   "id": "5880",
+   "name": "St. Stephen's Church Primary School & Kindergarten",
+   "scheme": true,
+   "lat": 22.284908,
+   "lng": 114.13839,
+   "address": "Primary Block & G/F LG1/F & LG2/F & Activity Room At LG3/F Church Block, 71 Bonham Road, & 62 Pokfulam Road, Hong Kong",
+   "area": "Bonham Road",
+   "tel": "2546 2863",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$14,890 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14890
+   },
+   "enrolment": "AM 95 · PM 78",
+   "teacherPupilRatio": "1:8.9 AM · 1:6.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "St. Stephen’s Church Kindergarten fosters a student-centered approach to teaching and learning experiences using the HighScope approach and project-based activities. Students are encouraged to learn through exploration, observation, tailored lessons and draw on life experience, such as community events, birthday party, barbecue, hotpot activities, simulated Lunar New Year flower market, graduation ceremony and visiting to police station, supermarket, Sunshine Paradise etc. to develop self-care and problem solving skills."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1950"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5880"
+  },
+  {
+   "id": "5901",
+   "name": "Victoria (Belcher) Kindergarten",
+   "scheme": false,
+   "lat": 22.285042,
+   "lng": 114.133315,
+   "address": "Level 3 (Kindergarten Area) the Westwood, 8 Belcher's Street, Hong Kong",
+   "area": "Belcher's Street",
+   "tel": "2542 7001",
+   "fees": {
+    "am": "K1 $127,985 (11) · K2 $114,180 (10) · K3 $116,320 (10)",
+    "pm": "K1 $127,985 (11) · K2 $114,180 (10) · K3 $116,320 (10)",
+    "wd": "K1 — · K2 — · K3 $215,760 (10)"
+   },
+   "feesAnnual": {
+    "am": 127985,
+    "pm": 127985,
+    "wd": 215760
+   },
+   "enrolment": "AM 127 · PM 117",
+   "teacherPupilRatio": "1:6.9 AM · 1:5.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The children’s interest is piqued through the diverse and engaging environment created to support their inquiry and foster positive attitudes to learning and life. Good use is made of community resources by engaging in visits and inviting visitors into our community."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "25"
+    ],
+    [
+     "Website",
+     "http://www.victoria.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5901"
+  },
+  {
+   "id": "5881",
+   "name": "St. Stephen's Girls' College Kindergarten",
+   "scheme": true,
+   "lat": 22.283916,
+   "lng": 114.14463,
+   "address": "Portion of the Garage On G/F and Whole of 1/F, 33 Park Road, Central, Hong Kong",
+   "area": "Park Road",
+   "tel": "2548 6607",
+   "fees": {
+    "am": "K1 Free · K2 Free · K3 —",
+    "pm": "K1 Free · K2 — · K3 Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 90 · PM 90",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum is designed based on children’s life experiences and in accordance with their developmental growth through storytelling combining music, visual arts, and other teaching materials, as well as the use of sensory perception to develop their knowledge, skills, and attitude."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1906"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssgckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5881"
+  },
+  {
+   "id": "6952",
+   "name": "Wilderness International Kindergarten",
+   "scheme": false,
+   "lat": 22.279496,
+   "lng": 114.129232,
+   "address": "G/F, Po Tak Mansion, 85 Smithfield Road, Kennedy Town, Hong Kong",
+   "area": "Smithfield Road",
+   "tel": "2595 9066",
+   "fees": {
+    "am": "$104,830 (11 instalments)",
+    "pm": "$104,830 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 104830,
+    "pm": 104830,
+    "wd": null
+   },
+   "enrolment": "AM 46 · PM 2",
+   "teacherPupilRatio": "1:11.5 AM · 1:1.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2016"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Website",
+     "http://www.wilderness.asia"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6952"
+  },
+  {
+   "id": "5882",
+   "name": "Sun Island English Kindergarten (Sai Ying Pun Branch) )",
+   "scheme": true,
+   "lat": 22.287085,
+   "lng": 114.141795,
+   "address": "1/F, Andes Plaza, 323 Queen's Road West, Hong Kong",
+   "area": "Andes Plaza",
+   "tel": "2818 7074",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,160 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8160
+   },
+   "enrolment": "AM 59 · PM 42 · Whole-day 27",
+   "teacherPupilRatio": "1:6.1 AM · 1:4.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based approach through play; Group activities; Language game activities; Chinese Culture activities; Off-campus visits; Reading programmes; Parent-child activities; Participation in activities organized by external organizations."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sunisland.edu.hk"
+    ],
+    [
+     "Former name",
+     "Sun Island English Kindergarten (Belcher Branch"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5882"
+  },
+  {
+   "id": "5902",
+   "name": "Wisely Nursery",
+   "scheme": false,
+   "lat": 22.283005,
+   "lng": 114.150025,
+   "address": "G/F & 1/F, 129-133 Caine Road, Central, Hong Kong",
+   "area": "Caine Road",
+   "tel": "2546 2022",
+   "fees": {
+    "am": "$44,506 (11 instalments)",
+    "pm": "$44,506 (11 instalments)",
+    "wd": "$59,774 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 44506,
+    "pm": 44506,
+    "wd": 59774
+   },
+   "enrolment": "0 enrolled (Sept 2024)",
+   "teacherPupilRatio": "1:5.4 AM · 1:2.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The multiple intelligence elements are integrated into activity, theme and project-based teaching and group activity. Reggio education method is combined with the daily teaching activity through annual field trips according to the teaching themes."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Website",
+     "http://www.wisely.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5902"
+  },
+  {
+   "id": "5883",
+   "name": "Wisely Kindergarten",
+   "scheme": true,
+   "lat": 22.282878,
+   "lng": 114.149986,
+   "address": "1-3 Basements & G/F, 129-133 Caine Road, Central, Hong Kong",
+   "area": "Caine Road",
+   "tel": "2546 2022",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,690 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11690
+   },
+   "enrolment": "AM 66 · PM 9 · Whole-day 54",
+   "teacherPupilRatio": "1:10.9 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The multiple intelligence elements are integrated into activity, theme and project-based teaching and group activity. Reggio education method is combined with the daily teaching activity through annual field trips according to the teaching themes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.wisely.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5883"
+  },
+  {
+   "id": "5903",
+   "name": "Witty Kindergarten",
+   "scheme": false,
+   "lat": 22.283795,
+   "lng": 114.1312,
+   "address": "Upper Ground Floor, Joyful Building, 16-18 Belcher's Street, Hong Kong",
+   "area": "Belcher's Street",
+   "tel": "2817 8132",
+   "fees": {
+    "am": "$67,100 (11 instalments)",
+    "pm": "$67,100 (11 instalments)",
+    "wd": "$86,900 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 67100,
+    "pm": 67100,
+    "wd": 86900
+   },
+   "enrolment": "AM 4 · Whole-day 6",
+   "teacherPupilRatio": "1:2.1 AM · 1:2.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We offer a bilingual curriculum in Chinese and English. We believe this cultivates children’s good pronunciation and exerts a subtle influence on children’s language study. We promote an inquiry-based learning method to arouse children’s learning interests and cultivate children’s active learning attitudes through exploration and self-discovery."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2012"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Website",
+     "http://www.witty.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5903"
+  },
+  {
+   "id": "5884",
+   "name": "Women's Welfare Club Western District Hong Kong Kindergarten",
+   "scheme": true,
+   "lat": 22.283573,
+   "lng": 114.149714,
+   "address": "G/F, 1/F & 3/F, 60 Bridges Street, Sheung Wan, Hong Kong",
+   "area": "Bridges Street",
+   "tel": "2546 1030",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$4,824 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 4824
+   },
+   "enrolment": "Whole-day 37",
+   "teacherPupilRatio": "1:9.6 AM · 1:9.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum emphasizes the connection of knowledge with life situation. The interesting story method can cultivate children’s multiple perspective thinking and problem-solving ability. Children can learn from the actual life and sensory experience, including games, visiting and project-based learning to stimulate children’s active learning interests. Children’s language ability can be enhanced by the activities, such as parent-child reading, reading books, children’s song reading, speech contest and dramatic performance. Good moral character is also taken into account, like Good Children Plan and Little Leader Plan."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1959"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.wwcwdkindergarten.org.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5884"
+  },
+  {
+   "id": "5885",
+   "name": "Yan Chai Hospital Fong Kong Fai Kindergarten",
+   "scheme": true,
+   "lat": 22.284987,
+   "lng": 114.131491,
+   "address": "Shop A, G/F, Lung Cheung Garden, 26 Praya Kennedy Town, Hong Kong",
+   "area": "Lung Cheung Garden",
+   "tel": "2818 2069",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$16,344 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 16344
+   },
+   "enrolment": "Whole-day 71",
+   "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school adopts diversified teaching methods,such as “Themed teaching”, “Project-based Learning”, “Picture book creation” To achieve “Learning though play”, children are given opportunities to think, discuss, verify, discover and express opinions. Diversified activities, such as outdoor learning visits and community visits, are organised for the students to gain learning experiences by active exploration, observation and practice."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ychfkf.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5885"
+  },
+  {
+   "id": "5886",
+   "name": "Yan Chai Hospital Kwok Chi Leung Kindergarten",
+   "scheme": true,
+   "lat": 22.284828,
+   "lng": 114.144076,
+   "address": "Upper Ground Floor (South), 9 High Street, Sai Ying Pun, Hong Kong",
+   "area": "High Street",
+   "tel": "2547 8250",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$10,296 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 10296
+   },
+   "enrolment": "Whole-day 51",
+   "teacherPupilRatio": "1:7.9 AM · 1:10.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "School-based curriculum is emphasized to carry out the children-oriented exploration and freedom to learn from the game. A pleasant and effective learning outcome can be achieved by thinking, making attempts and discussion, Mandarin learning and dancing activities are arranged by group in the morning. Friday is the multiple activity day, to provide physical activities and foreign teachers’ interesting English activities. To strengthen children’s moral cultivation, citizen and moral education permeates the theme teaching, project-based learning and regular activities to foster good morality and behavior in the subtle-influence environment. Visiting activities and joint-school activities are arranged according to the curriculum requirements. Primary school campus can be used to carry out a life experience course."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ychkclkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5886"
+  }
+ ]
+}

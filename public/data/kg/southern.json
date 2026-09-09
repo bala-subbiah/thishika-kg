@@ -1,0 +1,1753 @@
+{
+ "generatedAt": "2026-09-09T16:02:28.697Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=southern",
+ "district": {
+  "id": "southern",
+  "name": "Southern"
+ },
+ "schools": [
+  {
+   "id": "6355",
+   "name": "Aberdeen Baptist Church Pak Kwong Kindergarten",
+   "scheme": true,
+   "lat": 22.249944,
+   "lng": 114.156017,
+   "address": "11 Aberdeen Reservoir Road, Aberdeen, Hong Kong",
+   "area": "Aberdeen Reservoir Road",
+   "tel": "2553 5750",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$14,113 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14113
+   },
+   "enrolment": "AM 6 · Whole-day 18",
+   "teacherPupilRatio": "1:4.0 AM · 1:3.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The child-oriented approach is adopted. The contents of teaching are designed to arouse children’s interest in learning. Pronunciation of the Chinese and English languages is emphasized. Different themes are set for learning. Problems with different extent of difficulties are set in story-based formats for solution and exploration as a way to train different levels of thinking. Theme studies and theme-based extended activities are designed to let children learn in action and explore new knowledge. The interest corners with rich content are set. We respect children as independent learners and create opportunities for them to learn and practise the process of ‘planning, action and review’. All these are supported with various learning activities to enrich their learning experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.pkkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6355"
+  },
+  {
+   "id": "6373",
+   "name": "Canadian International School of Hong Kong",
+   "scheme": false,
+   "lat": 22.242513,
+   "lng": 114.166883,
+   "address": "36 Nam Long Shan Road, (And Canadian International School Phase Ii), Aberdeen, Hong Kong",
+   "area": "Nam Long Shan Road",
+   "tel": "2525 7088",
+   "fees": {
+    "am": "K1 — · K2 $156,300 (2) · K3 —",
+    "pm": "K1 — · K2 $156,300 (2) · K3 —",
+    "wd": "K1 — · K2 — · K3 $203,100 (2)"
+   },
+   "feesAnnual": {
+    "am": 156300,
+    "pm": 156300,
+    "wd": 203100
+   },
+   "enrolment": "Whole-day 120",
+   "teacherPupilRatio": "1:15.0 AM · 1:15.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "http://www.cdnis.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6373"
+  },
+  {
+   "id": "6357",
+   "name": "Christian & Missionary Alliance Lei Tung Nursery School",
+   "scheme": true,
+   "lat": 22.24095,
+   "lng": 114.155329,
+   "address": "G/F, 102-112, Tung Hing House, Lei Tung Estate, Ap Lei Chau, Hong Kong",
+   "area": "Tung Hing House",
+   "tel": "2871 2791",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,256 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17256
+   },
+   "enrolment": "Whole-day 63",
+   "teacherPupilRatio": "1:8.9 AM · 1:8.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "‘Topic studies’ is the main mode of learning. Opportunities for exploration are provided according to children’s interests and experiences to increase their motives of learning. Professional kindergarten teachers make use of the environment creatively to provide the learning corner as a way to encourage children to learn through games and action besides gaining knowledge"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://leitung.cmasshk.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6357"
+  },
+  {
+   "id": "7075",
+   "name": "Canadian International School of Hong Kong",
+   "scheme": false,
+   "lat": 22.246812,
+   "lng": 114.167804,
+   "address": "Units G21-G24, G/F, the Southside, 11 Heung Yip Road, Wong Chuk Hang, Hong Kong",
+   "area": "Heung Yip Road",
+   "tel": "2525 7088",
+   "fees": {
+    "am": "K1 — · K2 $156,300 (2) · K3 —",
+    "pm": "K1 — · K2 $156,300 (2) · K3 —",
+    "wd": "K1 — · K2 — · K3 $203,100 (2)"
+   },
+   "feesAnnual": {
+    "am": 156300,
+    "pm": 156300,
+    "wd": 203100
+   },
+   "enrolment": "AM 60 · PM 62",
+   "teacherPupilRatio": "1:11.4 AM · 1:13.3 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Website",
+     "http://www.cdnis.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7075"
+  },
+  {
+   "id": "6358",
+   "name": "Christian & Missionary Alliance South Horizons Nursery School",
+   "scheme": true,
+   "lat": 22.243821,
+   "lng": 114.150129,
+   "address": "Upper G/F Phase Iv South Horizons 29 Yi Nam Road, Ap Lei Chau, Hong Kong",
+   "area": "Yi Nam Road",
+   "tel": "2873 3026",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,772 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17772
+   },
+   "enrolment": "Whole-day 99",
+   "teacherPupilRatio": "1:8.1 AM · 1:8.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "‘Topic studies’ is the main mode of learning. Opportunities for exploration are provided according to children’s interests and experiences to increase their motives of learning. Professional teachers make use of the environment creatively to provide the learning corner as a way to encourage children to learn through games and action besides gaining knowledge and exploration skills."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://southhorizons.cmasshk.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6358"
+  },
+  {
+   "id": "6376",
+   "name": "German Swiss International School",
+   "scheme": false,
+   "lat": 22.260696,
+   "lng": 114.136689,
+   "address": "162 Pok Fu Lam Road, Pok Fu Lam, Hong Kong",
+   "area": "Pok Fu Lam Road",
+   "tel": "2849 6217",
+   "fees": {
+    "am": "K1 — · K2 $197,000 (2) · K3 $197,000 (2)",
+    "pm": null,
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 197000,
+    "pm": null,
+    "wd": null
+   },
+   "enrolment": "AM 138",
+   "teacherPupilRatio": "1:8.6 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Website",
+     "http://www.gsis.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6376"
+  },
+  {
+   "id": "6359",
+   "name": "Creative Kindergarten (Sham Wan Towers)",
+   "scheme": true,
+   "lat": 22.244002,
+   "lng": 114.159103,
+   "address": "G/F, Sham Wan Towers, 3 Ap Lei Chau Drive, Ap Lei Chau, Hong Kong",
+   "area": "Ap Lei Chau Drive",
+   "tel": "2873 2128, 2873 1333",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$22,530 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 22530
+   },
+   "enrolment": "AM 129 · PM 45 · Whole-day 45",
+   "teacherPupilRatio": "1:11.9 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through “theme based” and “inquiry based” activities, students learn in small groups. Through interacting with caring teachers, students develop their linguistic, music, art and motor skills. Our “Free choice Learning Corners” and “Free Play Areas” give children ownership of their learning experience. It’s a way for children to expand on what they are learning and explore their own interests. Supporting young children’s autonomy has been found to have far-reaching positive effects on the child’s development, including benefits to executive function, mastery-related behaviours and general socialisation."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2005"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "19"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.creative.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6359"
+  },
+  {
+   "id": "6929",
+   "name": "Guidepost Montessori International Kindergarten (Pok Fu Lam)",
+   "scheme": false,
+   "lat": 22.257915,
+   "lng": 114.138601,
+   "address": "Shop 101, Chi Fu Landmark Chi Fu Fa Yuen, Pokfulam, Hong Kong",
+   "area": "Pokfulam",
+   "tel": "2177 0001",
+   "fees": {
+    "am": "$101,200 (11 instalments)",
+    "pm": "$87,780 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 101200,
+    "pm": 87780,
+    "wd": null
+   },
+   "enrolment": "AM 21",
+   "teacherPupilRatio": "1:7.0 AM · 1:0.5 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2021"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/pok-fu-lam"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6929"
+  },
+  {
+   "id": "6360",
+   "name": "Ho Yan Kindergarten (Sponsored By Sik Sik Yuen)",
+   "scheme": true,
+   "lat": 22.244706,
+   "lng": 114.15108,
+   "address": "Unit 21-40, G/F, Lei Tim House, Apleichau Estate, Hong Kong",
+   "area": "Lei Tim House",
+   "tel": "2555 2191",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$9,680 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 9680
+   },
+   "enrolment": "AM 20 · Whole-day 49",
+   "teacherPupilRatio": "1:7.7 AM · 1:5.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum design is child-centred, the starting point being inspiration and guidance. It includes different teaching approaches such as \"Thematic\", \"Project Approach\" and \"Project learning\". Children learn through music, games, stories and activities that are diversified, coherent and explorative. It also provides sensory learning through exploration and experimentation. It inspires children’s multi-intelligence and let children master the ability to learn independently. The experience gained by children through these activities can be applied in their daily life."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.hoyankg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6360"
+  },
+  {
+   "id": "6920",
+   "name": "Guidepost Montessori International Pre-School (Repulse Bay)",
+   "scheme": false,
+   "lat": 22.237274,
+   "lng": 114.197109,
+   "address": "Shop A2-H, 2/F, 35 Beach Road, Repulse Bay, Hong Kong",
+   "area": "Repulse Bay",
+   "tel": "2812 0274",
+   "fees": {
+    "am": "$154,200 (12 instalments)",
+    "pm": "$145,920 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 154200,
+    "pm": 145920,
+    "wd": null
+   },
+   "enrolment": "AM 41 · PM 5",
+   "teacherPupilRatio": "1:8.6 AM · 1:0.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Montessori education supports children's growing independence at every age. This approach helps children develop a fundamental, enduring love of learning and attain the deeply ingrained academic, social, and emotional skills they need to succeed as an adult. Our prepared environment is supportive and inclusive. We take full advantage of the Montessori work cycle, where children choose and organize their own work. Children come to create, understand, structure, and iterate their learning goals – to work both independently and collaboratively – and to persist in critical thinking and creative work. In our mixed-age classrooms for Children’s House, each child practices leadership and responsibility, playing a role as a mentor to younger students, caring for the school environment, and engaging meaningfully to resolve classroom issues."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "https://guidepost.hk/locations/repulse-bay"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6920"
+  },
+  {
+   "id": "6361",
+   "name": "Lei Tung Lutheran Day Nursery",
+   "scheme": true,
+   "lat": 22.241681,
+   "lng": 114.15564,
+   "address": "G/F, Room 113-123, Tung Mau House, Lei Tung Estate, Ap Lei Chau, Hong Kong",
+   "area": "Tung Mau House",
+   "tel": "2871 3164",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$5,460 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 5460
+   },
+   "enrolment": "Whole-day 15",
+   "teacherPupilRatio": "1:6.7 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based approach – Children learn to relate what is learnt with daily lives through personal exploration, observation, inference, interaction, questioning and the routine learning environment. Group learning, interest groups, topic-based activities, site and friendly visits are arranged so children learn with peers and put the theory of ‘to learn in daily life’ into practice."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "3"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://leitung-nursery.hklss.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6361"
+  },
+  {
+   "id": "6992",
+   "name": "Italian International Kindergarten",
+   "scheme": false,
+   "lat": 22.244759,
+   "lng": 114.147006,
+   "address": "Podium Level 1, Block 4, Phase 1 South Horizons, Ap Lei Chau, Hong Kong",
+   "area": "Ap Lei Chau",
+   "tel": "2662 3066",
+   "fees": {
+    "am": "$86,900 (11 instalments)",
+    "pm": "$86,900 (11 instalments)",
+    "wd": "$133,705 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 86900,
+    "pm": 86900,
+    "wd": 133705
+   },
+   "enrolment": "AM 25 · PM 3 · Whole-day 13",
+   "teacherPupilRatio": "1:5.7 AM · 1:2.2 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school: - Values the wide variety of different cultures and languages that are native to the students; - Promotes the development of children’s literacy with the aid of different media used in the teaching process; - Encourages the acquisition of general and interdisciplinary study skills; - Encourages the ability of adapting as a means of change and innovation; - Promotes bilingualism;"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2019"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "http://www.iikg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6992"
+  },
+  {
+   "id": "6362",
+   "name": "Po Leung Kuk Mrs Vicwood K T Chong (Wah Kwai) Kindergarten",
+   "scheme": true,
+   "lat": 22.250167,
+   "lng": 114.138031,
+   "address": "4/F, Neighbourhood Community Centre, Wah Kwai Estate, Pokfulam, Hong Kong",
+   "area": "Neighbourhood Community Centre",
+   "tel": "2551 6908",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$19,284 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 19284
+   },
+   "enrolment": "Whole-day 43",
+   "teacherPupilRatio": "1:7.4 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Personal exploration and creativity are emphasized. Children are arranged to leave the classroom and participate in all kinds of site and friendly visits. Class learning includes activity-based learning, topic studies, individual learning and group learning. The Orff music theories are adopted in music activities. Native-speaking teachers and specialists are employed to teach the English language and Putonghua. Other activities include uniformed team and interest classes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1992"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/mvktcwkkgn/school-info"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6362"
+  },
+  {
+   "id": "6380",
+   "name": "Montessori for Children (Nursery)",
+   "scheme": false,
+   "lat": 22.238678,
+   "lng": 114.222796,
+   "address": "House A, Phoenix Garden, Rbl 1033, Tai Tam Village, Stanley, Hong Kong",
+   "area": "Phoenix Garden",
+   "tel": "2813 9589",
+   "fees": {
+    "am": "$104,760 (10 instalments)",
+    "pm": "$104,760 (10 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 104760,
+    "pm": 104760,
+    "wd": null
+   },
+   "enrolment": "AM 11 · PM 8",
+   "teacherPupilRatio": "1:3.0 AM · 1:2.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our aim is to offer areas of work to fulfill every child's social, emotional, physical and intellectual needs based on the Montessori principals."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "2"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Website",
+     "http://mfc.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6380"
+  },
+  {
+   "id": "6363",
+   "name": "St. Monica's Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.241482,
+   "lng": 114.156552,
+   "address": "Unit 317-324 & 417-424, G/F & 1/F Tung Sing House, Lei Tung Estate, Phase II Apleichau, Hong Kong",
+   "area": "F Tung Sing House",
+   "tel": "2874 6187",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10200
+   },
+   "enrolment": "AM 17 · PM 6 · Whole-day 88",
+   "teacherPupilRatio": "1:8.8 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We implemented various kinds of play, corner, project approach and Whole Language Approach, to Enhance children self-directed learning and problem-solving skills. The curriculum emphasizes the experiences of “Learning by doing”, to construct knowledge on their own, enhance multiple intelligences, nurturing to attain all-round development in the domains of ethics, intellect, physique, social skills and aesthetics, and fostering children with positive values and attitudes, through set up learning group, individual and mixed-age interactive ways with flexibility on different themes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.stmonicalt.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6363"
+  },
+  {
+   "id": "6390",
+   "name": "Mulberry House International Kindergarten Southside",
+   "scheme": false,
+   "lat": 22.247335,
+   "lng": 114.159189,
+   "address": "Shops 1 & 2, G/F, Ocean Court, 3 Aberdeen Praya Road, Hong Kong",
+   "area": "Ocean Court",
+   "tel": "5598 0555",
+   "fees": {
+    "am": "$118,560 (12 instalments)",
+    "pm": "$118,560 (12 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 118560,
+    "pm": 118560,
+    "wd": null
+   },
+   "enrolment": "AM 17",
+   "teacherPupilRatio": "1:3.4 AM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "No information"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Website",
+     "https://mulberryhousekg.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6390"
+  },
+  {
+   "id": "6364",
+   "name": "St. Monica's Anglo-Chinese Kindergarten (Wah Kwai Estate)",
+   "scheme": true,
+   "lat": 22.250609,
+   "lng": 114.138467,
+   "address": "G/F, Wah Yin House, Wah Kwai Estate Phase Ii, Kellett Bay, Hong Kong",
+   "area": "Wah Yin House",
+   "tel": "2551 9796",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,050 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11050
+   },
+   "enrolment": "AM 15 · Whole-day 86",
+   "teacherPupilRatio": "1:10.1 AM · 1:8.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The design-based approach is mainly adopted supported with high scope activities to let the children learn through games. Group and individual counselling are provided according to children’s background and needs."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.stmonicawk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6364"
+  },
+  {
+   "id": "6382",
+   "name": "Parkview International Pre-School",
+   "scheme": false,
+   "lat": 22.257891,
+   "lng": 114.198781,
+   "address": "Tower 18, Parkview, 88 Tai Tam Reservoir Road, Hong Kong",
+   "area": "Tai Tam Reservoir Road",
+   "tel": "2812 6023",
+   "fees": {
+    "am": "$112,200 (11 instalments)",
+    "pm": "$112,200 (11 instalments)",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 112200,
+    "pm": 112200,
+    "wd": null
+   },
+   "enrolment": "AM 57 · PM 19",
+   "teacherPupilRatio": "1:5.6 AM · 1:1.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our hands-on, inquiry based learning and teaching focuses on the learner's holistic development. Learning engagements develop children to be inquirers, knowledgeable, thinkers, communicators, principled, open-minded, caring, risk-takers, balanced and reflective."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Website",
+     "http://www.pips.edu.hk/hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6382"
+  },
+  {
+   "id": "6365",
+   "name": "St. Peter's Catholic Kindergarten",
+   "scheme": true,
+   "lat": 22.250459,
+   "lng": 114.157501,
+   "address": "Unit 3, G/F, Pik Fai House, Shek Pai Wan Estate, Hong Kong",
+   "area": "Pik Fai House",
+   "tel": "2553 7823",
+   "fees": {
+    "am": "K1 Free · K2 Free · K3 —",
+    "pm": "Free",
+    "wd": "$3,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3000
+   },
+   "enrolment": "AM 25 · Whole-day 79",
+   "teacherPupilRatio": "1:10.4 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Design a diversified learning area corner with lively and funny ,activities with aim of enhancing children's active learning attitude. Moreover,it can enhances the development and growth of the students spiritually morally , academically ,physically, socially and aesthetically through different learning mode, for example, drama, design activity, large and small group learning, experiment exploration, individual learning, cooperative teaching and visit experience,etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1974"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sppkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6365"
+  },
+  {
+   "id": "6384",
+   "name": "Singapore International School (Hong Kong)",
+   "scheme": false,
+   "lat": 22.244744,
+   "lng": 114.167212,
+   "address": "23 Nam Long Shan Road, Aberdeen, Hong Kong (Including 1-STOREY School Extension and L7 Staff Room Extension)",
+   "area": "Nam Long Shan Road",
+   "tel": "2872 0266",
+   "fees": {
+    "am": "K1 — · K2 — · K3 $103,000 (4)",
+    "pm": "K1 — · K2 $103,000 (4) · K3 —",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 103000,
+    "pm": 103000,
+    "wd": null
+   },
+   "enrolment": "AM 132 · PM 132",
+   "teacherPupilRatio": "1:8.3 AM · 1:8.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Please refer to our school website."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Website",
+     "http://www.singapore.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6384"
+  },
+  {
+   "id": "6366",
+   "name": "St. Peter's Church Kindergarten (Stanley)",
+   "scheme": true,
+   "lat": 22.221397,
+   "lng": 114.206884,
+   "address": "Shop 1, G/F, Kin Ma House, Ma Hang Estate, Stanley, Hong Kong",
+   "area": "Kin Ma House",
+   "tel": "2813 6130",
+   "fees": {
+    "am": "K1 Free · K2 Free · K3 —",
+    "pm": "Free",
+    "wd": "$13,838 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13838
+   },
+   "enrolment": "AM 42 · PM 7 · Whole-day 30",
+   "teacherPupilRatio": "1:10.5 AM · 1:5.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To provide an appropriate environment and integrate the curriculum with theme-based integrated stories and drama-based teaching. Group teaching is conducted to provide ample opportunities for children to express and participate. To broaden the children’s horizon through different site visits. To build up children’s experiences in planning, action and report through school-based high scope optional interest activities. To adjust according to children’s learning abilities and interests."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1994"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://stpstkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6366"
+  },
+  {
+   "id": "6388",
+   "name": "The International Montessori School - An Imef School",
+   "scheme": false,
+   "lat": 22.243088,
+   "lng": 114.14591,
+   "address": "Kindergarten Premises, Podium Level 2, Phase Iii, 17-23A South Horizon Drive South Horizon, Ap Lei Chau, Hong Kong",
+   "area": "South Horizon Drive",
+   "tel": "2861 0339",
+   "fees": {
+    "am": "K1 $143,000 (10) · K2 $143,000 (10) · K3 —",
+    "pm": null,
+    "wd": "K1 — · K2 $206,500 (10) · K3 $206,500 (10)"
+   },
+   "feesAnnual": {
+    "am": 143000,
+    "pm": null,
+    "wd": 206500
+   },
+   "enrolment": "AM 57 · Whole-day 13",
+   "teacherPupilRatio": null,
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Each IMS classroom is led by a team of two, an English-speaking and a Putonghua-speaking teacher, and is carefully designed to give children opportunities to engage in meaningful learning with the proper balance of autonomy and guidance IMS Montessori First Steps (ages 1-2) supports young toddlers on a journey of discovery and accomplishment, guided by a team of Montessori experts who provide an immersive English and Putonghua language environment for your child and support for you too. This bilingual programme is designed to support your family in ensuring the optimal development for your growing toddler The bilingual Foundations Groups (ages 2-3) encourage toddlers to explore creatively, in a cosy, language-rich and highly interactive environment – the best preparation for learning Casa dei Bambini (ages 3-6) supports children in moving towards a mastery of self and the environment The elementary programme (ages 6-12) encourages children to learn all subjects from many directions through all disciplines by taking full advantage of their developing capacity to reason ​​IMS Middle School is Hong Kong’s only Montessori programme for adolescents aged 12–14. Its bilingual, multi-age environment combines inquiry and project-based learning, tailored to support this transformative stage of development IMS graduates successfully stream into top international secondary schools in Hong Kong and around the world, with enhanced academic and social skills, and a very strong foundation in both Chinese and English South Horizons Campus (ages 1-6), located on Ap Lei Chau Island. Nestled in a quiet residential area, our campus is surrounded by trees, an outdoor park, and a promenade along the sea. Children thrive in 6 bright, spacious classrooms for our First Steps, Foundation Groups, and Casa dei Bambini children. With a large play area, children’s kitchen, a library and vertical garden where our youngest children enjoy their first years in our school! The lovely environment is designed to welcome toddlers to their first Montessori experience in the Montessori First Steps environment"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Website",
+     "https://www.ims.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6388"
+  },
+  {
+   "id": "6386",
+   "name": "St. Teresa's Kindergarten",
+   "scheme": true,
+   "lat": 22.218325,
+   "lng": 114.213682,
+   "address": "G/F And New Annex, 1 Tung Tau Wan Road, Stanley, Hong Kong",
+   "area": "Tung Tau Wan Road",
+   "tel": "2813 8567",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8500
+   },
+   "enrolment": "AM 16 · Whole-day 26",
+   "teacherPupilRatio": "1:8.4 AM · 1:5.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Creating a diverse environment for children of different nationalities to learn knowledge, engage and interact. Our children learn the importance of respecting and appreciate life through our little garden settlement in campus. They earn creativity and art through having a green school life. Through a green creative school learning experience, children can explore different possibilities, enhance abilities and increase interest to learn, explore and be creative."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.sttkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6386"
+  },
+  {
+   "id": "6879",
+   "name": "The International Montessori School - An Imef School",
+   "scheme": false,
+   "lat": 22.310161,
+   "lng": 114.189084,
+   "address": "Ma Hang Estate Phase Iii, Stanley, Hong Kong",
+   "area": "Ma Hang Estate",
+   "tel": "2566 7196",
+   "fees": {
+    "am": "K1 $143,000 (10) · K2 $143,000 (10) · K3 —",
+    "pm": null,
+    "wd": "K1 — · K2 $206,500 (10) · K3 $206,500 (10)"
+   },
+   "feesAnnual": {
+    "am": 143000,
+    "pm": null,
+    "wd": 206500
+   },
+   "enrolment": "AM 71 · Whole-day 32",
+   "teacherPupilRatio": null,
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Each IMS classroom is led by a team of two, an English-speaking and a Putonghua-speaking teacher, and is carefully designed to give children opportunities to engage in meaningful learning with the proper balance of autonomy and guidance. Activities in the bilingual Foundations Groups (ages 2-3) encourage toddlers to explore creatively, in a cosy, language-rich and highly interactive environment–the best preparation for learning. The Casa dei Bambini programme (ages 3-6) supports children in moving towards a mastery of self and the environment. The IMS elementary programme (ages 6-12) encourages children to learn all subjects from many directions through all disciplines by taking full advantage of their developing capacity to reason. IMS Middle School is Hong Kong’s only Montessori programme for adolescents aged 12–14. Its bilingual, multi-age environment combines inquiry and project-based learning, tailored to support this transformative stage of development. IMS graduates successfully stream into top international secondary schools in Hong Kong and around the world, with enhanced academic and social skills, and a very strong foundation in both Chinese and English. The Montessori Primary Years curriculum begins from a strong academic foundation, and explores an integrated view of all disciplines. Students are closely guided to follow their own interests, and extend their learning to the world outside the classroom, resulting in strongly motivated students who take ownership and responsibility for their own learning, a key measure for future success. Stanley Campus (ages 2-14), is the largest IMS campus, and filled with bright and open classes including specialized Chinese rooms, art room, music and dance studio, a large indoor hall and sports area, and playgrounds for its Foundation Groups, Casa dei Bambini (Kindergarten) and Primary students. Outside of the classroom, the IMS students of the Stanley campus also benefit from our new Native Language Lessons program, along with opportunities for sailing, robotics, sports, arts, dance, cooking and many more."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2002"
+    ],
+    [
+     "Registered classrooms",
+     "30"
+    ],
+    [
+     "Website",
+     "https://www.ims.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6879"
+  },
+  {
+   "id": "6367",
+   "name": "The Hong Kong Harbour Mission Church Yan Oi Kindergarten",
+   "scheme": true,
+   "lat": 22.244002,
+   "lng": 114.157085,
+   "address": "G/F, 38 San Shi Street, Apleichau, Hong Kong",
+   "area": "San Shi Street",
+   "tel": "2554 7808",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$20,537 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 20537
+   },
+   "enrolment": "AM 16 · Whole-day 35",
+   "teacherPupilRatio": "1:9.4 AM · 1:5.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "‧ Theme-based , activity-based and project approaches are adopted. ‧ Various learning media are employed. Through multiple ways of learning, children are fostered to learn voluntarily, ready to try and develop problem-solving ability and innovation through projects, observation, exploration, group sharing, site visits, and application of technology. ‧ Children are also arranged to learn through games to enhance their interest in learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.yanoikin.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6367"
+  },
+  {
+   "id": "6393",
+   "name": "Victoria (South Horizons) International Kindergarten",
+   "scheme": false,
+   "lat": 22.243099,
+   "lng": 114.158909,
+   "address": "Podium Level 2 of South Horizons (Phase 2) Ap Lei Chau, Hong Kong",
+   "area": "Podium Level 2 of South Horizons (Phase 2) Ap Lei Chau",
+   "tel": "2580 8633",
+   "fees": {
+    "am": "K1 $124,047 (11) · K2 $110,520 (10) · K3 —",
+    "pm": "K1 $124,047 (11) · K2 $110,520 (10) · K3 $113,110 (10)",
+    "wd": "K1 — · K2 — · K3 $207,140 (10)"
+   },
+   "feesAnnual": {
+    "am": 124047,
+    "pm": 124047,
+    "wd": 207140
+   },
+   "enrolment": "AM 126 · PM 119",
+   "teacherPupilRatio": "1:5.4 AM · 1:5.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "English, Chinese and Putonghua are the medium of instruction at our school. Learning in an immersive environment allow the students to fully focus in a trilingual learning environment. The students will naturally develop and build on their listening and speaking skills, while laying a firm foundation for reading and writing."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1994"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "29"
+    ],
+    [
+     "Website",
+     "http://www.victoria.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6393"
+  },
+  {
+   "id": "6368",
+   "name": "The Salvation Army Wah Fu Nursery School",
+   "scheme": true,
+   "lat": 22.252505,
+   "lng": 114.1364,
+   "address": "Unit 123-127 & 223-229, Wah Sang House, Wah Fu Estate, Hong Kong",
+   "area": "Wah Sang House",
+   "tel": "2551 6341",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$18,600 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 18600
+   },
+   "enrolment": "Whole-day 69",
+   "teacherPupilRatio": "1:8.1 AM · 1:8.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1.Project Approach–To stimulate children to explore voluntarily and build up knowledge through the process of observation,discussion and exploration. 2.Montessori Education–Enhance sensory acuity in young children,establish self-care skills and a sense of order,cultivate independence and self-management abilities,and develop logical thinking and concentration. 3.Fun with English– Focus on stimulating interest in learning English,cultivate listening and speaking skills,and help children master phonics techniques for English words. 4.Life education–Concerning individual child’s needs and development,we foster positive and optimistic values through manifesting the Love of Jesus Christ.At the same time,children are taught according to abilities,special needs and development of children are also catered for. 5.Inheriting Chinese Culture-By understanding Chinese festival customs,appreciating and experiencing various forms of traditional art and together with participating in related project-based learning activities,we aim to cultivate young children's interest in Chinese culture and foster their sense of national identity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1973"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.salvationarmy.org.hk/esd/wfns/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6368"
+  },
+  {
+   "id": "6369",
+   "name": "Tin Wan Methodist Kindergarten",
+   "scheme": true,
+   "lat": 22.251596,
+   "lng": 114.149837,
+   "address": "Unit 1-10, G/F, Tin Hong House, Tin Wan Estate, Aberdeen, Hong Kong",
+   "area": "Tin Hong House",
+   "tel": "2538 8669",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$5,400 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 5400
+   },
+   "enrolment": "Whole-day 30",
+   "teacherPupilRatio": "1:7.3 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based group teaching supported with various theme-based activities, such as group learning, site visits, friendly visits and hiking to enhance children’s interest in learning. Native-speaking English teachers and Putonghua specialists are employed to teach language courses."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.twmkgdn.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6369"
+  },
+  {
+   "id": "6371",
+   "name": "TWGHs Shiu Wong Lee Moon Fook Nursery School",
+   "scheme": true,
+   "lat": 22.248788,
+   "lng": 114.156104,
+   "address": "Shop 1 & 2, Upper G/F, Comfort Centre, 18 Yue Fai Road, Aberdeen, Hong Kong",
+   "area": "Comfort Centre",
+   "tel": "2580 2273",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$19,788 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 19788
+   },
+   "enrolment": "Whole-day 70",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The whole language approach is employed to foster children’s language development and reading habits through using real-life situations. We help children to achieve all-rounded development, and cultivate their initiatives and independence in learning. Empowering children in self-directed learning can be achieved through thematic stories, project work, free play, self-care activities and outdoor activities. According to the children's different abilities and development needs, the school-based curriculum is implemented to encourage children to explore, learn and gain more diverse experiences in a multi-faceted learning environment, balanced and inspiring activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1997"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://swlmfns.tungwahcsd.org/tc/page/home"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6371"
+  },
+  {
+   "id": "6370",
+   "name": "TWGHs Tin Wan (1996 - 1997 Directors) Kindergarten",
+   "scheme": true,
+   "lat": 22.251993,
+   "lng": 114.150438,
+   "address": "Unit 1-10 G/F, Tin Kin House, Tin Wan Estate, Aberdeen, Hong Kong",
+   "area": "Tin Kin House",
+   "tel": "2538 5867",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13200
+   },
+   "enrolment": "AM 77 · PM 12 · Whole-day 75",
+   "teacherPupilRatio": "1:10.9 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated story-based approaches are adopted. Exploration is emphasized, and extended activities are designed according to the theme of development, so that children foster good habits, understand things around them and develop perception through all kinds of life experiences, sensory touch, site visits, friendly visits and observation. Various interest activities are organized to stimulate children to bring into play their potentials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://twghtwkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6370"
+  },
+  {
+   "id": "6372",
+   "name": "Women's Welfare Club Western District Hong Kong Ap Lei Chau Kindergarten",
+   "scheme": true,
+   "lat": 22.245094,
+   "lng": 114.149528,
+   "address": "G/F, 1-12 Lei Ning House, Ap Lei Chau (W) Estate, Ap Lei Chau, Hong Kong",
+   "area": "Lei Ning House",
+   "tel": "2554 3470",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$3,600 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 3600
+   },
+   "enrolment": "Whole-day 57",
+   "teacherPupilRatio": "1:7.2 AM · 1:7.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through “Thematic Approach”, “Picture Book Scheme”, design activities, outdoor visit experiences, group and individual learning, the school curriculum allows children to learn through doing and exploring through sensory contact, and to develop their creativity. Professionally trained Native-speaking teachers are arranged to teach English with children, these activities are providing more opportunities for children in listening and speaking English. In addition, children will also be arranged to participate in Mandarin activities to encourage children to use three languages to communicate with different people, to improve their language skills. In addition, through children's participation in the group activity \"Happy Bee\", we cultivate children's good character and promote their overall development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1979"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.alcnursery.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6372"
+  }
+ ]
+}
