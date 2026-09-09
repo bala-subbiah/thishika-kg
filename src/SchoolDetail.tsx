@@ -27,6 +27,8 @@ interface Props {
   school: RankedSchool;
   home: Home | null;
   fav: boolean;
+  /** "sheet" (mobile, back link + focus steal) or "panel" (desktop side panel, ✕) */
+  variant?: "sheet" | "panel";
   onToggleFav: (id: string) => void;
   onBack: () => void;
 }
@@ -35,15 +37,16 @@ export default function SchoolDetail({
   school: s,
   home,
   fav,
+  variant = "sheet",
   onToggleFav,
   onBack,
 }: Props) {
-  // Hand keyboard focus to the detail so Tab continues from here; the list
-  // restores focus to the row on the way back.
+  // Sheet: hand keyboard focus to the detail so Tab continues from here.
+  // Panel: never steal focus — the list is a live preview pane (↑/↓ browses).
   const backRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
-    backRef.current?.focus({ preventScroll: true });
-  }, [s.id]);
+    if (variant === "sheet") backRef.current?.focus({ preventScroll: true });
+  }, [s.id, variant]);
 
   const homeQuery = home
     ? home.custom
@@ -71,9 +74,22 @@ export default function SchoolDetail({
   return (
     <article className="detail">
       <div className="detail-top">
-        <button type="button" className="back" ref={backRef} onClick={onBack}>
-          ← All kindergartens
-        </button>
+        {variant === "sheet" ? (
+          <button type="button" className="back" ref={backRef} onClick={onBack}>
+            ← All kindergartens
+          </button>
+        ) : (
+          <button
+            type="button"
+            className="panel-close"
+            aria-label="Close details"
+            onClick={onBack}
+          >
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+            </svg>
+          </button>
+        )}
         <Star on={fav} name={s.name} onToggle={() => onToggleFav(s.id)} className="star--detail" />
       </div>
       <h2>{s.name}</h2>

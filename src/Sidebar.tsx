@@ -1,9 +1,8 @@
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Home, SchemeFilter, SessionFilter } from "./types";
 import type { RankedSchool } from "./App";
 import FilterChips, { type Counts } from "./FilterChips";
 import SchoolList from "./SchoolList";
-import SchoolDetail from "./SchoolDetail";
 import ShareButton from "./ShareButton";
 import { formatKm } from "./geo";
 
@@ -41,8 +40,6 @@ export default function Sidebar({
   onSelect,
 }: Props) {
   const [query, setQuery] = useState("");
-  const lastSelectedRef = useRef<string | null>(null);
-  if (selected) lastSelectedRef.current = selected.id;
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -63,18 +60,6 @@ export default function Sidebar({
 
   return (
     <aside className="sidebar" aria-label="Kindergarten explorer">
-      {selected ? (
-        <div className="sidebar-scroll">
-          <SchoolDetail
-            school={selected}
-            home={home}
-            fav={favIds.includes(selected.id)}
-            onToggleFav={onToggleFav}
-            onBack={() => onSelect(null)}
-          />
-        </div>
-      ) : (
-        <>
           <header className="sidebar-head">
             <h1>Tai Po Kindergartens</h1>
             <p>
@@ -152,17 +137,15 @@ export default function Sidebar({
                 <SchoolList
                   schools={visible}
                   favIds={favIds}
+                  selectedId={selected?.id ?? null}
                   onToggleFav={onToggleFav}
                   onSelect={onSelect}
-                  returnFocusId={lastSelectedRef.current}
                 />
               ) : (
                 <p className="no-results">No kindergartens match “{query}”.</p>
               )}
             </div>
           </div>
-        </>
-      )}
     </aside>
   );
 }

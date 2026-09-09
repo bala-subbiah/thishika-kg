@@ -7,6 +7,8 @@ import Star from "./Star";
 interface Props {
   schools: RankedSchool[];
   favIds: string[];
+  /** Highlight + keep in view (desktop master–detail) */
+  selectedId?: string | null;
   onToggleFav: (id: string) => void;
   onSelect: (id: string) => void;
   /** Row to restore keyboard focus to (after coming back from the detail) */
@@ -33,6 +35,7 @@ function groupByArea(schools: RankedSchool[]): AreaGroup[] {
 export default function SchoolList({
   schools,
   favIds,
+  selectedId,
   onToggleFav,
   onSelect,
   returnFocusId,
@@ -45,6 +48,14 @@ export default function SchoolList({
       ?.querySelector<HTMLButtonElement>(`.row[data-id="${returnFocusId}"]`)
       ?.focus();
   }, [returnFocusId]);
+
+  // keep the selected row in view (without stealing keyboard focus)
+  useEffect(() => {
+    if (!selectedId) return;
+    rootRef.current
+      ?.querySelector(`.row[data-id="${selectedId}"]`)
+      ?.scrollIntoView({ block: "nearest" });
+  }, [selectedId]);
 
   // Arrow keys walk the rows; Home/End jump. Enter/Space stay native.
   const onKeyDown = useCallback((e: React.KeyboardEvent) => {
@@ -84,7 +95,12 @@ export default function SchoolList({
             </small>
           </header>
           {g.schools.map((s) => (
-            <div className="rowwrap" key={s.id}>
+            <div
+              className={
+                "rowwrap" + (s.id === selectedId ? " rowwrap--selected" : "")
+              }
+              key={s.id}
+            >
             <button
               type="button"
               data-id={s.id}

@@ -5,6 +5,7 @@ import { useMediaQuery } from "./useMediaQuery";
 import MapView from "./MapView";
 import Sheet from "./Sheet";
 import Sidebar from "./Sidebar";
+import SchoolDetail from "./SchoolDetail";
 import Legend from "./Legend";
 import FilterChips from "./FilterChips";
 import { useShortlist } from "./useShortlist";
@@ -126,7 +127,13 @@ export default function App() {
   }, [selectedId]);
 
   return (
-    <div className={"app" + (desktop ? " app--desktop" : "")}>
+    <div
+      className={
+        "app" +
+        (desktop ? " app--desktop" : "") +
+        (desktop && selected ? " app--panel-open" : "")
+      }
+    >
       <MapView
         home={home}
         schools={ranked}
@@ -185,6 +192,20 @@ export default function App() {
             onSession={setSession}
             onSelect={setSelectedId}
           />
+          {selected && (
+            <aside className="detail-panel" aria-label="Kindergarten details">
+              <div className="detail-panel-scroll">
+                <SchoolDetail
+                  school={selected}
+                  home={home}
+                  fav={shortlist.ids.includes(selected.id)}
+                  variant="panel"
+                  onToggleFav={shortlist.toggle}
+                  onBack={() => setSelectedId(null)}
+                />
+              </div>
+            </aside>
+          )}
           <Legend customHome={isCustom} />
           {DEMO && <div className="demo-flag demo-flag--desktop">Demo data — not real schools</div>}
         </>

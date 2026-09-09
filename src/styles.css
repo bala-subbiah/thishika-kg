@@ -1120,6 +1120,86 @@ input:focus-visible {
   }
 }
 
+/* --- Desktop: floating right detail panel (master–detail) ---------------- */
+
+.detail-panel {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .detail-panel {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    bottom: 14px;
+    width: 372px;
+    z-index: 29;
+    display: flex;
+    flex-direction: column;
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    animation: panel-in 0.22s cubic-bezier(0.32, 0.72, 0.22, 1);
+  }
+
+  @keyframes panel-in {
+    from {
+      transform: translateX(18px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .detail-panel-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-top: 10px;
+  }
+
+  .panel-close {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-soft);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+
+  .panel-close svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rowwrap--selected {
+    background: var(--accent-wash);
+    box-shadow: inset 3px 0 0 var(--accent);
+  }
+
+  /* map overlays step left while the panel is open so they stay visible */
+  .legend,
+  .home-controls,
+  .map .maplibregl-ctrl-bottom-right {
+    transition: transform 0.25s cubic-bezier(0.32, 0.72, 0.22, 1);
+  }
+
+  .app--panel-open .legend,
+  .app--panel-open .home-controls,
+  .app--panel-open .map .maplibregl-ctrl-bottom-right {
+    transform: translateX(-386px);
+  }
+}
+
 /* --- Empty state --------------------------------------------------------- */
 
 .empty {

@@ -181,9 +181,10 @@ export default function MapView({
       map.flyTo({
         center: [s.lng, s.lat],
         zoom: Math.max(map.getZoom(), desktop ? 15 : 14.6),
-        // desktop: center in the area right of the sidebar; mobile: keep the
-        // pin visible above the half-open sheet
-        offset: desktop ? [208, 0] : [0, -window.innerHeight * 0.14],
+        // desktop: center in the strip between the left sidebar (~402px) and
+        // the right detail panel (~386px); mobile: keep the pin visible above
+        // the half-open sheet
+        offset: desktop ? [8, 0] : [0, -window.innerHeight * 0.14],
         duration: 650,
         essential: true,
       });
