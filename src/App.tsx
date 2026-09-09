@@ -8,6 +8,7 @@ import Sidebar from "./Sidebar";
 import Legend from "./Legend";
 import FilterChips from "./FilterChips";
 import { useShortlist } from "./useShortlist";
+import { useHome } from "./useHome";
 
 export interface RankedSchool extends School {
   rank: number;
@@ -26,6 +27,7 @@ export default function App() {
   const [shortlistOnly, setShortlistOnly] = useState(false);
   const desktop = useMediaQuery("(min-width: 900px)");
   const shortlist = useShortlist();
+  const [locating, setLocating] = useState(false);
 
   useEffect(() => {
     fetch(DATA_URL)
@@ -37,7 +39,23 @@ export default function App() {
       .catch((e) => setError(String(e)));
   }, []);
 
-  const home = snapshot?.home ?? null;
+  const { home, isCustom, setHome, reset: resetHome } = useHome(
+    snapshot?.home ?? null,
+  );
+
+  const locate = () => {
+    if (!navigator.geolocation) return;
+    setLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setLocating(false);
+        if (!setHome(pos.coords.latitude, pos.coords.longitude))
+          alert("Your location looks outside Hong Kong — home not moved.");
+      },
+      () => setLocating(false),
+      { enableHighAccuracy: true, timeout: 10000 },
+    );
+  };
 
   const ranked: RankedSchool[] = useMemo(() => {
     if (!snapshot || !home) return [];
@@ -116,7 +134,19 @@ export default function App() {
         onSelect={setSelectedId}
         desktop={desktop}
         favIds={shortlist.ids}
+        onHomeMove={setHome}
       />
+
+      <div className="home-controls">
+        <button type="button" onClick={locate} disabled={locating}>
+          {locating ? "Locating…" : "◎ My location"}
+        </button>
+        {isCustom && (
+          <button type="button" className="home-reset" onClick={resetHome}>
+            Reset home
+          </button>
+        )}
+      </div>
 
       {snapshot && importCount > 0 && (
         <div className="import-bar" role="alertdialog" aria-label="Shortlist link">
@@ -155,7 +185,7 @@ export default function App() {
             onSession={setSession}
             onSelect={setSelectedId}
           />
-          <Legend />
+          <Legend customHome={isCustom} />
           {DEMO && <div className="demo-flag demo-flag--desktop">Demo data — not real schools</div>}
         </>
       ) : (
@@ -165,7 +195,7 @@ export default function App() {
               <h1>Tai Po Kindergartens</h1>
               <p>
                 EDB 2025/26 profile · nearest-first from{" "}
-                <strong>Casa Brava</strong>
+                <strong>{isCustom ? "your home" : "Casa Brava"}</strong>
               </p>
             </div>
             <FilterChips

@@ -46,7 +46,9 @@ export default function SchoolDetail({
   }, [s.id]);
 
   const homeQuery = home
-    ? `${home.name}, ${home.address}`
+    ? home.custom
+      ? `${home.lat},${home.lng}`
+      : `${home.name}, ${home.address}`
     : "Casa Brava, 73 Ting Kok Road, Tai Po";
   const destQuery =
     s.lat != null && s.lng != null && !s.address
@@ -84,7 +86,8 @@ export default function SchoolDetail({
         </span>
         {s.distanceKm != null && (
           <span className="detail-km">
-            {formatKm(s.distanceKm)} from Casa Brava (straight line)
+            {formatKm(s.distanceKm)} from{" "}
+            {home?.custom ? "your home" : "Casa Brava"} (straight line)
           </span>
         )}
       </div>
@@ -137,8 +140,11 @@ export default function SchoolDetail({
         <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer">
           EDB Kindergarten Profile 2025/26
         </a>
-        . Distances are straight-line from Casa Brava, Block 23, 73 Ting Kok
-        Road — use the direction buttons for real routes.
+        . Distances are straight-line from{" "}
+        {home?.custom
+          ? "the home point you set"
+          : "Casa Brava, Block 23, 73 Ting Kok Road"}{" "}
+        — use the direction buttons for real routes.
       </p>
     </article>
   );

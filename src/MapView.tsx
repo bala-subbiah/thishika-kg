@@ -16,6 +16,7 @@ interface Props {
   onSelect: (id: string | null) => void;
   desktop: boolean;
   favIds: string[];
+  onHomeMove: (lat: number, lng: number) => boolean;
 }
 
 export default function MapView({
@@ -25,6 +26,7 @@ export default function MapView({
   onSelect,
   desktop,
   favIds,
+  onHomeMove,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -58,7 +60,11 @@ export default function MapView({
     };
   }, []);
 
-  // Home marker
+  // Home marker — draggable so anyone can move home to their own building
+  const onHomeMoveRef = useRef(onHomeMove);
+  onHomeMoveRef.current = onHomeMove;
+  const homeRef = useRef(home);
+  homeRef.current = home;
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !home) return;
@@ -66,10 +72,19 @@ export default function MapView({
       const el = document.createElement("div");
       el.className = "pin-home";
       el.innerHTML = HOME_SVG;
-      el.title = `${home.name} — home`;
-      homeMarkerRef.current = new maplibregl.Marker({ element: el })
+      el.title = "Home — drag to move";
+      const marker = new maplibregl.Marker({ element: el, draggable: true })
         .setLngLat([home.lng, home.lat])
         .addTo(map);
+      marker.on("dragend", () => {
+        const p = marker.getLngLat();
+        if (!onHomeMoveRef.current(p.lat, p.lng)) {
+          // outside HK sanity bounds — snap back
+          const h = homeRef.current;
+          if (h) marker.setLngLat([h.lng, h.lat]);
+        }
+      });
+      homeMarkerRef.current = marker;
     } else {
       homeMarkerRef.current.setLngLat([home.lng, home.lat]);
     }

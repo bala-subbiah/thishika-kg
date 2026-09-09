@@ -78,8 +78,15 @@ export default function Sidebar({
           <header className="sidebar-head">
             <h1>Tai Po Kindergartens</h1>
             <p>
-              EDB 2025/26 profile · nearest-first from <strong>Casa Brava</strong>,
-              73 Ting Kok Road
+              EDB 2025/26 profile · nearest-first from{" "}
+              {home?.custom ? (
+                <strong>your home</strong>
+              ) : (
+                <>
+                  <strong>Casa Brava</strong>, 73 Ting Kok Road
+                </>
+              )}{" "}
+              · drag the <strong>⌂</strong> pin to move home
             </p>
           </header>
 

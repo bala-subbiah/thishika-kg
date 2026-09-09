@@ -31,7 +31,10 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const CACHE = path.join(ROOT, "scripts", "cache");
 const OUT = path.join(ROOT, "public", "data", "schools.json");
 
-const BASE = "https://kgp2025.azurewebsites.net/edb";
+// Annual refresh: when the next edition appears (kgp2026 for 2026/27),
+// run KGP_YEAR=2026 npm run scrape and review the parse report.
+const YEAR = process.env.KGP_YEAR ?? "2025";
+const BASE = `https://kgp${YEAR}.azurewebsites.net/edb`;
 const LIST_URL = `${BASE}/school.php?lang=en&district=taipo`;
 const DETAIL_URL = (id) => `${BASE}/schoolinfo.php?lang=en&schid=${encodeURIComponent(id)}`;
 const ALS_URL = (q) => `https://www.als.gov.hk/lookup?q=${encodeURIComponent(q)}&n=1`;
@@ -365,7 +368,7 @@ async function geocode(query, cacheKeySafe) {
 
 /* ------------------------------------------------------------------ main -- */
 
-const listHtml = await fetchText(LIST_URL, "list.html");
+const listHtml = await fetchText(LIST_URL, `${YEAR}-list.html`);
 let list = parseList(listHtml);
 if (list.length === 0) {
   console.error("No GoSchoolDetail ids found — inspect scripts/cache/list.html");
@@ -377,7 +380,7 @@ list = list.slice(0, LIMIT);
 
 const schools = [];
 for (const entry of list) {
-  const html = await fetchText(DETAIL_URL(entry.id), `${entry.id}.html`);
+  const html = await fetchText(DETAIL_URL(entry.id), `${YEAR}-${entry.id}.html`);
   const school = parseDetail(html, entry);
   console.log(`  ✓ ${school.name}`);
   schools.push(school);

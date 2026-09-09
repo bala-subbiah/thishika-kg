@@ -35,6 +35,8 @@ export interface Home {
   lng: number;
   /** true until the geocode pipeline has resolved the exact rooftop point */
   estimated?: boolean;
+  /** true when the user moved home away from the built-in default */
+  custom?: boolean;
 }
 
 export interface Snapshot {
