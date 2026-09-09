@@ -7,6 +7,7 @@ import Sheet from "./Sheet";
 import Sidebar from "./Sidebar";
 import Legend from "./Legend";
 import FilterChips from "./FilterChips";
+import { useShortlist } from "./useShortlist";
 
 export interface RankedSchool extends School {
   rank: number;
@@ -22,7 +23,9 @@ export default function App() {
   const [filter, setFilter] = useState<SchemeFilter>("all");
   const [session, setSession] = useState<SessionFilter>("any");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [shortlistOnly, setShortlistOnly] = useState(false);
   const desktop = useMediaQuery("(min-width: 900px)");
+  const shortlist = useShortlist();
 
   useEffect(() => {
     fetch(DATA_URL)
@@ -55,8 +58,9 @@ export default function App() {
         filter === "all" ? true : filter === "joining" ? s.scheme : !s.scheme,
       )
       .filter((s) => session === "any" || offersSession(s, session))
+      .filter((s) => !shortlistOnly || shortlist.ids.includes(s.id))
       .map((s, i) => ({ ...s, rank: i + 1 }));
-  }, [snapshot, home, filter, session]);
+  }, [snapshot, home, filter, session, shortlistOnly, shortlist.ids]);
 
   const counts = useMemo(() => {
     const all = snapshot?.schools ?? [];
@@ -71,6 +75,15 @@ export default function App() {
   }, [snapshot]);
 
   const selected = ranked.find((s) => s.id === selectedId) ?? null;
+
+  const knownIds = useMemo(
+    () => new Set((snapshot?.schools ?? []).map((s) => s.id)),
+    [snapshot],
+  );
+  const favCount = shortlist.ids.filter((id) => knownIds.has(id)).length;
+  const importCount = shortlist.importIds.filter((id) =>
+    knownIds.has(id),
+  ).length;
 
   // Keyboard: Escape closes the detail view; "/" jumps to search (desktop)
   useEffect(() => {
@@ -102,7 +115,27 @@ export default function App() {
         selectedId={selectedId}
         onSelect={setSelectedId}
         desktop={desktop}
+        favIds={shortlist.ids}
       />
+
+      {snapshot && importCount > 0 && (
+        <div className="import-bar" role="alertdialog" aria-label="Shortlist link">
+          <span>
+            This link carries a shortlist of <b>{importCount}</b>{" "}
+            kindergarten{importCount === 1 ? "" : "s"}.
+          </span>
+          <button type="button" onClick={shortlist.acceptImport}>
+            Add to mine
+          </button>
+          <button
+            type="button"
+            className="import-dismiss"
+            onClick={shortlist.dismissImport}
+          >
+            Ignore
+          </button>
+        </div>
+      )}
 
       {desktop ? (
         <>
@@ -113,6 +146,11 @@ export default function App() {
             filter={filter}
             session={session}
             counts={counts}
+            favCount={favCount}
+            favIds={shortlist.ids}
+            shortlistOnly={shortlistOnly}
+            onShortlist={() => setShortlistOnly((v) => !v)}
+            onToggleFav={shortlist.toggle}
             onFilter={setFilter}
             onSession={setSession}
             onSelect={setSelectedId}
@@ -134,6 +172,9 @@ export default function App() {
               filter={filter}
               session={session}
               counts={counts}
+              favCount={favCount}
+              shortlistOnly={shortlistOnly}
+              onShortlist={() => setShortlistOnly((v) => !v)}
               onFilter={setFilter}
               onSession={setSession}
             />
@@ -146,6 +187,9 @@ export default function App() {
             home={home}
             filter={filter}
             session={session}
+            favIds={shortlist.ids}
+            shortlistOnly={shortlistOnly}
+            onToggleFav={shortlist.toggle}
             onSelect={setSelectedId}
             onBack={() => setSelectedId(null)}
           />

@@ -3,6 +3,7 @@ import type { Home, SchemeFilter, SessionFilter } from "./types";
 import type { RankedSchool } from "./App";
 import SchoolList from "./SchoolList";
 import SchoolDetail from "./SchoolDetail";
+import ShareButton from "./ShareButton";
 
 type Snap = "peek" | "half" | "full";
 
@@ -19,6 +20,9 @@ interface Props {
   home: Home | null;
   filter: SchemeFilter;
   session: SessionFilter;
+  favIds: string[];
+  shortlistOnly: boolean;
+  onToggleFav: (id: string) => void;
   onSelect: (id: string) => void;
   onBack: () => void;
 }
@@ -36,6 +40,9 @@ export default function Sheet({
   home,
   filter,
   session,
+  favIds,
+  shortlistOnly,
+  onToggleFav,
   onSelect,
   onBack,
 }: Props) {
@@ -144,21 +151,33 @@ export default function Sheet({
           <h2>
             {schools.length} kindergarten{schools.length === 1 ? "" : "s"}
           </h2>
-          <span>
-            {(filter === "all"
-              ? "nearest first"
-              : filter === "joining"
-                ? "joining scheme"
-                : "not joining") + SESSION_LABEL[session]}
-          </span>
+          {shortlistOnly && favIds.length > 0 ? (
+            <ShareButton ids={favIds} />
+          ) : (
+            <span>
+              {(filter === "all"
+                ? "nearest first"
+                : filter === "joining"
+                  ? "joining scheme"
+                  : "not joining") + SESSION_LABEL[session]}
+            </span>
+          )}
         </div>
       )}
       <div className="sheet-body" ref={bodyRef}>
         {selected ? (
-          <SchoolDetail school={selected} home={home} onBack={onBack} />
+          <SchoolDetail
+            school={selected}
+            home={home}
+            fav={favIds.includes(selected.id)}
+            onToggleFav={onToggleFav}
+            onBack={onBack}
+          />
         ) : (
           <SchoolList
             schools={schools}
+            favIds={favIds}
+            onToggleFav={onToggleFav}
             onSelect={onSelect}
             returnFocusId={lastSelectedRef.current}
           />

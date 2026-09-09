@@ -2,9 +2,12 @@ import { useCallback, useEffect, useRef } from "react";
 import type { RankedSchool } from "./App";
 import { formatKm } from "./geo";
 import { shortFee } from "./fees";
+import Star from "./Star";
 
 interface Props {
   schools: RankedSchool[];
+  favIds: string[];
+  onToggleFav: (id: string) => void;
   onSelect: (id: string) => void;
   /** Row to restore keyboard focus to (after coming back from the detail) */
   returnFocusId?: string | null;
@@ -27,7 +30,13 @@ function groupByArea(schools: RankedSchool[]): AreaGroup[] {
   return [...groups.entries()].map(([area, list]) => ({ area, schools: list }));
 }
 
-export default function SchoolList({ schools, onSelect, returnFocusId }: Props) {
+export default function SchoolList({
+  schools,
+  favIds,
+  onToggleFav,
+  onSelect,
+  returnFocusId,
+}: Props) {
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -56,6 +65,14 @@ export default function SchoolList({ schools, onSelect, returnFocusId }: Props) 
   }, []);
 
   const groups = groupByArea(schools);
+  if (schools.length === 0) {
+    return (
+      <p className="no-results">
+        Nothing here yet. Tap the ☆ on any kindergarten to build your
+        shortlist, or loosen the filters above.
+      </p>
+    );
+  }
   return (
     <div ref={rootRef} aria-label="Kindergartens, nearest first" onKeyDown={onKeyDown}>
       {groups.map((g) => (
@@ -67,8 +84,8 @@ export default function SchoolList({ schools, onSelect, returnFocusId }: Props) 
             </small>
           </header>
           {g.schools.map((s) => (
+            <div className="rowwrap" key={s.id}>
             <button
-              key={s.id}
               type="button"
               data-id={s.id}
               className="row"
@@ -102,6 +119,12 @@ export default function SchoolList({ schools, onSelect, returnFocusId }: Props) 
                 )}
               </span>
             </button>
+            <Star
+              on={favIds.includes(s.id)}
+              name={s.name}
+              onToggle={() => onToggleFav(s.id)}
+            />
+            </div>
           ))}
         </section>
       ))}

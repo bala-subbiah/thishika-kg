@@ -15,6 +15,7 @@ interface Props {
   selectedId: string | null;
   onSelect: (id: string | null) => void;
   desktop: boolean;
+  favIds: string[];
 }
 
 export default function MapView({
@@ -23,6 +24,7 @@ export default function MapView({
   selectedId,
   onSelect,
   desktop,
+  favIds,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -142,6 +144,13 @@ export default function MapView({
       }
     }
   }, [schools, home, onSelect, desktop]);
+
+  // Shortlist badge (markers effect runs first, so this reapplies on rebuild)
+  useEffect(() => {
+    for (const [id, marker] of markersRef.current) {
+      marker.getElement().classList.toggle("pin--fav", favIds.includes(id));
+    }
+  }, [favIds, schools]);
 
   // Selection highlight + fly
   useEffect(() => {

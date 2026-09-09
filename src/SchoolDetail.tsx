@@ -3,6 +3,7 @@ import type { Home } from "./types";
 import type { RankedSchool } from "./App";
 import { directionsUrl, formatKm } from "./geo";
 import { fullFee } from "./fees";
+import Star from "./Star";
 
 const WALK_SVG = (
   <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -25,10 +26,18 @@ const CAR_SVG = (
 interface Props {
   school: RankedSchool;
   home: Home | null;
+  fav: boolean;
+  onToggleFav: (id: string) => void;
   onBack: () => void;
 }
 
-export default function SchoolDetail({ school: s, home, onBack }: Props) {
+export default function SchoolDetail({
+  school: s,
+  home,
+  fav,
+  onToggleFav,
+  onBack,
+}: Props) {
   // Hand keyboard focus to the detail so Tab continues from here; the list
   // restores focus to the row on the way back.
   const backRef = useRef<HTMLButtonElement>(null);
@@ -59,9 +68,12 @@ export default function SchoolDetail({ school: s, home, onBack }: Props) {
 
   return (
     <article className="detail">
-      <button type="button" className="back" ref={backRef} onClick={onBack}>
-        ← All kindergartens
-      </button>
+      <div className="detail-top">
+        <button type="button" className="back" ref={backRef} onClick={onBack}>
+          ← All kindergartens
+        </button>
+        <Star on={fav} name={s.name} onToggle={() => onToggleFav(s.id)} className="star--detail" />
+      </div>
       <h2>{s.name}</h2>
 
       <div className="detail-badges">

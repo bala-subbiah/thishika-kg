@@ -13,16 +13,22 @@ interface Props {
   filter: SchemeFilter;
   session: SessionFilter;
   counts: Counts;
+  favCount: number;
+  shortlistOnly: boolean;
   onFilter: (f: SchemeFilter) => void;
   onSession: (s: SessionFilter) => void;
+  onShortlist: () => void;
 }
 
 export default function FilterChips({
   filter,
   session,
   counts,
+  favCount,
+  shortlistOnly,
   onFilter,
   onSession,
+  onShortlist,
 }: Props) {
   return (
     <>
@@ -39,6 +45,12 @@ export default function FilterChips({
           count={counts.not}
           on={filter === "not"}
           onClick={() => onFilter("not")}
+        />
+        <Chip
+          label="★ Shortlist"
+          count={favCount}
+          on={shortlistOnly}
+          onClick={onShortlist}
         />
       </div>
       <div className="filters" role="tablist" aria-label="Session filter">

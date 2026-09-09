@@ -4,6 +4,7 @@ import type { RankedSchool } from "./App";
 import FilterChips, { type Counts } from "./FilterChips";
 import SchoolList from "./SchoolList";
 import SchoolDetail from "./SchoolDetail";
+import ShareButton from "./ShareButton";
 import { formatKm } from "./geo";
 
 interface Props {
@@ -13,6 +14,11 @@ interface Props {
   filter: SchemeFilter;
   session: SessionFilter;
   counts: Counts;
+  favCount: number;
+  favIds: string[];
+  shortlistOnly: boolean;
+  onShortlist: () => void;
+  onToggleFav: (id: string) => void;
   onFilter: (f: SchemeFilter) => void;
   onSession: (s: SessionFilter) => void;
   onSelect: (id: string | null) => void;
@@ -25,6 +31,11 @@ export default function Sidebar({
   filter,
   session,
   counts,
+  favCount,
+  favIds,
+  shortlistOnly,
+  onShortlist,
+  onToggleFav,
   onFilter,
   onSession,
   onSelect,
@@ -54,7 +65,13 @@ export default function Sidebar({
     <aside className="sidebar" aria-label="Kindergarten explorer">
       {selected ? (
         <div className="sidebar-scroll">
-          <SchoolDetail school={selected} home={home} onBack={() => onSelect(null)} />
+          <SchoolDetail
+            school={selected}
+            home={home}
+            fav={favIds.includes(selected.id)}
+            onToggleFav={onToggleFav}
+            onBack={() => onSelect(null)}
+          />
         </div>
       ) : (
         <>
@@ -104,6 +121,9 @@ export default function Sidebar({
               filter={filter}
               session={session}
               counts={counts}
+              favCount={favCount}
+              shortlistOnly={shortlistOnly}
+              onShortlist={onShortlist}
               onFilter={onFilter}
               onSession={onSession}
             />
@@ -114,12 +134,18 @@ export default function Sidebar({
               <h2>
                 {visible.length} kindergarten{visible.length === 1 ? "" : "s"}
               </h2>
-              <span>nearest first</span>
+              {shortlistOnly && favCount > 0 ? (
+                <ShareButton ids={favIds} />
+              ) : (
+                <span>nearest first</span>
+              )}
             </div>
             <div className="sidebar-scroll">
               {visible.length > 0 ? (
                 <SchoolList
                   schools={visible}
+                  favIds={favIds}
+                  onToggleFav={onToggleFav}
                   onSelect={onSelect}
                   returnFocusId={lastSelectedRef.current}
                 />
