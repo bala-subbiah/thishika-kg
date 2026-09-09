@@ -83,10 +83,24 @@ const warn = (msg) => {
 
 fs.mkdirSync(CACHE, { recursive: true });
 
+// transient network errors must not kill an hour-long run
+async function fetchRetry(url, init, attempts = 4) {
+  for (let i = 0; ; i++) {
+    try {
+      return await fetch(url, init);
+    } catch (e) {
+      if (i >= attempts - 1) throw e;
+      const wait = 2000 * 2 ** i;
+      console.warn(`  … ${e.cause?.code ?? e.message}; retrying in ${wait / 1000}s`);
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
+}
+
 async function fetchText(url, cacheKey) {
   const file = path.join(CACHE, cacheKey);
   if (fs.existsSync(file)) return fs.readFileSync(file, "utf8");
-  const res = await fetch(url, {
+  const res = await fetchRetry(url, {
     headers: { "User-Agent": "Mozilla/5.0 (kindergarten snapshot; one-time)" },
   });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
@@ -383,7 +397,7 @@ async function geocode(query, cacheKeySafe) {
   if (fs.existsSync(file)) {
     data = JSON.parse(fs.readFileSync(file, "utf8"));
   } else {
-    const res = await fetch(ALS_URL(query), {
+    const res = await fetchRetry(ALS_URL(query), {
       headers: { Accept: "application/json" },
     });
     if (!res.ok) throw new Error(`ALS ${res.status} for "${query}"`);

@@ -1,0 +1,3637 @@
+{
+ "generatedAt": "2026-09-09T16:17:33.887Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=tuenmun",
+ "district": {
+  "id": "tuenmun",
+  "name": "Tuen Mun"
+ },
+ "schools": [
+  {
+   "id": "6514",
+   "name": "Agnes English Kindergarten",
+   "scheme": true,
+   "lat": 22.384727,
+   "lng": 113.974382,
+   "address": "Tsui Ning Garden, Area 16, Tmtl 338, Tuen Mun, New Territories",
+   "area": "Tsui Ning Garden",
+   "tel": "2458 8193",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,042 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9042
+   },
+   "enrolment": "AM 92 · PM 29 · Whole-day 50",
+   "teacherPupilRatio": "1:10.8 AM · 1:6.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through thematic teaching, game-based learning, sensory exploration, outdoor visits and group discussions, children are able to interact with people, things and objects in the environment, thereby stimulating their interest in learning, enhancing their ability to express opinions and solve problems, laying a good foundation for their future learning and growth, promoting their balanced development in all aspects, thus achieving the goal of whole-person education."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.agneskg.edu.hk/agnes/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6514"
+  },
+  {
+   "id": "6573",
+   "name": "Harrow International School Hong Kong",
+   "scheme": false,
+   "lat": 22.376242,
+   "lng": 113.992571,
+   "address": "38 Tsing Ying Road, Tuen Mun, New Territories",
+   "area": "Tsing Ying Road",
+   "tel": "2824 9099",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "K1 — · K2 $175,812 (3) · K3 $175,812 (3)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 175812
+   },
+   "enrolment": "Whole-day 108",
+   "teacherPupilRatio": "1:9.8 AM · 1:9.8 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2012"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Website",
+     "http://www.harrowschool.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6573"
+  },
+  {
+   "id": "6984",
+   "name": "Cannan Kindergarten (Prime View Garden)",
+   "scheme": true,
+   "lat": 22.403156,
+   "lng": 113.980337,
+   "address": "G/F Of Tower 4 (Portion) & Tower 5, 2 King Fung Path Prime View Garden, Tuen Mun, New Territories",
+   "area": "King Fung Path Prime View Garden",
+   "tel": "2757 6827",
+   "fees": {
+    "am": "$6,620 (10 instalments)",
+    "pm": "$6,620 (10 instalments)",
+    "wd": "$19,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 6620,
+    "pm": 6620,
+    "wd": 19000
+   },
+   "enrolment": "AM 61 · PM 58",
+   "teacherPupilRatio": "1:8.7 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The focus is on daily-life oriented topics and interesting stories that stimulate children’s problem-solving, exploration, and creative thinking. The learning content is enriched with picture books and diverse integrated activities designed to enhance the learning experience. Bilingual development is emphasized to improve language abilities through interactive methods. An online parent-child reading program has been established to provide guidance on recommended Chinese and English books for parents, cultivating a love for reading in children. The classrooms feature interest corners equipped with abundant teaching materials, where children engage in exploratory activities using their five senses, encourages children to be more proactive and self-motivated in learning through play, and combined with self-selected grouping method, cultivates children to become active learners."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2018"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.cannan.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6984"
+  },
+  {
+   "id": "6574",
+   "name": "Jing Jing International Kindergarten",
+   "scheme": false,
+   "lat": 22.387696,
+   "lng": 113.979796,
+   "address": "Shop 47-54, G/F, Chi Lok Fa Yuen, 18 Tsing Hoi Circuit, Tuen Mun, New Territories",
+   "area": "Tsing Hoi Circuit",
+   "tel": "2404 5266",
+   "fees": {
+    "am": "$73,320 (10 instalments)",
+    "pm": "$73,320 (10 instalments)",
+    "wd": "$103,200 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 73320,
+    "pm": 73320,
+    "wd": 103200
+   },
+   "enrolment": "AM 18 · Whole-day 10",
+   "teacherPupilRatio": "1:5.3 AM · 1:3.5 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The Early Years Foundation Stage (EYFS) curriculum promotes a solely play-based curriculum to encourage growth and development of the 7 learning areas: Communication and Language; Physical Development; Personal, Social and Emotional Development; Expressive Arts and Design; Understanding the World; Literacy; Mathematics. Additionally, our school incorporates Jolly Phonics from K1-K3. This is a multi sensory approach to teaching literacy through synthetic phonics."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2011"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Website",
+     "http://www.jingjing.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6574"
+  },
+  {
+   "id": "6515",
+   "name": "Ching Chung Wu King Kindergarten",
+   "scheme": true,
+   "lat": 22.375007,
+   "lng": 113.964667,
+   "address": "Wu Kwong House, (Block 2) Ground Floor, Low Block, Wu King Estate, Tuen Mun, New Territories",
+   "area": "Wu Kwong House",
+   "tel": "2465 1236",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3000
+   },
+   "enrolment": "AM 30 · Whole-day 65",
+   "teacherPupilRatio": "1:10.6 AM · 1:7.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic Approach, group activities, Project Approach, etc. are used to develop children's generic abilities and encourage self-learning ability. Our story-based teaching approach is used for improving children’s biliteracy and trilingualism levels. Children enrich their hands-on experiences and improve their learning interest by participating in visits, science experiments and other activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ccwkk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6515"
+  },
+  {
+   "id": "7030",
+   "name": "Joyful World International Kindergarten (Tuen Mun)",
+   "scheme": false,
+   "lat": 22.399037,
+   "lng": 113.971933,
+   "address": "Shop 2-3, 2/F, Commercial Complex, Tai Hing Gardens, Phase Ii, 10A Ho Hing Circuit, Tuen Mun, New Territories",
+   "area": "Tai Hing Gardens",
+   "tel": "2492 8772",
+   "fees": {
+    "am": "$73,480 (11 instalments)",
+    "pm": "$73,480 (11 instalments)",
+    "wd": "$106,480 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 73480,
+    "pm": 73480,
+    "wd": 106480
+   },
+   "enrolment": "AM 82 · PM 35",
+   "teacherPupilRatio": "1:6.0 AM · 1:2.1 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "International & mainstream activity teaching and picture book scheme"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2020"
+    ],
+    [
+     "Registered classrooms",
+     "18"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Website",
+     "http://www.joyfulenglish.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7030"
+  },
+  {
+   "id": "6516",
+   "name": "Creative Kindergarten (Aegean Coast)",
+   "scheme": true,
+   "lat": 22.371693,
+   "lng": 113.994956,
+   "address": "1/F, Podium, Aegean Coast 2 Kwun Tsing Road, So Kwun Wat Tuen Mun, New Territories",
+   "area": "Kwun Tsing Road",
+   "tel": "2949 5028",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$17,810 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 17810
+   },
+   "enrolment": "AM 153 · PM 54 · Whole-day 18",
+   "teacherPupilRatio": "1:8.6 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through “theme based” and “inquiry based” activities, students learn in small groups. Through interacting with caring teachers, students develop their linguistic, music, art and motor skills. Our “Free choice Learning Corners” and “Free Play Areas” give children ownership of their learning experience. It’s a way for children to expand on what they are learning and explore their own interests. Supporting young children’s autonomy has been found to have far-reaching positive effects on the child’s development, including benefits to executive function, mastery-related behaviours and general socialisation."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2003"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.creative.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6516"
+  },
+  {
+   "id": "6576",
+   "name": "Sunkids Kindergarten",
+   "scheme": false,
+   "lat": 22.373485,
+   "lng": 113.968223,
+   "address": "G/F, 2A Kindergarten, Yuet Wu Villa, 2 Wu Sau Street, Tuen Mun, New Territories",
+   "area": "Yuet Wu Villa",
+   "tel": "2440 3088",
+   "fees": {
+    "am": "$46,332 (11 instalments)",
+    "pm": "$46,332 (11 instalments)",
+    "wd": "$72,468 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 46332,
+    "pm": 46332,
+    "wd": 72468
+   },
+   "enrolment": "AM 166 · PM 27 · Whole-day 80",
+   "teacherPupilRatio": "1:8.8 AM · 1:5.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Play-based and experimental learning, as well as performing art training."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2008"
+    ],
+    [
+     "Registered classrooms",
+     "16"
+    ],
+    [
+     "Principal & teachers",
+     "37"
+    ],
+    [
+     "Website",
+     "http://sunkids.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6576"
+  },
+  {
+   "id": "6517",
+   "name": "Creative Kindergarten (Tuen Mun Branch)",
+   "scheme": true,
+   "lat": 22.399307,
+   "lng": 113.970777,
+   "address": "G/F, Phase 2, Tai Hing Gardens, 5A Ho Hing Circuit, Tuen Mun, New Territories",
+   "area": "Tai Hing Gardens",
+   "tel": "2469 2288",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,180 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3180
+   },
+   "enrolment": "AM 162 · PM 59 · Whole-day 68",
+   "teacherPupilRatio": "1:11.4 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through “theme based” and “inquiry based” activities, students learn in small groups. Through interacting with caring teachers, students develop their linguistic, music, art and motor skills. Our “Free choice Learning Corners” and “Free Play Areas” give children ownership of their learning experience. It’s a way for children to expand on what they are learning and explore their own interests. Supporting young children’s autonomy has been found to have far-reaching positive effects on the child’s development, including benefits to executive function, mastery-related behaviours and general socialisation."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "13"
+    ],
+    [
+     "Principal & teachers",
+     "25"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.creative.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6517"
+  },
+  {
+   "id": "7043",
+   "name": "Wellcome International Kindergarten",
+   "scheme": false,
+   "lat": 22.418794,
+   "lng": 113.985522,
+   "address": "Kindergarten & Nursery G/F, the Sherwood, 8 Fuk Hang Tsuen Road, Lam Tei, Tuen Mun, New Territories",
+   "area": "Fuk Hang Tsuen",
+   "tel": "2813 2121",
+   "fees": {
+    "am": "K1 $67,020 (12) · K2 $73,128 (12) · K3 $80,148 (12)",
+    "pm": "K1 $67,020 (12) · K2 $73,128 (12) · K3 $80,148 (12)",
+    "wd": "K1 $104,256 (12) · K2 $106,380 (12) · K3 $108,492 (12)"
+   },
+   "feesAnnual": {
+    "am": 67020,
+    "pm": 67020,
+    "wd": 104256
+   },
+   "enrolment": "AM 104 · Whole-day 43",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.0 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our child-centered curriculum takes into consideration the needs of children. Play-based activities and tie-to-real-life activities are integrated across all learning areas. Children learn three languages (Cantonese, Putonghua and English) with an immersion approach everyday. Our teachers, including native English speakers and native Putonghua speakers, work closely together and guide children to pick up the languages via structured lessons and activities conducted class-wide as well as in small groups. Fun learning activities e.g. role-play, Show & Tell, arts and crafts activities, singing and dancing, etc. are also carried out by our professional and dedicated teaching team in order to ensure children enjoy learning and help them apply the learning into their daily life. Our curriculum instills the habit of reading: A Share-reading Programme is specially designed for the purpose of developing our children’s essential reading and literacy skills to nurture them to become young readers and then turn into life-long learners.Our curriculum also develops good behavior in our children.“BabyDNA” makes use of scientific methods to provide children with a balanced development and the life-wide learning environment to promote children’s proficiency."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2012"
+    ],
+    [
+     "Registered classrooms",
+     "15"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Website",
+     "http://www.wellcomekg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7043"
+  },
+  {
+   "id": "6518",
+   "name": "Fu Tai Lutheran Day Nursery",
+   "scheme": true,
+   "lat": 22.4137,
+   "lng": 113.984402,
+   "address": "G/F, Oi Tai House, Fu Tai Estate, Tuen Mun, New Territories",
+   "area": "Oi Tai House",
+   "tel": "3156 1255",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$5,520 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 5520
+   },
+   "enrolment": "Whole-day 38",
+   "teacherPupilRatio": "1:10.4 AM · 1:9.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through story books, diverse teaching materials and activities to initiate children's motivation and interest in learning. By incorporating a variety of learning activities such as role-playing, outdoor visits, games, group discussions and sharing, children engage in learning through personal observation, manipulation and interaction, creating more meaningful learning experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://futai-nursery.hklss.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6518"
+  },
+  {
+   "id": "7033",
+   "name": "York International Pre-School (Tuen Mun)",
+   "scheme": false,
+   "lat": 22.373762,
+   "lng": 114.003643,
+   "address": "Kindergarten Premises, Le Pont, 99 So Kwun Wat Road, Tuen Mun, New Territories",
+   "area": "So Kwun Wat Road",
+   "tel": "2638 0363",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$139,200 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 139200
+   },
+   "enrolment": "AM 64 · PM 15 · Whole-day 39",
+   "teacherPupilRatio": "1:9.1 AM · 1:5.4 PM",
+   "curriculum": "Local and Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2021"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Website",
+     "http://www.york.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7033"
+  },
+  {
+   "id": "6519",
+   "name": "Guideposts Kindergarten (Tuen Mun Branch)",
+   "scheme": true,
+   "lat": 22.388938,
+   "lng": 113.976852,
+   "address": "G/F, Ting Yin House, Siu On Court, Tuen Mun, New Territories",
+   "area": "Ting Yin House",
+   "tel": "2451 6080",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 227 · PM 83",
+   "teacherPupilRatio": "1:10.8 AM · 1:4.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt a theme-based teaching approach. To exploit children’s various learning interests, we alternately organize dynamic and static activities, including group learning, games, role playing, real object observation, physical training, outdoor visits, etc., and provide different environment arrangements as well as enlightening aids and materials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1981"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.guideposts.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6519"
+  },
+  {
+   "id": "7072",
+   "name": "Zenith Kindergarten (Siu Hong)",
+   "scheme": false,
+   "lat": 22.410989,
+   "lng": 113.968652,
+   "address": "Shop No. 29, G/F, Novo Walk, Novo Land, 8 Yan Po Road, Tuen Mun, New Territories",
+   "area": "Yan Po Road",
+   "tel": "2668 9010",
+   "fees": {
+    "am": "$81,600 (12 instalments)",
+    "pm": "$81,600 (12 instalments)",
+    "wd": "$105,600 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 81600,
+    "pm": 81600,
+    "wd": 105600
+   },
+   "enrolment": "AM 2 · Whole-day 3",
+   "teacherPupilRatio": "1:2.5 AM · 1:1.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "2"
+    ],
+    [
+     "Website",
+     "https://zenithkindergarten.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7072"
+  },
+  {
+   "id": "6520",
+   "name": "Guideposts Kindergarten 2ND Branch (Kin Sang Estate)",
+   "scheme": true,
+   "lat": 22.406024,
+   "lng": 113.969942,
+   "address": "G/F, Wings A & B, Yu Sang House, Kin Sang Estate, Tuen Mun, New Territories",
+   "area": "Yu Sang House",
+   "tel": "2460 7778",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,156 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13156
+   },
+   "enrolment": "AM 106 · PM 20 · Whole-day 72",
+   "teacherPupilRatio": "1:11.1 AM · 1:6.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt a theme-based teaching approach. To exploit children’s various learning interests, we alternately organize dynamic and static activities, including group learning, games, role playing, real object observation, physical training, outdoor visits, etc., and provide different environment arrangements as well as enlightening aids and materials."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.guideposts.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6520"
+  },
+  {
+   "id": "6521",
+   "name": "Hkskh St Peter's Church Castle Peak Tsing Wun Road Kindergarten",
+   "scheme": true,
+   "lat": 22.391852,
+   "lng": 113.967185,
+   "address": "Portion of G/F & 1/F, Block C 22 Tsing Wun Road, Tuen Mun, New Territories",
+   "area": "Tsing Wun Road",
+   "tel": "2468 3237",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$20,493 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 20493
+   },
+   "enrolment": "Whole-day 42",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school employs a spiral teaching, step-by-step, approach to enhance infant learning, with a focus on bi-literacy and tri-lingualism. English and Putonghua are taught by specialist teachers to establish a strong foundation for children's language development.Learning is generally conducted in a group-based style, following such difference themes as Seasons,life experince and Festivals. Talks and demonstrations, festive events, performances and outings are arranged as appropriate to the curriculum to facilitate a deeper understanding through play and hands-on experience, interacting with peers and groups in different environments. By combining the resources available from both school and community, children not only develop necessary knowledge and skills, but importance is also placed on cultivating moral and ethical character."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1999"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.skhspcmain.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6521"
+  },
+  {
+   "id": "6522",
+   "name": "Hoh Fuk Tong Kindergarten (Tuen Mun Church, the Church of Christ In China, Hong Kong Council)",
+   "scheme": true,
+   "lat": 22.374129,
+   "lng": 113.963658,
+   "address": "G/F, Block 8, Tip Mo House, Butterfly Estate, Tuen Mun, New Territories",
+   "area": "Tip Mo House",
+   "tel": "2467 5078",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,831 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6831
+   },
+   "enrolment": "AM 66 · Whole-day 47",
+   "teacherPupilRatio": "1:11.3 AM · 1:5.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "- We organize diverse teaching activities. \\n- Children are taught by native English teachers and Mandarin teachers.\\n- Our school pursues a life-wide learning approach, and empowers children to construct knowledge by explorations."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://hftk.ccc.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6522"
+  },
+  {
+   "id": "6523",
+   "name": "Hong Kong Sheng Kung Hui St. Simon's Leung King Nursery School",
+   "scheme": true,
+   "lat": 22.405409,
+   "lng": 113.962328,
+   "address": "9-16, G/F, Leung Chi House, Leung King Estate, Tuen Mun, New Territories",
+   "area": "Leung Chi House",
+   "tel": "2464 6939",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,844 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11844
+   },
+   "enrolment": "Whole-day 54",
+   "teacherPupilRatio": "1:9.4 AM · 1:9.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school chooses children’s favorite medium – story - to implement comprehensive teaching, and guides them to discuss on a wide range of themes related to their life by using theme-based stories. Considering children's interest and with the help of our teachers, we develop and design interesting extended activities, and facilitate active honest communication and emotional exchange between children. We are committed to make learning more interesting and impressive."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sslk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6523"
+  },
+  {
+   "id": "6524",
+   "name": "Hong Kong Sheng Kung Hui St. Simon's Tai Hing Nursery School",
+   "scheme": true,
+   "lat": 22.402719,
+   "lng": 113.970296,
+   "address": "G/F, Phase 1, Commercial Complex, Tai Hing Estate, Tuen Mun, New Territories",
+   "area": "Tai Hing Estate",
+   "tel": "2462 3856",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,640 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11640
+   },
+   "enrolment": "Whole-day 75",
+   "teacherPupilRatio": "1:8.2 AM · 1:8.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school is a full-time school. The students' learning schedule is mainly close to daily life and experience. Through learning in physical coordination, visual touch, spiritual care and life experience, they can integrate what they have learned into practice in life, such as holding different real situations Learning: Barbecue activities, snacks, scientific exploration, visits, etc., so that children can experience group life and master life skills, so that they can develop in a balanced way, and improve the attitude of independent self-study through multiple learning tasks."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1980"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssth.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6524"
+  },
+  {
+   "id": "6525",
+   "name": "Hong Kong Society for the Protection of Children Butterfly Estate Nursery School",
+   "scheme": true,
+   "lat": 22.374129,
+   "lng": 113.963658,
+   "address": "Unit 124-130, G/F, Tip Mo House, Butterfly Estate, Tuen Mun, New Territories",
+   "area": "Tip Mo House",
+   "tel": "2467 7755",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,844 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11844
+   },
+   "enrolment": "Whole-day 62",
+   "teacherPupilRatio": "1:7.4 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Emphasis is placed on the little things in the daily life of children, learning through direct experience, stimulating the curiosity of children; focusing on cultivating and giving full play to the autonomy and enthusiasm of children in participating in the details of life, and directly observing and feeling the growth of children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ns.hkspc.org/be/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6525"
+  },
+  {
+   "id": "6526",
+   "name": "Hong Kong Young Women's Christian Association On Ting Nursery School",
+   "scheme": true,
+   "lat": 22.387592,
+   "lng": 113.976592,
+   "address": "5/F & Roof Playground On Ting / Yau Oi Community Centre, On Ting Estate, Tuen Mun, New Territories",
+   "area": "Yau Oi Community Centre",
+   "tel": "2458 0578",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$10,440 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 10440
+   },
+   "enrolment": "Whole-day 62",
+   "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We teach children by adopting an theme-based approach and real life education. Class-, group- and individual-based inquiry activities, free-play area or learning corners are arranged to improve children’s learning initiative and problem-solving ability by \"Learning through Play\" . We engage full-time English and Mandarin teachers, and teach children by organizing games, to help them lay a solid foundation for biliterate and trilingual learning. Focusing on moral education, we take picture books-based stories associated with different themes as an entry point, and guide children to discuss on life education in a progressive way, to cultivate in them a positive value and a good moral character."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://nsot.ywca.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6526"
+  },
+  {
+   "id": "6941",
+   "name": "Jing Jing Kindergarten (Tuen Mun Branch)",
+   "scheme": true,
+   "lat": 22.403308,
+   "lng": 113.978919,
+   "address": "Upper G/F, Shop 5, 10-11, 13-20 & 23-24, Common Bond Shopping Arcade, 7 Tsing Chui Path, Tuen Mun, New Territories",
+   "area": "Tsing Chui Path",
+   "tel": "2457 4666",
+   "fees": {
+    "am": "$5,140 (10 instalments)",
+    "pm": "$5,140 (10 instalments)",
+    "wd": "$17,560 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 5140,
+    "pm": 5140,
+    "wd": 17560
+   },
+   "enrolment": "AM 36 · PM 6 · Whole-day 25",
+   "teacherPupilRatio": "1:8.3 AM · 1:4.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school offers a play-based approach to support children’s needs which include reading program, theme teaching, project approach, weekly-fun Friday, exploration activities, visits etc to fulfill the diversity needs of learning. Our teaching and leaning programs are fruitful and creative in order to discover and develop our students’ potential, inspiring and cultivating them in every stage of life."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1969"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.jingjing.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6941"
+  },
+  {
+   "id": "6530",
+   "name": "Karlam Kindergarten (Tuen Mun Branch)",
+   "scheme": true,
+   "lat": 22.398085,
+   "lng": 113.975868,
+   "address": "Entrance of G/F and Whole of 1/F Honley Court, 94-110 Tuen Mun Heung Sze Wui Road, Tuen Mun, New Territories",
+   "area": "Tai Po Market",
+   "tel": "2459 2929",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$23,144 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 23144
+   },
+   "enrolment": "AM 66 · PM 30 · Whole-day 64",
+   "teacherPupilRatio": "1:8.7 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We introduce activity- and story-based teaching approaches and a project-based learning approach while organizing group activities, visits and seminars."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2013"
+    ],
+    [
+     "Registered classrooms",
+     "16"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.karlam.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6530"
+  },
+  {
+   "id": "6531",
+   "name": "Kin Sang Baptist Church Bradbury Pre-School",
+   "scheme": true,
+   "lat": 22.4059,
+   "lng": 113.971447,
+   "address": "G/F, Tai Sang House, Kin Sang Estate, Tuen Mun, New Territories",
+   "area": "Tai Sang House",
+   "tel": "2455 9803",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$7,860 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 7860
+   },
+   "enrolment": "Whole-day 59",
+   "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our kindergarten employs innovative methods such as activity-based learning, picture book teaching, and learning through play, merging these with daily experiences to improve curriculum practicality. We frequently organize outdoor visits and provide extracurricular activities in music, arts, and sports to encourage holistic development. These varied approaches aim to promote each child's overall growth in a joyful learning environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ksbc.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6531"
+  },
+  {
+   "id": "6532",
+   "name": "Kin Sang Lutheran Kindergarten",
+   "scheme": true,
+   "lat": 22.405917,
+   "lng": 113.970777,
+   "address": "G/F, Wings A&b, Hong Sang House, Kin Sang Estate, Tuen Mun, New Territories",
+   "area": "Hong Sang House",
+   "tel": "2467 0220",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,580 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10580
+   },
+   "enrolment": "AM 9 · Whole-day 82",
+   "teacherPupilRatio": "1:10.1 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Children learn and explore by playing. Children’s self esteem will be strengthened and they will be motivated to think in the learning environment with the elements of ‘holistic innovative education’ and ‘multi-sensory teaching’. Students’ reading and language abilities will also improve by their high level of participation and presentation. ＂Be The Change \" programme encourages children to care for the society, develop their creativity, and take actions to solve problems in order to make a better world. In addition, the phonic courses can arouse students’ interest in learning English and children will become more sensitive to English sounds. We are working with The Lutheran Church - Hong Kong Synod to produce e-resources 《路德仔與雪櫃寶寶》in order to promote moral education. We hope that by using the e-resources, children can know the Biblical truth and their characters can be cultivated. The resources also help to promote children’s emotional development. Through outdoor visits and multiple intelligence activities, students are given more learning experiences and their potentiality of different aspects can be stimulated."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kslk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6532"
+  },
+  {
+   "id": "6533",
+   "name": "Leung King Lutheran Day Nursery",
+   "scheme": true,
+   "lat": 22.407525,
+   "lng": 113.964015,
+   "address": "5/F, Leung King Estate Community Centre, Leung King Estate, Tuen Mun, New Territories",
+   "area": "Leung King Estate Community Centre",
+   "tel": "2465 6008",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$5,760 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 5760
+   },
+   "enrolment": "Whole-day 45",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. We guide children to actively explore problems by storytelling, and children learn knowledge and exploit their potential during observation, discussion and practice. We also use various elements such as Chinese and English, general knowledge, numeracy and visual arts, to achieve children’s balanced development in all aspects. 2. We engage native teachers and professional Mandarin teachers, and children are exposed to different languages during playing games.3. We encourage children to actively involve themselves in social services and learn to share with others, thus fostering their sentiments of loving their lives and families, and caring for social concerns. Activities: interest activities, living and routine training, physical training, music, snacks tasting, natural science, drawing, etc.; interest classes, regular outdoor visits and explorations, parent-child activities and parents seminars."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://leungking-nursery.hklss.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6533"
+  },
+  {
+   "id": "6896",
+   "name": "Little Newton Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.402792,
+   "lng": 113.978133,
+   "address": "1/F, Nam Kwong Building, 11A Tseng Choi Street, Tuen Mun, New Territories",
+   "area": "Tseng Choi Street",
+   "tel": "3955 2228",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,010 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10010
+   },
+   "enrolment": "AM 52 · Whole-day 63",
+   "teacherPupilRatio": "1:12.5 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Small Group Learning"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2015"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://littlenewton.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6896"
+  },
+  {
+   "id": "6534",
+   "name": "Lok Sin Tong Cheung Yip Mou Ching Kindergarten",
+   "scheme": true,
+   "lat": 22.405423,
+   "lng": 113.965796,
+   "address": "Unit 1-5 & 11-15 (Wings A & B) G/F, Siu Keung House, Siu Kwai Court, Tuen Mun, New Territories",
+   "area": "Siu Keung House",
+   "tel": "2463 6709",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7000
+   },
+   "enrolment": "AM 32 · Whole-day 77",
+   "teacherPupilRatio": "1:9.1 AM · 1:6.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We use \"HAPPY Learning\"as the focus of teaching,「H-Happiness」、「A-Actice」、「P-Positive」、「P-Participation」and「Y-Yearning」,It is designed to stimulate children's learning motivation. Through project approach, picture book teaching, drama teaching, free play and art teaching, we can find children’s potentials and creativity, and enhance children’s language ability and interests. As the same time, there are school-based character education to teach children various good moral habits. Through the five core values of Invitational Education(IE), cultivate children’s attitude of respect, trust optimism and care, and join the Kimochis Social Emotional Learning Course, strengthen students’ social-emotional intelligence, comprehensively enhance children’s different potential, take care of children’s individual differences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lstcymck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6534"
+  },
+  {
+   "id": "6535",
+   "name": "Lok Sin Tong Tang Tak Lim Kindergarten",
+   "scheme": true,
+   "lat": 22.413084,
+   "lng": 113.982674,
+   "address": "Kindergarten 2, 1/F Ancillary Facilities Block, Fu Tai Estate, Tuen Mun, New Territories",
+   "area": "Fu Tai Estate",
+   "tel": "2453 7232",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,850 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10850
+   },
+   "enrolment": "AM 24 · Whole-day 66",
+   "teacherPupilRatio": "1:7.5 AM · 1:6.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through design activities, picture book teaching, group learning and different extracurricular activities, coupled with the stimulation of the environment, the children's autonomous learning ability is constructed. With the 5 core values of IAIE, we deliberately cultivate children's attitudes of respect, trust, optimism and caring towards others, and join the Kimochis social intelligence learning course and three-tier intervention model to strengthen students' social and emotional IQ, comprehensively enhance children's different potentials, take care of children's individual differences, and induce children's motivation to learn."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lstkgttl.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6535"
+  },
+  {
+   "id": "6536",
+   "name": "Lui Cheung Kwong Lutheran Kindergarten",
+   "scheme": true,
+   "lat": 22.386181,
+   "lng": 113.974914,
+   "address": "G/F, High Block, Oi Lim House, Yau Oi Estate, Tuen Mun, New Territories",
+   "area": "Oi Lim House",
+   "tel": "2458 7438",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11500
+   },
+   "enrolment": "AM 28 · Whole-day 53",
+   "teacherPupilRatio": "1:9.0 AM · 1:5.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through drama teaching, free play and ‘Be the Change’, students can experience and explore things that they are related to and interested in. Activities include personal activities, discussions in pairs and group learning. Multi-sensory activities include Little Explorers/Cooking Classes, Visual Art Classes, Dance Classes, EQ Games and Bibi & Friends. The kindergarten cares for all and will arrange children to learn outside and participate in community activities. All these help children to care about their families, teachers, classmates and things around them. They also help children understand the needs of others and be more willing to help people, spreading love and care in the school as well as the community."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.lckk.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6536"
+  },
+  {
+   "id": "6537",
+   "name": "Lung Kong World Federation School Limited Chu Sui Lan Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.406049,
+   "lng": 113.961259,
+   "address": "Unit 1-10, G/F, Leung Kit House, Leung King Estate, Tuen Mun, New Territories",
+   "area": "Leung Kit House",
+   "tel": "2456 2677",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "Free"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 0
+   },
+   "enrolment": "Whole-day 62",
+   "teacherPupilRatio": "1:8.9 AM · 1:10.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt theme-, activity- and project-based teaching approaches while organizing activities such as simulation games, group discussion, explorations and visits."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://cslkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6537"
+  },
+  {
+   "id": "6538",
+   "name": "Melody Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.375218,
+   "lng": 113.960782,
+   "address": "Shop 180, G/F, Melody Garden, 2 Wu Chui Road, Tuen Mun, New Territories",
+   "area": "Melody Garden",
+   "tel": "2441 1632",
+   "fees": {
+    "am": "K1 — · K2 Free · K3 Free",
+    "pm": "Free",
+    "wd": "$14,172 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14172
+   },
+   "enrolment": "AM 47 · Whole-day 34",
+   "teacherPupilRatio": "1:10.1 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We teach children by organizing explorations, experiments, visits and group discussion and provide a good environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.melody.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6538"
+  },
+  {
+   "id": "6539",
+   "name": "Melody Anglo-Chinese Kindergarten (Prime View Garden Branch)",
+   "scheme": true,
+   "lat": 22.402298,
+   "lng": 113.979805,
+   "address": "G/F, Tower 1 & 2, Prime View Garden, Tuen Mun, New Territories (Including Child Care Centre)",
+   "area": "Prime View Garden",
+   "tel": "2457 4433",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,926 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13926
+   },
+   "enrolment": "AM 23 · Whole-day 32",
+   "teacherPupilRatio": "1:10.3 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum includes thematic teaching, designed activities, storytelling, game-based learning, picture book teaching, and STEM, with regular visits from professionals for experience sharing, tours, and group exploration activities. Senior kindergarten students visit primary schools and participate in primary life experience days, helping them gain a better understanding of primary education and prepare for entering Primary One. The school environment incorporates elements of Chinese culture and designs courses rich in traditional Chinese art and cultural elements. Various activities are organized, such as celebrations for traditional festivals, arts and crafts, and reading character stories, providing young children with more opportunities to engage with Chinese culture. This helps them appreciate traditional Chinese arts and understand cultural values and virtues, such as filial piety, respect, care, and adherence to rules, fostering good character in children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.melody-pvg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6539"
+  },
+  {
+   "id": "6540",
+   "name": "Melody Nursery (Melody Garden)",
+   "scheme": true,
+   "lat": 22.375218,
+   "lng": 113.960782,
+   "address": "G/F, Shop 181 Melody Garden, 2 Wu Chui Road, Tuen Mun, New Territories",
+   "area": "Melody Garden",
+   "tel": "2404 5520",
+   "fees": {
+    "am": "K1 Free · K2 — · K3 —",
+    "pm": null,
+    "wd": "$7,152 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 7152
+   },
+   "enrolment": "AM 11 · Whole-day 11",
+   "teacherPupilRatio": "1:8.3 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt an activity-based teaching approach and a group learning approach, and extend children’s life experiences by arranging visits, small experiments and data collection."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "2"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.melody.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6540"
+  },
+  {
+   "id": "6542",
+   "name": "Po Leung Kuk Choi Koon Shum Kindergarten",
+   "scheme": true,
+   "lat": 22.402924,
+   "lng": 113.974851,
+   "address": "G/F & 1/F, Affluence Garden, 33 Tsing Chung Koon Road, Tuen Mun, New Territories",
+   "area": "Affluence Garden",
+   "tel": "2460 2112",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 240 · PM 114",
+   "teacherPupilRatio": "1:12.0 AM · 1:6.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through thematic teaching, project approach, story telling, drama activities, outdoor experience and diversified exploration activities, we can integrate and arrange appropriate teaching content, and conduct comprehensive and interesting learning through different games and activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "10"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plkckskg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6542"
+  },
+  {
+   "id": "6541",
+   "name": "Po Leung Kuk Malina Ngai (Butterfly Bay) Kindergarten",
+   "scheme": true,
+   "lat": 22.374129,
+   "lng": 113.963658,
+   "address": "5/F, Butterfly Estate Community Centre, Tuen Mun, New Territories",
+   "area": "Butterfly Estate Community Centre",
+   "tel": "2467 3121",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,004 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17004
+   },
+   "enrolment": "Whole-day 81",
+   "teacherPupilRatio": "1:8.5 AM · 1:8.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With emphasis on children’s personal exploration and creativity, we organize children to go out of the classroom and participate in community activities such as visits. We adopt activity-based teaching, project-based learning, and individual and group learning approaches in class, and teach children music according to Orff Music Philosophy. We also employ native teachers to teach children English."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/bbkgn/school-info"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6541"
+  },
+  {
+   "id": "6544",
+   "name": "Po Leung Kuk Malina Ngai (Yau Oi) Kindergarten",
+   "scheme": true,
+   "lat": 22.38718,
+   "lng": 113.971921,
+   "address": "G/F, Block 6, Oi Lai House, Yau Oi Estate, Tuen Mun, New Territories",
+   "area": "Oi Lai House",
+   "tel": "2451 4336",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$23,544 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 23544
+   },
+   "enrolment": "Whole-day 77",
+   "teacherPupilRatio": "1:9.7 AM · 1:9.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With the focus on personal exploration and creativity, we organize children to go out of the classroom and participate in community activities such as visits, so that they can observe and learn about different things. We adopt an activity-based teaching approach and project-, individual- and group-based learning approaches, and implement a creative arts training curriculum. We improve children’s language ability by organizing them to participate in dramas, and employ native English teachers to them English."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.poleungkuk.org.hk/child-care-services/yokgn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6544"
+  },
+  {
+   "id": "6545",
+   "name": "Po Leung Kuk Thomas Liu Lit Ching Kindergarten",
+   "scheme": true,
+   "lat": 22.411464,
+   "lng": 113.972876,
+   "address": "G/F, Ching Hay House, Ching Tin Estate, Tuen Mun, New Territories",
+   "area": "Ching Hay House",
+   "tel": "2455 0445",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11000
+   },
+   "enrolment": "AM 168 · PM 120",
+   "teacherPupilRatio": "1:10.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Learning through play. 2. Multiple teaching methods. 3. Holistic development. 4. Biliteracy and trilingual teaching."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2023"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plktllckg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6545"
+  },
+  {
+   "id": "6543",
+   "name": "Po Leung Kuk Tin Ka Ping Siu Hong Kindergarten",
+   "scheme": true,
+   "lat": 22.412546,
+   "lng": 113.978314,
+   "address": "Level 3 Commercial Centre, Siu Hong Court, Tuen Mun, New Territories",
+   "area": "Commercial Centre",
+   "tel": "2466 8131",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 258 · PM 237",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Focus on three languages. Our school fully implements bilingual and whole-language teaching, adopts the project approach, and teaches children through exploration, questions, data collection, group discussion, etc. Following theme- and project-based teaching approaches, we create a multi-intelligence environment for children, and children can cultivate their positive, interactive, sharing and truth-seeking attitudes during participating in interesting activities. We maintain a positive school environment, and include education on sex, emotion, health, environmental protection, citizenship, moral and national education, etc. into our formal curriculum. We also help children understand what a positive outlook on life, keep a balanced diet, and develop a habit of keeping hygienic, behaving properly and protecting the environment."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "26"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plktkpshkg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6543"
+  },
+  {
+   "id": "6546",
+   "name": "Regina Coeli Anglo-Chinese Kindergarten",
+   "scheme": true,
+   "lat": 22.40289,
+   "lng": 113.969189,
+   "address": "G/F & 1/F, Hing Shing House, Tai Hing Estate, Tuen Mun, New Territories",
+   "area": "Hing Shing House",
+   "tel": "2462 2949",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,479 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6479
+   },
+   "enrolment": "AM 3 · Whole-day 42",
+   "teacherPupilRatio": "1:5.6 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our teaching method is to let our students be biliterate and trilingual (i.e. Chinese/ English and Cantonese, English and Putonghua ) in our theme curriculums, where effective learning is characterized by drama, music, exploring, experiments, visiting, data research, multimedia learning as well as site reconnaissance like Brighter Smiles Playland, Hong Kong Wetland Park and Hong Kong Science Museum etc.We also emphasize in providing our students with the opportunities to inspire their live and develop their creativity, teamwork and critical thinking through participating in our school activities like shared reading, uniformed groups (H. K. Grasshopper Scouts, Happy Bee Hive, H.K. Road Safety Patrol), Green Organic Farm and Environmental Planting Scheme etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1978"
+    ],
+    [
+     "Registered classrooms",
+     "23"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.rck.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6546"
+  },
+  {
+   "id": "6548",
+   "name": "S.k.h. St. Peter's Church Castle Peak Siu Lun Court Kindergarten",
+   "scheme": true,
+   "lat": 22.384396,
+   "lng": 113.976684,
+   "address": "G/F, Commercial Centre, Siu Lun Court, Tuen Mun, New Territories",
+   "area": "Commercial Centre",
+   "tel": "2618 1166",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,880 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11880
+   },
+   "enrolment": "AM 323 · PM 98 · Whole-day 57",
+   "teacherPupilRatio": "1:9.0 AM · 1:4.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "To enhance children’s tri-lingual ability, the school has adopted a tri-lingual immersion integrated curriculum with the use of Cantonese, English and Mandarin in thematic teaching. English lessons are conducted by English teachers with the assistance of class teachers to keep order in the classroom. The curriculum includes theme-based learning, stories, games and phonics and both children and teachers communicate in English. In Cantonese lessons, theme-based learning and group activities will be conducted in Chinese by the class and assistant teachers. Mandarin lessons are conducted by Mandarin teachers with the assistance of class teachers to keep order in the classroom. The curriculum includes theme-based learning, stories, games, etc. The school also organise music, physical and arts activities to promote children’s aesthetic development. Special activities are organised on Fridays such as religious activities, art, information and technology, ethics, English, Japanese, and Mandarin, etc. to help children develop their diverse talents and potential. Children are given time to play freely every day. This self-initiated, learner-centred playing stimulates children’s imagination and creativity and also their interest in self-exploration. There are different types of activities for K2 and K3 whole-day class students such as activities associated with computers, aesthetics, arts, gardening, English, Mandarin and Japanese in the afternoon."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1993"
+    ],
+    [
+     "Registered classrooms",
+     "14"
+    ],
+    [
+     "Principal & teachers",
+     "42"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.skhspcslc.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6548"
+  },
+  {
+   "id": "6549",
+   "name": "S.k.h. St. Peter's Church Kindergarten (Castle Peak)",
+   "scheme": true,
+   "lat": 22.392013,
+   "lng": 113.959193,
+   "address": "Tsing Wun Road, Tuen Mun, New Territories",
+   "area": "Tuen Mun",
+   "tel": "2461 9133",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "K1 — · K2 $14,750 (10) · K3 $14,750 (10)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14750
+   },
+   "enrolment": "AM 255 · PM 104 · Whole-day 30",
+   "teacherPupilRatio": "1:8.6 AM · 1:5.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school employs a spiral teaching, step-by-step, approach to enhance infant learning, with a focus on bi-literacy and tri-lingualism. English and Putonghua are taught by specialist teachers to establish a strong foundation for children's language development. Learning is generally conducted in a group-based style, following such difference themes as Seasons,life experience and Festivals. Talks and demonstrations, festive events, performances and outings are arranged as appropriate to the curriculum to facilitate a deeper understanding through play and hands-on experience, interacting with peers and groups in different environments. By combining the resources available from both school and community, children not only develop necessary knowledge and skills, but importance is also placed on cultivating moral and ethical character."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1962"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "33"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.skhspcmain.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6549"
+  },
+  {
+   "id": "6550",
+   "name": "S.k.h. St. Peter's Church Shan King Estate Kindergarten",
+   "scheme": true,
+   "lat": 22.397086,
+   "lng": 113.964419,
+   "address": "Unit 1-11, G/F, King Kwai House, Shan King Estate Phase I, Tuen Mun, New Territories",
+   "area": "King Kwai House",
+   "tel": "2466 8366",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$14,430 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 14430
+   },
+   "enrolment": "AM 14 · Whole-day 56",
+   "teacherPupilRatio": "1:7.8 AM · 1:6.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt an integrated curriculum with tri-lingual immersion through play. Each class conducts Cantonese, English and Putonghua for thematic teaching. The pupils are enhanced their learning interests with diversified learning activities including project studies, interest activities, little experiments, simulating games, tours and visits. They are enriched their understanding on the information technology with the aid of computer and electronic learning materials on music, physical exercises and art and craft activities. We actively join the collaborative scheme organised by various institutions to help enhance the efficiency of teaching and learning. There are English, Putonghua and artistic activities for pupils in whole day session."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.skhspc.edu.hk/skekg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6550"
+  },
+  {
+   "id": "6552",
+   "name": "Shun Tak Fraternal Association Tuen Mun Leung Lee Sau Yu Kindergarten",
+   "scheme": true,
+   "lat": 22.386861,
+   "lng": 113.976573,
+   "address": "G/F, Ting Hong House, On Ting Estate, Tuen Mun, New Territories",
+   "area": "Ting Hong House",
+   "tel": "2450 2519",
+   "fees": {
+    "am": "Free",
+    "pm": "K1 Free · K2 Free · K3 —",
+    "wd": "K1 — · K2 Free · K3 Free"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 0
+   },
+   "enrolment": "AM 289 · PM 248",
+   "teacherPupilRatio": "1:10.3 AM · 1:8.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school emphasizes twelve key values and attitudes in students. We use thematic teaching, group activities, project-based learning, national education, and various educational experiences like field trips and lectures to provide diverse opportunities. These activities aim to build children's confidence, enhances their language expression and listening skills and foster a positive, proactive learning attitude."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "28"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tmllsykg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6552"
+  },
+  {
+   "id": "6553",
+   "name": "T.w.g.hs. Ko Teck Kin Memorial Kindergarten",
+   "scheme": true,
+   "lat": 22.389078,
+   "lng": 113.973045,
+   "address": "G/F, Oi Ming House, Yau Oi Estate, Tuen Mun, New Territories",
+   "area": "Oi Ming House",
+   "tel": "2450 1336",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$13,800 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 13800
+   },
+   "enrolment": "AM 121 · PM 92 · Whole-day 60",
+   "teacherPupilRatio": "1:9.5 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Throughout our year-long curriculum, we organize visits, group activities, drama activities, environment interaction, and use developmental materials and aids, while allowing children to explore, observe, play games, operate, and share and interactive with others."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1980"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "19"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.twghktkkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6553"
+  },
+  {
+   "id": "6554",
+   "name": "The Baptist Convention of Hong Kong Po Tin Kindergarten",
+   "scheme": true,
+   "lat": 22.384396,
+   "lng": 113.976684,
+   "address": "Unit 202, 2/F, Po Tin Shopping Centre, Tuen Mun, New Territories",
+   "area": "Po Tin Shopping Centre",
+   "tel": "2455 5378",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,700 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8700
+   },
+   "enrolment": "AM 9 · Whole-day 53",
+   "teacherPupilRatio": "1:8.9 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt an activity-based teaching approach, group-based learning approach and campus farming activities. We cultivate children’s abilities to freely explore and acquire knowledge by organizing observation, discussion and experiments; arranging children to visit organizations and to trip, and inviting institutions to the school’s parties; organize different interest activities"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.potinkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6554"
+  },
+  {
+   "id": "6555",
+   "name": "The Church of Christ In China Tuen Mun Church Kindergarten",
+   "scheme": true,
+   "lat": 22.399703,
+   "lng": 113.977293,
+   "address": "G/F, 29 Tseng Choi Street, New Territories",
+   "area": "Tseng Choi Street",
+   "tel": "2459 4477",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$13,560 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 13560
+   },
+   "enrolment": "Whole-day 79",
+   "teacherPupilRatio": "1:8.6 AM · 1:8.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "*We organize diverse teaching activities. *Children are taught by native English teachers and Mandarin teachers in residence at our school. *We implement a life-wide learning approach, and empower children to construct knowledge by exploring."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://tmckns.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6555"
+  },
+  {
+   "id": "6557",
+   "name": "The Salvation Army Sam Shing Nursery School",
+   "scheme": true,
+   "lat": 22.381075,
+   "lng": 113.978572,
+   "address": "G/F Adjacent To Moon Yu House, Sam Shing Estate, Tuen Mun, New Territories",
+   "area": "F Adjacent To Moon Yu House",
+   "tel": "2452 0032",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$25,272 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 25272
+   },
+   "enrolment": "Whole-day 79",
+   "teacherPupilRatio": "1:8.5 AM · 1:8.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Project Approach – To stimulate children to explore voluntarily and build up knowledge through the process of observation, discussion and exploration; 2. Montessori Education – Enhance sensory acuity in young children, establish self-care skills and a sense of order, cultivate independence and self-management abilities, and develop logical thinking and concentration.; 3. Fun with English – Focus on stimulating interest in learning English, cultivate listening and speaking skills, and help children master phonics techniques for English words.; 4.Concerning individual child’s needs and development, we foster positive and optimistic values through manifesting the Love of Jesus Christ. 5.Inheriting Chinese Culture-By understanding Chinese festival customs, appreciating and experiencing various forms of traditional art and together with participating in related project-based learning activities, we aim to cultivate young children’s interest in Chinese culture and foster their sense of national identity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1981"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.salvationarmy.org.hk/esd/ssns/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6557"
+  },
+  {
+   "id": "6558",
+   "name": "Tin King Estate Baptist Lui Kwok Pat Fong Kindergarten",
+   "scheme": true,
+   "lat": 22.407203,
+   "lng": 113.96658,
+   "address": "G/F, Units 1-10 Siu Pong Court, Tuen Mun, New Territories",
+   "area": "Siu Pong Court",
+   "tel": "2455 7187",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$11,660 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 11660
+   },
+   "enrolment": "AM 29 · Whole-day 101",
+   "teacherPupilRatio": "1:10.8 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Children learn through play and various methods like large group instruction, small group discussions/experiments, outdoor observations, and special lectures to enhance their interest in learning. Foreign teachers from different nationalities personally teach English in small groups, using activities like singing, storytelling, educational games, and outdoor observations to provide a practical and interactive English learning experience."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.tkkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6558"
+  },
+  {
+   "id": "6559",
+   "name": "Truth Baptist Church Empower Kindergarten",
+   "scheme": true,
+   "lat": 22.413084,
+   "lng": 113.982674,
+   "address": "Unit 1, 1/F, Ancillary Facilities Block, Fu Tai Estate, 9 Tuen Kwai Road, Tuen Mun, New Territories",
+   "area": "Fu Tai Estate",
+   "tel": "2635 6996",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$15,840 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 15840
+   },
+   "enrolment": "AM 59 · Whole-day 100",
+   "teacherPupilRatio": "1:9.9 AM · 1:7.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We extend children’s learning fields by adopting a project-based learning approach, and provide more exploring opportunities for children to enhance their problem-solving skills and cultivate their correct values. We arrange outdoor visits, simulation activities, group experiments, English Week, Mandarin Week, etc. to provide children an opportunity for life-wide learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.tbcft.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6559"
+  },
+  {
+   "id": "6560",
+   "name": "Tung Wah Group of Hospitals Lee Wong Hing-Cheung Memorial Kindergarten",
+   "scheme": true,
+   "lat": 22.400646,
+   "lng": 113.966337,
+   "address": "Wings A & B, G/F, King Lai House (Block 9), Shan King Estate, Phase Iii, Tuen Mun, New Territories",
+   "area": "King Lai House",
+   "tel": "2461 7380",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$14,900 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 14900
+   },
+   "enrolment": "AM 13 · Whole-day 68",
+   "teacherPupilRatio": "1:8.1 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum uses picture books-based, life themes-based and general knowledge learning approach to empower children to participate in their own learning. With freeplay, outdoor visits, scientific experiments, dramas, stories, etc., we encourage children to explore and to learn and gain more diverse experiences at the same time. To emphasize biliteracy and trilingualism, we provide Engilsh and Putonghua classes. We also incoorporate different English and Putonghua activities to extend the learning experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.twghlwhckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6560"
+  },
+  {
+   "id": "6561",
+   "name": "TWGHs Fong Tam Yuen Leung Nursery School",
+   "scheme": true,
+   "lat": 22.405855,
+   "lng": 113.964824,
+   "address": "G/F, Flat 1-5, Tin Yue House, Tin King Estate, Tuen Mun, New Territories",
+   "area": "Tin Yue House",
+   "tel": "2461 0774",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$16,092 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 16092
+   },
+   "enrolment": "Whole-day 59",
+   "teacherPupilRatio": "1:8.9 AM · 1:8.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum caters to children's needs. Considering environments and community contexts, we design curricula for all levels. By using stories, a whole language learning environment and life skills development activities, we help children to achieve all-round development, and cultivate their initiatives and independence in learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "3"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ftylns.tungwahcsd.org/tc"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6561"
+  },
+  {
+   "id": "6993",
+   "name": "TWGHs Katherine Ma Kindergarten",
+   "scheme": true,
+   "lat": 22.4113,
+   "lng": 113.971876,
+   "address": "G/F, Yat Tin House (Block 2), Yan Tin Estate, Tuen Mun, New Territories",
+   "area": "Yat Tin House",
+   "tel": "2885 7313",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 171 · PM 74",
+   "teacherPupilRatio": "1:10.7 AM · 1:4.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our curriculum uses picture books and a life theme-based approach to empower children to participate in their own learning. We offer bilingual classes to enhance language development. There are also specific areas such as a multi-purpose playroom, music room, rock-climbing wall, performance area, painting wall, creative art gallery, reading corner and Amazing Blocks wall to enrich the learning environment. Children can explore and widen their learning experience in these spaces. We promote self-learning and encourage children to ‘observe, explore, experience, associate, operate and use’ through various teaching strategies and activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2019"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.katherine-kindergarten.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6993"
+  },
+  {
+   "id": "6562",
+   "name": "TWGHs Tin Ka Ping Nursery School",
+   "scheme": true,
+   "lat": 22.374923,
+   "lng": 113.96287,
+   "address": "2/F, Tip Ling House, Butterfly Estate, Tuen Mun, New Territories",
+   "area": "Tip Ling House",
+   "tel": "2466 7454",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$15,756 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 15756
+   },
+   "enrolment": "Whole-day 33",
+   "teacherPupilRatio": "1:5.8 AM · 1:5.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school's curriculum places emphasis on meeting the diverse needs of the children, providing the best possible experiences within their families and the community. Adopting various approaches such as storytelling, whole language, play activities, free play, Montessori, systematic physical education, as well as creative aesthetics education allow children to express their individuality. We strive to inspire the overall development of children, and cultivate a proactive attitude towards learning and independence."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://tkpns.tungwahcsd.org/tc/page/home"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6562"
+  },
+  {
+   "id": "6563",
+   "name": "W.f.b. Avalokitesvara Nursery School",
+   "scheme": true,
+   "lat": 22.384463,
+   "lng": 113.966051,
+   "address": "1/F, Carport Block, Lung Mun Oasis, Tuen Mun, New Territories",
+   "area": "Tuen Mun",
+   "tel": "2449 5008",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$3,600 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 3600
+   },
+   "enrolment": "Whole-day 77",
+   "teacherPupilRatio": "1:7.8 AM · 1:7.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The school activities are organized in accordance with the “Guidelines for Kindergarten Education Curriculum” compiled by the Curriculum Development Council of the Education Bureau. It is child-oriented and formulates learning courses in a spiral-based manner based on children’s physical and mental development needs, life experience and interest in learning. Activities include: - Group study (Chinese, English, Math, Social Studies) - Nursery songs - Large muscle development activity - Small muscle development activity - Drawing creation - Musical singing, dancing rhythm - Science - Trying Snacks - Outdoor visits and travels -Simulation games - Free games Computer-assisted activities and classes. Mandarin and NET teachers to lead English and mandarin fun activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1998"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.wfb.edu.hk/1"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6563"
+  },
+  {
+   "id": "6564",
+   "name": "W.f.b. Mantra Institute Nursery School",
+   "scheme": true,
+   "lat": 22.37369,
+   "lng": 113.966038,
+   "address": "G/F, Shop 2, Siu Hei Commercial Centre, Siu Hei Court, Tuen Mun, New Territories",
+   "area": "Siu Hei Commercial Centre",
+   "tel": "2457 3959",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$8,880 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 8880
+   },
+   "enrolment": "Whole-day 86",
+   "teacherPupilRatio": "1:6.5 AM · 1:6.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With theme-based teaching and project-based learning approaches, interesting games, integrated curriculum and multiple environments, we inspire children’s learning motivation to develop their knowledge, skills and attitudes.Professional teachers are engaged to organize English and Mandarin activities to provide children with more opportunities for exposure to different languages."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1994"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.wfb.edu.hk/min/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6564"
+  },
+  {
+   "id": "6565",
+   "name": "Yan Chai Hospital Shan King Kindergarten",
+   "scheme": true,
+   "lat": 22.39632,
+   "lng": 113.965673,
+   "address": "Adjacent To Community Hall, Shan King Estate Phase 1, Tuen Mun, New Territories",
+   "area": "Shan King Estate",
+   "tel": "2455 1849",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$8,100 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 8100
+   },
+   "enrolment": "Whole-day 66",
+   "teacherPupilRatio": "1:7.5 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "With theme- and game-based teaching approaches and many other methods, we help children develop their abilities in thinking, problem-solving, cooperation and communication through personal exploration. Children are guided by senior native English teachers to do English-related games and activities. We have founded 1331 Scout Brigade, which provide children an opportunity of broadening horizons and cultivating strong characters in extracurricular activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ychskkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6565"
+  },
+  {
+   "id": "7081",
+   "name": "Yan Chai Hospital Yau Oi (Yip Wong Estate) Kindergarten",
+   "scheme": true,
+   "lat": 22.387853,
+   "lng": 113.968434,
+   "address": "1/F, Yip Wo House, Yip Wong Estate, Tuen Mun, New Territories",
+   "area": "Yip Wo House",
+   "tel": "2450 2143",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$13,500 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 13500
+   },
+   "enrolment": "0 enrolled (Sept 2024)",
+   "teacherPupilRatio": null,
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school emphasizes the learning process of children’s sensory learning and personal experience, an utilizes thema-base learning and project research as the primary teaching model. Toddlers in the preschool years have sensitive and active senses, and they explore the world through touch, hearing, sight, taste, and smell. Teachers design a variety of rich sensory activities to inspire children’s interest in learning. Children frequently engage in activities such as making seasonal food, exploring the community and nature, observing changes in their surroundings, and actively practicing new skills. Through these experiences, children construct new knowledge and transform their feelings into language and concepts, fostering independence and cultivating them as lifelong learners."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Not applicable"
+    ],
+    [
+     "Website",
+     "https://www.ychyo.org.hk/"
+    ],
+    [
+     "Former name",
+     "Yan Chai Hospital Yau Oi Kindergarten"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7081"
+  },
+  {
+   "id": "6567",
+   "name": "Yan Chai Hospital Yim Tsui Yuk Shan Kindergarten",
+   "scheme": true,
+   "lat": 22.449836,
+   "lng": 114.160553,
+   "address": "Ground Floor, Wo Lai House, Wo Tin Estate, Tuen Mun, New Territories",
+   "area": "Wo Lai House",
+   "tel": "2466 8966",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,620 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12620
+   },
+   "enrolment": "AM 70 · Whole-day 84",
+   "teacherPupilRatio": "1:12.8 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through different strategic projects to integrate into children’s school life: Learning Ability: Group discussion learning, Autonomic grouping, Project approach, Science exploration area, Reading award plan, Experience learning, “Good-children” listing. Self-care Ability: Eating refreshments, Going to toilet and washing hands, Tidy-up stuff, Wearing jacket, Brushing teeth, Folding homework & paper, Folding quilt, Self-care. Social Skill: “Good-Friends”project, Visits & activities, Open competitions & performance, “Service Angel”award, Small group leader, Grasshopper scout, Caring & help each other."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ytyskg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6567"
+  },
+  {
+   "id": "6568",
+   "name": "Yan Oi Tong Allan Yap Kindergarten",
+   "scheme": true,
+   "lat": 22.374185,
+   "lng": 113.964862,
+   "address": "G/F, Low Block, Wu Boon House, Wu King Estate, Tuen Mun, New Territories",
+   "area": "Wu Boon House",
+   "tel": "2465 8112",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,690 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8690
+   },
+   "enrolment": "AM 27 · Whole-day 61",
+   "teacherPupilRatio": "1:11.0 AM · 1:7.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based Teaching Approach: development in knowledge, skills and attitudes through activities, explorations and experiences. Bi-Literacy and Tri-Lingualism: create an effective language environment by native teachers. Moral Education: cultivate children's virtues of being filial and respectful and loving, communicate and share with others, and establish the values of self-esteem, self-confidence and positivity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://yotay.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6568"
+  },
+  {
+   "id": "6569",
+   "name": "Yan Oi Tong Lau Wong Fat Kindergarten",
+   "scheme": true,
+   "lat": 22.396577,
+   "lng": 113.975821,
+   "address": "3/F, Yan Oi Tong Jockey Club Community and Indoor Sports Centre, 18 Kai Man Path, Tuen Mun, New Territories",
+   "area": "Club Community and Indoor Sports Centre",
+   "tel": "2655 7771",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$13,596 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 13596
+   },
+   "enrolment": "Whole-day 81",
+   "teacherPupilRatio": "1:7.9 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Following the project approach and thematic approach, we emphasize children’s hands-on experiences and allow them to make in-depth meaningful discusses on different themes by visiting, observing, questioning, comparing, reporting, etc., thus developing their abilities of active inquiry and knowledge arrangement. We teach children English by engaging native English teachers. Children develop their interest in English learning by reading English stories and participating in diverse activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://yotlwf.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6569"
+  },
+  {
+   "id": "6570",
+   "name": "Yan Oi Tong Ngan Po Ling Kindergarten",
+   "scheme": true,
+   "lat": 22.386117,
+   "lng": 113.974098,
+   "address": "G/F, Oi Yee House, Yau Oi Estate, Tuen Mun, New Territories",
+   "area": "Oi Yee House",
+   "tel": "2458 5033",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,682 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11682
+   },
+   "enrolment": "AM 24 · Whole-day 34",
+   "teacherPupilRatio": "1:9.7 AM · 1:5.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "By using appropriate children's life experience, interest and developed curriculum content, through the use of thematic teaching and project learning approach to integrate interesting games into different learning content of various areas. Combining with diverse environments, outdoor activities, hands-on experiments to stimulate children's learning motivation, build knowledge autonomously, improve their skills and develop good and positive attitudes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "6"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://yotnpl.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6570"
+  },
+  {
+   "id": "6571",
+   "name": "Yan Oi Tong Tin Ka Ping Kindergarten",
+   "scheme": true,
+   "lat": 22.412941,
+   "lng": 113.977012,
+   "address": "Podium Level, Siu Hang House & Siu Shun House, Siu Hong Court, Tuen Mun, New Territories",
+   "area": "Siu Hang House",
+   "tel": "2465 5719",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$26,712 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 26712
+   },
+   "enrolment": "Whole-day 81",
+   "teacherPupilRatio": "1:6.9 AM · 1:6.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt the theme approach, and develop children’s abilities of active inquiry and cognition through observation, discussion, reporting, etc. We also employ native and professional English teachers as well as Mandarin teachers. Children lay foundation for biliterate and trilingual learning by reading and playing. We focus on children’s character cultivation and help them establish positive values through courses and diversified activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://yottkpkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6571"
+  }
+ ]
+}

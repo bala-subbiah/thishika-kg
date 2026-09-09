@@ -1,0 +1,2551 @@
+{
+ "generatedAt": "2026-09-09T16:17:33.887Z",
+ "profileYear": "2025/26",
+ "source": "https://kgp2025.azurewebsites.net/edb/school.php?lang=en&district=north",
+ "district": {
+  "id": "north",
+  "name": "North"
+ },
+ "schools": [
+  {
+   "id": "6252",
+   "name": "Buddhist Sum Tung Fook Kindergarten",
+   "scheme": true,
+   "lat": 22.500643,
+   "lng": 114.125269,
+   "address": "G/F, Choi Wu House, Choi Yuen Estate, Sheung Shui, New Territories",
+   "area": "Choi Wu House",
+   "tel": "2672 7258",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$15,807 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 15807
+   },
+   "enrolment": "AM 124 · PM 43 · Whole-day 99",
+   "teacherPupilRatio": "1:13.9 AM · 1:8.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based approach and topic studies are adopted. The child-centred curriculum corresponds to children’s development and needs. Learning is conducted and knowledge is built up through practical experiences in various activities with rich contents, online learning, site visits and friendly visits."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1982"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "16"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sumtungfookkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6252"
+  },
+  {
+   "id": "6291",
+   "name": "Anchors Kindergarten (Fanling)",
+   "scheme": false,
+   "lat": 22.501171,
+   "lng": 114.142286,
+   "address": "1A & 1B 1/F & 2/F Wing Fai Centre, 2-10 Luen Chit Street, Fanling, New Territories",
+   "area": "F Wing Fai Centre",
+   "tel": "2676 2199",
+   "fees": {
+    "am": "$71,500 (11 instalments)",
+    "pm": "$71,500 (11 instalments)",
+    "wd": "$102,300 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 71500,
+    "pm": 71500,
+    "wd": 102300
+   },
+   "enrolment": "AM 116 · PM 31 · Whole-day 49",
+   "teacherPupilRatio": "1:11.7 AM · 1:5.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We use the advantages of \"theme based\" and \"project approach\", our teachers will often step outside of the classroom with students and collectively design themes to diversify learning from inside and outside of the classroom."
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2010"
+    ],
+    [
+     "Registered classrooms",
+     "16"
+    ],
+    [
+     "Principal & teachers",
+     "19"
+    ],
+    [
+     "Website",
+     "http://www.anchors.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6291"
+  },
+  {
+   "id": "6255",
+   "name": "Caritas Nursery School - Ta Kwu Ling",
+   "scheme": true,
+   "lat": 22.532996,
+   "lng": 114.153379,
+   "address": "G/F, Caritas Ta Kwu Ling Centre, Ping Che Road, Ta Kwu Ling, Fanling, New Territories",
+   "area": "Caritas Ta Kwu Ling Centre",
+   "tel": "2674 3207",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,976 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14976
+   },
+   "enrolment": "Whole-day 40",
+   "teacherPupilRatio": "1:7.0 AM · 1:7.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Integrated Curriculum and Whole Language Learning Approach are adopted. Children are encouraged to re-write stories and create children rhymes which has laid down their good foundation of language. The ‘Enquiry, Expression, Exploration and Experience’ approach is adopted to encourage self-exploration, questioning and answer seeking so new knowledge is experienced and built up during the process. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened the children’s English ability, including listening, speaking, reading and writing. In addition, the implementation of Project Learning Approach and Situational Learning has nurtured the spontaneous learning and problem solving skills of children. Their creative thinking are also fostered."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1967"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://tklns.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6255"
+  },
+  {
+   "id": "6294",
+   "name": "Magart International Kindergarten (Fanling)",
+   "scheme": false,
+   "lat": 22.490163,
+   "lng": 114.142347,
+   "address": "G/F, Block A & B, Phase 1 Fanling Centre, 33 San Wan Road, Fanling, New Territories",
+   "area": "Fanling Centre",
+   "tel": "2677 8109",
+   "fees": {
+    "am": "$64,680 (11 instalments)",
+    "pm": "$64,680 (11 instalments)",
+    "wd": "$86,680 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 64680,
+    "pm": 64680,
+    "wd": 86680
+   },
+   "enrolment": "AM 16 · Whole-day 11",
+   "teacherPupilRatio": "1:5.4 AM · 1:1.7 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2018"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Website",
+     "https://www.magartedu.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6294"
+  },
+  {
+   "id": "5866",
+   "name": "Caritas St. Francis Kindergarten",
+   "scheme": true,
+   "lat": 22.494592,
+   "lng": 114.124222,
+   "address": "Unit KG01, 2/F, Ancillary Facilities Block, Po Shek Wu Estate, Sheung Shui, New Territories",
+   "area": "Po Shek Wu Estate",
+   "tel": "2328 6828",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,725 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10725
+   },
+   "enrolment": "AM 9 · Whole-day 92",
+   "teacherPupilRatio": "1:10.1 AM · 1:9.2 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Integrated Curriculum and Whole Language Learning Approach are adopted. Children are encouraged to re-write stories and to create children rhymes which has laid down their good foundation of language. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened the children’s English ability, including listening, speaking, reading and writing. In addition, the implementation of Project Learning Approach and Situational Learning has nurtured the spontaneous learning and problem solving skills of children. Their creative thinking are also fostered. Moreover, to make good use of Montessori teaching materials in order to cultivate children’s self-care and self-discipline abilities, and to enrich their learning in sensory-motor and mathematical concept."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1968"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://sfkg.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=5866"
+  },
+  {
+   "id": "6923",
+   "name": "Mynors International Kindergarten",
+   "scheme": false,
+   "lat": 22.501614,
+   "lng": 114.145901,
+   "address": "Portion A, Commercial Unit, Shop 1-11, Level 1, Belair Monte Shopping Centre, 3 Ma Sik Road, Fanling, New Territories",
+   "area": "Belair Monte Shopping Centre",
+   "tel": "2355 7500",
+   "fees": {
+    "am": "$48,000 (10 instalments)",
+    "pm": "$48,000 (10 instalments)",
+    "wd": "$84,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 48000,
+    "pm": 48000,
+    "wd": 84000
+   },
+   "enrolment": "AM 39",
+   "teacherPupilRatio": "1:9.1 AM · 1:0.5 PM",
+   "curriculum": "Non-local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "No information"
+    ],
+    [
+     "Category",
+     "Private Independent"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2015"
+    ],
+    [
+     "Registered classrooms",
+     "No information"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Website",
+     "http://www.mynors.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6923"
+  },
+  {
+   "id": "6256",
+   "name": "Caritas Zonta Club of Hong Kong Nursery School",
+   "scheme": true,
+   "lat": 22.482938,
+   "lng": 114.139987,
+   "address": "G/F, Fu Ming House, Wah Ming Estate, Fanling, New Territories",
+   "area": "Fu Ming House",
+   "tel": "2675 0099",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$17,940 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 17940
+   },
+   "enrolment": "Whole-day 40",
+   "teacherPupilRatio": "1:8.0 AM · 1:8.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Individual, group and interactive team activities are organized. Integrated Curriculum and Whole Language Learning Approach are adopted. Shared Reading Approach and Phonemic Awareness are also adopted which has strengthened the children’s English ability, including listening, speaking, reading and writing. In addition, the implementation of Project Learning Approach and Situational Learning has nurtured the spontaneous learning and problem solving skills of children."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1991"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://zcns.caritas.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6256"
+  },
+  {
+   "id": "6257",
+   "name": "Chinese Christian Worker's Fellowship Limited, King Shing Kindergarten",
+   "scheme": true,
+   "lat": 22.486199,
+   "lng": 114.142251,
+   "address": "G/F, Foon King House, King Shing Court Fanling, New Territories",
+   "area": "Foon King House",
+   "tel": "2677 0153",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,400 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5400
+   },
+   "enrolment": "AM 10 · Whole-day 66",
+   "teacherPupilRatio": "1:9.5 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The child-centred approach is adopted. Various group activities, online learning, community participation and extra-curricular activities are arranged according to children’s development and needs for building up knowledge through practical experiences. We endeavourr to improve our teaching by participating in professional collaborative schemes."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kingshingkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6257"
+  },
+  {
+   "id": "6258",
+   "name": "Chinese Christian Worker's Fellowship Ltd. Choi Po Kindergarten",
+   "scheme": true,
+   "lat": 22.49975,
+   "lng": 114.128282,
+   "address": "G/F, Car Park Building, Choi Po Court, Sheung Shui, New Territories",
+   "area": "Choi Po Court",
+   "tel": "2673 5088",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3000
+   },
+   "enrolment": "AM 24 · Whole-day 96",
+   "teacherPupilRatio": "1:12.0 AM · 1:9.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We actively participate in professional collaborative schemes to improve our teaching. Multiple learning activities are conducted in team/group forms. Children are guided to build up knowledge through games activities, creative learning, first-hand experiences and explorations."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1985"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "10"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.choipokg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6258"
+  },
+  {
+   "id": "6259",
+   "name": "Chinese Y.m.c.a. Sheung Shui Kindergarten",
+   "scheme": true,
+   "lat": 22.493609,
+   "lng": 114.126321,
+   "address": "G/F, Ching Yun House, (Block B) Ching Ho Estate, Sheung Shui, New Territories",
+   "area": "Ching Yun House",
+   "tel": "2663 5196",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,000 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11000
+   },
+   "enrolment": "AM 42 · Whole-day 74",
+   "teacherPupilRatio": "1:10.5 AM · 1:10.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Multiple intelligences are stimulated through theme-based approach, specially designed activities and learning through play and integrated activities. The development of language ability is emphasized. We basically teach with the mother tongue supported with interest activities to preliminarily expose children to Putonghua and English language."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2008"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sscymca.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6259"
+  },
+  {
+   "id": "6260",
+   "name": "Dawning Views Elementi English Kindergarten",
+   "scheme": true,
+   "lat": 22.487464,
+   "lng": 114.144709,
+   "address": "G22-24, G/F Dawning Views Shopping Plaza, 23 Yat Ming Road, Fanling, New Territories",
+   "area": "F Dawning Views Shopping Plaza",
+   "tel": "2256 1812",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$15,829 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 15829
+   },
+   "enrolment": "AM 19 · Whole-day 51",
+   "teacherPupilRatio": "1:10.2 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "For the school base curriculum, the kindergarten designs an integrated curriculum by implementing real-life themes into teaching moral education and enhancing the development of linguistic skills by encouraging reading, stories telling and daily use of language order to foster the development of children’s skills,learning attitude,and knowledge.Designing diversified small groups activities for children to join in and the teachers can know well the abilities and personalities of individual students in order to give supports and encouragements.Learning through play,music and physical activities can enhance children’s learning motivation and interest, facilitate their cognitive, physiological and psychological development.Through the teaching of Orff Music with Putonghua, children can play the musical instruments and move according to musical rhythm to develop creative thinking, and also encourage the use of Putonghua.By making use of the rich environmental resources,English stories,games and songs to learn English and phonics, the children can develop confidence in communicating in English.With this inspiring curriculum,our children will grow up to be healthy,happy,proactive,inquisitive, imaginative and with good character."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "5"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.elementiedu.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6260"
+  },
+  {
+   "id": "6261",
+   "name": "Fanling Assembly of God Church Grace Light Kindergarten",
+   "scheme": true,
+   "lat": 22.487698,
+   "lng": 114.140832,
+   "address": "Wings B & C, G/F, Yin King House, King Shing Court, Fanling, New Territories",
+   "area": "Yin King House",
+   "tel": "2682 6933",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,766 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7766
+   },
+   "enrolment": "AM 89 · Whole-day 80",
+   "teacherPupilRatio": "1:11.3 AM · 1:6.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Using topics based on children’s real-life experiences for thematic teaching and project-based learning. 2. Incorporating highly collaborative and interactive activities into daily teaching, such as pair discussions, group tasks, or scientific inquiry activities. 3. Emphasizing children’s outdoor learning experiences by organizing outdoor field trips. 4. Have on-campus foreign English teachers and mainland Chinese Putonghua teachers lead language activities. 5. Hold a Multiple Intelligence Activity Day on Fridays. 6. Establishing uniform groups to learn and practice the spirit of the Gospel, fostering confidence and team spirit."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.gracelight.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6261"
+  },
+  {
+   "id": "6262",
+   "name": "Fanling Baptist Church Lui Ming Choi Kindergarten",
+   "scheme": true,
+   "lat": 22.495861,
+   "lng": 114.140888,
+   "address": "3 Sha Tau Kok Road, Fanling, New Territories",
+   "area": "Sha Tau Kok Road",
+   "tel": "2669 4315",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 270 · PM 270",
+   "teacherPupilRatio": "1:9.0 AM · 1:9.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. The ‘integrated curriculum’ is taught from Monday to Thursday for enhancing children's ability to explore independently and solve problem. 2. Promoting biliteracy and trilingualism through foreign and specialist teachers, reinforcing children's proficiency in listening, speaking, reading and writing in Chinese and English. 3. Providing a variety of learning experiences beyond traditional textbooks to help children build confidence and perserverance. 4. The skill of speech delivery is trained through the ‘Show and Tell’ activity. It can enhance their confidence as well. 5. The ‘Multiple Intelligence Development Day’ is held on every Friday. Hiring professional instructors to develop children's multiple intelligences. Professional lecturers are employed to help children develop multiple intelligences. 6. Free Play programme is launched for promoting development of the gross and fine motor skills. 7. ‘Life education’ is provided to foster good character and positive emotion through multiple daily life scenarios. 8.The programme of \"Shared Reading\" helps children raise their interest and ability of reading books. 9.The implement skills courses to enhance the children's independence and self-cane abilities. 10.The woodworking lessons enhance the children's problem-solving skills."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1978"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "30"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://fbclmckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6262"
+  },
+  {
+   "id": "6263",
+   "name": "Fung Kai Kindergarten",
+   "scheme": true,
+   "lat": 22.509927,
+   "lng": 114.126801,
+   "address": "21 Jockey Club Road, Sheung Shui, New Territories",
+   "area": "Jockey Club Road",
+   "tel": "2671 9919",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,682 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11682
+   },
+   "enrolment": "AM 166 · PM 68 · Whole-day 122",
+   "teacherPupilRatio": "1:12.5 AM · 1:8.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is taught in interactive groups supported with various group activities, including: language, mathematics, nature and living, daily life knowledge, interesting inference and artistic creativity. This serves to stimulate children’s want to learn and curiosity, strengthen the abilities of thinking and problem solving and foster active self-directed learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1963"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "23"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://fkkgfungkai.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6263"
+  },
+  {
+   "id": "6293",
+   "name": "Gloria Creative Kindergarten",
+   "scheme": true,
+   "lat": 22.499988,
+   "lng": 114.141635,
+   "address": "Shop 72, 73, 75, 76, 77 & 79, G/F Union Plaza, Wo Muk Road, Fanling, New Territories",
+   "area": "F Union Plaza",
+   "tel": "2669 7339",
+   "fees": {
+    "am": "$5,500 (10 instalments)",
+    "pm": "$5,500 (10 instalments)",
+    "wd": "$28,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 5500,
+    "pm": 5500,
+    "wd": 28000
+   },
+   "enrolment": "AM 45 · Whole-day 39",
+   "teacherPupilRatio": "1:7.4 AM · 1:3.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We aim to enrich student life experiences and develop multiple intelligences through: Thematic teaching, Project studies, Drama, Off campus visits, Introduction to I.T. and Independent exploration"
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2011"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.gciedu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6293"
+  },
+  {
+   "id": "6852",
+   "name": "Gloria Creative Kindergarten (Sheung Shui)",
+   "scheme": true,
+   "lat": 22.507616,
+   "lng": 114.129115,
+   "address": "Unit 23 & 24, G/F, Commercial Complex Tsui Lai Garden, 9 Fung Nam Road, Sheung Shui, New Territories",
+   "area": "Commercial Complex Tsui Lai Garden",
+   "tel": "2669 7009",
+   "fees": {
+    "am": "$5,500 (10 instalments)",
+    "pm": "$5,500 (10 instalments)",
+    "wd": "$28,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 5500,
+    "pm": 5500,
+    "wd": 28000
+   },
+   "enrolment": "AM 44 · Whole-day 63",
+   "teacherPupilRatio": "1:6.9 AM · 1:4.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Aim to enrich student life experiences and develop multiple intelligences through Thematic teaching, Project studies, Drama, Off campus visits, introduction to IT and Independent exploration."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2014"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "18"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.gciedu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6852"
+  },
+  {
+   "id": "6264",
+   "name": "Hhckla Buddhist Wai Kwong Ka Fuk Kindergarten",
+   "scheme": true,
+   "lat": 22.492915,
+   "lng": 114.134261,
+   "address": "Shop KG01 G/F, Ka Yeung House, Ka Shing Court, Fanling, New Territories",
+   "area": "Ka Yeung House",
+   "tel": "2683 2227",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6500
+   },
+   "enrolment": "AM 41 · Whole-day 86",
+   "teacherPupilRatio": "1:11.8 AM · 1:7.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "K1-K3 Cambridge English Course - Taught by English teachers daily There are four foreign English teachers at the school who teach Cambridge English courses through whole-class and group activities every day. They utilize teaching methods such as phonics, games, children's songs, and stories to enhance children's interest in English and enable them to learn in a pleasant and natural environment. Upon completion of the course, parents can apply for the Cambridge English Examination (YLE). PN Bilingual Class Chinese and English teachers serve as class teachers, creating a rich English language environment. The classroom emphasizes the development of children's moral character, as well as the enhancement of their self-care and gross and fine motor skills. This approach enables children to learn to cooperate with others and develop social skills within a pleasant environment. K1-K3 Bilingual Courses Delivered by both Chinese and English teachers, the English curriculum comprises 20 minutes of whole-class learning and 1 hour and 20 minutes of group learning activities daily. The program also includes weekly STEM experience activities, Happy Bee team gatherings, and character-building exercises to offer children a comprehensive education in a stimulating and enjoyable setting."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2011"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.bwkkfk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6264"
+  },
+  {
+   "id": "6265",
+   "name": "Hhckla Buddhist Wai Kwong Kindergarten",
+   "scheme": true,
+   "lat": 22.485286,
+   "lng": 114.140045,
+   "address": "G/F, Lai Ming House, Wah Ming Estate, Fanling, New Territories",
+   "area": "Lai Ming House",
+   "tel": "2677 0813",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "Free"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 0
+   },
+   "enrolment": "AM 7 · Whole-day 112",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.3 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our school promotes deep learning through project-based learning, outdoor experiences, and game-based activities, fostering students' spirit of active exploration and a positive attitude towards learning. The school effectively utilizes community resources to provide students with a comprehensive learning approach, broadening their horizons and enriching their learning experiences. Teachers place importance on students' firsthand experiences and independent exploration in an open environment. Through the \"plan, do, review\" approach, students' self-reflection, self-directed learning, problem-solving, and collaboration skills are effectively promoted."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.bwkk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6265"
+  },
+  {
+   "id": "6266",
+   "name": "Hkec Elite Kindergarten",
+   "scheme": true,
+   "lat": 22.486587,
+   "lng": 114.140288,
+   "address": "Shop KG01, Yan Shing Court Fanling, New Territories",
+   "area": "Yan Shing Court",
+   "tel": "2676 4242",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$28,138 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 28138
+   },
+   "enrolment": "AM 96 · Whole-day 88",
+   "teacherPupilRatio": "1:10.8 AM · 1:8.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based teaching with our self-published story books will be able to raise children eagerness in exploring and learning actively. Cooperative learning with high levels of participation, discussion, reporting and expression can promote children’s ability to think actively, creatively and analytically. Free play and corner activities allow children to choose what to play and what to do freely in class. It can increase the intrinsic motivation in learning, problem solving skill and creativity. Computer and large screen are installed in the classrooms to support a better learning experience. Subject teachers are employed to teach English and Putonghua to build a solid foundation of future language learning. Finally, children are nurtured with the correct system of values through the truth of Christianity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2007"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "17"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.elite-kg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6266"
+  },
+  {
+   "id": "6267",
+   "name": "Hong Kong 5-S Kindergarten",
+   "scheme": true,
+   "lat": 22.501371,
+   "lng": 114.145648,
+   "address": "Shop 1-10, Level 2, Belair Monte Shopping Centre, 3 Ma Sik Road, Fanling, New Territories",
+   "area": "Belair Monte Shopping Centre",
+   "tel": "2721 0081",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$9,570 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 9570
+   },
+   "enrolment": "AM 102 · PM 22 · Whole-day 170",
+   "teacherPupilRatio": "1:12.4 AM · 1:8.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "By using topic-based implementation of “comprehensive activities” to integrate their knowledge and understanding of various disciplines. With the combination of the school and parents organization, we incorporate the concept of “project learning” to acquire and strengthen their knowledge through games, site visits and other activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "12"
+    ],
+    [
+     "Principal & teachers",
+     "26"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.hk5skg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6267"
+  },
+  {
+   "id": "6268",
+   "name": "Hong Kong Society for the Protection of Children Operation Santa Claus Fanling Nursery School",
+   "scheme": true,
+   "lat": 22.485901,
+   "lng": 114.142756,
+   "address": "G/F, Wah Koon House, Wah Sum Estate, Fanling, New Territories",
+   "area": "Wah Koon House",
+   "tel": "2676 4000",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,712 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11712
+   },
+   "enrolment": "Whole-day 67",
+   "teacherPupilRatio": "1:8.6 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Design integrated curriculum, incorporate the elements of language and music into all the learning activities, provide comprehensive and interesting learning experience for children. Make good use of community resources, and participate in community activities to support and broaden children’s learning experience, for example, visiting the Road Safety Towns, Brighter Smiles Playland, Green Education and Resource Centre, Hong Kong Science Museum and fire bureau."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://ns.hkspc.org/fl/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6268"
+  },
+  {
+   "id": "7053",
+   "name": "Hong Kong Taoist Association Fung Ying Tung Sin Queen's Hill Kindergarten",
+   "scheme": true,
+   "lat": 22.504696,
+   "lng": 114.158166,
+   "address": "G/F, Wong Ching House, Queen's Hill Estate, North District, New Territories",
+   "area": "Wong Ching House",
+   "tel": "2116 1235",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$7,271 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 7271
+   },
+   "enrolment": "AM 30 · Whole-day 117",
+   "teacherPupilRatio": "1:10.5 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We adopt child-centredness teaching methods which are based on children’s life experience. We use theme-based learning, the project-based approach and storybook teaching methods to raise children’s initiative in learning. We also provide a variety of activities, including educational outings, science exploration, social services, uniform groups, etc., to give children lively, multisensory, interesting learning experiences and build up their confidence."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.fytsqhkg.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7053"
+  },
+  {
+   "id": "6269",
+   "name": "Ka Fuk Baptist Church Pre-School",
+   "scheme": true,
+   "lat": 22.492265,
+   "lng": 114.134465,
+   "address": "G/F, Fuk Lok House, Ka Fuk Estate, Fanling, New Territories",
+   "area": "Fuk Lok House",
+   "tel": "2677 1696",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$8,820 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 8820
+   },
+   "enrolment": "Whole-day 103",
+   "teacherPupilRatio": "1:10.4 AM · 1:10.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Activity-based approach and Holistic Innovative approach is adopted. Courses on multiple intelligence and music appreciation are offered to foster self-directed learning ability and bring into play the potentials. Multiple intelligences activities include: application of Putonghua, dance, mini tennis and ICAN moral education course."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.kafuk.net"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6269"
+  },
+  {
+   "id": "6270",
+   "name": "Kam Tsin Village Ho Tung Kindergarten",
+   "scheme": true,
+   "lat": 22.499618,
+   "lng": 114.111624,
+   "address": "Dd 92, Kam Tsin, Sheung Shui, New Territories",
+   "area": "Sheung Shui",
+   "tel": "2670 8802",
+   "fees": {
+    "am": "Free",
+    "pm": null,
+    "wd": "$10,730 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": null,
+    "wd": 10730
+   },
+   "enrolment": "AM 8 · Whole-day 71",
+   "teacherPupilRatio": "1:11.3 AM · 1:10.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1.Thematic Approach: The school puts a strong emphasis on personal experience, active exploration, and accumulation of life experience of our students. 2.Project-based Learning: Our teachers implement the curriculum according to children's life experiences, interests, and abilities. We are a child-centred kindergarten. 3.Teaching with Picture Books: Teaching with picture books is an approach consisting of three different stages, namely, “reading,” “discussion,” and “extended learning activities.” 4.English Lesson: To create a posative English-speaking and learning environment and improve the English language proficiency of children; foreign teachers are part of our dedicated staff and are employed at school to provide specialised teaching. 5.Mandarin (Putonghua) Lesson: Our Mandarin lessons are taught by specialist teachers who are responsible for enhancing children's learning interest and improving oral and pinyin skills through interesting learning activities. 6.Childhood Activity Day: Special activities on Mondays, completed in small groups, to develop children's interests and potential. These activities included: Woodworking Group, Outdoor Activity Group, Art Group, Football Group, Harmonious Pastel Group, Chorus, Food Group…etc."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1976"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ktvhtkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6270"
+  },
+  {
+   "id": "6271",
+   "name": "Kowloon City Baptist Church Ka Fuk Kindergarten",
+   "scheme": true,
+   "lat": 22.493412,
+   "lng": 114.134251,
+   "address": "G/F, Ka Yiu House, Ka Shing Court Fanling, New Territories",
+   "area": "Ka Yiu House",
+   "tel": "2675 4731",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,797 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5797
+   },
+   "enrolment": "AM 14 · PM 1 · Whole-day 62",
+   "teacherPupilRatio": "1:9.5 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The teachers use different approaches to assess the learners, the two main approaches include the picture book learning and the project-based approaches. The teachers also apply the experimental approach so that the children can acquire new knowledge and learning experiences through action and participation. Last but not least the teachers use the mixed-age approach so that children can interact and learn from each other promoting social and leadership skills, such as bilingual classes, the Cambridge International English Program, free play, the Orff music teaching approach, and reading programs."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "8"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.kafukkg.com"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6271"
+  },
+  {
+   "id": "6272",
+   "name": "New Territories Women & Juveniles Welfare Association Limited Fanling Nursery School",
+   "scheme": true,
+   "lat": 22.486858,
+   "lng": 114.14159,
+   "address": "G/F, Wing B & C, Chun King House, King Sing Court, Fanling, New Territories",
+   "area": "Chun King House",
+   "tel": "2682 0877",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$10,356 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 10356
+   },
+   "enrolment": "Whole-day 68",
+   "teacherPupilRatio": "1:8.6 AM · 1:8.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Advocate a diversified learning model, and use the story as a learning medium, with \"integrated teaching\" supplemented by \"topic studies\" to cultivate children's self-learning ability through information collection, discussion, experiment, game, visit and report sharing. The development of bi-literacy and tri-lingualism is emphasized by training the abilities to listen, talk, read and write. Specialist and native-speaking teachers are employed to teach Putonghua and English language respectively."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1996"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ntwjwaflns.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6272"
+  },
+  {
+   "id": "6273",
+   "name": "New Territories Women & Juveniles Welfare Association Limited Sheung Shui Nursery School",
+   "scheme": true,
+   "lat": 22.501439,
+   "lng": 114.128787,
+   "address": "5/F, North District Community Centre, 2 Lung Wan Street, Sheung Shui, New Territories",
+   "area": "North District Community Centre",
+   "tel": "2672 5710",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$11,280 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 11280
+   },
+   "enrolment": "Whole-day 79",
+   "teacherPupilRatio": "1:9.1 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Advocate a diversified learning model, and use the story as a learning medium, with \"integrated teaching\" supplemented by \"topic studies\" to cultivate children's self-learning ability through information collection, discussion, experiment, game, visit and report sharing. The development of bi-literacy and tri-lingualism is emphasized by training the abilities to listen, talk, read and write. Specialist and native-speaking teachers are employed to teach Putonghua and English language respectively."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "11"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.ntwjwassns.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6273"
+  },
+  {
+   "id": "6274",
+   "name": "Po Leung Kuk Mrs. Vicwood K.t. Chong Kindergarten",
+   "scheme": true,
+   "lat": 22.483237,
+   "lng": 114.141571,
+   "address": "G/F, Yiu Ming House, Wah Ming Estate, Fanling, New Territories",
+   "area": "Yiu Ming House",
+   "tel": "2675 0012",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$11,900 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 11900
+   },
+   "enrolment": "AM 85 · Whole-day 39",
+   "teacherPupilRatio": "1:13.8 AM · 1:4.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Adopting Theme-Base Teaching Approach, children construct knowledge and experience through observation, inquiry, and discussion. Organizing outdoor excursions and visits, advocating for children to step out of the classroom to extend their learning. Working closely with universities, communities, and professional institutions to provide children with a diverse range of learning experiences."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.plkkgs.edu.hk/plkmrsvckg/hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6274"
+  },
+  {
+   "id": "6275",
+   "name": "Po Leung Kuk Yip Ng Bun Bun Queen's Hill Kindergarten",
+   "scheme": true,
+   "lat": 22.504379,
+   "lng": 114.156844,
+   "address": "Podium Floor, Wong Shun House, Queens Hill Estate, Fanling, New Territories",
+   "area": "Wong Shun House",
+   "tel": "2669 9813",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10500
+   },
+   "enrolment": "AM 58 · PM 12 · Whole-day 73",
+   "teacherPupilRatio": "1:10.1 AM · 1:6.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Children learn to explore through theme-based approach, project approach,and group teaching and group and self-selected activities, Besides classroom activities, we also arrange various community learning activities for our children. For example, sightseeing, visit, and travel activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1995"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.plkkgs.edu.hk/plkynbbqhkg/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6275"
+  },
+  {
+   "id": "6276",
+   "name": "Sheung Shui Church Kindergarten",
+   "scheme": true,
+   "lat": 22.50906,
+   "lng": 114.126558,
+   "address": "23 Jockey Club Road, Sheung Shui, New Territories",
+   "area": "Jockey Club Road",
+   "tel": "2672 1848",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$5,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 5500
+   },
+   "enrolment": "AM 148 · PM 110 · Whole-day 12",
+   "teacherPupilRatio": "1:11.4 AM · 1:8.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Large class teaching; group learning; activity-based approach; group explorations; topic studies; specially designed activities; visits and outdoor learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1956"
+    ],
+    [
+     "Registered classrooms",
+     "7"
+    ],
+    [
+     "Principal & teachers",
+     "14"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ssckg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6276"
+  },
+  {
+   "id": "6278",
+   "name": "Sheung Shui Rhenish Church Kindergarten",
+   "scheme": true,
+   "lat": 22.499939,
+   "lng": 114.126377,
+   "address": "Unit 101-107 & 109-111, G/F Choi Wah House, Choi Yuen Estate, Sheung Shui, New Territories",
+   "area": "F Choi Wah House",
+   "tel": "2673 2929",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$10,780 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 10780
+   },
+   "enrolment": "AM 47 · PM 1",
+   "teacherPupilRatio": "1:11.8 AM · 1:0.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Through a wide variety of activities and teaching materials, we build children's interests in learning by allowing them to 'Learn through Games'. This approach fosters automony in learning. Our curriculum aims to achieve balanced development in knowledge, skills and attitude. Bi-literate and tri-lingual abilities are promoted with native teachers conducting English and Mandarin activities. Specialists in physical fitness design and lead activities with the aim to promote the growth of physical abilities. Moral and spiritual education is provided through religious courses and weekly assemblies."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1983"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "4"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://sskg.ppe.rhenish.org"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6278"
+  },
+  {
+   "id": "6279",
+   "name": "Sheung Shui Wai Chow Kindergarten (Branch)",
+   "scheme": true,
+   "lat": 22.504013,
+   "lng": 114.131701,
+   "address": "G/F, Tin Cheung House, Tin Ping Estate, Sheung Shui, New Territories",
+   "area": "Tin Cheung House",
+   "tel": "2671 2968",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$6,853 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 6853
+   },
+   "enrolment": "AM 99 · PM 36 · Whole-day 90",
+   "teacherPupilRatio": "1:12.6 AM · 1:8.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is designed with our school mission as the [core] and theme-based approach as the [framework]. Through integrated courses, group discussions, sharing, learning corners and self-selected games, children are guided to develop multiple potentials, self-confidence, independence and self-directed learning. Specialists in Putonghua, native-speaking English Language teachers and computer professors are employed to provide complete learning experiences. Off-campus visits, community exchanges, excursions and other activities are organized for gaining first-hand experiences. On-site observation is also arranged to broaden children’s scope of learning."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1987"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.sswckge.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6279"
+  },
+  {
+   "id": "6280",
+   "name": "Tai Ping Kindergarten",
+   "scheme": true,
+   "lat": 22.49723,
+   "lng": 114.126592,
+   "address": "Unit 111-115, G/F Ping Yee House, Tai Ping Estate, Sheung Shui, New Territories",
+   "area": "F Ping Yee House",
+   "tel": "2673 3199",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,850 (11 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3850
+   },
+   "enrolment": "AM 8 · Whole-day 64",
+   "teacherPupilRatio": "1:10.3 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Adopting a strategy focused on sensory exploration and play with picture book / theme based readers and project approach as the main teaching methods, aims to cultivate children's interest in reading. Through data collection, exploration, observation, interviews, discussions, and practice, children construct new knowledge. By participating in extracurricular visits, children broaden their horizons, nurture a spirit of exploration, and develop autonomous learning. In terms of foreign language learning, a resident foreign English teacher engages with children in fun and practical activities, creating a relaxed and enjoyable environment for language acquisition. Two English teachers conduct daily activities with students, including phonics, English games, STEM activities, and storytelling sessions. For character development , diverse activities and parent-child tasks are implemented to establish positive values and attitudes, such as self-discipline, caring for others, and respect for the elderly. These initiatives help children learn and practice good behavior from an early age."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.taiping.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6280"
+  },
+  {
+   "id": "6281",
+   "name": "The Christian the Faith Hope Love Church Wah Ming Kindergarten",
+   "scheme": true,
+   "lat": 22.483237,
+   "lng": 114.142174,
+   "address": "G/F, Tim Ming House, Wah Ming Estate, Fanling, New Territories",
+   "area": "Tim Ming House",
+   "tel": "2677 1035",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$3,500 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 3500
+   },
+   "enrolment": "Whole-day 34",
+   "teacherPupilRatio": "1:6.8 AM · 1:6.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "以兒童為中心，採用綜合故事教學法及遊戲活動，讓學生透過觀察、討論、探究、實踐等親身體驗學習。同時，運用故事、音樂、遊戲、兒歌等來鞏固所學知識。透過多元化活動，例如：戶外參觀、旅行、生日會、小食嘗試、節日慶祝、小組學習等發展兒童的語文、幼兒數學、體能與健康、個人與群體、大自然與生活、藝術與創意，讓孩子得到全人發展。 A child-centred curriculum that adopts a story-based approach and incorporates specially game activities is implemented to guide children in learning through personal experiences gained from observations, discussions, explorations, and practical applications. Stories, music, games, and nursery rhymes are utilized to reinforce the acquired knowledge. Through various activities, including visits, trips, birthday parties, snack tasting, festive celebrations, and group learning, children develop multiple intelligences such as language, mathematical logic, body movement, visual space, self-reflection and interpersonal relationships, thereby achieving holistic development."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1990"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "5"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.fhlwmkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6281"
+  },
+  {
+   "id": "6283",
+   "name": "The Evangelical Lutheran Church of Hong Kong Cheung Wah Kindergarten",
+   "scheme": true,
+   "lat": 22.492069,
+   "lng": 114.142055,
+   "address": "G/F, Units 102-107, G/F Cheung Yue House, Cheung Wah Estate, Fanling, New Territories",
+   "area": "F Cheung Yue House",
+   "tel": "2669 7531",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "Free"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 0
+   },
+   "enrolment": "AM 8 · Whole-day 42",
+   "teacherPupilRatio": "1:7.1 AM · 1:6.0 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Drama-based approach, Orff music, shared reading programme are adopted to guide children to learn happily, so that the spirit of ‘love to learn, skillful to communicate, ready to undertake responsibilities and eager to innovate is developed."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "7"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.elchkcw.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6283"
+  },
+  {
+   "id": "6282",
+   "name": "The Evangelical Lutheran Church of Hong Kong Cheung Wah Kindergarten",
+   "scheme": true,
+   "lat": 22.491644,
+   "lng": 114.141851,
+   "address": "G/F, 101-108 &113-115, G/F Cheung Fung House, & 102-107 Cheung Yue House, Cheung Wah Estate, Fanling, New Territories",
+   "area": "F Cheung Fung House",
+   "tel": "2669 2883",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "Free"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 0
+   },
+   "enrolment": "AM 8 · PM 13 · Whole-day 69",
+   "teacherPupilRatio": "1:8.6 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Drama-based approach, Orff music, shared reading programme are adopted to guide children to learn happily, so that the spirit of ‘love to learn, skillful to communicate, ready to undertake responsibilities and eager to innovate is developed."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "9"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.elchkcw.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6282"
+  },
+  {
+   "id": "6284",
+   "name": "The Fanling Assemblies of God Kindergarten",
+   "scheme": true,
+   "lat": 22.49559,
+   "lng": 114.140363,
+   "address": "301 Jockey Club Road, Fanling, New Territories",
+   "area": "Jockey Club Road",
+   "tel": "2669 8202",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": null
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": null
+   },
+   "enrolment": "AM 274 · PM 254",
+   "teacherPupilRatio": "1:10.5 AM · 1:9.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Thematic approach,project approach and story-based approach are applied in group teaching. Children’s language ability is enhanced through reading aloud books, they learn the skills of communication and reading through English conversation and phonics. Through community attentive activities and school organic farming to carry out the life education. It provide to foster the positive values and the abilities of problem solving, critical thinking, life skills, social skills, creativty and academic competence. Physical training specialists and degree-holding native-speaking teachers are employed for practise of teaching by subject specialists."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1962"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "26"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.aogkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6284"
+  },
+  {
+   "id": "6285",
+   "name": "The Neighbourhood Advice-Action Council Fanling Day Nursery",
+   "scheme": true,
+   "lat": 22.500151,
+   "lng": 114.143666,
+   "address": "Shop 37, Level 1, Shopping Arcade, Regentville, 8 Wo Mun Street, Luen Wo Hui, Fanling, New Territories",
+   "area": "Wo Mun Street",
+   "tel": "2676 2298",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$14,676 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 14676
+   },
+   "enrolment": "Whole-day 99",
+   "teacherPupilRatio": "1:9.0 AM · 1:9.8 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The curriculum is designed based on theme-based activities in line our school mission. Students are guided to develop self-directed learning and explorative abilities through explorative learning and pictures books teaching. Classroom learning and topic studies are carried out in groups. Through discussions, visits and operation of teaching materials, children learn through games and operation."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2001"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "13"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.naac.edu.hk/fldn"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6285"
+  },
+  {
+   "id": "6286",
+   "name": "The Salvation Army Tin Ping Nursery School",
+   "scheme": true,
+   "lat": 22.503571,
+   "lng": 114.132217,
+   "address": "G/F, Block B Unit 106-110, Tin Hor House, Tin Ping Estate, Sheung Shui, New Territories",
+   "area": "Tin Hor House",
+   "tel": "2671 9972",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$25,080 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 25080
+   },
+   "enrolment": "Whole-day 106",
+   "teacherPupilRatio": "1:7.7 AM · 1:7.7 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "1. Project Approach – To stimulate children to explore voluntarily and build up knowledge through the process of observation, discussion and exploration; 2. Montessori Method – To enhance sensory acuity in young children, establish self-care skills and a sense of order, cultivate independence and self-management abilities, and develop logical thinking and concentration; 3. Fun with English – Focus on stimulating interest in learning English, cultivate listening and speaking skills, and help children master phonics techniques for English words; 4. Life education – To manifest the love of Jesus Christ, foster good character and values. At the same time, children are taught according to abilities, special needs and development of children are also catered for. 5. Inheriting Chinese Culture-By understanding Chinese festival customs, appreciating and experiencing various forms of traditional art and together with participating in related project-based learning activities, we aim to cultivate young children’s interest in Chinese culture and foster their sense of national identity."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1988"
+    ],
+    [
+     "Registered classrooms",
+     "Not applicable"
+    ],
+    [
+     "Principal & teachers",
+     "15"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.salvationarmy.org.hk/esd/tpns/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6286"
+  },
+  {
+   "id": "6287",
+   "name": "Truth Baptist Church Ho Yuen Wai King Kindergarten",
+   "scheme": true,
+   "lat": 22.482739,
+   "lng": 114.138734,
+   "address": "Shop 109, Shopping Centre, Yung Shing Court, Fanling, New Territories",
+   "area": "Shopping Centre",
+   "tel": "2606 5599",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$16,050 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 16050
+   },
+   "enrolment": "AM 95 · PM 12 · Whole-day 137",
+   "teacherPupilRatio": "1:11.0 AM · 1:7.5 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "We implement multimedia teaching to enrich children's learning experience, and cultivate in children correct values and good qualities by providing theme-based life education. We organize diverse activities including outdoor visits,Language Week, to help children with gaining comprehensive knowledge."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2000"
+    ],
+    [
+     "Registered classrooms",
+     "9"
+    ],
+    [
+     "Principal & teachers",
+     "21"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://www.tbchy.edu.hk/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6287"
+  },
+  {
+   "id": "6288",
+   "name": "Tung Wah Group of Hospitals Tsui Tsin Tong Kindergarten",
+   "scheme": true,
+   "lat": 22.501711,
+   "lng": 114.134618,
+   "address": "G/F, Block 6, Tin Hee House, Tin Ping Estate, Sheung Shui, New Territories",
+   "area": "Tin Hee House",
+   "tel": "2671 3399",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$12,000 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 12000
+   },
+   "enrolment": "AM 129 · PM 78 · Whole-day 48",
+   "teacherPupilRatio": "1:9.8 AM · 1:7.4 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Integrated teaching approaches, such as illustration-based approach, creative arts and STEAM Education are adopted. Children's aptitude is enhanced through outdoor observations, visits , and personal experiences This allows children to develop good character, learn more knowledge, and improve self-care ability from a variety of activities. Coupled with excellent teachers, children can grow up healthily and happily, and smoothly enter primary school."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1989"
+    ],
+    [
+     "Registered classrooms",
+     "6"
+    ],
+    [
+     "Principal & teachers",
+     "18"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.twghtttkg.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6288"
+  },
+  {
+   "id": "7047",
+   "name": "TWGHs Ginny Man Kindergarten",
+   "scheme": true,
+   "lat": 22.504696,
+   "lng": 114.158166,
+   "address": "G/F, Wong Wui House, Queens Hill Estate, Fanling, New Territories",
+   "area": "Wong Wui House",
+   "tel": "2348 4438",
+   "fees": {
+    "am": "Free",
+    "pm": "Free",
+    "wd": "$8,730 (10 instalments)"
+   },
+   "feesAnnual": {
+    "am": 0,
+    "pm": 0,
+    "wd": 8730
+   },
+   "enrolment": "AM 150 · PM 106 · Whole-day 51",
+   "teacherPupilRatio": "1:10.1 AM · 1:7.9 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Our students learn through \"play-based learning\" combined with \"picture book teaching,\" using engaging games and group explorations. This approach encourages personal discovery, experience sharing, and group discussions, allowing children to observe, think, and solve problems. Additionally, our rich environmental setup, learning corners, and diverse teaching strategies stimulate children's intrinsic motivation to learn and enjoy school. Furthermore, we promote experiential learning by providing varied outdoor learning experiences and visits, enriching children's life experiences and understanding through hands-on activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "2024"
+    ],
+    [
+     "Registered classrooms",
+     "8"
+    ],
+    [
+     "Principal & teachers",
+     "20"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.twghsgmk.edu.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=7047"
+  },
+  {
+   "id": "6289",
+   "name": "TWGHs Hung Wong Kar Gee Nursery School",
+   "scheme": true,
+   "lat": 22.49187,
+   "lng": 114.141346,
+   "address": "G/F, 104-108 &113-115 Cheung Wo House, Cheung Wah Estate, Fanling, New Territories",
+   "area": "Cheung Wo House",
+   "tel": "2676 1308",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$18,600 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 18600
+   },
+   "enrolment": "Whole-day 94",
+   "teacherPupilRatio": "1:6.6 AM · 1:6.6 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "The story-based, activity-based approach, project-based and whole language approaches are adopted in our curriculum. The pedagogy focuses on children's self-initiated learning, emphasizing diversified, systematic and stimulating play and activities."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1986"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "19"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "https://hwkgns.tungwahcsd.org/"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6289"
+  },
+  {
+   "id": "6290",
+   "name": "Yan Chai Hospital Wing Lung Kindergarten",
+   "scheme": true,
+   "lat": 22.501817,
+   "lng": 114.125774,
+   "address": "G/F, 107-120, 122 & 124, Choi Yuk House, Choi Yuen Estate, Sheung Shui, New Territories",
+   "area": "Choi Yuk House",
+   "tel": "2679 7337",
+   "fees": {
+    "am": null,
+    "pm": null,
+    "wd": "$13,428 (12 instalments)"
+   },
+   "feesAnnual": {
+    "am": null,
+    "pm": null,
+    "wd": 13428
+   },
+   "enrolment": "Whole-day 87",
+   "teacherPupilRatio": "1:9.9 AM · 1:9.1 PM",
+   "curriculum": "Local curriculum",
+   "extras": [
+    [
+     "Teaching approach",
+     "Theme-based learning approach, supplemented by project approach and whole book approach, which are experience-based learning modes, are adopted. Responding to the Kindergarten Education Curriculum Guide 2017 and the trends of social development, we reinforce to nurture self-directed learning in children and let the children to explore and learn through play. During the daily free play time, children can enjoy designed corners related to the theme. They can also explore the common materials and cooperate with their partners to apply their existing experience to build new knowledge and skills. Teachers promote children's learning outcomes through individual scaffolding, group learning and group discussion. One physical coach is employed. Children are fostered to enjoy sports by having rhythmic movements and dance, group games and creative games. Native Mandarin and English-speaking tutors use stories and nursery rhymes to stimulate children’s motivations and interests in learning a second language."
+    ],
+    [
+     "Category",
+     "Non-profit-making"
+    ],
+    [
+     "Students",
+     "Co-educational"
+    ],
+    [
+     "Founded",
+     "1984"
+    ],
+    [
+     "Registered classrooms",
+     "4"
+    ],
+    [
+     "Principal & teachers",
+     "12"
+    ],
+    [
+     "Quality review",
+     "Meeting the standards"
+    ],
+    [
+     "Website",
+     "http://www.ychwl.org.hk"
+    ]
+   ],
+   "sourceUrl": "https://kgp2025.azurewebsites.net/edb/schoolinfo.php?lang=en&schid=6290"
+  }
+ ]
+}
